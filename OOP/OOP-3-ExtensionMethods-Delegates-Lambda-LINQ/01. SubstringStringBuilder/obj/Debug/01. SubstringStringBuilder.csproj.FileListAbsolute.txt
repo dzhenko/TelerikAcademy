@@ -4,3 +4,6 @@ c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-3-ExtensionMethods-De
 c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-3-ExtensionMethods-Delegates-Lambda-LINQ\01. SubstringStringBuilder\obj\Debug\01. SubstringStringBuilder.csprojResolveAssemblyReference.cache
 c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-3-ExtensionMethods-Delegates-Lambda-LINQ\01. SubstringStringBuilder\obj\Debug\_01.SubstringStringBuilder.exe
 c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-3-ExtensionMethods-Delegates-Lambda-LINQ\01. SubstringStringBuilder\obj\Debug\_01.SubstringStringBuilder.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-3-ExtensionMethods-Delegates-Lambda-LINQ\01. SubstringStringBuilder\bin\Debug\_01.SubstringStringBuilder.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-3-ExtensionMethods-Delegates-Lambda-LINQ\01. SubstringStringBuilder\obj\Debug\_01.SubstringStringBuilder.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-3-ExtensionMethods-Delegates-Lambda-LINQ\01. SubstringStringBuilder\obj\Debug\_01.SubstringStringBuilder.pdb

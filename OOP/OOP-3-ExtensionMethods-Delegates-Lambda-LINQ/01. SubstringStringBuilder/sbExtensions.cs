@@ -34,6 +34,7 @@ namespace _01.SubstringStringBuilder
             Console.WriteLine(test1);
             Console.WriteLine(result1);
             Console.WriteLine(result2);
+            Console.WriteLine();
         }
     }
 }
