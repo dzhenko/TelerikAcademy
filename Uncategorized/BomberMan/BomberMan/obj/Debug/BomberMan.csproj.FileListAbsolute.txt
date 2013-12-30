@@ -1,0 +1,15 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\BomberMan\Bomb\bin\Debug\Bomb.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\BomberMan\Bomb\obj\Debug\Bomb.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\BomberMan\Bomb\obj\Debug\Bomb.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\BomberMan\BomberMan\bin\Debug\Bomb.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\BomberMan\BomberMan\obj\Debug\Bomb.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\BomberMan\BomberMan\obj\Debug\Bomb.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\BomberMan\BomberMan\bin\Debug\Bomb.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\BomberMan\BomberMan\bin\Debug\Bomb.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\BomberMan\BomberMan\obj\Debug\BomberMan.csprojResolveAssemblyReference.cache
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\BomberMan\BomberMan\bin\Debug\Bomb.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\BomberMan\BomberMan\obj\Debug\Bomb.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\BomberMan\BomberMan\obj\Debug\Bomb.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\BomberMan\BomberMan\bin\Debug\Bomb.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\BomberMan\BomberMan\bin\Debug\Bomb.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\BomberMan\BomberMan\obj\Debug\BomberMan.csprojResolveAssemblyReference.cache

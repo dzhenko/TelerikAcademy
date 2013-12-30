@@ -1,0 +1,12 @@
+c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\C1-5-Conditional-Statements-Homework\bin\Debug\C1-5-Conditional-Statements-Homework.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\C1-5-Conditional-Statements-Homework\bin\Debug\C1-5-Conditional-Statements-Homework.exe
+c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\C1-5-Conditional-Statements-Homework\bin\Debug\C1-5-Conditional-Statements-Homework.pdb
+c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\C1-5-Conditional-Statements-Homework\obj\Debug\C1-5-Conditional-Statements-Homework.exe
+c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\C1-5-Conditional-Statements-Homework\obj\Debug\C1-5-Conditional-Statements-Homework.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-5-Conditional-Statements-Homework\C1-5-Conditional-Statements-Homework\obj\Debug\11. NumberToWords.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-5-Conditional-Statements-Homework\11. NumberToWords\bin\Debug\C1-5-Conditional-Statements-Homework.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-5-Conditional-Statements-Homework\11. NumberToWords\obj\Debug\C1-5-Conditional-Statements-Homework.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-5-Conditional-Statements-Homework\11. NumberToWords\obj\Debug\C1-5-Conditional-Statements-Homework.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-5-Conditional-Statements-Homework\11. NumberToWords\bin\Debug\C1-5-Conditional-Statements-Homework.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-5-Conditional-Statements-Homework\11. NumberToWords\bin\Debug\C1-5-Conditional-Statements-Homework.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-5-Conditional-Statements-Homework\11. NumberToWords\obj\Debug\11. NumberToWords.csprojResolveAssemblyReference.cache

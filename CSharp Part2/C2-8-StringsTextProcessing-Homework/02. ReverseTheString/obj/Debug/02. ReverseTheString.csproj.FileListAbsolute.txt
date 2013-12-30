@@ -1,0 +1,9 @@
+c:\users\penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\02. ReverseTheString\bin\Debug\_02.ReverseTheString.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\02. ReverseTheString\obj\Debug\02. ReverseTheString.csprojResolveAssemblyReference.cache
+c:\users\penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\02. ReverseTheString\bin\Debug\_02.ReverseTheString.exe
+c:\users\penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\02. ReverseTheString\bin\Debug\_02.ReverseTheString.pdb
+c:\users\penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\02. ReverseTheString\obj\Debug\_02.ReverseTheString.exe
+c:\users\penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\02. ReverseTheString\obj\Debug\_02.ReverseTheString.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-8-StringsTextProcessing-Homework\02. ReverseTheString\bin\Debug\_02.ReverseTheString.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-8-StringsTextProcessing-Homework\02. ReverseTheString\obj\Debug\_02.ReverseTheString.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-8-StringsTextProcessing-Homework\02. ReverseTheString\obj\Debug\_02.ReverseTheString.pdb

@@ -1,0 +1,14 @@
+c:\users\penev\documents\visual studio 2012\Projects\C-4-Numeral-Systems-Homework\1. DecToBinary\bin\Debug\_1.DecToBinary.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\C-4-Numeral-Systems-Homework\1. DecToBinary\bin\Debug\_1.DecToBinary.exe
+c:\users\penev\documents\visual studio 2012\Projects\C-4-Numeral-Systems-Homework\1. DecToBinary\bin\Debug\_1.DecToBinary.pdb
+c:\users\penev\documents\visual studio 2012\Projects\C-4-Numeral-Systems-Homework\1. DecToBinary\obj\Debug\_1.DecToBinary.exe
+c:\users\penev\documents\visual studio 2012\Projects\C-4-Numeral-Systems-Homework\1. DecToBinary\obj\Debug\_1.DecToBinary.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-4-Numeral-Systems-Homework\1. DecToBinary\bin\Debug\_1.DecToBinary.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-4-Numeral-Systems-Homework\1. DecToBinary\obj\Debug\_1.DecToBinary.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-4-Numeral-Systems-Homework\1. DecToBinary\obj\Debug\_1.DecToBinary.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-4-Numeral-Systems-Homework\1. DecToBinary\bin\Debug\_1.DecToBinary.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-4-Numeral-Systems-Homework\1. DecToBinary\obj\Debug\_1.DecToBinary.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-4-Numeral-Systems-Homework\1. DecToBinary\obj\Debug\_1.DecToBinary.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-4-Numeral-Systems-Homework\1. DecToBinary\bin\Debug\_1.DecToBinary.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-4-Numeral-Systems-Homework\1. DecToBinary\bin\Debug\_1.DecToBinary.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-4-Numeral-Systems-Homework\1. DecToBinary\obj\Debug\1. DecToBinary.csprojResolveAssemblyReference.cache

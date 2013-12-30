@@ -1,0 +1,6 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\GAMES\game1\bin\Debug\game1.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\GAMES\game1\bin\Debug\game1.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\GAMES\game1\bin\Debug\game1.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\GAMES\game1\obj\Debug\game1.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\GAMES\game1\obj\Debug\game1.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\GAMES\game1\obj\Debug\game1.pdb

@@ -1,0 +1,6 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Odd Number\bin\Debug\Odd Number.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Odd Number\bin\Debug\Odd Number.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Odd Number\bin\Debug\Odd Number.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Odd Number\obj\Debug\Odd Number.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Odd Number\obj\Debug\Odd Number.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Odd Number\obj\Debug\Odd Number.pdb

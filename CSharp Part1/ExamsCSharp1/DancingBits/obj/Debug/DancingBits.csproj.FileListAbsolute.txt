@@ -1,0 +1,5 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\DancingBits\bin\Debug\DancingBits.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\DancingBits\bin\Debug\DancingBits.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\DancingBits\bin\Debug\DancingBits.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\DancingBits\obj\Debug\DancingBits.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\DancingBits\obj\Debug\DancingBits.pdb

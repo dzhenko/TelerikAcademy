@@ -1,0 +1,12 @@
+c:\users\penev\documents\visual studio 2012\Projects\coffee\coffee\bin\Debug\coffee.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\coffee\coffee\bin\Debug\coffee.exe
+c:\users\penev\documents\visual studio 2012\Projects\coffee\coffee\bin\Debug\coffee.pdb
+c:\users\penev\documents\visual studio 2012\Projects\coffee\coffee\obj\Debug\coffee.csprojResolveAssemblyReference.cache
+c:\users\penev\documents\visual studio 2012\Projects\coffee\coffee\obj\Debug\coffee.exe
+c:\users\penev\documents\visual studio 2012\Projects\coffee\coffee\obj\Debug\coffee.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\coffee\coffee\bin\Debug\coffee.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\coffee\coffee\obj\Debug\coffee.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\coffee\coffee\obj\Debug\coffee.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\coffee\coffee\bin\Debug\coffee.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\coffee\coffee\bin\Debug\coffee.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\coffee\coffee\obj\Debug\coffee.csprojResolveAssemblyReference.cache

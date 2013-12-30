@@ -1,0 +1,9 @@
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\11. RepresentationOfNumber\bin\Debug\_11.RepresentationOfNumber.exe.config
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\11. RepresentationOfNumber\obj\Debug\11. RepresentationOfNumber.csprojResolveAssemblyReference.cache
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\11. RepresentationOfNumber\bin\Debug\_11.RepresentationOfNumber.exe
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\11. RepresentationOfNumber\bin\Debug\_11.RepresentationOfNumber.pdb
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\11. RepresentationOfNumber\obj\Debug\_11.RepresentationOfNumber.exe
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\11. RepresentationOfNumber\obj\Debug\_11.RepresentationOfNumber.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-8-StringsTextProcessing-Homework\11. RepresentationOfNumber\bin\Debug\_11.RepresentationOfNumber.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-8-StringsTextProcessing-Homework\11. RepresentationOfNumber\obj\Debug\_11.RepresentationOfNumber.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-8-StringsTextProcessing-Homework\11. RepresentationOfNumber\obj\Debug\_11.RepresentationOfNumber.pdb

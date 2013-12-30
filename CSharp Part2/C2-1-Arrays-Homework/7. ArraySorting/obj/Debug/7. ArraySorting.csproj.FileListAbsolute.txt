@@ -1,0 +1,5 @@
+c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\7. ArraySorting\bin\Debug\_7.ArraySorting.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\7. ArraySorting\bin\Debug\_7.ArraySorting.exe
+c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\7. ArraySorting\bin\Debug\_7.ArraySorting.pdb
+c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\7. ArraySorting\obj\Debug\_7.ArraySorting.exe
+c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\7. ArraySorting\obj\Debug\_7.ArraySorting.pdb

@@ -1,0 +1,5 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Lines\bin\Debug\Lines.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Lines\bin\Debug\Lines.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Lines\bin\Debug\Lines.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Lines\obj\Debug\Lines.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Lines\obj\Debug\Lines.pdb

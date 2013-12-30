@@ -1,0 +1,6 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\testing\bin\Debug\testing.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\testing\obj\Debug\testing.csprojResolveAssemblyReference.cache
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\testing\bin\Debug\testing.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\testing\bin\Debug\testing.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\testing\obj\Debug\testing.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\testing\obj\Debug\testing.pdb

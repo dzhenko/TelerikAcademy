@@ -1,0 +1,5 @@
+c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\2. PrintName\bin\Debug\_2.PrintName.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\2. PrintName\obj\Debug\_2.PrintName.exe
+c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\2. PrintName\obj\Debug\_2.PrintName.pdb
+c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\2. PrintName\bin\Debug\_2.PrintName.exe
+c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\2. PrintName\bin\Debug\_2.PrintName.pdb

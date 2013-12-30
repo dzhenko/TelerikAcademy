@@ -1,0 +1,5 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\10. FactorielMethod\bin\Debug\_10.FactorielMethod.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\10. FactorielMethod\bin\Debug\_10.FactorielMethod.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\10. FactorielMethod\bin\Debug\_10.FactorielMethod.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\10. FactorielMethod\obj\Debug\_10.FactorielMethod.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\10. FactorielMethod\obj\Debug\_10.FactorielMethod.pdb

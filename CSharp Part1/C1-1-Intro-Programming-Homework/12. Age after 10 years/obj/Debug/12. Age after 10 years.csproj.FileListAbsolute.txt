@@ -1,0 +1,5 @@
+c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\12. Age after 10 years\bin\Debug\_12.Age_after_10_years.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\12. Age after 10 years\bin\Debug\_12.Age_after_10_years.exe
+c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\12. Age after 10 years\bin\Debug\_12.Age_after_10_years.pdb
+c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\12. Age after 10 years\obj\Debug\_12.Age_after_10_years.exe
+c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\12. Age after 10 years\obj\Debug\_12.Age_after_10_years.pdb

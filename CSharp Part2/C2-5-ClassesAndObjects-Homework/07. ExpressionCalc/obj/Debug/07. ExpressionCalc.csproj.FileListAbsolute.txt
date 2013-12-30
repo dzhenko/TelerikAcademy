@@ -1,0 +1,6 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\07. ExpressionCalc\bin\Debug\_07.ExpressionCalc.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\07. ExpressionCalc\bin\Debug\_07.ExpressionCalc.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\07. ExpressionCalc\bin\Debug\_07.ExpressionCalc.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\07. ExpressionCalc\obj\Debug\07. ExpressionCalc.csprojResolveAssemblyReference.cache
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\07. ExpressionCalc\obj\Debug\_07.ExpressionCalc.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\07. ExpressionCalc\obj\Debug\_07.ExpressionCalc.pdb

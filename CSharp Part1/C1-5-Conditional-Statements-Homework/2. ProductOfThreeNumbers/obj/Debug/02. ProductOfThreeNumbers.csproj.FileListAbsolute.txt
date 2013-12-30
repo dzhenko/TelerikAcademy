@@ -1,0 +1,3 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-5-Conditional-Statements-Homework\2. ProductOfThreeNumbers\bin\Debug\_2.ProductOfThreeNumbers.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-5-Conditional-Statements-Homework\2. ProductOfThreeNumbers\obj\Debug\_2.ProductOfThreeNumbers.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-5-Conditional-Statements-Homework\2. ProductOfThreeNumbers\obj\Debug\_2.ProductOfThreeNumbers.pdb

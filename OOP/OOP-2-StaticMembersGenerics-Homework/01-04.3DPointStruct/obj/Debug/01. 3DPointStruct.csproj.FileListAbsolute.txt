@@ -1,0 +1,11 @@
+c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-2-StaticMembersGenerics-Homework\01. 3DPointStruct\bin\Debug\01. 3DPointStruct.exe.config
+c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-2-StaticMembersGenerics-Homework\01. 3DPointStruct\obj\Debug\01. 3DPointStruct.csprojResolveAssemblyReference.cache
+c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-2-StaticMembersGenerics-Homework\01. 3DPointStruct\bin\Debug\01. 3DPointStruct.exe
+c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-2-StaticMembersGenerics-Homework\01. 3DPointStruct\bin\Debug\01. 3DPointStruct.pdb
+c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-2-StaticMembersGenerics-Homework\01. 3DPointStruct\obj\Debug\01. 3DPointStruct.exe
+c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-2-StaticMembersGenerics-Homework\01. 3DPointStruct\obj\Debug\01. 3DPointStruct.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\OOP-2-StaticMembersGenerics-Homework\3DPointStruct\obj\Debug\01. 3DPointStruct.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\OOP-2-StaticMembersGenerics-Homework\3DPointStruct\obj\Debug\01. 3DPointStruct.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\OOP-2-StaticMembersGenerics-Homework\3DPointStruct\bin\Debug\01. 3DPointStruct.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\OOP-2-StaticMembersGenerics-Homework\3DPointStruct\bin\Debug\01. 3DPointStruct.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\OOP-2-StaticMembersGenerics-Homework\3DPointStruct\obj\Debug\01. 3DPointStruct.csprojResolveAssemblyReference.cache

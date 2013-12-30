@@ -1,0 +1,5 @@
+c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\7. PrintCurrentDateTime\bin\Debug\_7.PrintCurrentDateTime.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\7. PrintCurrentDateTime\bin\Debug\_7.PrintCurrentDateTime.exe
+c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\7. PrintCurrentDateTime\bin\Debug\_7.PrintCurrentDateTime.pdb
+c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\7. PrintCurrentDateTime\obj\Debug\_7.PrintCurrentDateTime.exe
+c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\7. PrintCurrentDateTime\obj\Debug\_7.PrintCurrentDateTime.pdb

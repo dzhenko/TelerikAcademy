@@ -1,0 +1,5 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\11. AllTheCards\bin\Debug\_11.AllTheCards.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\11. AllTheCards\bin\Debug\_11.AllTheCards.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\11. AllTheCards\bin\Debug\_11.AllTheCards.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\11. AllTheCards\obj\Debug\_11.AllTheCards.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\11. AllTheCards\obj\Debug\_11.AllTheCards.pdb

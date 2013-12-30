@@ -1,0 +1,6 @@
+c:\users\penev\documents\visual studio 2012\Projects\Book-10-Recursion\Task1-SimulateNNestedLoops\bin\Debug\Task1-SimulateNNestedLoops.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\Book-10-Recursion\Task1-SimulateNNestedLoops\bin\Debug\Task1-SimulateNNestedLoops.exe
+c:\users\penev\documents\visual studio 2012\Projects\Book-10-Recursion\Task1-SimulateNNestedLoops\bin\Debug\Task1-SimulateNNestedLoops.pdb
+c:\users\penev\documents\visual studio 2012\Projects\Book-10-Recursion\Task1-SimulateNNestedLoops\obj\Debug\Task1-SimulateNNestedLoops.exe
+c:\users\penev\documents\visual studio 2012\Projects\Book-10-Recursion\Task1-SimulateNNestedLoops\obj\Debug\Task1-SimulateNNestedLoops.pdb
+C:\Users\Penev\documents\visual studio 2012\Projects\Book-10-Recursion\Task1-SimulateNNestedLoops\obj\Debug\Task1-SimulateNNestedLoops.csprojResolveAssemblyReference.cache

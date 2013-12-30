@@ -1,0 +1,6 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\geekomap\bin\Debug\geekomap.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\geekomap\bin\Debug\geekomap.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\geekomap\bin\Debug\geekomap.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\geekomap\obj\Debug\geekomap.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\geekomap\obj\Debug\geekomap.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\geekomap\obj\Debug\geekomap.pdb

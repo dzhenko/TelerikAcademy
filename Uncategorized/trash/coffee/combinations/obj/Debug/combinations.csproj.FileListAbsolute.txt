@@ -1,0 +1,6 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\coffee\combinations\bin\Debug\combinations.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\coffee\combinations\bin\Debug\combinations.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\coffee\combinations\bin\Debug\combinations.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\coffee\combinations\obj\Debug\combinations.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\coffee\combinations\obj\Debug\combinations.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\coffee\combinations\obj\Debug\combinations.pdb

@@ -1,0 +1,6 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\BittrisLast\bin\Debug\BittrisLast.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\BittrisLast\bin\Debug\BittrisLast.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\BittrisLast\bin\Debug\BittrisLast.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\BittrisLast\obj\Debug\BittrisLast.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\BittrisLast\obj\Debug\BittrisLast.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\BittrisLast\obj\Debug\BittrisLast.pdb

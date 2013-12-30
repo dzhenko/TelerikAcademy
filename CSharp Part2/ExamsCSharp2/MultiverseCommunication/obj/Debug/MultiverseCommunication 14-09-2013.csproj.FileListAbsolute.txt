@@ -1,0 +1,3 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\MultiverseCommunication\bin\Debug\MultiverseCommunication.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\MultiverseCommunication\obj\Debug\MultiverseCommunication.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\MultiverseCommunication\obj\Debug\MultiverseCommunication.pdb

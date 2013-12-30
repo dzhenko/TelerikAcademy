@@ -1,0 +1,5 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\OOP-3-ExtensionMethods-Delegates-Lambda-LINQ\07. TimerExecute Second Solution\bin\Debug\_07.TimerExecute_Second_Solution.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\OOP-3-ExtensionMethods-Delegates-Lambda-LINQ\07. TimerExecute Second Solution\bin\Debug\_07.TimerExecute_Second_Solution.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\OOP-3-ExtensionMethods-Delegates-Lambda-LINQ\07. TimerExecute Second Solution\bin\Debug\_07.TimerExecute_Second_Solution.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\OOP-3-ExtensionMethods-Delegates-Lambda-LINQ\07. TimerExecute Second Solution\obj\Debug\_07.TimerExecute_Second_Solution.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\OOP-3-ExtensionMethods-Delegates-Lambda-LINQ\07. TimerExecute Second Solution\obj\Debug\_07.TimerExecute_Second_Solution.pdb

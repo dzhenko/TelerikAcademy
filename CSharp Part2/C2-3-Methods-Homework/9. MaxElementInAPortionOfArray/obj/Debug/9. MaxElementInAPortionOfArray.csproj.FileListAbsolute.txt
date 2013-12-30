@@ -1,0 +1,5 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-3-Methods-Homework\9. MaxElementInAPortionOfArray\bin\Debug\_9.MaxElementInAPortionOfArray.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-3-Methods-Homework\9. MaxElementInAPortionOfArray\bin\Debug\_9.MaxElementInAPortionOfArray.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-3-Methods-Homework\9. MaxElementInAPortionOfArray\bin\Debug\_9.MaxElementInAPortionOfArray.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-3-Methods-Homework\9. MaxElementInAPortionOfArray\obj\Debug\_9.MaxElementInAPortionOfArray.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-3-Methods-Homework\9. MaxElementInAPortionOfArray\obj\Debug\_9.MaxElementInAPortionOfArray.pdb

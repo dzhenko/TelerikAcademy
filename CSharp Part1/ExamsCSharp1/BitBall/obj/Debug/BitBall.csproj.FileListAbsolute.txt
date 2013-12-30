@@ -1,0 +1,6 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\BitBall\bin\Debug\BitBall.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\BitBall\bin\Debug\BitBall.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\BitBall\bin\Debug\BitBall.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\BitBall\obj\Debug\BitBall.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\BitBall\obj\Debug\BitBall.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\BitBall\obj\Debug\BitBall.pdb

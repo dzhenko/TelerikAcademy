@@ -1,0 +1,18 @@
+c:\users\penev\documents\visual studio 2012\Projects\C-4-Numeral-Systems-Homework\2. BinaryToDec\bin\Debug\_2.BinaryToDec.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\C-4-Numeral-Systems-Homework\2. BinaryToDec\bin\Debug\_2.BinaryToDec.exe
+c:\users\penev\documents\visual studio 2012\Projects\C-4-Numeral-Systems-Homework\2. BinaryToDec\bin\Debug\_2.BinaryToDec.pdb
+c:\users\penev\documents\visual studio 2012\Projects\C-4-Numeral-Systems-Homework\2. BinaryToDec\obj\Debug\2. BinaryToDec.csprojResolveAssemblyReference.cache
+c:\users\penev\documents\visual studio 2012\Projects\C-4-Numeral-Systems-Homework\2. BinaryToDec\obj\Debug\_2.BinaryToDec.exe
+c:\users\penev\documents\visual studio 2012\Projects\C-4-Numeral-Systems-Homework\2. BinaryToDec\obj\Debug\_2.BinaryToDec.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-4-Numeral-Systems-Homework\2. BinaryToDec\bin\Debug\_2.BinaryToDec.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-4-Numeral-Systems-Homework\2. BinaryToDec\obj\Debug\_2.BinaryToDec.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-4-Numeral-Systems-Homework\2. BinaryToDec\obj\Debug\_2.BinaryToDec.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-4-Numeral-Systems-Homework\2. BinaryToDec\bin\Debug\_2.BinaryToDec.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-4-Numeral-Systems-Homework\2. BinaryToDec\bin\Debug\_2.BinaryToDec.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-4-Numeral-Systems-Homework\2. BinaryToDec\obj\Debug\2. BinaryToDec.csprojResolveAssemblyReference.cache
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-4-Numeral-Systems-Homework\2. BinaryToDec\bin\Debug\_2.BinaryToDec.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-4-Numeral-Systems-Homework\2. BinaryToDec\obj\Debug\_2.BinaryToDec.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-4-Numeral-Systems-Homework\2. BinaryToDec\obj\Debug\_2.BinaryToDec.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-4-Numeral-Systems-Homework\2. BinaryToDec\bin\Debug\_2.BinaryToDec.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-4-Numeral-Systems-Homework\2. BinaryToDec\bin\Debug\_2.BinaryToDec.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-4-Numeral-Systems-Homework\2. BinaryToDec\obj\Debug\2. BinaryToDec.csprojResolveAssemblyReference.cache

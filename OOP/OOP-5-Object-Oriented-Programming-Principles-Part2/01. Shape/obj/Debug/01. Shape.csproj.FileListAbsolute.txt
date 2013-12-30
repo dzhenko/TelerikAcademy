@@ -1,0 +1,5 @@
+c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-5-Object-Oriented-Programming-Principles-Part2\01. Shape\bin\Debug\_01.Shape.exe
+c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-5-Object-Oriented-Programming-Principles-Part2\01. Shape\bin\Debug\_01.Shape.pdb
+c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-5-Object-Oriented-Programming-Principles-Part2\01. Shape\obj\Debug\01. Shape.csprojResolveAssemblyReference.cache
+c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-5-Object-Oriented-Programming-Principles-Part2\01. Shape\obj\Debug\_01.Shape.exe
+c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-5-Object-Oriented-Programming-Principles-Part2\01. Shape\obj\Debug\_01.Shape.pdb

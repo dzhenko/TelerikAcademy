@@ -1,0 +1,5 @@
+﻿interface ISound
+{
+    void ProduceSound();
+}
+

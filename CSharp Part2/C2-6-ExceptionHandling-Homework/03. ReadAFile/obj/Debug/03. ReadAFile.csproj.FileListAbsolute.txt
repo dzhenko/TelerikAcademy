@@ -1,0 +1,5 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-6-ExceptionHandling-Homework\03. ReadAFile\bin\Debug\_03.ReadAFile.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-6-ExceptionHandling-Homework\03. ReadAFile\bin\Debug\_03.ReadAFile.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-6-ExceptionHandling-Homework\03. ReadAFile\bin\Debug\_03.ReadAFile.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-6-ExceptionHandling-Homework\03. ReadAFile\obj\Debug\_03.ReadAFile.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-6-ExceptionHandling-Homework\03. ReadAFile\obj\Debug\_03.ReadAFile.pdb

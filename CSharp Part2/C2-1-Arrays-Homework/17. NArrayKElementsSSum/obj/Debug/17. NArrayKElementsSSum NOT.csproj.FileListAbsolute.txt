@@ -1,0 +1,7 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\17. NArrayKElementsSSum\bin\Debug\_17.unn.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\17. NArrayKElementsSSum\bin\Debug\_17.unn.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\17. NArrayKElementsSSum\bin\Debug\_17.unn.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\17. NArrayKElementsSSum\bin\Debug\_17.unn.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\17. NArrayKElementsSSum\obj\Debug\17. NArrayKElementsSSum NOT.csprojResolveAssemblyReference.cache
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\17. NArrayKElementsSSum\obj\Debug\_17.unn.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\17. NArrayKElementsSSum\obj\Debug\_17.unn.pdb

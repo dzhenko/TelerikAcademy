@@ -1,0 +1,3 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\4. BetweenIntNumbersDivFive\bin\Debug\_4.BetweenIntNumbersDivFive.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\4. BetweenIntNumbersDivFive\obj\Debug\_4.BetweenIntNumbersDivFive.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\4. BetweenIntNumbersDivFive\obj\Debug\_4.BetweenIntNumbersDivFive.pdb

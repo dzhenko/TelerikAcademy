@@ -1,0 +1,12 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\5. MaxIncreazingSequenceArray\bin\Debug\_5.MaxIncreazingSequenceArray.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\5. MaxIncreazingSequenceArray\obj\Debug\_5.MaxIncreazingSequenceArray.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\5. MaxIncreazingSequenceArray\obj\Debug\_5.MaxIncreazingSequenceArray.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\5. MaxIncreazingSequenceArray\bin\Debug\_5.MaxIncreazingSequenceArray.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\5. MaxIncreazingSequenceArray\bin\Debug\_5.MaxIncreazingSequenceArray.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\5. MaxIncreazingSequenceArray\obj\Debug\05. MaxIncreazingSequenceArray.csprojResolveAssemblyReference.cache
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\5. MaxIncreazingSequenceArray\bin\Debug\_5.MaxIncreazingSequenceArray.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\5. MaxIncreazingSequenceArray\obj\Debug\_5.MaxIncreazingSequenceArray.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\5. MaxIncreazingSequenceArray\obj\Debug\_5.MaxIncreazingSequenceArray.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\5. MaxIncreazingSequenceArray\bin\Debug\_5.MaxIncreazingSequenceArray.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\5. MaxIncreazingSequenceArray\bin\Debug\_5.MaxIncreazingSequenceArray.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\5. MaxIncreazingSequenceArray\obj\Debug\05. MaxIncreazingSequenceArray.csprojResolveAssemblyReference.cache

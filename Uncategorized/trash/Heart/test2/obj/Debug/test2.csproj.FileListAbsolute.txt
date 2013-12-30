@@ -1,0 +1,6 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\trash\Heart\test2\bin\Debug\test2.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\trash\Heart\test2\bin\Debug\test2.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\trash\Heart\test2\bin\Debug\test2.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\trash\Heart\test2\obj\Debug\test2.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\trash\Heart\test2\obj\Debug\test2.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\trash\Heart\test2\obj\Debug\test2.csprojResolveAssemblyReference.cache

@@ -1,0 +1,5 @@
+program
+result
+text
+all
+be

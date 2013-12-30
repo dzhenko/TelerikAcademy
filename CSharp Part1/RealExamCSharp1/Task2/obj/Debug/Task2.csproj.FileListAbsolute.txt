@@ -1,0 +1,5 @@
+c:\users\penev\documents\visual studio 2012\Projects\RealExamCSharp1\Task2\bin\Debug\Task2.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\RealExamCSharp1\Task2\bin\Debug\Task2.exe
+c:\users\penev\documents\visual studio 2012\Projects\RealExamCSharp1\Task2\bin\Debug\Task2.pdb
+c:\users\penev\documents\visual studio 2012\Projects\RealExamCSharp1\Task2\obj\Debug\Task2.exe
+c:\users\penev\documents\visual studio 2012\Projects\RealExamCSharp1\Task2\obj\Debug\Task2.pdb

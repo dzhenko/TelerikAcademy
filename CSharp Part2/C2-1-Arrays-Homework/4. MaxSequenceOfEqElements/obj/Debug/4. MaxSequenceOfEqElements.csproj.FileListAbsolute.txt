@@ -1,0 +1,5 @@
+c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\4. MaxSequenceOfEqElements\bin\Debug\_4.MaxSequenceOfEqElements.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\4. MaxSequenceOfEqElements\bin\Debug\_4.MaxSequenceOfEqElements.exe
+c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\4. MaxSequenceOfEqElements\bin\Debug\_4.MaxSequenceOfEqElements.pdb
+c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\4. MaxSequenceOfEqElements\obj\Debug\_4.MaxSequenceOfEqElements.exe
+c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\4. MaxSequenceOfEqElements\obj\Debug\_4.MaxSequenceOfEqElements.pdb

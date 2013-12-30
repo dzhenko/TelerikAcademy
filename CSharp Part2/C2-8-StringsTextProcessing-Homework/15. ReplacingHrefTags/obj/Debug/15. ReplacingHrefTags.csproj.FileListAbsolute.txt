@@ -1,0 +1,12 @@
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\15. ReplacingHrefTags\bin\Debug\_15.ReplacingHrefTags.exe.config
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\15. ReplacingHrefTags\bin\Debug\_15.ReplacingHrefTags.exe
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\15. ReplacingHrefTags\bin\Debug\_15.ReplacingHrefTags.pdb
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\15. ReplacingHrefTags\obj\Debug\_15.ReplacingHrefTags.exe
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\15. ReplacingHrefTags\obj\Debug\_15.ReplacingHrefTags.pdb
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\15. ReplacingHrefTags\obj\Debug\15. ReplacingHrefTags.csprojResolveAssemblyReference.cache
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-8-StringsTextProcessing-Homework\15. ReplacingHrefTags\bin\Debug\_15.ReplacingHrefTags.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-8-StringsTextProcessing-Homework\15. ReplacingHrefTags\obj\Debug\_15.ReplacingHrefTags.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-8-StringsTextProcessing-Homework\15. ReplacingHrefTags\obj\Debug\_15.ReplacingHrefTags.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-8-StringsTextProcessing-Homework\15. ReplacingHrefTags\bin\Debug\_15.ReplacingHrefTags.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-8-StringsTextProcessing-Homework\15. ReplacingHrefTags\bin\Debug\_15.ReplacingHrefTags.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-8-StringsTextProcessing-Homework\15. ReplacingHrefTags\obj\Debug\15. ReplacingHrefTags.csprojResolveAssemblyReference.cache

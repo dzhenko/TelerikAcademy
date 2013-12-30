@@ -1,0 +1,5 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\10. AllAreasPassableCells\bin\Debug\_10.AllAreasPassableCells.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\10. AllAreasPassableCells\bin\Debug\_10.AllAreasPassableCells.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\10. AllAreasPassableCells\bin\Debug\_10.AllAreasPassableCells.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\10. AllAreasPassableCells\obj\Debug\_10.AllAreasPassableCells.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\10. AllAreasPassableCells\obj\Debug\_10.AllAreasPassableCells.pdb

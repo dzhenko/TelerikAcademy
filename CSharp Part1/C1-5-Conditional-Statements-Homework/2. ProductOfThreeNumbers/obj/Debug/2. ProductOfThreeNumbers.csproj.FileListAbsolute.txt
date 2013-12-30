@@ -1,0 +1,6 @@
+c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\2. ProductOfThreeNumbers\bin\Debug\_2.ProductOfThreeNumbers.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\2. ProductOfThreeNumbers\bin\Debug\_2.ProductOfThreeNumbers.exe
+c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\2. ProductOfThreeNumbers\bin\Debug\_2.ProductOfThreeNumbers.pdb
+c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\2. ProductOfThreeNumbers\obj\Debug\2. ProductOfThreeNumbers.csprojResolveAssemblyReference.cache
+c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\2. ProductOfThreeNumbers\obj\Debug\_2.ProductOfThreeNumbers.exe
+c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\2. ProductOfThreeNumbers\obj\Debug\_2.ProductOfThreeNumbers.pdb

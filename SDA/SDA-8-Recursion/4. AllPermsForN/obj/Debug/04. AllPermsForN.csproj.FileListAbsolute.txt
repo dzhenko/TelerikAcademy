@@ -1,0 +1,6 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\4. AllPermsForN\bin\Debug\_4.AllPermsForN.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\4. AllPermsForN\bin\Debug\_4.AllPermsForN.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\4. AllPermsForN\bin\Debug\_4.AllPermsForN.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\4. AllPermsForN\obj\Debug\04. AllPermsForN.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\4. AllPermsForN\obj\Debug\_4.AllPermsForN.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\4. AllPermsForN\obj\Debug\_4.AllPermsForN.pdb

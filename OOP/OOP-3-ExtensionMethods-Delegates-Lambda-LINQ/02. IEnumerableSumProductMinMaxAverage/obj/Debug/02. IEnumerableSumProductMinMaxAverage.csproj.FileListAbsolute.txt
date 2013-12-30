@@ -1,0 +1,5 @@
+c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-3-ExtensionMethods-Delegates-Lambda-LINQ\02. IEnumerableSumProductMinMaxAverage\bin\Debug\_02.IEnumerableSumProductMinMaxAverage.exe.config
+c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-3-ExtensionMethods-Delegates-Lambda-LINQ\02. IEnumerableSumProductMinMaxAverage\bin\Debug\_02.IEnumerableSumProductMinMaxAverage.exe
+c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-3-ExtensionMethods-Delegates-Lambda-LINQ\02. IEnumerableSumProductMinMaxAverage\bin\Debug\_02.IEnumerableSumProductMinMaxAverage.pdb
+c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-3-ExtensionMethods-Delegates-Lambda-LINQ\02. IEnumerableSumProductMinMaxAverage\obj\Debug\_02.IEnumerableSumProductMinMaxAverage.exe
+c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-3-ExtensionMethods-Delegates-Lambda-LINQ\02. IEnumerableSumProductMinMaxAverage\obj\Debug\_02.IEnumerableSumProductMinMaxAverage.pdb

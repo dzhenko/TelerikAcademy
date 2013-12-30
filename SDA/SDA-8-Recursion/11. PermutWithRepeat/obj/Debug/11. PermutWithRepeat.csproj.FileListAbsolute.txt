@@ -1,0 +1,6 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\11. PermutWithRepeat\bin\Debug\_11.PermutWithRepeat.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\11. PermutWithRepeat\obj\Debug\11. PermutWithRepeat.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\11. PermutWithRepeat\bin\Debug\_11.PermutWithRepeat.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\11. PermutWithRepeat\bin\Debug\_11.PermutWithRepeat.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\11. PermutWithRepeat\obj\Debug\_11.PermutWithRepeat.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\11. PermutWithRepeat\obj\Debug\_11.PermutWithRepeat.pdb

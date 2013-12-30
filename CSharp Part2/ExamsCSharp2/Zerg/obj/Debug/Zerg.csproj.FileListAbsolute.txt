@@ -1,0 +1,12 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\ExamsCSharp2\bin\Debug\BookChapter7.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\ExamsCSharp2\obj\Debug\BookChapter7.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\ExamsCSharp2\obj\Debug\BookChapter7.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\Zerg\bin\Debug\BookChapter7.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\Zerg\obj\Debug\BookChapter7.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\Zerg\obj\Debug\BookChapter7.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\Zerg\bin\Debug\BookChapter7.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\Zerg\bin\Debug\BookChapter7.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\Zerg\obj\Debug\Zerg.csprojResolveAssemblyReference.cache
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Zerg\bin\Debug\BookChapter7.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Zerg\obj\Debug\BookChapter7.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Zerg\obj\Debug\BookChapter7.pdb

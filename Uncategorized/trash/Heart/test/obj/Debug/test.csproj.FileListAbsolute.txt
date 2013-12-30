@@ -1,0 +1,5 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\trash\Heart\test\bin\Debug\test.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\trash\Heart\test\bin\Debug\test.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\trash\Heart\test\bin\Debug\test.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\trash\Heart\test\obj\Debug\test.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\trash\Heart\test\obj\Debug\test.pdb

@@ -1,0 +1,5 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\7. NSumOfNNumbers\bin\Debug\_7.NSumOfNNumbers.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\7. NSumOfNNumbers\bin\Debug\_7.NSumOfNNumbers.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\7. NSumOfNNumbers\bin\Debug\_7.NSumOfNNumbers.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\7. NSumOfNNumbers\obj\Debug\_7.NSumOfNNumbers.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\7. NSumOfNNumbers\obj\Debug\_7.NSumOfNNumbers.pdb

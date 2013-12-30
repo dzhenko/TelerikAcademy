@@ -1,0 +1,5 @@
+c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\1. ExchangeIfBigger\bin\Debug\_1.ExchangeIfBigger.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\1. ExchangeIfBigger\bin\Debug\_1.ExchangeIfBigger.exe
+c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\1. ExchangeIfBigger\bin\Debug\_1.ExchangeIfBigger.pdb
+c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\1. ExchangeIfBigger\obj\Debug\_1.ExchangeIfBigger.exe
+c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\1. ExchangeIfBigger\obj\Debug\_1.ExchangeIfBigger.pdb

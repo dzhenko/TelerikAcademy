@@ -1,0 +1,9 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\11. DeleteAllWordsStartingWithTest\bin\Debug\_11.DeleteAllWordsStartingWithTest.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\11. DeleteAllWordsStartingWithTest\bin\Debug\_11.DeleteAllWordsStartingWithTest.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\11. DeleteAllWordsStartingWithTest\bin\Debug\_11.DeleteAllWordsStartingWithTest.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\11. DeleteAllWordsStartingWithTest\obj\Debug\11. DeleteAllWordsStartingWithTest.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\11. DeleteAllWordsStartingWithTest\obj\Debug\_11.DeleteAllWordsStartingWithTest.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\11. DeleteAllWordsStartingWithTest\obj\Debug\_11.DeleteAllWordsStartingWithTest.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-7-TextFiles-Homework\11. DeleteAllWordsStartingWithTest\bin\Debug\_11.DeleteAllWordsStartingWithTest.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-7-TextFiles-Homework\11. DeleteAllWordsStartingWithTest\obj\Debug\_11.DeleteAllWordsStartingWithTest.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-7-TextFiles-Homework\11. DeleteAllWordsStartingWithTest\obj\Debug\_11.DeleteAllWordsStartingWithTest.pdb

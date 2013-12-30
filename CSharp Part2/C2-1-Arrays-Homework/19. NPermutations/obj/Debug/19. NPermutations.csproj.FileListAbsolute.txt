@@ -1,0 +1,12 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\19. NPermutations\bin\Debug\_19.NPermutations.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\19. NPermutations\bin\Debug\_19.NPermutations.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\19. NPermutations\bin\Debug\_19.NPermutations.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\19. NPermutations\obj\Debug\19. NPermutations.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\19. NPermutations\obj\Debug\_19.NPermutations.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\19. NPermutations\obj\Debug\_19.NPermutations.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\19. NPermutations\bin\Debug\_19.NPermutations.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\19. NPermutations\obj\Debug\_19.NPermutations.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\19. NPermutations\obj\Debug\_19.NPermutations.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\19. NPermutations\bin\Debug\_19.NPermutations.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\19. NPermutations\bin\Debug\_19.NPermutations.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\19. NPermutations\obj\Debug\19. NPermutations.csprojResolveAssemblyReference.cache

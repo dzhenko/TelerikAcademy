@@ -1,0 +1,5 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-6-ExceptionHandling-Homework\04. DownloadFile\bin\Debug\_04.DownloadFile.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-6-ExceptionHandling-Homework\04. DownloadFile\bin\Debug\_04.DownloadFile.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-6-ExceptionHandling-Homework\04. DownloadFile\bin\Debug\_04.DownloadFile.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-6-ExceptionHandling-Homework\04. DownloadFile\obj\Debug\_04.DownloadFile.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-6-ExceptionHandling-Homework\04. DownloadFile\obj\Debug\_04.DownloadFile.pdb

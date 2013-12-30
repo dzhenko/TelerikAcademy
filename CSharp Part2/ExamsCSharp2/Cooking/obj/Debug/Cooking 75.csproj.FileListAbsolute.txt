@@ -1,0 +1,6 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Cooking\bin\Debug\Cooking.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Cooking\bin\Debug\Cooking.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Cooking\bin\Debug\Cooking.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Cooking\obj\Debug\Cooking 75.csprojResolveAssemblyReference.cache
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Cooking\obj\Debug\Cooking.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Cooking\obj\Debug\Cooking.pdb

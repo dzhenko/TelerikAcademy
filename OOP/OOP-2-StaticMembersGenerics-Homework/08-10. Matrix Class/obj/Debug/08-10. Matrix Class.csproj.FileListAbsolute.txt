@@ -1,0 +1,5 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\OOP-2-StaticMembersGenerics-Homework\08-10. Matrix Class\bin\Debug\_08_10.Matrix_Class.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\OOP-2-StaticMembersGenerics-Homework\08-10. Matrix Class\bin\Debug\_08_10.Matrix_Class.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\OOP-2-StaticMembersGenerics-Homework\08-10. Matrix Class\obj\Debug\08-10. Matrix Class.csprojResolveAssemblyReference.cache
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\OOP-2-StaticMembersGenerics-Homework\08-10. Matrix Class\obj\Debug\_08_10.Matrix_Class.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\OOP-2-StaticMembersGenerics-Homework\08-10. Matrix Class\obj\Debug\_08_10.Matrix_Class.pdb

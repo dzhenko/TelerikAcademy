@@ -1,0 +1,6 @@
+c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-5-Object-Oriented-Programming-Principles-Part2\03. InvalidRangeException\bin\Debug\_03.InvalidRangeException.exe.config
+c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-5-Object-Oriented-Programming-Principles-Part2\03. InvalidRangeException\obj\Debug\03. InvalidRangeException.csprojResolveAssemblyReference.cache
+c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-5-Object-Oriented-Programming-Principles-Part2\03. InvalidRangeException\bin\Debug\_03.InvalidRangeException.exe
+c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-5-Object-Oriented-Programming-Principles-Part2\03. InvalidRangeException\bin\Debug\_03.InvalidRangeException.pdb
+c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-5-Object-Oriented-Programming-Principles-Part2\03. InvalidRangeException\obj\Debug\_03.InvalidRangeException.exe
+c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-5-Object-Oriented-Programming-Principles-Part2\03. InvalidRangeException\obj\Debug\_03.InvalidRangeException.pdb

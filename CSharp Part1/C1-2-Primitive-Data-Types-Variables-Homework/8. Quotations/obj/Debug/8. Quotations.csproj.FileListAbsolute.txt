@@ -1,0 +1,5 @@
+c:\users\penev\documents\visual studio 2012\Projects\Primitive-Data-Types-Variables-Homework\8. Quotations\bin\Debug\_8.Quotations.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\Primitive-Data-Types-Variables-Homework\8. Quotations\bin\Debug\_8.Quotations.exe
+c:\users\penev\documents\visual studio 2012\Projects\Primitive-Data-Types-Variables-Homework\8. Quotations\bin\Debug\_8.Quotations.pdb
+c:\users\penev\documents\visual studio 2012\Projects\Primitive-Data-Types-Variables-Homework\8. Quotations\obj\Debug\_8.Quotations.exe
+c:\users\penev\documents\visual studio 2012\Projects\Primitive-Data-Types-Variables-Homework\8. Quotations\obj\Debug\_8.Quotations.pdb

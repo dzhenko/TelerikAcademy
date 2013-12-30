@@ -1,0 +1,3 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Crossword\bin\Debug\Crossword.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Crossword\obj\Debug\Crossword.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Crossword\obj\Debug\Crossword.pdb

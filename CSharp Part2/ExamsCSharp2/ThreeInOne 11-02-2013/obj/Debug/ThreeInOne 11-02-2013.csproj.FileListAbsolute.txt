@@ -1,0 +1,6 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\ThreeInOne 11-02-2013\bin\Debug\ThreeInOne 11-02-2013.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\ThreeInOne 11-02-2013\bin\Debug\ThreeInOne 11-02-2013.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\ThreeInOne 11-02-2013\bin\Debug\ThreeInOne 11-02-2013.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\ThreeInOne 11-02-2013\obj\Debug\ThreeInOne 11-02-2013.csprojResolveAssemblyReference.cache
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\ThreeInOne 11-02-2013\obj\Debug\ThreeInOne 11-02-2013.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\ThreeInOne 11-02-2013\obj\Debug\ThreeInOne 11-02-2013.pdb

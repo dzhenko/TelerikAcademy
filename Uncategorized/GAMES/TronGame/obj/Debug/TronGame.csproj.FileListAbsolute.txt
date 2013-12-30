@@ -1,0 +1,6 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\GAMES\TronGame\bin\Debug\TronGame.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\GAMES\TronGame\bin\Debug\TronGame.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\GAMES\TronGame\bin\Debug\TronGame.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\GAMES\TronGame\obj\Debug\TronGame.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\GAMES\TronGame\obj\Debug\TronGame.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\GAMES\TronGame\obj\Debug\TronGame.pdb

@@ -1,0 +1,12 @@
+c:\users\penev\documents\visual studio 2012\Projects\Heart\Heart\bin\Debug\Heart.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\Heart\Heart\bin\Debug\Heart.exe
+c:\users\penev\documents\visual studio 2012\Projects\Heart\Heart\bin\Debug\Heart.pdb
+c:\users\penev\documents\visual studio 2012\Projects\Heart\Heart\obj\Debug\Heart.csprojResolveAssemblyReference.cache
+c:\users\penev\documents\visual studio 2012\Projects\Heart\Heart\obj\Debug\Heart.exe
+c:\users\penev\documents\visual studio 2012\Projects\Heart\Heart\obj\Debug\Heart.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\Heart\Heart\bin\Debug\Heart.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\Heart\Heart\obj\Debug\Heart.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\Heart\Heart\obj\Debug\Heart.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\Heart\Heart\bin\Debug\Heart.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\Heart\Heart\bin\Debug\Heart.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\Heart\Heart\obj\Debug\Heart.csprojResolveAssemblyReference.cache

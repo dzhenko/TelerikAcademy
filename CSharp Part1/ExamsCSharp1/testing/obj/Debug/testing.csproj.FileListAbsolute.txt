@@ -1,0 +1,8 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\exams\testing\bin\Debug\testing.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\exams\testing\bin\Debug\testing.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\exams\testing\bin\Debug\testing.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\exams\testing\obj\Debug\testing.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\exams\testing\obj\Debug\testing.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\testing\bin\Debug\testing.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\testing\obj\Debug\testing.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\testing\obj\Debug\testing.pdb

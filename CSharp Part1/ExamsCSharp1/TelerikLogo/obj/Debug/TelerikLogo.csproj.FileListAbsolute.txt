@@ -1,0 +1,5 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\TelerikLogo\bin\Debug\TelerikLogo.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\TelerikLogo\bin\Debug\TelerikLogo.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\TelerikLogo\bin\Debug\TelerikLogo.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\TelerikLogo\obj\Debug\TelerikLogo.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\TelerikLogo\obj\Debug\TelerikLogo.pdb

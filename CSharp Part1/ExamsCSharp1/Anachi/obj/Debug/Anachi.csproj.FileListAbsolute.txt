@@ -1,0 +1,5 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Anachi\bin\Debug\Anachi.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Anachi\bin\Debug\Anachi.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Anachi\bin\Debug\Anachi.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Anachi\obj\Debug\Anachi.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Anachi\obj\Debug\Anachi.pdb

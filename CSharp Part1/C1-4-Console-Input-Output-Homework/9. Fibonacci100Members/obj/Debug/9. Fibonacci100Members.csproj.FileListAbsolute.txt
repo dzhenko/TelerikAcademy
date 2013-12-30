@@ -1,0 +1,6 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\9. Fibonacci100Members\bin\Debug\_9.Fibonacci100Members.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\9. Fibonacci100Members\bin\Debug\_9.Fibonacci100Members.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\9. Fibonacci100Members\bin\Debug\_9.Fibonacci100Members.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\9. Fibonacci100Members\obj\Debug\_9.Fibonacci100Members.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\9. Fibonacci100Members\obj\Debug\_9.Fibonacci100Members.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\9. Fibonacci100Members\obj\Debug\9. Fibonacci100Members.csprojResolveAssemblyReference.cache

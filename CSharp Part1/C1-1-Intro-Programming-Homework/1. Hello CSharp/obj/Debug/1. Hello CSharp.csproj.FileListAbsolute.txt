@@ -1,0 +1,6 @@
+c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\1. Hello CSharp\bin\Debug\_1.Hello_CSharp.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\1. Hello CSharp\bin\Debug\_1.Hello_CSharp.exe
+c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\1. Hello CSharp\bin\Debug\_1.Hello_CSharp.pdb
+c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\1. Hello CSharp\obj\Debug\1. Hello CSharp.csprojResolveAssemblyReference.cache
+c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\1. Hello CSharp\obj\Debug\_1.Hello_CSharp.exe
+c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\1. Hello CSharp\obj\Debug\_1.Hello_CSharp.pdb

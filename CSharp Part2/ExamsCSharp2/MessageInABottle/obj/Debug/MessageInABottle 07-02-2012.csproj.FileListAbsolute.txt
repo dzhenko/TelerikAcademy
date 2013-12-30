@@ -1,0 +1,3 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\MessageInABottle\bin\Debug\MessageInABottle.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\MessageInABottle\obj\Debug\MessageInABottle.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\MessageInABottle\obj\Debug\MessageInABottle.pdb

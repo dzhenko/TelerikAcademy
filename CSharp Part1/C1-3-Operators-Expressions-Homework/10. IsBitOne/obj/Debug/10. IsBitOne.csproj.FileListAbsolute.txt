@@ -1,0 +1,12 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\10. IsBitOne\bin\Debug\_10.IsBitOne.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\10. IsBitOne\bin\Debug\_10.IsBitOne.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\10. IsBitOne\bin\Debug\_10.IsBitOne.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\10. IsBitOne\obj\Debug\10. IsBitOne.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\10. IsBitOne\obj\Debug\_10.IsBitOne.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\10. IsBitOne\obj\Debug\_10.IsBitOne.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-3-Operators-Expressions-Homework\10. IsBitOne\bin\Debug\_10.IsBitOne.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-3-Operators-Expressions-Homework\10. IsBitOne\obj\Debug\_10.IsBitOne.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-3-Operators-Expressions-Homework\10. IsBitOne\obj\Debug\_10.IsBitOne.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-3-Operators-Expressions-Homework\10. IsBitOne\bin\Debug\_10.IsBitOne.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-3-Operators-Expressions-Homework\10. IsBitOne\bin\Debug\_10.IsBitOne.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-3-Operators-Expressions-Homework\10. IsBitOne\obj\Debug\10. IsBitOne.csprojResolveAssemblyReference.cache

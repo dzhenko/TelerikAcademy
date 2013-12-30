@@ -1,0 +1,18 @@
+c:\users\penev\documents\visual studio 2012\Projects\C-4-Numeral-Systems-Homework\9. IEEE754Format\bin\Debug\_9.IEEE754Format.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\C-4-Numeral-Systems-Homework\9. IEEE754Format\bin\Debug\_9.IEEE754Format.exe
+c:\users\penev\documents\visual studio 2012\Projects\C-4-Numeral-Systems-Homework\9. IEEE754Format\bin\Debug\_9.IEEE754Format.pdb
+c:\users\penev\documents\visual studio 2012\Projects\C-4-Numeral-Systems-Homework\9. IEEE754Format\obj\Debug\9. IEEE754Format.csprojResolveAssemblyReference.cache
+c:\users\penev\documents\visual studio 2012\Projects\C-4-Numeral-Systems-Homework\9. IEEE754Format\obj\Debug\_9.IEEE754Format.exe
+c:\users\penev\documents\visual studio 2012\Projects\C-4-Numeral-Systems-Homework\9. IEEE754Format\obj\Debug\_9.IEEE754Format.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-4-Numeral-Systems-Homework\9. IEEE754Format\bin\Debug\_9.IEEE754Format.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-4-Numeral-Systems-Homework\9. IEEE754Format\bin\Debug\_9.IEEE754Format.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-4-Numeral-Systems-Homework\9. IEEE754Format\bin\Debug\_9.IEEE754Format.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-4-Numeral-Systems-Homework\9. IEEE754Format\obj\Debug\9. IEEE754Format.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-4-Numeral-Systems-Homework\9. IEEE754Format\obj\Debug\_9.IEEE754Format.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-4-Numeral-Systems-Homework\9. IEEE754Format\obj\Debug\_9.IEEE754Format.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-4-Numeral-Systems-Homework\9. IEEE754Format\bin\Debug\_9.IEEE754Format.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-4-Numeral-Systems-Homework\9. IEEE754Format\obj\Debug\_9.IEEE754Format.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-4-Numeral-Systems-Homework\9. IEEE754Format\obj\Debug\_9.IEEE754Format.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-4-Numeral-Systems-Homework\9. IEEE754Format\bin\Debug\_9.IEEE754Format.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-4-Numeral-Systems-Homework\9. IEEE754Format\bin\Debug\_9.IEEE754Format.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-4-Numeral-Systems-Homework\9. IEEE754Format\obj\Debug\9. IEEE754Format.csprojResolveAssemblyReference.cache

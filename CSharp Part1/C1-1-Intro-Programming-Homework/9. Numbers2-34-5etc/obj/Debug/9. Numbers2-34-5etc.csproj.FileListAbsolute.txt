@@ -1,0 +1,11 @@
+c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\9. Numbers2-34-5etc\bin\Debug\_9.Numbers2_34_5etc.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\9. Numbers2-34-5etc\bin\Debug\_9.Numbers2_34_5etc.exe
+c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\9. Numbers2-34-5etc\bin\Debug\_9.Numbers2_34_5etc.pdb
+c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\9. Numbers2-34-5etc\obj\Debug\_9.Numbers2_34_5etc.exe
+c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\9. Numbers2-34-5etc\obj\Debug\_9.Numbers2_34_5etc.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-1-Intro-Programming-Homework\9. Numbers2-34-5etc\bin\Debug\_9.Numbers2_34_5etc.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-1-Intro-Programming-Homework\9. Numbers2-34-5etc\obj\Debug\_9.Numbers2_34_5etc.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-1-Intro-Programming-Homework\9. Numbers2-34-5etc\obj\Debug\_9.Numbers2_34_5etc.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-1-Intro-Programming-Homework\9. Numbers2-34-5etc\bin\Debug\_9.Numbers2_34_5etc.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-1-Intro-Programming-Homework\9. Numbers2-34-5etc\bin\Debug\_9.Numbers2_34_5etc.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-1-Intro-Programming-Homework\9. Numbers2-34-5etc\obj\Debug\9. Numbers2-34-5etc.csprojResolveAssemblyReference.cache

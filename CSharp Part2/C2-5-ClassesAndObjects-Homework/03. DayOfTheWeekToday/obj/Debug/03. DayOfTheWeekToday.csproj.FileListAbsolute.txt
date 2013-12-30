@@ -1,0 +1,5 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\03. DayOfTheWeekToday\bin\Debug\_03.DayOfTheWeekToday.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\03. DayOfTheWeekToday\bin\Debug\_03.DayOfTheWeekToday.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\03. DayOfTheWeekToday\bin\Debug\_03.DayOfTheWeekToday.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\03. DayOfTheWeekToday\obj\Debug\_03.DayOfTheWeekToday.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\03. DayOfTheWeekToday\obj\Debug\_03.DayOfTheWeekToday.pdb

@@ -1,0 +1,6 @@
+c:\users\penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\1. HelloName\bin\Debug\_1.HelloName.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\1. HelloName\obj\Debug\1. HelloName.csprojResolveAssemblyReference.cache
+c:\users\penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\1. HelloName\bin\Debug\_1.HelloName.exe
+c:\users\penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\1. HelloName\bin\Debug\_1.HelloName.pdb
+c:\users\penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\1. HelloName\obj\Debug\_1.HelloName.exe
+c:\users\penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\1. HelloName\obj\Debug\_1.HelloName.pdb

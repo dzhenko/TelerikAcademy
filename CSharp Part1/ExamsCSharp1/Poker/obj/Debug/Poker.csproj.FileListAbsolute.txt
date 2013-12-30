@@ -1,0 +1,12 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\exams\Poker\bin\Debug\Poker.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\exams\Poker\bin\Debug\Poker.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\exams\Poker\bin\Debug\Poker.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\exams\Poker\obj\Debug\Poker.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\exams\Poker\obj\Debug\Poker.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\exams\Poker\obj\Debug\Poker.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Poker\bin\Debug\Poker.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Poker\obj\Debug\Poker.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Poker\obj\Debug\Poker.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Poker\bin\Debug\Poker.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Poker\bin\Debug\Poker.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Poker\obj\Debug\Poker.csprojResolveAssemblyReference.cache

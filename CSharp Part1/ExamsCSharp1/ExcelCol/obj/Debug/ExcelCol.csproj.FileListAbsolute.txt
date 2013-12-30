@@ -1,0 +1,6 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\ExcelCol\bin\Debug\ExcelCol.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\ExcelCol\obj\Debug\ExcelCol.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\ExcelCol\bin\Debug\ExcelCol.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\ExcelCol\bin\Debug\ExcelCol.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\ExcelCol\obj\Debug\ExcelCol.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\ExcelCol\obj\Debug\ExcelCol.pdb

@@ -1,0 +1,6 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\12. MatrixNxN\bin\Debug\_12.MatrixNxN.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\12. MatrixNxN\bin\Debug\_12.MatrixNxN.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\12. MatrixNxN\bin\Debug\_12.MatrixNxN.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\12. MatrixNxN\obj\Debug\_12.MatrixNxN.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\12. MatrixNxN\obj\Debug\_12.MatrixNxN.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\12. MatrixNxN\obj\Debug\12. MatrixNxN.csprojResolveAssemblyReference.cache

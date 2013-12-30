@@ -1,0 +1,12 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-3-Methods-Homework\6. IndexOfTheFirstElementBiggerThanItsNeighbours\bin\Debug\_6.IndexOfTheFirstElementBiggerThanItsNeighbours.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-3-Methods-Homework\6. IndexOfTheFirstElementBiggerThanItsNeighbours\bin\Debug\_6.IndexOfTheFirstElementBiggerThanItsNeighbours.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-3-Methods-Homework\6. IndexOfTheFirstElementBiggerThanItsNeighbours\bin\Debug\_6.IndexOfTheFirstElementBiggerThanItsNeighbours.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-3-Methods-Homework\6. IndexOfTheFirstElementBiggerThanItsNeighbours\obj\Debug\06. IndexOfTheFirstElementBiggerThanItsNeighbours.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-3-Methods-Homework\6. IndexOfTheFirstElementBiggerThanItsNeighbours\obj\Debug\_6.IndexOfTheFirstElementBiggerThanItsNeighbours.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-3-Methods-Homework\6. IndexOfTheFirstElementBiggerThanItsNeighbours\obj\Debug\_6.IndexOfTheFirstElementBiggerThanItsNeighbours.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\6. IndexOfTheFirstElementBiggerThanItsNeighbours\bin\Debug\_6.IndexOfTheFirstElementBiggerThanItsNeighbours.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\6. IndexOfTheFirstElementBiggerThanItsNeighbours\obj\Debug\_6.IndexOfTheFirstElementBiggerThanItsNeighbours.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\6. IndexOfTheFirstElementBiggerThanItsNeighbours\obj\Debug\_6.IndexOfTheFirstElementBiggerThanItsNeighbours.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\6. IndexOfTheFirstElementBiggerThanItsNeighbours\obj\Debug\06. IndexOfTheFirstElementBiggerThanItsNeighbours.csprojResolveAssemblyReference.cache
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\6. IndexOfTheFirstElementBiggerThanItsNeighbours\bin\Debug\_6.IndexOfTheFirstElementBiggerThanItsNeighbours.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\6. IndexOfTheFirstElementBiggerThanItsNeighbours\bin\Debug\_6.IndexOfTheFirstElementBiggerThanItsNeighbours.pdb

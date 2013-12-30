@@ -1,0 +1,7 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\18. RemoveMinimumElementsAscendingArray\bin\Debug\_18.RemoveMinimumElementsAscendingArray.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\18. RemoveMinimumElementsAscendingArray\bin\Debug\_18.RemoveMinimumElementsAscendingArray.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\18. RemoveMinimumElementsAscendingArray\bin\Debug\_18.RemoveMinimumElementsAscendingArray.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\18. RemoveMinimumElementsAscendingArray\bin\Debug\_18.RemoveMinimumElementsAscendingArray.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\18. RemoveMinimumElementsAscendingArray\obj\Debug\18. RemoveMinimumElementsAscendingArray NOT.csprojResolveAssemblyReference.cache
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\18. RemoveMinimumElementsAscendingArray\obj\Debug\_18.RemoveMinimumElementsAscendingArray.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\18. RemoveMinimumElementsAscendingArray\obj\Debug\_18.RemoveMinimumElementsAscendingArray.pdb

@@ -1,0 +1,12 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\exams\Drink\bin\Debug\Drink.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\exams\Drink\bin\Debug\Drink.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\exams\Drink\bin\Debug\Drink.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\exams\Drink\obj\Debug\Drink.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\exams\Drink\obj\Debug\Drink.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\exams\Drink\obj\Debug\Drink.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Drink\bin\Debug\Drink.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Drink\obj\Debug\Drink.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Drink\obj\Debug\Drink.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Drink\bin\Debug\Drink.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Drink\bin\Debug\Drink.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Drink\obj\Debug\Drink.csprojResolveAssemblyReference.cache

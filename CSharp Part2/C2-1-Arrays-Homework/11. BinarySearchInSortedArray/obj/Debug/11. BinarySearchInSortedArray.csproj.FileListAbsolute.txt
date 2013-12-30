@@ -1,0 +1,9 @@
+c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\11. BinarySearchInSortedArray\bin\Debug\_11.BinarySearchInSortedArray.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\11. BinarySearchInSortedArray\bin\Debug\_11.BinarySearchInSortedArray.exe
+c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\11. BinarySearchInSortedArray\bin\Debug\_11.BinarySearchInSortedArray.pdb
+c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\11. BinarySearchInSortedArray\obj\Debug\_11.BinarySearchInSortedArray.exe
+c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\11. BinarySearchInSortedArray\obj\Debug\_11.BinarySearchInSortedArray.pdb
+c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\11. BinarySearchInSortedArray\obj\Debug\11. BinarySearchInSortedArray.csprojResolveAssemblyReference.cache
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\11. BinarySearchInSortedArray\bin\Debug\_11.BinarySearchInSortedArray.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\11. BinarySearchInSortedArray\obj\Debug\_11.BinarySearchInSortedArray.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\11. BinarySearchInSortedArray\obj\Debug\_11.BinarySearchInSortedArray.pdb

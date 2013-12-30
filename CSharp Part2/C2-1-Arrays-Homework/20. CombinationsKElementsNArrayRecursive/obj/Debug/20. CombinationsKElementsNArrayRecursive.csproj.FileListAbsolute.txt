@@ -1,0 +1,6 @@
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\20. CombinationsKElementsNArrayRecursive\bin\Debug\_20.CombinationsKElementsNArrayRecursive.exe.config
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\20. CombinationsKElementsNArrayRecursive\bin\Debug\_20.CombinationsKElementsNArrayRecursive.exe
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\20. CombinationsKElementsNArrayRecursive\bin\Debug\_20.CombinationsKElementsNArrayRecursive.pdb
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\20. CombinationsKElementsNArrayRecursive\obj\Debug\20. CombinationsKElementsNArrayRecursive.csprojResolveAssemblyReference.cache
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\20. CombinationsKElementsNArrayRecursive\obj\Debug\_20.CombinationsKElementsNArrayRecursive.exe
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\20. CombinationsKElementsNArrayRecursive\obj\Debug\_20.CombinationsKElementsNArrayRecursive.pdb

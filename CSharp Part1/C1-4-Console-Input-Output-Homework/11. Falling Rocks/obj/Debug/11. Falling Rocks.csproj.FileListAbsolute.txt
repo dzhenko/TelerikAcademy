@@ -1,0 +1,12 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\Console-Input-Output-Homework\obj\Debug\11. Falling Rocks.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\Console-Input-Output-Homework\bin\Debug\Console-Input-Output-Homework.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\Console-Input-Output-Homework\bin\Debug\Console-Input-Output-Homework.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\Console-Input-Output-Homework\bin\Debug\Console-Input-Output-Homework.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\Console-Input-Output-Homework\obj\Debug\Console-Input-Output-Homework.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\Console-Input-Output-Homework\obj\Debug\Console-Input-Output-Homework.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\11. Falling Rocks\bin\Debug\Console-Input-Output-Homework.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\11. Falling Rocks\obj\Debug\Console-Input-Output-Homework.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\11. Falling Rocks\obj\Debug\Console-Input-Output-Homework.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\11. Falling Rocks\bin\Debug\Console-Input-Output-Homework.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\11. Falling Rocks\bin\Debug\Console-Input-Output-Homework.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\11. Falling Rocks\obj\Debug\11. Falling Rocks.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+c:\users\dzhenko\documents\visual studio 2013\Projects\ArrayReverserByGivvenMirror\ArrayReverser\bin\Debug\ArrayReverser.exe.config
+c:\users\dzhenko\documents\visual studio 2013\Projects\ArrayReverserByGivvenMirror\ArrayReverser\bin\Debug\ArrayReverser.exe
+c:\users\dzhenko\documents\visual studio 2013\Projects\ArrayReverserByGivvenMirror\ArrayReverser\bin\Debug\ArrayReverser.pdb
+c:\users\dzhenko\documents\visual studio 2013\Projects\ArrayReverserByGivvenMirror\ArrayReverser\obj\Debug\ArrayReverser.csprojResolveAssemblyReference.cache
+c:\users\dzhenko\documents\visual studio 2013\Projects\ArrayReverserByGivvenMirror\ArrayReverser\obj\Debug\ArrayReverser.exe
+c:\users\dzhenko\documents\visual studio 2013\Projects\ArrayReverserByGivvenMirror\ArrayReverser\obj\Debug\ArrayReverser.pdb

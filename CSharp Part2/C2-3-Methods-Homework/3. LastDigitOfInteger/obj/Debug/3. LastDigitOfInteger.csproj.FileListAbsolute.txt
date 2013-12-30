@@ -1,0 +1,5 @@
+c:\users\penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\3. LastDigitOfInteger\bin\Debug\_3.LastDigitOfInteger.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\3. LastDigitOfInteger\bin\Debug\_3.LastDigitOfInteger.exe
+c:\users\penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\3. LastDigitOfInteger\bin\Debug\_3.LastDigitOfInteger.pdb
+c:\users\penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\3. LastDigitOfInteger\obj\Debug\_3.LastDigitOfInteger.exe
+c:\users\penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\3. LastDigitOfInteger\obj\Debug\_3.LastDigitOfInteger.pdb

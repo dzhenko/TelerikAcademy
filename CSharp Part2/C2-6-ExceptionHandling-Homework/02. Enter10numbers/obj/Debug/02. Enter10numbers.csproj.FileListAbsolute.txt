@@ -1,0 +1,5 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-6-ExceptionHandling-Homework\02. Enter10numbers\bin\Debug\_02.Enter10numbers.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-6-ExceptionHandling-Homework\02. Enter10numbers\bin\Debug\_02.Enter10numbers.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-6-ExceptionHandling-Homework\02. Enter10numbers\bin\Debug\_02.Enter10numbers.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-6-ExceptionHandling-Homework\02. Enter10numbers\obj\Debug\_02.Enter10numbers.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-6-ExceptionHandling-Homework\02. Enter10numbers\obj\Debug\_02.Enter10numbers.pdb

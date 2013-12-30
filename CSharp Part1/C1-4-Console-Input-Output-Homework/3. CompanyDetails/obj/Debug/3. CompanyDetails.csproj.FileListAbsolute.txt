@@ -1,0 +1,5 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\3. CompanyDetails\bin\Debug\_3.CompanyDetails.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\3. CompanyDetails\bin\Debug\_3.CompanyDetails.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\3. CompanyDetails\bin\Debug\_3.CompanyDetails.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\3. CompanyDetails\obj\Debug\_3.CompanyDetails.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\3. CompanyDetails\obj\Debug\_3.CompanyDetails.pdb

@@ -1,0 +1,6 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\OOP-2-StaticMembersGenerics-Homework\11. Attribute Version\bin\Debug\_11.Attribute_Version.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\OOP-2-StaticMembersGenerics-Homework\11. Attribute Version\obj\Debug\11. Attribute Version.csprojResolveAssemblyReference.cache
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\OOP-2-StaticMembersGenerics-Homework\11. Attribute Version\bin\Debug\_11.Attribute_Version.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\OOP-2-StaticMembersGenerics-Homework\11. Attribute Version\bin\Debug\_11.Attribute_Version.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\OOP-2-StaticMembersGenerics-Homework\11. Attribute Version\obj\Debug\_11.Attribute_Version.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\OOP-2-StaticMembersGenerics-Homework\11. Attribute Version\obj\Debug\_11.Attribute_Version.pdb

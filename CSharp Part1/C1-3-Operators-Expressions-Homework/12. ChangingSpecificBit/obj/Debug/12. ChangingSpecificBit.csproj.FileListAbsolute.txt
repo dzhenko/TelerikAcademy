@@ -1,0 +1,12 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\12. ChangingSpecificBit\bin\Debug\_12.ChangingSpecificBit.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\12. ChangingSpecificBit\bin\Debug\_12.ChangingSpecificBit.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\12. ChangingSpecificBit\bin\Debug\_12.ChangingSpecificBit.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\12. ChangingSpecificBit\obj\Debug\12. ChangingSpecificBit.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\12. ChangingSpecificBit\obj\Debug\_12.ChangingSpecificBit.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\12. ChangingSpecificBit\obj\Debug\_12.ChangingSpecificBit.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-3-Operators-Expressions-Homework\12. ChangingSpecificBit\bin\Debug\_12.ChangingSpecificBit.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-3-Operators-Expressions-Homework\12. ChangingSpecificBit\obj\Debug\_12.ChangingSpecificBit.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-3-Operators-Expressions-Homework\12. ChangingSpecificBit\obj\Debug\_12.ChangingSpecificBit.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-3-Operators-Expressions-Homework\12. ChangingSpecificBit\bin\Debug\_12.ChangingSpecificBit.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-3-Operators-Expressions-Homework\12. ChangingSpecificBit\bin\Debug\_12.ChangingSpecificBit.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-3-Operators-Expressions-Homework\12. ChangingSpecificBit\obj\Debug\12. ChangingSpecificBit.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+c:\users\penev\documents\visual studio 2012\Projects\RealExamCSharp1\task1\bin\Debug\task1.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\RealExamCSharp1\task1\bin\Debug\task1.exe
+c:\users\penev\documents\visual studio 2012\Projects\RealExamCSharp1\task1\bin\Debug\task1.pdb
+c:\users\penev\documents\visual studio 2012\Projects\RealExamCSharp1\task1\obj\Debug\task1.csprojResolveAssemblyReference.cache
+c:\users\penev\documents\visual studio 2012\Projects\RealExamCSharp1\task1\obj\Debug\task1.exe
+c:\users\penev\documents\visual studio 2012\Projects\RealExamCSharp1\task1\obj\Debug\task1.pdb

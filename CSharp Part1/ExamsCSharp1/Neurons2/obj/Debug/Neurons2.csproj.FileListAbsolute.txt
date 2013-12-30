@@ -1,0 +1,6 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Neurons2\bin\Debug\Neurons2.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Neurons2\bin\Debug\Neurons2.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Neurons2\bin\Debug\Neurons2.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Neurons2\obj\Debug\Neurons2.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Neurons2\obj\Debug\Neurons2.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Neurons2\obj\Debug\Neurons2.pdb

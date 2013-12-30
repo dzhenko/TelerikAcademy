@@ -1,0 +1,18 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\13. MergeSortJaggedArray\bin\Debug\_13.MergeSortJaggedArray.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\13. MergeSortJaggedArray\bin\Debug\_13.MergeSortJaggedArray.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\13. MergeSortJaggedArray\bin\Debug\_13.MergeSortJaggedArray.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\13. MergeSortJaggedArray\obj\Debug\15. ErathosThenesAllPrimes.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\13. MergeSortJaggedArray\obj\Debug\_13.MergeSortJaggedArray.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\13. MergeSortJaggedArray\obj\Debug\_13.MergeSortJaggedArray.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\15. ErathosThenesAllPrimes\bin\Debug\_13.MergeSortJaggedArray.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\15. ErathosThenesAllPrimes\obj\Debug\_13.MergeSortJaggedArray.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\15. ErathosThenesAllPrimes\obj\Debug\_13.MergeSortJaggedArray.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\15. ErathosThenesAllPrimes\bin\Debug\_13.MergeSortJaggedArray.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\15. ErathosThenesAllPrimes\bin\Debug\_13.MergeSortJaggedArray.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\15. ErathosThenesAllPrimes\obj\Debug\15. ErathosThenesAllPrimes.csprojResolveAssemblyReference.cache
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\15. ErathosThenesAllPrimes\bin\Debug\_13.MergeSortJaggedArray.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\15. ErathosThenesAllPrimes\obj\Debug\_13.MergeSortJaggedArray.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\15. ErathosThenesAllPrimes\obj\Debug\_13.MergeSortJaggedArray.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\15. ErathosThenesAllPrimes\bin\Debug\_13.MergeSortJaggedArray.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\15. ErathosThenesAllPrimes\bin\Debug\_13.MergeSortJaggedArray.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\15. ErathosThenesAllPrimes\obj\Debug\15. ErathosThenesAllPrimes.csprojResolveAssemblyReference.cache

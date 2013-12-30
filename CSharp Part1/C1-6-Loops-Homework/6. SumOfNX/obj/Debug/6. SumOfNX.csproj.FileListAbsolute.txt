@@ -1,0 +1,5 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\6. SumOfNX\bin\Debug\_6.SumOfNX.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\6. SumOfNX\bin\Debug\_6.SumOfNX.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\6. SumOfNX\bin\Debug\_6.SumOfNX.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\6. SumOfNX\obj\Debug\_6.SumOfNX.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\6. SumOfNX\obj\Debug\_6.SumOfNX.pdb

@@ -1,0 +1,5 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\Game\MyGameFallingRocks\bin\Debug\MyGameFallingRocks.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\Game\MyGameFallingRocks\bin\Debug\MyGameFallingRocks.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\Game\MyGameFallingRocks\bin\Debug\MyGameFallingRocks.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\Game\MyGameFallingRocks\obj\Debug\MyGameFallingRocks.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\Game\MyGameFallingRocks\obj\Debug\MyGameFallingRocks.pdb

@@ -1,0 +1,6 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\FROM BOOK OperatorsExpressionsTask10\5-11\bin\Debug\5-11.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\FROM BOOK OperatorsExpressionsTask10\5-11\bin\Debug\5-11.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\FROM BOOK OperatorsExpressionsTask10\5-11\bin\Debug\5-11.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\FROM BOOK OperatorsExpressionsTask10\5-11\obj\Debug\5-11.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\FROM BOOK OperatorsExpressionsTask10\5-11\obj\Debug\5-11.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\FROM BOOK OperatorsExpressionsTask10\5-11\obj\Debug\5-11.pdb

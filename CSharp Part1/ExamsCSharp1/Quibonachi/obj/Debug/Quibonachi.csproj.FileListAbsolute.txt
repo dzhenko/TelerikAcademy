@@ -1,0 +1,12 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\exams\Quibonachi\bin\Debug\Quibonachi.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\exams\Quibonachi\bin\Debug\Quibonachi.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\exams\Quibonachi\bin\Debug\Quibonachi.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\exams\Quibonachi\obj\Debug\Quibonachi.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\exams\Quibonachi\obj\Debug\Quibonachi.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\exams\Quibonachi\obj\Debug\Quibonachi.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Quibonachi\bin\Debug\Quibonachi.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Quibonachi\obj\Debug\Quibonachi.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Quibonachi\obj\Debug\Quibonachi.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Quibonachi\bin\Debug\Quibonachi.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Quibonachi\bin\Debug\Quibonachi.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Quibonachi\obj\Debug\Quibonachi.csprojResolveAssemblyReference.cache

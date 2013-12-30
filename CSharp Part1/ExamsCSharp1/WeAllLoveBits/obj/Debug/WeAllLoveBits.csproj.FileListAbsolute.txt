@@ -1,0 +1,6 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\WeAllLoveBits\bin\Debug\WeAllLoveBits.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\WeAllLoveBits\bin\Debug\WeAllLoveBits.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\WeAllLoveBits\bin\Debug\WeAllLoveBits.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\WeAllLoveBits\obj\Debug\WeAllLoveBits.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\WeAllLoveBits\obj\Debug\WeAllLoveBits.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\WeAllLoveBits\obj\Debug\WeAllLoveBits.pdb

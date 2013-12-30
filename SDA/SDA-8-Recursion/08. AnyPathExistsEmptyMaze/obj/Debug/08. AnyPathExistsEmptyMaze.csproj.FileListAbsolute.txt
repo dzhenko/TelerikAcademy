@@ -1,0 +1,6 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\08. AnyPathExistsEmptyMaze\bin\Debug\_08.AnyPathExistsEmptyMaze.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\08. AnyPathExistsEmptyMaze\bin\Debug\_08.AnyPathExistsEmptyMaze.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\08. AnyPathExistsEmptyMaze\bin\Debug\_08.AnyPathExistsEmptyMaze.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\08. AnyPathExistsEmptyMaze\obj\Debug\08. AnyPathExistsEmptyMaze.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\08. AnyPathExistsEmptyMaze\obj\Debug\_08.AnyPathExistsEmptyMaze.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\08. AnyPathExistsEmptyMaze\obj\Debug\_08.AnyPathExistsEmptyMaze.pdb

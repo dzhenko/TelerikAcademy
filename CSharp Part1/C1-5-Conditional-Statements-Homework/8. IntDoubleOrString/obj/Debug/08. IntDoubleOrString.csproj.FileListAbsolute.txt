@@ -1,0 +1,3 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-5-Conditional-Statements-Homework\8. IntDoubleOrString\bin\Debug\_8.IntDoubleOrString.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-5-Conditional-Statements-Homework\8. IntDoubleOrString\obj\Debug\_8.IntDoubleOrString.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-5-Conditional-Statements-Homework\8. IntDoubleOrString\obj\Debug\_8.IntDoubleOrString.pdb

@@ -1,0 +1,5 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\7. SumNMembersFibonacci\bin\Debug\_7.SumNMembersFibonacci.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\7. SumNMembersFibonacci\bin\Debug\_7.SumNMembersFibonacci.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\7. SumNMembersFibonacci\bin\Debug\_7.SumNMembersFibonacci.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\7. SumNMembersFibonacci\obj\Debug\_7.SumNMembersFibonacci.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\7. SumNMembersFibonacci\obj\Debug\_7.SumNMembersFibonacci.pdb

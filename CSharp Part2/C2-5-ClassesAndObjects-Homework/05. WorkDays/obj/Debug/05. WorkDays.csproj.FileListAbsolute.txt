@@ -1,0 +1,5 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\05. WorkDays\bin\Debug\_05.WorkDays.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\05. WorkDays\bin\Debug\_05.WorkDays.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\05. WorkDays\bin\Debug\_05.WorkDays.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\05. WorkDays\obj\Debug\_05.WorkDays.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\05. WorkDays\obj\Debug\_05.WorkDays.pdb

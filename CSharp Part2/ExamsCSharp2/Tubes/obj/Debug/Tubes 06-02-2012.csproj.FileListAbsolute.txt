@@ -1,0 +1,3 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Tubes\bin\Debug\Tubes.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Tubes\obj\Debug\Tubes.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Tubes\obj\Debug\Tubes.pdb

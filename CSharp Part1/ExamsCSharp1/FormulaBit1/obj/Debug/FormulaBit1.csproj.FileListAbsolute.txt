@@ -1,0 +1,6 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\FormulaBit1\bin\Debug\FormulaBit1.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\FormulaBit1\bin\Debug\FormulaBit1.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\FormulaBit1\bin\Debug\FormulaBit1.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\FormulaBit1\obj\Debug\FormulaBit1.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\FormulaBit1\obj\Debug\FormulaBit1.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\FormulaBit1\obj\Debug\FormulaBit1.pdb

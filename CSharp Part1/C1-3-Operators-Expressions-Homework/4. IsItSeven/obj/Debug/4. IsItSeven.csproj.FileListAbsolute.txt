@@ -1,0 +1,12 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\4. IsItSeven\bin\Debug\_4.IsItSeven.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\4. IsItSeven\bin\Debug\_4.IsItSeven.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\4. IsItSeven\bin\Debug\_4.IsItSeven.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\4. IsItSeven\obj\Debug\4. IsItSeven.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\4. IsItSeven\obj\Debug\_4.IsItSeven.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\4. IsItSeven\obj\Debug\_4.IsItSeven.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-3-Operators-Expressions-Homework\4. IsItSeven\bin\Debug\_4.IsItSeven.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-3-Operators-Expressions-Homework\4. IsItSeven\obj\Debug\_4.IsItSeven.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-3-Operators-Expressions-Homework\4. IsItSeven\obj\Debug\_4.IsItSeven.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-3-Operators-Expressions-Homework\4. IsItSeven\bin\Debug\_4.IsItSeven.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-3-Operators-Expressions-Homework\4. IsItSeven\bin\Debug\_4.IsItSeven.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-3-Operators-Expressions-Homework\4. IsItSeven\obj\Debug\4. IsItSeven.csprojResolveAssemblyReference.cache

@@ -1,0 +1,8 @@
+c:\users\penev\documents\visual studio 2012\Projects\OperatorsExpressionsTask10\OperatorsExpressionsTask10\bin\Debug\OperatorsExpressionsTask10.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\OperatorsExpressionsTask10\OperatorsExpressionsTask10\bin\Debug\OperatorsExpressionsTask10.exe
+c:\users\penev\documents\visual studio 2012\Projects\OperatorsExpressionsTask10\OperatorsExpressionsTask10\bin\Debug\OperatorsExpressionsTask10.pdb
+c:\users\penev\documents\visual studio 2012\Projects\OperatorsExpressionsTask10\OperatorsExpressionsTask10\obj\Debug\OperatorsExpressionsTask10.exe
+c:\users\penev\documents\visual studio 2012\Projects\OperatorsExpressionsTask10\OperatorsExpressionsTask10\obj\Debug\OperatorsExpressionsTask10.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\FROM BOOK OperatorsExpressionsTask10\OperatorsExpressionsTask10\bin\Debug\OperatorsExpressionsTask10.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\FROM BOOK OperatorsExpressionsTask10\OperatorsExpressionsTask10\obj\Debug\OperatorsExpressionsTask10.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\FROM BOOK OperatorsExpressionsTask10\OperatorsExpressionsTask10\obj\Debug\OperatorsExpressionsTask10.pdb

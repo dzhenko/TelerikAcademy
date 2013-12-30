@@ -1,0 +1,1 @@
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\6. IndexOfTheFirstElementBiggerThanItsNeighbours\bin\Debug\_6.IndexOfTheFirstElementBiggerThanItsNeighbours.exe.config

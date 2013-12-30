@@ -1,0 +1,6 @@
+c:\users\penev\documents\visual studio 2012\Projects\Impossible\Impossible\bin\Debug\Impossible.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\Impossible\Impossible\bin\Debug\Impossible.exe
+c:\users\penev\documents\visual studio 2012\Projects\Impossible\Impossible\bin\Debug\Impossible.pdb
+c:\users\penev\documents\visual studio 2012\Projects\Impossible\Impossible\obj\Debug\Impossible.csprojResolveAssemblyReference.cache
+c:\users\penev\documents\visual studio 2012\Projects\Impossible\Impossible\obj\Debug\Impossible.exe
+c:\users\penev\documents\visual studio 2012\Projects\Impossible\Impossible\obj\Debug\Impossible.pdb

@@ -1,0 +1,12 @@
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\19. AllDates\bin\Debug\_19.AllDates.exe.config
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\19. AllDates\obj\Debug\19. AllDates.csprojResolveAssemblyReference.cache
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\19. AllDates\bin\Debug\_19.AllDates.exe
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\19. AllDates\bin\Debug\_19.AllDates.pdb
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\19. AllDates\obj\Debug\_19.AllDates.exe
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\19. AllDates\obj\Debug\_19.AllDates.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-8-StringsTextProcessing-Homework\19. AllDates\bin\Debug\_19.AllDates.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-8-StringsTextProcessing-Homework\19. AllDates\obj\Debug\_19.AllDates.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-8-StringsTextProcessing-Homework\19. AllDates\obj\Debug\_19.AllDates.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-8-StringsTextProcessing-Homework\19. AllDates\bin\Debug\_19.AllDates.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-8-StringsTextProcessing-Homework\19. AllDates\bin\Debug\_19.AllDates.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-8-StringsTextProcessing-Homework\19. AllDates\obj\Debug\19. AllDates.csprojResolveAssemblyReference.cache

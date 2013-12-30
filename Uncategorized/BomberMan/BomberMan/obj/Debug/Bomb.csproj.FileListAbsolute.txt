@@ -1,0 +1,6 @@
+c:\users\penev\documents\visual studio 2012\Projects\BomberMan\Bomb\bin\Debug\Bomb.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\BomberMan\Bomb\obj\Debug\Bomb.csprojResolveAssemblyReference.cache
+c:\users\penev\documents\visual studio 2012\Projects\BomberMan\Bomb\bin\Debug\Bomb.exe
+c:\users\penev\documents\visual studio 2012\Projects\BomberMan\Bomb\bin\Debug\Bomb.pdb
+c:\users\penev\documents\visual studio 2012\Projects\BomberMan\Bomb\obj\Debug\Bomb.exe
+c:\users\penev\documents\visual studio 2012\Projects\BomberMan\Bomb\obj\Debug\Bomb.pdb

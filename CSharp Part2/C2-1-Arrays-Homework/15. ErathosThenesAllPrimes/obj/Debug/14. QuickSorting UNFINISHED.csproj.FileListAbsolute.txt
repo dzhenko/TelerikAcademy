@@ -1,0 +1,6 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\13. MergeSortJaggedArray\bin\Debug\_13.MergeSortJaggedArray.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\13. MergeSortJaggedArray\bin\Debug\_13.MergeSortJaggedArray.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\13. MergeSortJaggedArray\bin\Debug\_13.MergeSortJaggedArray.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\13. MergeSortJaggedArray\obj\Debug\14. QuickSorting UNFINISHED.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\13. MergeSortJaggedArray\obj\Debug\_13.MergeSortJaggedArray.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\13. MergeSortJaggedArray\obj\Debug\_13.MergeSortJaggedArray.pdb

@@ -1,0 +1,9 @@
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\06. StringOf20Chars\bin\Debug\_06.StringOf20Chars.exe.config
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\06. StringOf20Chars\obj\Debug\06. StringOf20Chars.csprojResolveAssemblyReference.cache
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\06. StringOf20Chars\bin\Debug\_06.StringOf20Chars.exe
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\06. StringOf20Chars\bin\Debug\_06.StringOf20Chars.pdb
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\06. StringOf20Chars\obj\Debug\_06.StringOf20Chars.exe
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\06. StringOf20Chars\obj\Debug\_06.StringOf20Chars.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-8-StringsTextProcessing-Homework\06. StringOf20Chars\bin\Debug\_06.StringOf20Chars.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-8-StringsTextProcessing-Homework\06. StringOf20Chars\obj\Debug\_06.StringOf20Chars.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-8-StringsTextProcessing-Homework\06. StringOf20Chars\obj\Debug\_06.StringOf20Chars.pdb

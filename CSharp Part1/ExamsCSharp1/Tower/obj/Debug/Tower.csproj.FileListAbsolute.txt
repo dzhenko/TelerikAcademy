@@ -1,0 +1,8 @@
+c:\Users\Penev\documents\visual studio 2012\Projects\exams\Tower\bin\Debug\Tower.exe.config
+c:\Users\Penev\documents\visual studio 2012\Projects\exams\Tower\bin\Debug\Tower.exe
+c:\Users\Penev\documents\visual studio 2012\Projects\exams\Tower\bin\Debug\Tower.pdb
+c:\Users\Penev\documents\visual studio 2012\Projects\exams\Tower\obj\Debug\Tower.exe
+c:\Users\Penev\documents\visual studio 2012\Projects\exams\Tower\obj\Debug\Tower.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Tower\bin\Debug\Tower.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Tower\obj\Debug\Tower.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Tower\obj\Debug\Tower.pdb

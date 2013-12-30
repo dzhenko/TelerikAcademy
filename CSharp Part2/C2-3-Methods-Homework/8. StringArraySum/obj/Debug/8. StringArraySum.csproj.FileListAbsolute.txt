@@ -1,0 +1,6 @@
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\8. StringArraySum\bin\Debug\_8.StringArraySum.exe.config
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\8. StringArraySum\bin\Debug\_8.StringArraySum.exe
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\8. StringArraySum\bin\Debug\_8.StringArraySum.pdb
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\8. StringArraySum\obj\Debug\_8.StringArraySum.exe
+C:\Users\Penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\8. StringArraySum\obj\Debug\_8.StringArraySum.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-3-Methods-Homework\8. StringArraySum\obj\Debug\8. StringArraySum.csprojResolveAssemblyReference.cache

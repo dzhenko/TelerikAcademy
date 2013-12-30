@@ -1,0 +1,6 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\MovingLetters\bin\Debug\MovingLetters.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\MovingLetters\obj\Debug\MovingLetters.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\MovingLetters\obj\Debug\MovingLetters.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\MovingLetters\bin\Debug\MovingLetters.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\MovingLetters\bin\Debug\MovingLetters.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\MovingLetters\obj\Debug\MovingLetters 14-09-2013.csprojResolveAssemblyReference.cache

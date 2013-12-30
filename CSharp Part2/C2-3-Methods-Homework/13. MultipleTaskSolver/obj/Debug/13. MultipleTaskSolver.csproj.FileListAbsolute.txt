@@ -1,0 +1,5 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\13. MultipleTaskSolver\bin\Debug\_13.MultipleTaskSolver.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\13. MultipleTaskSolver\bin\Debug\_13.MultipleTaskSolver.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\13. MultipleTaskSolver\bin\Debug\_13.MultipleTaskSolver.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\13. MultipleTaskSolver\obj\Debug\_13.MultipleTaskSolver.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\13. MultipleTaskSolver\obj\Debug\_13.MultipleTaskSolver.pdb

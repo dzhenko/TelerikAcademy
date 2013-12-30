@@ -1,0 +1,6 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\TribunachiTriangle\bin\Debug\TribunachiTriangle.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\TribunachiTriangle\bin\Debug\TribunachiTriangle.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\TribunachiTriangle\bin\Debug\TribunachiTriangle.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\TribunachiTriangle\obj\Debug\TribunachiTriangle.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\TribunachiTriangle\obj\Debug\TribunachiTriangle.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\TribunachiTriangle\obj\Debug\TribunachiTriangle.pdb

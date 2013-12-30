@@ -1,0 +1,6 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\coffee\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\coffee\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\coffee\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\coffee\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\coffee\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\coffee\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

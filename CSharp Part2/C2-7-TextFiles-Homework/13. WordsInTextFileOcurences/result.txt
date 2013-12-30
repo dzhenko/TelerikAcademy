@@ -1,0 +1,5 @@
+result -> 2
+be -> 2
+program -> 1
+all -> 1
+text -> 0

@@ -1,0 +1,5 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\02. RandomNumbers\bin\Debug\_02.RandomNumbers.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\02. RandomNumbers\bin\Debug\_02.RandomNumbers.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\02. RandomNumbers\bin\Debug\_02.RandomNumbers.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\02. RandomNumbers\obj\Debug\_02.RandomNumbers.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\02. RandomNumbers\obj\Debug\_02.RandomNumbers.pdb

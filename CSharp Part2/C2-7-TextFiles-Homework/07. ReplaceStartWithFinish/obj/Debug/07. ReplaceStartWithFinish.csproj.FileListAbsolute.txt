@@ -1,0 +1,9 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\07. ReplaceStartWithFinish\bin\Debug\_07.ReplaceStartWithFinish.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\07. ReplaceStartWithFinish\bin\Debug\_07.ReplaceStartWithFinish.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\07. ReplaceStartWithFinish\bin\Debug\_07.ReplaceStartWithFinish.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\07. ReplaceStartWithFinish\obj\Debug\07. ReplaceStartWithFinish.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\07. ReplaceStartWithFinish\obj\Debug\_07.ReplaceStartWithFinish.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\07. ReplaceStartWithFinish\obj\Debug\_07.ReplaceStartWithFinish.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-7-TextFiles-Homework\07. ReplaceStartWithFinish\bin\Debug\_07.ReplaceStartWithFinish.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-7-TextFiles-Homework\07. ReplaceStartWithFinish\obj\Debug\_07.ReplaceStartWithFinish.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-7-TextFiles-Homework\07. ReplaceStartWithFinish\obj\Debug\_07.ReplaceStartWithFinish.pdb

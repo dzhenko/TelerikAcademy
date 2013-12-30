@@ -1,0 +1,3 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\KaspichanNumbers\bin\Debug\KaspichanNumbers.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\KaspichanNumbers\obj\Debug\KaspichanNumbers.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\KaspichanNumbers\obj\Debug\KaspichanNumbers.pdb

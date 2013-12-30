@@ -1,0 +1,9 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\8. TrapezoidsArea\bin\Debug\_8.TrapezoidsArea.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\8. TrapezoidsArea\bin\Debug\_8.TrapezoidsArea.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\8. TrapezoidsArea\bin\Debug\_8.TrapezoidsArea.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\8. TrapezoidsArea\obj\Debug\8. TrapezoidsArea.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\8. TrapezoidsArea\obj\Debug\_8.TrapezoidsArea.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\8. TrapezoidsArea\obj\Debug\_8.TrapezoidsArea.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-3-Operators-Expressions-Homework\8. TrapezoidsArea\bin\Debug\_8.TrapezoidsArea.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-3-Operators-Expressions-Homework\8. TrapezoidsArea\obj\Debug\_8.TrapezoidsArea.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-3-Operators-Expressions-Homework\8. TrapezoidsArea\obj\Debug\_8.TrapezoidsArea.pdb

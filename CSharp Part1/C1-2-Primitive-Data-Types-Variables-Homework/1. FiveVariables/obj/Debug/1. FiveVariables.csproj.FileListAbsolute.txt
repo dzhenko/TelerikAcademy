@@ -1,0 +1,9 @@
+c:\users\penev\documents\visual studio 2012\Projects\Primitive-Data-Types-Variables-Homework\1. FiveVariables\bin\Debug\_1.FiveVariables.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\Primitive-Data-Types-Variables-Homework\1. FiveVariables\obj\Debug\1. FiveVariables.csprojResolveAssemblyReference.cache
+c:\users\penev\documents\visual studio 2012\Projects\Primitive-Data-Types-Variables-Homework\1. FiveVariables\bin\Debug\_1.FiveVariables.exe
+c:\users\penev\documents\visual studio 2012\Projects\Primitive-Data-Types-Variables-Homework\1. FiveVariables\bin\Debug\_1.FiveVariables.pdb
+c:\users\penev\documents\visual studio 2012\Projects\Primitive-Data-Types-Variables-Homework\1. FiveVariables\obj\Debug\_1.FiveVariables.exe
+c:\users\penev\documents\visual studio 2012\Projects\Primitive-Data-Types-Variables-Homework\1. FiveVariables\obj\Debug\_1.FiveVariables.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-2-Primitive-Data-Types-Variables-Homework\1. FiveVariables\bin\Debug\_1.FiveVariables.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-2-Primitive-Data-Types-Variables-Homework\1. FiveVariables\obj\Debug\_1.FiveVariables.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-2-Primitive-Data-Types-Variables-Homework\1. FiveVariables\obj\Debug\_1.FiveVariables.pdb

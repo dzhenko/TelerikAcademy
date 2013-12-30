@@ -1,0 +1,12 @@
+c:\users\penev\documents\visual studio 2012\Projects\C-4-Numeral-Systems-Homework\5. HexToBinDirectly\bin\Debug\_5.HexToBinDirectly.exe.config
+c:\users\penev\documents\visual studio 2012\Projects\C-4-Numeral-Systems-Homework\5. HexToBinDirectly\bin\Debug\_5.HexToBinDirectly.exe
+c:\users\penev\documents\visual studio 2012\Projects\C-4-Numeral-Systems-Homework\5. HexToBinDirectly\bin\Debug\_5.HexToBinDirectly.pdb
+c:\users\penev\documents\visual studio 2012\Projects\C-4-Numeral-Systems-Homework\5. HexToBinDirectly\obj\Debug\5. HexToBinDirectly.csprojResolveAssemblyReference.cache
+c:\users\penev\documents\visual studio 2012\Projects\C-4-Numeral-Systems-Homework\5. HexToBinDirectly\obj\Debug\_5.HexToBinDirectly.exe
+c:\users\penev\documents\visual studio 2012\Projects\C-4-Numeral-Systems-Homework\5. HexToBinDirectly\obj\Debug\_5.HexToBinDirectly.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-4-Numeral-Systems-Homework\5. HexToBinDirectly\bin\Debug\_5.HexToBinDirectly.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-4-Numeral-Systems-Homework\5. HexToBinDirectly\obj\Debug\_5.HexToBinDirectly.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-4-Numeral-Systems-Homework\5. HexToBinDirectly\obj\Debug\_5.HexToBinDirectly.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-4-Numeral-Systems-Homework\5. HexToBinDirectly\bin\Debug\_5.HexToBinDirectly.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-4-Numeral-Systems-Homework\5. HexToBinDirectly\obj\Debug\_5.HexToBinDirectly.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-4-Numeral-Systems-Homework\5. HexToBinDirectly\obj\Debug\_5.HexToBinDirectly.pdb

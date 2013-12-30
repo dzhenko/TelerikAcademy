@@ -1,0 +1,5 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\09. AllAreasConnectedAdjacentCells\bin\Debug\_09.AllAreasConnectedAdjacentCells.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\09. AllAreasConnectedAdjacentCells\bin\Debug\_09.AllAreasConnectedAdjacentCells.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\09. AllAreasConnectedAdjacentCells\bin\Debug\_09.AllAreasConnectedAdjacentCells.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\09. AllAreasConnectedAdjacentCells\obj\Debug\_09.AllAreasConnectedAdjacentCells.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\09. AllAreasConnectedAdjacentCells\obj\Debug\_09.AllAreasConnectedAdjacentCells.pdb
