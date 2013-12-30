@@ -4,3 +4,9 @@ C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\14+
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\14+15. GenericOperations\bin\Debug\_14_15.GenericOperations.pdb
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\14+15. GenericOperations\obj\Debug\_14_15.GenericOperations.exe
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\14+15. GenericOperations\obj\Debug\_14_15.GenericOperations.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-3-Methods-Homework\14+15. GenericOperations\bin\Debug\_14_15.GenericOperations.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-3-Methods-Homework\14+15. GenericOperations\obj\Debug\_14_15.GenericOperations.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-3-Methods-Homework\14+15. GenericOperations\obj\Debug\_14_15.GenericOperations.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-3-Methods-Homework\14+15. GenericOperations\obj\Debug\14+15. GenericOperations.csprojResolveAssemblyReference.cache
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-3-Methods-Homework\14+15. GenericOperations\bin\Debug\_14_15.GenericOperations.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-3-Methods-Homework\14+15. GenericOperations\bin\Debug\_14_15.GenericOperations.pdb

@@ -4,3 +4,5 @@ C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\OOP-2-StaticMembersGeneri
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\OOP-2-StaticMembersGenerics-Homework\3DPointStruct\obj\Debug\01. 3DPointStruct.pdb
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\OOP-2-StaticMembersGenerics-Homework\01-04.3DPointStruct\obj\Debug\01. 3DPointStruct.exe
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\OOP-2-StaticMembersGenerics-Homework\01-04.3DPointStruct\obj\Debug\01. 3DPointStruct.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-2-StaticMembersGenerics\01-04.3DPointStruct\obj\Debug\01. 3DPointStruct.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-2-StaticMembersGenerics\01-04.3DPointStruct\obj\Debug\01. 3DPointStruct.pdb

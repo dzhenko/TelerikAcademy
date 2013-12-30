@@ -3,3 +3,5 @@ c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-4-Object-Oriented-Pro
 c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-4-Object-Oriented-Programming-Principles-Part1\01. School\obj\Debug\01. School.csprojResolveAssemblyReference.cache
 c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-4-Object-Oriented-Programming-Principles-Part1\01. School\obj\Debug\_01.School.exe
 c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-4-Object-Oriented-Programming-Principles-Part1\01. School\obj\Debug\_01.School.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-4-Object-Oriented-Programming-Principles-Part1\01. School\obj\Debug\_01.School.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-4-Object-Oriented-Programming-Principles-Part1\01. School\obj\Debug\_01.School.pdb

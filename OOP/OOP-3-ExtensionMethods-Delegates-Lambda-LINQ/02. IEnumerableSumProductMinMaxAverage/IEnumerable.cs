@@ -5,7 +5,6 @@ namespace IEnumerableSumProductMinMaxAverage
 {
     using System;
     using System.Collections.Generic;
-    using System.Linq;
 
     public static class Extensions
     {
@@ -58,13 +57,35 @@ namespace IEnumerableSumProductMinMaxAverage
         }
 
         public static T GetMin<T>(this IEnumerable<T> enumcollection)
+            where T : IComparable<T>
         {
-            return enumcollection.Min();
+            IEnumerator<T> enumerator = enumcollection.GetEnumerator();
+            enumerator.MoveNext();
+            T element = enumerator.Current;
+            foreach (var i in enumcollection)
+            {
+                if (i.CompareTo(element) < 0)
+                {
+                    element = i;
+                }
+            }
+            return element;
         }
 
         public static T GetMax<T>(this IEnumerable<T> enumcollection)
+            where T : IComparable<T>
         {
-            return enumcollection.Max();
+            IEnumerator<T> enumerator = enumcollection.GetEnumerator();
+            enumerator.MoveNext();
+            T element = enumerator.Current;
+            foreach (var i in enumcollection)
+            {
+                if (i.CompareTo(element) > 0)
+                {
+                    element = i;
+                }
+            }
+            return element;
         }
 
     }

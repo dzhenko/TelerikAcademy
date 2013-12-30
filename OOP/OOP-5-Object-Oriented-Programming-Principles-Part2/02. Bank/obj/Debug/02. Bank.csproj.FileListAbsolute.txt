@@ -2,3 +2,5 @@ c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-5-Object-Oriented-Pro
 c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-5-Object-Oriented-Programming-Principles-Part2\02. Bank\bin\Debug\_02.Bank.pdb
 c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-5-Object-Oriented-Programming-Principles-Part2\02. Bank\obj\Debug\_02.Bank.exe
 c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-5-Object-Oriented-Programming-Principles-Part2\02. Bank\obj\Debug\_02.Bank.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-5-Object-Oriented-Programming-Principles-Part2\02. Bank\obj\Debug\_02.Bank.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-5-Object-Oriented-Programming-Principles-Part2\02. Bank\obj\Debug\_02.Bank.pdb

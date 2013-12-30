@@ -2,3 +2,5 @@ c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-4-Object-Oriented-Pro
 c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-4-Object-Oriented-Programming-Principles-Part1\03. Animals\bin\Debug\_03.Animals.pdb
 c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-4-Object-Oriented-Programming-Principles-Part1\03. Animals\obj\Debug\_03.Animals.exe
 c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-4-Object-Oriented-Programming-Principles-Part1\03. Animals\obj\Debug\_03.Animals.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-4-Object-Oriented-Programming-Principles-Part1\03. Animals\obj\Debug\_03.Animals.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-4-Object-Oriented-Programming-Principles-Part1\03. Animals\obj\Debug\_03.Animals.pdb
