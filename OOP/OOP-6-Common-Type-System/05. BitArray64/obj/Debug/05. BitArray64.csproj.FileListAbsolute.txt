@@ -1,0 +1,5 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-6-Common-Type-System\05. BitArray64\obj\Debug\05. BitArray64.csprojResolveAssemblyReference.cache
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-6-Common-Type-System\05. BitArray64\bin\Debug\_05.BitArray64.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-6-Common-Type-System\05. BitArray64\bin\Debug\_05.BitArray64.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-6-Common-Type-System\05. BitArray64\obj\Debug\_05.BitArray64.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-6-Common-Type-System\05. BitArray64\obj\Debug\_05.BitArray64.pdb

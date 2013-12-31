@@ -1,0 +1,1 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-6-Common-Type-System\06. BinarySearchTree\bin\Debug\_06.BinarySearchTree.exe.config
