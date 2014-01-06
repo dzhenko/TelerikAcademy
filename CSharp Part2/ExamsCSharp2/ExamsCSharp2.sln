@@ -85,6 +85,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheyAreGreen 14-09-2013", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trails3D 14.09.2013 Evening NOT FINISHED", "Trails3D 14.09.2013 Evening\Trails3D 14.09.2013 Evening NOT FINISHED.csproj", "{19620463-9E3C-4835-AB6E-0495EDC9D781}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bombin Cuboids 08-02-2013", "Bombin Cuboids 08-02-2013\Bombin Cuboids 08-02-2013.csproj", "{BD8EC641-F794-43A6-859B-9AEE4BCBB536}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -255,6 +257,10 @@ Global
 		{19620463-9E3C-4835-AB6E-0495EDC9D781}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19620463-9E3C-4835-AB6E-0495EDC9D781}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19620463-9E3C-4835-AB6E-0495EDC9D781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD8EC641-F794-43A6-859B-9AEE4BCBB536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD8EC641-F794-43A6-859B-9AEE4BCBB536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD8EC641-F794-43A6-859B-9AEE4BCBB536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD8EC641-F794-43A6-859B-9AEE4BCBB536}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

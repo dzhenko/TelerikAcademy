@@ -1,3 +1,6 @@
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\BasicLanguage\bin\Debug\BasicLanguage.exe.config
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\BasicLanguage\obj\Debug\BasicLanguage.exe
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\BasicLanguage\obj\Debug\BasicLanguage.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\BasicLanguage\bin\Debug\BasicLanguage.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\BasicLanguage\obj\Debug\BasicLanguage.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\BasicLanguage\obj\Debug\BasicLanguage.pdb

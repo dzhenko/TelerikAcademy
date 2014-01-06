@@ -1,0 +1,5 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\Bombin Cuboids 08-02-2013\bin\Debug\Bombin Cuboids 08-02-2013.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\Bombin Cuboids 08-02-2013\bin\Debug\Bombin Cuboids 08-02-2013.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\Bombin Cuboids 08-02-2013\obj\Debug\Bombin Cuboids 08-02-2013.csprojResolveAssemblyReference.cache
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\Bombin Cuboids 08-02-2013\obj\Debug\Bombin Cuboids 08-02-2013.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\Bombin Cuboids 08-02-2013\obj\Debug\Bombin Cuboids 08-02-2013.pdb
