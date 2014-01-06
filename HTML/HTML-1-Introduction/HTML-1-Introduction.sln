@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{27E71947-5090-4982-B42C-14D13179BACA}"
+	ProjectSection(SolutionItems) = preProject
+		01. Runners\Runners.html = 01. Runners\Runners.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2", "Task2", "{A00218C3-C4C3-4CDE-8D27-8172268280A3}"
+	ProjectSection(SolutionItems) = preProject
+		02. Lists\Lists.html = 02. Lists\Lists.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task3", "Task3", "{7E930D86-4008-4968-9637-D65DD6028E35}"
+	ProjectSection(SolutionItems) = preProject
+		03. Profile\Friends.html = 03. Profile\Friends.html
+		03. Profile\Info.html = 03. Profile\Info.html
+		03. Profile\Profile.html = 03. Profile\Profile.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
