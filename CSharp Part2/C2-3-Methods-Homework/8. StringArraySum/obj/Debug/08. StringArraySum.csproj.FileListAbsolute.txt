@@ -10,3 +10,6 @@ C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\8. 
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\8. StringArraySum\bin\Debug\_8.StringArraySum.exe
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\8. StringArraySum\bin\Debug\_8.StringArraySum.pdb
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\8. StringArraySum\obj\Debug\08. StringArraySum.csprojResolveAssemblyReference.cache
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-3-Methods-Homework\8. StringArraySum\bin\Debug\_8.StringArraySum.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-3-Methods-Homework\8. StringArraySum\obj\Debug\_8.StringArraySum.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-3-Methods-Homework\8. StringArraySum\obj\Debug\_8.StringArraySum.pdb

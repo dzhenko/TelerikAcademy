@@ -10,3 +10,6 @@ C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-2-MultiDimensionalArra
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-2-MultiDimensionalArrays-Homework\04. LargestNumInArrayThatIsNotK\bin\Debug\_04.LargestNumInArrayThatIsNotK.exe
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-2-MultiDimensionalArrays-Homework\04. LargestNumInArrayThatIsNotK\bin\Debug\_04.LargestNumInArrayThatIsNotK.pdb
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-2-MultiDimensionalArrays-Homework\04. LargestNumInArrayThatIsNotK\obj\Debug\04. LargestNumInArrayThatIsNotK.csprojResolveAssemblyReference.cache
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-2-MultiDimensionalArrays-Homework\04. LargestNumInArrayThatIsNotK\bin\Debug\_04.LargestNumInArrayThatIsNotK.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-2-MultiDimensionalArrays-Homework\04. LargestNumInArrayThatIsNotK\obj\Debug\_04.LargestNumInArrayThatIsNotK.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-2-MultiDimensionalArrays-Homework\04. LargestNumInArrayThatIsNotK\obj\Debug\_04.LargestNumInArrayThatIsNotK.pdb

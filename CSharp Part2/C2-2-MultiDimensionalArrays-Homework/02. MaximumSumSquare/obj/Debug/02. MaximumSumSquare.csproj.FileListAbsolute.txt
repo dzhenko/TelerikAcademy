@@ -6,3 +6,6 @@ c:\users\penev\documents\visual studio 2012\Projects\C2-2-MultiDimensionalArrays
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-2-MultiDimensionalArrays-Homework\02. MaximumSumSquare\bin\Debug\_02.MaximumSumSquare.exe.config
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-2-MultiDimensionalArrays-Homework\02. MaximumSumSquare\obj\Debug\_02.MaximumSumSquare.exe
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-2-MultiDimensionalArrays-Homework\02. MaximumSumSquare\obj\Debug\_02.MaximumSumSquare.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-2-MultiDimensionalArrays-Homework\02. MaximumSumSquare\bin\Debug\_02.MaximumSumSquare.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-2-MultiDimensionalArrays-Homework\02. MaximumSumSquare\obj\Debug\_02.MaximumSumSquare.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-2-MultiDimensionalArrays-Homework\02. MaximumSumSquare\obj\Debug\_02.MaximumSumSquare.pdb

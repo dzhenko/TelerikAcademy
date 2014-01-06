@@ -10,3 +10,9 @@ C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-2-MultiDimensionalArra
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-2-MultiDimensionalArrays-Homework\06. ClassMatrix\bin\Debug\_06.ClassMatrix.exe
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-2-MultiDimensionalArrays-Homework\06. ClassMatrix\bin\Debug\_06.ClassMatrix.pdb
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-2-MultiDimensionalArrays-Homework\06. ClassMatrix\obj\Debug\06. ClassMatrix.csprojResolveAssemblyReference.cache
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-2-MultiDimensionalArrays-Homework\06. ClassMatrix\bin\Debug\_06.ClassMatrix.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-2-MultiDimensionalArrays-Homework\06. ClassMatrix\obj\Debug\_06.ClassMatrix.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-2-MultiDimensionalArrays-Homework\06. ClassMatrix\obj\Debug\_06.ClassMatrix.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-2-MultiDimensionalArrays-Homework\06. ClassMatrix\bin\Debug\_06.ClassMatrix.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-2-MultiDimensionalArrays-Homework\06. ClassMatrix\bin\Debug\_06.ClassMatrix.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-2-MultiDimensionalArrays-Homework\06. ClassMatrix\obj\Debug\06. ClassMatrix.csprojResolveAssemblyReference.cache

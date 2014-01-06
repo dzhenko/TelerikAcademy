@@ -10,3 +10,9 @@ C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-4-Numeral-Systems-Homewo
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-4-Numeral-Systems-Homework\5. HexToBinDirectly\bin\Debug\_5.HexToBinDirectly.exe.config
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-4-Numeral-Systems-Homework\5. HexToBinDirectly\obj\Debug\_5.HexToBinDirectly.exe
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-4-Numeral-Systems-Homework\5. HexToBinDirectly\obj\Debug\_5.HexToBinDirectly.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-4-Numeral-Systems-Homework\5. HexToBinDirectly\bin\Debug\_5.HexToBinDirectly.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-4-Numeral-Systems-Homework\5. HexToBinDirectly\obj\Debug\_5.HexToBinDirectly.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-4-Numeral-Systems-Homework\5. HexToBinDirectly\obj\Debug\_5.HexToBinDirectly.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-4-Numeral-Systems-Homework\5. HexToBinDirectly\bin\Debug\_5.HexToBinDirectly.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-4-Numeral-Systems-Homework\5. HexToBinDirectly\bin\Debug\_5.HexToBinDirectly.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-4-Numeral-Systems-Homework\5. HexToBinDirectly\obj\Debug\5. HexToBinDirectly.csprojResolveAssemblyReference.cache

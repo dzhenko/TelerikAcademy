@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{6EED83F7-9F91-484C-BFD5-B803D659A495}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessCombinations", "test\ProcessCombinations.csproj", "{6EED83F7-9F91-484C-BFD5-B803D659A495}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test2", "test2\test2.csproj", "{6D28C0ED-4D6C-4652-810B-74E64D7FE09D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZBuildCombinations", "test2\ZBuildCombinations.csproj", "{6D28C0ED-4D6C-4652-810B-74E64D7FE09D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

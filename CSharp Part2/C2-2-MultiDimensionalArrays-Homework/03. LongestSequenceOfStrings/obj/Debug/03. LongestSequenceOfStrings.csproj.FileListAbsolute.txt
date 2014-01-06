@@ -8,3 +8,8 @@ C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-2-MultiDimensionalArra
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-2-MultiDimensionalArrays-Homework\03. LongestSequenceOfStrings\obj\Debug\_03.LongestSequenceOfStrings.pdb
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-2-MultiDimensionalArrays-Homework\03. LongestSequenceOfStrings\bin\Debug\_03.LongestSequenceOfStrings.exe
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-2-MultiDimensionalArrays-Homework\03. LongestSequenceOfStrings\bin\Debug\_03.LongestSequenceOfStrings.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-2-MultiDimensionalArrays-Homework\03. LongestSequenceOfStrings\bin\Debug\_03.LongestSequenceOfStrings.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-2-MultiDimensionalArrays-Homework\03. LongestSequenceOfStrings\obj\Debug\_03.LongestSequenceOfStrings.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-2-MultiDimensionalArrays-Homework\03. LongestSequenceOfStrings\obj\Debug\_03.LongestSequenceOfStrings.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-2-MultiDimensionalArrays-Homework\03. LongestSequenceOfStrings\bin\Debug\_03.LongestSequenceOfStrings.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-2-MultiDimensionalArrays-Homework\03. LongestSequenceOfStrings\bin\Debug\_03.LongestSequenceOfStrings.pdb

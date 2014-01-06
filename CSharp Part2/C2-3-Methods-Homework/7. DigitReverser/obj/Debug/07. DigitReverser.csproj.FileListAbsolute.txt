@@ -8,3 +8,6 @@ C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\7. 
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\7. DigitReverser\obj\Debug\_7.DigitReverser.pdb
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\7. DigitReverser\bin\Debug\_7.DigitReverser.exe
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\7. DigitReverser\bin\Debug\_7.DigitReverser.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-3-Methods-Homework\7. DigitReverser\bin\Debug\_7.DigitReverser.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-3-Methods-Homework\7. DigitReverser\obj\Debug\_7.DigitReverser.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-3-Methods-Homework\7. DigitReverser\obj\Debug\_7.DigitReverser.pdb

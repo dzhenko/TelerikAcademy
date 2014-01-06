@@ -15,7 +15,7 @@ class DecToHex
             input = input * (-1);
             minus = true;
         }
-        while (true)
+        while (input != 0)
         {
             if (input % 16 > 9)
             {
@@ -34,16 +34,13 @@ class DecToHex
                 answer = input % 16 + answer;
             }         
             input = input / 16;
-            if (input == 0)
-            {
-                break;
-            }
         }
-        Console.Write(answer);
+
         if (minus)
         {
-            Console.Write("   NEGATIVE");
+            Console.Write(" (NEGATIVE)  ");
         }
+        Console.Write(answer);
         Console.WriteLine();
     }
 }

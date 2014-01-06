@@ -39,11 +39,11 @@ class HexToDec
                     Environment.Exit(0); break;
             }
         }
-        Console.Write(answer);
         if (minus)
         {
-            Console.Write("   NEGATIVE");
+            Console.Write(" (NEGATIVE)   ");
         }
+        Console.Write(answer);
         Console.WriteLine();
     }
 }
