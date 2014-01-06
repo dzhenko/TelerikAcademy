@@ -7,9 +7,16 @@ namespace Bombin_Cuboids_08_02_2013
 {
     class Program
     {
+        public static int w1 ;
+        public static int w2 ;
+        public static int h1 ;
+        public static int h2 ;
+        public static int d1 ;
+        public static int d2;
         public static int[] chars = new int[128];
         public static int destroyed = 0;
         public static char[,,] cube;
+
         static void Main()
         {
             ReadData();
@@ -39,37 +46,18 @@ namespace Bombin_Cuboids_08_02_2013
                 }
             }
         }
-
+        
         private static void ExplodeBomb(int[] bomb)
-        {   //w h d p
-            int power = bomb[3];
+        {
+            GenerateExplosionArea(bomb);
 
-            int w1 = Math.Max(bomb[0] - power,0);
-            int w2 = Math.Min(bomb[0] + power, cube.GetLength(0) - 1);
+            DestroyCubes(bomb);
 
-            int h1 = Math.Max(bomb[1] - power, 0);
-            int h2 = Math.Min(bomb[1] + power, cube.GetLength(1) - 1);
+            CubesFallDown();
+        }
 
-            int d1 = Math.Max(bomb[2] - power, 0);
-            int d2 = Math.Min(bomb[2] + power, cube.GetLength(2) - 1);
-
-            for (int w = w1; w <= w2; w++)
-            {
-                for (int h = h1; h <= h2; h++)
-                {
-                    for (int d = d1; d <= d2; d++)
-                    {
-                        if ((Math.Sqrt((bomb[0]-w)*(bomb[0]-w)+(bomb[1]-h)*(bomb[1]-h)+(bomb[2]-d)*(bomb[2]-d)) <= power)
-                            && (cube[w, h, d] != 'z'))
-                        {
-                            chars[(int)cube[w, h, d]]++;
-                            cube[w, h, d] = 'z';
-                            destroyed++;
-                        }
-                    }
-                }
-            }
-
+        private static void CubesFallDown()
+        {
             for (int w = w1; w <= w2; w++)
             {
                 for (int d = d1; d <= d2; d++)
@@ -77,7 +65,7 @@ namespace Bombin_Cuboids_08_02_2013
                     int holes = 0;
                     for (int h = h1; h < cube.GetLength(1); h++)
                     {
-                        if (cube[w,h,d] == 'z')
+                        if (cube[w, h, d] == 'z')
                         {
                             holes++;
                         }
@@ -92,6 +80,40 @@ namespace Bombin_Cuboids_08_02_2013
                     }
                 }
             }
+        }
+
+        private static void DestroyCubes(int[] bomb)
+        {
+            for (int w = w1; w <= w2; w++)
+            {
+                for (int h = h1; h <= h2; h++)
+                {
+                    for (int d = d1; d <= d2; d++)
+                    {
+                        if ((Math.Sqrt((bomb[0] - w) * (bomb[0] - w) + (bomb[1] - h) * (bomb[1] - h) + (bomb[2] - d) * (bomb[2] - d)) <= bomb[3])
+                            && (cube[w, h, d] != 'z'))
+                        {
+                            chars[(int)cube[w, h, d]]++;
+                            cube[w, h, d] = 'z';
+                            destroyed++;
+                        }
+                    }
+                }
+            }
+        }
+
+        private static void GenerateExplosionArea(int[] bomb)
+        {
+            int power = bomb[3];
+
+            w1 = Math.Max(bomb[0] - power, 0);
+            w2 = Math.Min(bomb[0] + power, cube.GetLength(0) - 1);
+
+            h1 = Math.Max(bomb[1] - power, 0);
+            h2 = Math.Min(bomb[1] + power, cube.GetLength(1) - 1);
+
+            d1 = Math.Max(bomb[2] - power, 0);
+            d2 = Math.Min(bomb[2] + power, cube.GetLength(2) - 1);
         }
 
         private static void ReadData()
