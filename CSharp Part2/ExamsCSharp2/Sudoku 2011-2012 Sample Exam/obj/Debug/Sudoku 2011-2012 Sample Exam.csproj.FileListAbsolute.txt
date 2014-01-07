@@ -4,3 +4,6 @@ C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Sudoku 2011-
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Sudoku 2011-2012 Sample Exam\obj\Debug\Sudoku 2011-2012 Sample Exam.csprojResolveAssemblyReference.cache
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Sudoku 2011-2012 Sample Exam\obj\Debug\Sudoku 2011-2012 Sample Exam.exe
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Sudoku 2011-2012 Sample Exam\obj\Debug\Sudoku 2011-2012 Sample Exam.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\Sudoku 2011-2012 Sample Exam\bin\Debug\Sudoku 2011-2012 Sample Exam.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\Sudoku 2011-2012 Sample Exam\obj\Debug\Sudoku 2011-2012 Sample Exam.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\Sudoku 2011-2012 Sample Exam\obj\Debug\Sudoku 2011-2012 Sample Exam.pdb
