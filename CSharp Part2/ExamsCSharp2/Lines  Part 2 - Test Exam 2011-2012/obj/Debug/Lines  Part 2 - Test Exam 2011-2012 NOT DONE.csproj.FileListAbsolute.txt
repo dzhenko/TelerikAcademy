@@ -1,0 +1,2 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\Lines  Part 2 - Test Exam 2011-2012\obj\Debug\Lines  Part 2 - Test Exam 2011-2012.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\Lines  Part 2 - Test Exam 2011-2012\obj\Debug\Lines  Part 2 - Test Exam 2011-2012.pdb
