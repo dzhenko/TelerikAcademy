@@ -16,6 +16,7 @@ class HowManyTimesASubstring
         //string input = Console.ReadLine(); ORIGINAL
         string input = "We are living in an yellow submarine. We don't have anything else. Inside the submarine is very tight.So we are drinking all the day. We will move out of it in 5 days.";
         //for easier testing
+        input = input.ToLower();
         int answer = 0;
 
         int indexer = input.IndexOf("in",0);
@@ -25,13 +26,7 @@ class HowManyTimesASubstring
             indexer = input.IndexOf("in", indexer + 1);
         }
 
-        indexer = input.IndexOf("In", 0);
-        while (indexer!=-1)
-        {
-            answer++;
-            indexer = input.IndexOf("In", indexer + 1);
-        }
 
-        Console.WriteLine(answer);//yeyy
+        Console.WriteLine(answer);
     }
 }
