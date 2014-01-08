@@ -7,6 +7,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 class ReplaceStartWholeWordsOnly
 {
@@ -67,16 +68,13 @@ class ReplaceStartWholeWordsOnly
 
     private static bool IsTheWordWhole(string inputline, int index)
     {
+        char[] separators = new[] { ' ', '.', '-', ',', ';', ':' ,'\n'};
         bool wordIsWhole = false;
-        if ((index+5 < inputline.Length)&&(inputline[index+5] == ' '))
+        if ((index+5 < inputline.Length)&&(separators.Contains(inputline[index+5])))
         {
             wordIsWhole = true;
         }
-        else if ((index-1 > -1)&&(inputline[index-1] == ' '))
-        {
-            wordIsWhole = true;
-        }
-        else if (index==inputline.Length-5)
+        else if ((index - 1 > -1) && (separators.Contains(inputline[index + 5])))
         {
             wordIsWhole = true;
         }

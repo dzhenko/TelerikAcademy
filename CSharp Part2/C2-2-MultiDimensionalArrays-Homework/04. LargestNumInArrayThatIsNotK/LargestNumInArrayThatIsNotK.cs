@@ -24,7 +24,7 @@ class LargestNumInArrayThatIsNotK
         array[n] = K;
         Array.Sort(array);
 
-        int indexK = Array.BinarySearch(array, 99);
+        int indexK = Array.BinarySearch(array,K);
 
         if (indexK == n)
         {

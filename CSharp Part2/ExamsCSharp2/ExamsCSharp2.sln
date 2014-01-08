@@ -97,6 +97,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3D MaxWalk - Sample Exam 20
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slides 04-02-2013 Morning", "Slides 04-02-2013 Morning\Slides 04-02-2013 Morning.csproj", "{E87CB8F3-1EC6-459C-B0C5-F2ACB0633672}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrashTesting", "TrashTesting\TrashTesting.csproj", "{9F9B2959-6CE2-412C-9532-6D3DA5442AA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laser 05-02-2013", "Laser 05-02-2013\Laser 05-02-2013.csproj", "{50E544FE-92E9-4B24-93EE-86057A7FE943}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -291,6 +295,14 @@ Global
 		{E87CB8F3-1EC6-459C-B0C5-F2ACB0633672}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E87CB8F3-1EC6-459C-B0C5-F2ACB0633672}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E87CB8F3-1EC6-459C-B0C5-F2ACB0633672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F9B2959-6CE2-412C-9532-6D3DA5442AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F9B2959-6CE2-412C-9532-6D3DA5442AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F9B2959-6CE2-412C-9532-6D3DA5442AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F9B2959-6CE2-412C-9532-6D3DA5442AA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50E544FE-92E9-4B24-93EE-86057A7FE943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E544FE-92E9-4B24-93EE-86057A7FE943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50E544FE-92E9-4B24-93EE-86057A7FE943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50E544FE-92E9-4B24-93EE-86057A7FE943}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

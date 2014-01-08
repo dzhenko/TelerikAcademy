@@ -6,3 +6,9 @@ C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\08.
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-7-TextFiles-Homework\08. ReplaceStartWholeWordsOnly\bin\Debug\_08.ReplaceStartWholeWordsOnly.exe.config
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-7-TextFiles-Homework\08. ReplaceStartWholeWordsOnly\obj\Debug\_08.ReplaceStartWholeWordsOnly.exe
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-7-TextFiles-Homework\08. ReplaceStartWholeWordsOnly\obj\Debug\_08.ReplaceStartWholeWordsOnly.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-7-TextFiles-Homework\08. ReplaceStartWholeWordsOnly\bin\Debug\_08.ReplaceStartWholeWordsOnly.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-7-TextFiles-Homework\08. ReplaceStartWholeWordsOnly\obj\Debug\_08.ReplaceStartWholeWordsOnly.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-7-TextFiles-Homework\08. ReplaceStartWholeWordsOnly\obj\Debug\_08.ReplaceStartWholeWordsOnly.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-7-TextFiles-Homework\08. ReplaceStartWholeWordsOnly\bin\Debug\_08.ReplaceStartWholeWordsOnly.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-7-TextFiles-Homework\08. ReplaceStartWholeWordsOnly\bin\Debug\_08.ReplaceStartWholeWordsOnly.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-7-TextFiles-Homework\08. ReplaceStartWholeWordsOnly\obj\Debug\08. ReplaceStartWholeWordsOnly.csprojResolveAssemblyReference.cache
