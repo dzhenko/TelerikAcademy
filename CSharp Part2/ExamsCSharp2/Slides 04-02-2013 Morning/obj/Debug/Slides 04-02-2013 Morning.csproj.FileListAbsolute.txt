@@ -1,0 +1,5 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\Slides 04-02-2013 Morning\bin\Debug\Slides 04-02-2013 Morning.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\Slides 04-02-2013 Morning\bin\Debug\Slides 04-02-2013 Morning.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\Slides 04-02-2013 Morning\obj\Debug\Slides 04-02-2013 Morning.csprojResolveAssemblyReference.cache
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\Slides 04-02-2013 Morning\obj\Debug\Slides 04-02-2013 Morning.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\Slides 04-02-2013 Morning\obj\Debug\Slides 04-02-2013 Morning.pdb

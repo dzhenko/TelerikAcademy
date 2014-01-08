@@ -95,6 +95,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lines  Part 2 - Test Exam 2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3D MaxWalk - Sample Exam 2011-201", "3D MaxWalk - Sample Exam 2011-201\3D MaxWalk - Sample Exam 2011-201.csproj", "{149F3BC5-A814-4771-A8E5-5368D4FBD5F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slides 04-02-2013 Morning", "Slides 04-02-2013 Morning\Slides 04-02-2013 Morning.csproj", "{E87CB8F3-1EC6-459C-B0C5-F2ACB0633672}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -285,6 +287,10 @@ Global
 		{149F3BC5-A814-4771-A8E5-5368D4FBD5F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{149F3BC5-A814-4771-A8E5-5368D4FBD5F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{149F3BC5-A814-4771-A8E5-5368D4FBD5F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E87CB8F3-1EC6-459C-B0C5-F2ACB0633672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E87CB8F3-1EC6-459C-B0C5-F2ACB0633672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E87CB8F3-1EC6-459C-B0C5-F2ACB0633672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E87CB8F3-1EC6-459C-B0C5-F2ACB0633672}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
