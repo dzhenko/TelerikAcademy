@@ -1,6 +1,0 @@
-c:\users\penev\documents\visual studio 2012\Projects\Recursion\RecursionTest\bin\Debug\RecursionTest.exe.config
-c:\users\penev\documents\visual studio 2012\Projects\Recursion\RecursionTest\bin\Debug\RecursionTest.exe
-c:\users\penev\documents\visual studio 2012\Projects\Recursion\RecursionTest\bin\Debug\RecursionTest.pdb
-c:\users\penev\documents\visual studio 2012\Projects\Recursion\RecursionTest\obj\Debug\RecursionTest.csprojResolveAssemblyReference.cache
-c:\users\penev\documents\visual studio 2012\Projects\Recursion\RecursionTest\obj\Debug\RecursionTest.exe
-c:\users\penev\documents\visual studio 2012\Projects\Recursion\RecursionTest\obj\Debug\RecursionTest.pdb

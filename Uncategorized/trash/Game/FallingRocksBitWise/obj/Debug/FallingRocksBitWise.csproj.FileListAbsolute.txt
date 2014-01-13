@@ -1,6 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\Game\FallingRocksBitWise\bin\Debug\FallingRocksBitWise.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\Game\FallingRocksBitWise\bin\Debug\FallingRocksBitWise.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\Game\FallingRocksBitWise\bin\Debug\FallingRocksBitWise.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\Game\FallingRocksBitWise\obj\Debug\FallingRocksBitWise.csprojResolveAssemblyReference.cache
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\Game\FallingRocksBitWise\obj\Debug\FallingRocksBitWise.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\Game\FallingRocksBitWise\obj\Debug\FallingRocksBitWise.pdb

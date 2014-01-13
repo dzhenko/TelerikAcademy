@@ -1,5 +1,0 @@
-c:\users\dzhenko\documents\visual studio 2013\Projects\Book-16-LinearDataStructures\18.Labyrinth\bin\Debug\18.Labyrinth.exe.config
-c:\users\dzhenko\documents\visual studio 2013\Projects\Book-16-LinearDataStructures\18.Labyrinth\bin\Debug\18.Labyrinth.exe
-c:\users\dzhenko\documents\visual studio 2013\Projects\Book-16-LinearDataStructures\18.Labyrinth\bin\Debug\18.Labyrinth.pdb
-c:\users\dzhenko\documents\visual studio 2013\Projects\Book-16-LinearDataStructures\18.Labyrinth\obj\Debug\18.Labyrinth.exe
-c:\users\dzhenko\documents\visual studio 2013\Projects\Book-16-LinearDataStructures\18.Labyrinth\obj\Debug\18.Labyrinth.pdb

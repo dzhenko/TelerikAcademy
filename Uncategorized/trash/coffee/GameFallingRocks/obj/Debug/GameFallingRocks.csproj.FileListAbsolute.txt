@@ -1,6 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\coffee\GameFallingRocks\bin\Debug\GameFallingRocks.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\coffee\GameFallingRocks\bin\Debug\GameFallingRocks.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\coffee\GameFallingRocks\bin\Debug\GameFallingRocks.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\coffee\GameFallingRocks\obj\Debug\GameFallingRocks.csprojResolveAssemblyReference.cache
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\coffee\GameFallingRocks\obj\Debug\GameFallingRocks.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\coffee\GameFallingRocks\obj\Debug\GameFallingRocks.pdb

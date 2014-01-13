@@ -1,5 +1,0 @@
-c:\Users\Penev\documents\visual studio 2012\Projects\coffee\DRINK\bin\Debug\DRINK.exe.config
-c:\Users\Penev\documents\visual studio 2012\Projects\coffee\DRINK\bin\Debug\DRINK.exe
-c:\Users\Penev\documents\visual studio 2012\Projects\coffee\DRINK\bin\Debug\DRINK.pdb
-c:\Users\Penev\documents\visual studio 2012\Projects\coffee\DRINK\obj\Debug\DRINK.exe
-c:\Users\Penev\documents\visual studio 2012\Projects\coffee\DRINK\obj\Debug\DRINK.pdb

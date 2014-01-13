@@ -1,6 +1,0 @@
-c:\users\penev\documents\visual studio 2012\Projects\Pascal Triangle\Pascal Triangle\bin\Debug\Pascal Triangle.exe.config
-c:\users\penev\documents\visual studio 2012\Projects\Pascal Triangle\Pascal Triangle\bin\Debug\Pascal Triangle.exe
-c:\users\penev\documents\visual studio 2012\Projects\Pascal Triangle\Pascal Triangle\bin\Debug\Pascal Triangle.pdb
-c:\users\penev\documents\visual studio 2012\Projects\Pascal Triangle\Pascal Triangle\obj\Debug\Pascal Triangle.csprojResolveAssemblyReference.cache
-c:\users\penev\documents\visual studio 2012\Projects\Pascal Triangle\Pascal Triangle\obj\Debug\Pascal Triangle.exe
-c:\users\penev\documents\visual studio 2012\Projects\Pascal Triangle\Pascal Triangle\obj\Debug\Pascal Triangle.pdb

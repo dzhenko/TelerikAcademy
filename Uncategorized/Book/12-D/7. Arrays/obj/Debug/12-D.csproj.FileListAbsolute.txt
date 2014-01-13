@@ -1,6 +1,0 @@
-c:\users\penev\documents\visual studio 2012\Projects\Book\12-D\7. Arrays\bin\Debug\_7.Arrays.exe.config
-c:\users\penev\documents\visual studio 2012\Projects\Book\12-D\7. Arrays\bin\Debug\_7.Arrays.exe
-c:\users\penev\documents\visual studio 2012\Projects\Book\12-D\7. Arrays\bin\Debug\_7.Arrays.pdb
-c:\users\penev\documents\visual studio 2012\Projects\Book\12-D\7. Arrays\obj\Debug\12-D.csprojResolveAssemblyReference.cache
-c:\users\penev\documents\visual studio 2012\Projects\Book\12-D\7. Arrays\obj\Debug\_7.Arrays.exe
-c:\users\penev\documents\visual studio 2012\Projects\Book\12-D\7. Arrays\obj\Debug\_7.Arrays.pdb

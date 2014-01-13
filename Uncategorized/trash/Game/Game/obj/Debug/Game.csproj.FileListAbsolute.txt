@@ -1,9 +1,0 @@
-c:\users\penev\documents\visual studio 2012\Projects\Game\Game\bin\Debug\Game.exe.config
-c:\users\penev\documents\visual studio 2012\Projects\Game\Game\bin\Debug\Game.exe
-c:\users\penev\documents\visual studio 2012\Projects\Game\Game\bin\Debug\Game.pdb
-c:\users\penev\documents\visual studio 2012\Projects\Game\Game\obj\Debug\Game.csprojResolveAssemblyReference.cache
-c:\users\penev\documents\visual studio 2012\Projects\Game\Game\obj\Debug\Game.exe
-c:\users\penev\documents\visual studio 2012\Projects\Game\Game\obj\Debug\Game.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\Game\Game\bin\Debug\Game.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\Game\Game\obj\Debug\Game.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\Game\Game\obj\Debug\Game.pdb

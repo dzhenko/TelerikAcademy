@@ -1,5 +1,0 @@
-C:\Users\Penev\documents\visual studio 2012\Projects\Book-10-Recursion\2. CombosDuplicatesNelementsKnumber\bin\Debug\_2.CombosDuplicatesNelementsKnumber.exe.config
-C:\Users\Penev\documents\visual studio 2012\Projects\Book-10-Recursion\2. CombosDuplicatesNelementsKnumber\bin\Debug\_2.CombosDuplicatesNelementsKnumber.exe
-C:\Users\Penev\documents\visual studio 2012\Projects\Book-10-Recursion\2. CombosDuplicatesNelementsKnumber\bin\Debug\_2.CombosDuplicatesNelementsKnumber.pdb
-C:\Users\Penev\documents\visual studio 2012\Projects\Book-10-Recursion\2. CombosDuplicatesNelementsKnumber\obj\Debug\_2.CombosDuplicatesNelementsKnumber.exe
-C:\Users\Penev\documents\visual studio 2012\Projects\Book-10-Recursion\2. CombosDuplicatesNelementsKnumber\obj\Debug\_2.CombosDuplicatesNelementsKnumber.pdb

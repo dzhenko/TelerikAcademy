@@ -1,6 +1,0 @@
-C:\Users\Penev\documents\visual studio 2012\Projects\Book-10-Recursion\3. VariationsDuplicatesNelementsKnumber\bin\Debug\_3.VariationsDuplicatesNelementsKnumber.exe.config
-C:\Users\Penev\documents\visual studio 2012\Projects\Book-10-Recursion\3. VariationsDuplicatesNelementsKnumber\bin\Debug\_3.VariationsDuplicatesNelementsKnumber.exe
-C:\Users\Penev\documents\visual studio 2012\Projects\Book-10-Recursion\3. VariationsDuplicatesNelementsKnumber\bin\Debug\_3.VariationsDuplicatesNelementsKnumber.pdb
-C:\Users\Penev\documents\visual studio 2012\Projects\Book-10-Recursion\3. VariationsDuplicatesNelementsKnumber\obj\Debug\_3.VariationsDuplicatesNelementsKnumber.exe
-C:\Users\Penev\documents\visual studio 2012\Projects\Book-10-Recursion\3. VariationsDuplicatesNelementsKnumber\obj\Debug\_3.VariationsDuplicatesNelementsKnumber.pdb
-C:\Users\Penev\documents\visual studio 2012\Projects\Book-10-Recursion\3. VariationsDuplicatesNelementsKnumber\obj\Debug\3. VariationsDuplicatesNelementsKnumber.csprojResolveAssemblyReference.cache

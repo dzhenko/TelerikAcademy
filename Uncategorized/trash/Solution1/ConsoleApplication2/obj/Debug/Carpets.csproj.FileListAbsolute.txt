@@ -1,9 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\Solution1\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\Solution1\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\Solution1\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\Solution1\ConsoleApplication2\obj\Debug\Carpets.csprojResolveAssemblyReference.cache
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\Solution1\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\Solution1\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\Solution1\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\Solution1\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\Solution1\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb

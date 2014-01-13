@@ -1,3 +1,6 @@
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\AcademyTasks\bin\Debug\AcademyTasks.exe.config
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\AcademyTasks\obj\Debug\AcademyTasks.exe
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\AcademyTasks\obj\Debug\AcademyTasks.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\AcademyTasks\bin\Debug\AcademyTasks.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\AcademyTasks\obj\Debug\AcademyTasks.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\AcademyTasks\obj\Debug\AcademyTasks.pdb

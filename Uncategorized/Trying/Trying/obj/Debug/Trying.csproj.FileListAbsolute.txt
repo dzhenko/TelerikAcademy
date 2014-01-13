@@ -1,6 +1,0 @@
-c:\users\penev\documents\visual studio 2012\Projects\Trying\Trying\bin\Debug\Trying.exe.config
-c:\users\penev\documents\visual studio 2012\Projects\Trying\Trying\bin\Debug\Trying.exe
-c:\users\penev\documents\visual studio 2012\Projects\Trying\Trying\bin\Debug\Trying.pdb
-c:\users\penev\documents\visual studio 2012\Projects\Trying\Trying\obj\Debug\Trying.csprojResolveAssemblyReference.cache
-c:\users\penev\documents\visual studio 2012\Projects\Trying\Trying\obj\Debug\Trying.exe
-c:\users\penev\documents\visual studio 2012\Projects\Trying\Trying\obj\Debug\Trying.pdb
