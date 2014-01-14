@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+    <title> dom.4.3 </title>
+</head>
+<body>
+
+    <header>
+        <h1><a href="#">  LinkedIn  </a> </h1>
+        <nav>
+            <ul typeof="circle">
+                <li> <a href="#"> Home </a> </li>
+                <li> <a href="#"> What is LinkedIn </a> </li>
+                <li> <a href="#"> Join Today </a> </li>
+                <li>
+                    <form name="signin" action="#" method="post">
+                        <fieldset>
+                            <legend>Sign In</legend>
+                            <ul typeof="disk">
+                                <li>
+                                    <label for="Email"/>
+                                        Email
+                                        <input type="text" id="Email" name="Email" placeholder="example@domein.com">
+                                </li>
+                                <li>
+                                    <label for="Password"/>
+                                        Password
+                                        <input type="Password" id="Password" name="Password" placeholder="**********">
+                                </li>
+                                <li> <input type="submit" name="signin" value="Sign In"> </li>
+                            </ul>
+                        </fieldset>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1>
+            Over 175 million professionals use LinkedIn to exchange information,
+            ideas and opportunities
+        </h1>
+        <ul typeof="circle">
+            <li> Stay informed about your contacts and indrustry </li>
+            <li> Find the people & knowledge you need to achieve your goals </li>
+            <li> Control your professional identity online </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2> Join LinkedIn Today </h2>
+        <form name="register" action="#" method="post">
+            <fieldset>
+                <legend> Sign Up </legend>
+                <ul typeof="slides">
+                    <li>
+                        First Name <br />
+                        <input type="text" name="FirstName">
+                    </li>
+                    <li>
+                        Last Name <br />
+                        <input type="text" name="LastName">
+                    </li>
+                    <li>
+                        Email <br />
+                        <input type="email" name="email">
+                    </li>
+                    <li>
+                        Password <br />
+                        <input type="password" name="password"> <br />
+                        6 or more characters
+                    </li>
+                </ul>
+                <input type="submit" name="register" value="Join Now"><br />
+                Already on LinkedIn? <a href="#"> Sign in</a>
+            </fieldset>
+        </form>
+    </section>
+
+    <section>
+        <h3> Search for someone by name: </h3>
+        <form name="search" action="#" method="get">
+            <ul typeof="circle">
+                <li> First name <input type="text" name="Firstname" placeholder="First Name"> </li>
+                <li> Last name <input type="text" name="Lastname" placeholder="Last Name"> </li>
+            </ul>
+            <br />
+            <input type="submit" value="Go" name="search">
+        </form>
+    </section>
+
+</body>
+</html>
