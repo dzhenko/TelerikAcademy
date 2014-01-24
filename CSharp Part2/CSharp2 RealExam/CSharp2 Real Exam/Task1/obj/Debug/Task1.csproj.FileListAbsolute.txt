@@ -1,0 +1,5 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\CSharp2 RealExam\CSharp2 Real Exam\Task1\bin\Debug\Task1.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\CSharp2 RealExam\CSharp2 Real Exam\Task1\bin\Debug\Task1.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\CSharp2 RealExam\CSharp2 Real Exam\Task1\obj\Debug\Task1.csprojResolveAssemblyReference.cache
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\CSharp2 RealExam\CSharp2 Real Exam\Task1\obj\Debug\Task1.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\CSharp2 RealExam\CSharp2 Real Exam\Task1\obj\Debug\Task1.pdb

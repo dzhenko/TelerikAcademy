@@ -1,0 +1,4 @@
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\CSharp2 RealExam\CSharp2 Real Exam\Task4\bin\Debug\Task4.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\CSharp2 RealExam\CSharp2 Real Exam\Task4\bin\Debug\Task4.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\CSharp2 RealExam\CSharp2 Real Exam\Task4\obj\Debug\Task4.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\CSharp2 RealExam\CSharp2 Real Exam\Task4\obj\Debug\Task4.pdb

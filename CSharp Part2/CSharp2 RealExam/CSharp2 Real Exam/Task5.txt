@@ -1,0 +1,82 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Numerics;
+
+namespace Task5ThirdTry
+{
+    class Program
+    {
+        public static BigInteger[,] grid;
+
+        public static int targetRow;
+        public static int targetCol;
+
+        public static int globalCounter = 0;
+
+        static void Main()
+        {
+            int[] NM = Console.ReadLine().Split().Select(int.Parse).ToArray();
+
+            int[] tXY = Console.ReadLine().Split().Select(int.Parse).ToArray();
+
+            grid = new BigInteger[NM[0], NM[1]];
+
+            targetRow = tXY[0];
+            targetCol = tXY[1];
+
+            int enemiesCount = int.Parse(Console.ReadLine());
+
+            //x = row
+            for (int i = 0; i <= targetRow; i++)
+            {
+                grid[i, 0] = 1;
+            }
+
+            for (int i = 0; i <= targetCol; i++)
+            {
+                grid[0, i] = 1;
+            }
+
+            for (int i = 0; i < enemiesCount; i++)
+            {
+                int[] enemyLine = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+                if (enemyLine[0] == 0)//row
+                {
+                    for (int e = enemyLine[1]; e <= targetCol; e++)
+                    {
+                        grid[0, e] = 0;
+                    }
+                }
+                else if (enemyLine[1] == 0)
+                {
+                    for (int e = enemyLine[0]; e <= targetRow; e++)
+                    {
+                        grid[e, 0] = 0;
+                    }
+                }
+                else
+                {
+                    grid[enemyLine[0], enemyLine[1]] = -1;
+                }
+            }
+
+            for (int row = 1; row <= targetRow; row++)
+            {
+                for (int col = 1; col <= targetCol; col++)
+                {
+                    if (grid[row,col] == -1)
+                    {
+                        grid[row, col] = 0;
+                    }
+                    else
+                    {
+                        grid[row, col] = grid[row - 1, col] + grid[row, col - 1];
+                    }
+                }
+            }
+            Console.WriteLine(grid[targetRow,targetCol]);
+        }
+    }
+}
