@@ -11,8 +11,8 @@ public class GSM
     //private constants
     private const decimal defaultPrice = 1800;
     private const string defaultOwner = "JCorp";
-    private readonly Battery defaultBattery = new Battery();
-    private readonly Display defaultDisplay = new Display();
+    private const Battery defaultBattery = new Battery();
+    private const Display defaultDisplay = new Display();
 
     //private fields
     private string model;
@@ -26,6 +26,25 @@ public class GSM
     private static readonly GSM iphone4S = new GSM("Iphone 4S", "Apple", 1300.00m, "Globul",
                                                 new Battery("Apple", 8, 200, Battery.Type.LiPo),
                                                 new Display(960, 640, 16000000));
+
+    //default constructor with only model and manufacturer (can not be empty)
+    public GSM(string model, string manufacturer)
+        : this(model, manufacturer, defaultPrice, defaultOwner, defaultBattery, defaultDisplay)
+    {
+        this.Model = model;
+        this.Manufacturer = manufacturer;
+    }
+
+    //constructor with full arguments
+    public GSM(string model, string manufacturer, decimal price, string owner, Battery battery, Display display)
+    {
+        this.Model = model;
+        this.Manufacturer = manufacturer;
+        this.Price = price;
+        this.Owner = owner;
+        this.Battery = battery;
+        this.Display = display;
+    }
 
     //property model
     public string Model
@@ -96,29 +115,7 @@ public class GSM
         get { return display; }
         set { this.display = value; } //data validity checked in display class
     }
-
-    //default constructor with only model and manufacturer (can not be empty)
-    public GSM(string model, string manufacturer) 
-    {
-        this.Model = model;
-        this.Manufacturer = manufacturer;
-        this.Price = defaultPrice;
-        this.Owner = defaultOwner;
-        this.Battery = defaultBattery;
-        this.Display = defaultDisplay;
-    }
-
-    //constructor with full arguments
-    public GSM(string model, string manufacturer, decimal price, string owner, Battery battery, Display display)
-    {
-        this.Model = model;
-        this.Manufacturer = manufacturer;
-        this.Price = price;
-        this.Owner = owner;
-        this.Battery = battery;
-        this.Display = display;
-    }
-
+        
     //static IPhone4S getter
     public static GSM IPhone4S
     {
