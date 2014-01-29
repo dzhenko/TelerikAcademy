@@ -12,6 +12,18 @@ public class Display
     private int width;
     private long numberOfColors;
 
+    //constructor with default properties
+    public Display()
+        : this(defaultHeight, defaultWidth, defaultNumberOfColors) { }
+
+    //constructor with input properties
+    public Display(int height, int width, long numberOfColors)
+    {
+        this.Height = height;
+        this.Width = width;
+        this.NumberOfColors = numberOfColors;
+    }
+
     //property height
     public int Height
     {
@@ -55,29 +67,12 @@ public class Display
         }
         set 
         { 
-            if (value <= 1)
+            if (value <= 0)
             {
-                throw new ArgumentException("Number of colors must be > 1");
+                throw new ArgumentException("Number of colors must be > 0");
             }
             numberOfColors = value; 
         }
     }
-
-    //constructor with default properties
-    public Display()
-    {
-        this.Height = defaultHeight;
-        this.Width = defaultWidth;
-        this.NumberOfColors = defaultNumberOfColors;
-    }
-
-    //constructor with input properties
-    public Display(int height,int width, long numberOfColors)
-    {
-        this.Height = height;
-        this.Width = width;
-        this.NumberOfColors = numberOfColors;
-    }
-
 }
 

@@ -4,7 +4,7 @@ class UnitTester
 {
     static void Main()
     {
-        //GSMTest();
+        GSMTest();
 
         GSMCallHistoryTest();
     }

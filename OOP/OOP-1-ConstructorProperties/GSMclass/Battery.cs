@@ -14,10 +14,24 @@ public class Battery
     private const uint defaultHoursIdle = 200;
     private const Type defaultBatteryType = Type.AlienTech;
 
-    //enum for BatteryTypes
+    //enum for BatteryTypes // not in a seperate class because only this class uses it
     public enum Type
     {
         LiIon, NiMH, NiCd, LiPo, AlienTech
+    }
+
+
+    //empty constructor with preset values
+    public Battery()
+        : this(defaultModel, defaultHoursTalk, defaultHoursIdle, defaultBatteryType) { }
+
+    //full constructor
+    public Battery(string model, uint hoursTalk, uint hoursIdle, Type batteryType)
+    {
+        this.Model = model;
+        this.HoursTalk = hoursTalk;
+        this.HoursIdle = hoursIdle;
+        this.BatteryType = batteryType;
     }
 
     //propertiy model
@@ -83,25 +97,5 @@ public class Battery
             this.batteryType = value;
         }
     }
-
-    //empty constructor with preset values
-    public Battery()
-    {
-        this.Model = defaultModel;
-        this.HoursTalk = defaultHoursTalk;
-        this.HoursIdle = defaultHoursIdle;
-        this.BatteryType = defaultBatteryType;
-    }
-
-    //full constructor
-    public Battery(string model, uint hoursTalk, uint hoursIdle, Type batteryType)
-    {
-        this.Model = model;
-        this.HoursTalk = hoursTalk;
-        this.HoursIdle = hoursIdle;
-        this.BatteryType = batteryType;
-    }
-
-
 }
 
