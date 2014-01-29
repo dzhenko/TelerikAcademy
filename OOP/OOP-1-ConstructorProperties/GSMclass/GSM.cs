@@ -6,7 +6,7 @@ using System.Linq;
 public class GSM
 {
     //private constant callPrice
-    private const decimal callPricePerSecond = 0.006m;
+    private const decimal callPricePerSecond = 0.37m;
 
     //private constants
     private const decimal defaultPrice = 1800;
@@ -48,7 +48,7 @@ public class GSM
         {
             if (string.IsNullOrEmpty(value))
 	        {
-                throw new ArgumentException("Model can NOT be null or empty!");
+                throw new ApplicationException("Model can NOT be null or empty!");
 	        }
             this.model = value; 
         }
@@ -62,7 +62,7 @@ public class GSM
         {
             if (string.IsNullOrEmpty(value))
 	        {
-                throw new ArgumentException("Manufacturer can NOT be null or empty!");
+                throw new ApplicationException("Manufacturer can NOT be null or empty!");
 	        }
             this.manufacturer = value; 
         }
@@ -76,7 +76,7 @@ public class GSM
         {
             if (value < 0)
             {
-                throw new ArgumentException("Price can NOT be a negative number!");
+                throw new ApplicationException("Price can NOT be a negative number!");
             }
             this.price = value; 
         }
@@ -90,7 +90,7 @@ public class GSM
         {
             if (string.IsNullOrEmpty(value))
             {
-                throw new ArgumentException("Owner can NOT be null or empty!");
+                throw new ApplicationException("Owner can NOT be null or empty!");
             }
             this.owner = value; 
         }
@@ -159,7 +159,7 @@ public class GSM
     {
         if ((this.CallHistory.Count <= position - 1) || (position - 1 < 0))
         {
-            throw new ArgumentException("Such call history log does not exist!");
+            throw new ApplicationException("Such call history log does not exist!");
         }
         this.CallHistory.RemoveAt(position - 1);
     }
@@ -167,6 +167,7 @@ public class GSM
     //adds an index so users can choose which call to delete
     public void ShowCallHistory()
     {
+        Console.WriteLine("Current call history:");
         int indexer = 1;
         foreach (var call in this.CallHistory)
         {

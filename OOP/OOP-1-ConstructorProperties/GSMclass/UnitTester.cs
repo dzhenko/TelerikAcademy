@@ -21,14 +21,15 @@ class UnitTester
 
         testGsm.ShowCallHistory();
 
-        Console.WriteLine(testGsm.TotalCallPrice());
+        Console.WriteLine("Total call price: " + testGsm.TotalCallPrice());
 
         testGsm.DeleteCall(5);
+        Console.WriteLine("Removed Longest call!");
 
-        Console.WriteLine(testGsm.TotalCallPrice());
+        Console.WriteLine("Total call price: " + testGsm.TotalCallPrice());
 
         testGsm.ClearCallHistory();
-
+        Console.WriteLine("Cleared call history!");
         testGsm.ShowCallHistory();
     }
 

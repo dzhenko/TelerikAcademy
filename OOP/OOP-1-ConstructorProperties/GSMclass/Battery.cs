@@ -45,7 +45,7 @@ public class Battery
         {
             if (string.IsNullOrEmpty(value))
             {
-                throw new ArgumentException("Battery model can NOT be null or empty!");
+                throw new ApplicationException("Battery model can NOT be null or empty!");
             }
             this.model = value;
         }
@@ -62,7 +62,7 @@ public class Battery
         {
             if (value <= 0)
             {
-                throw new ArgumentException("Hours of talk time must be > 0!");
+                throw new ApplicationException("Hours of talk time must be > 0!");
             }
             this.hoursTalk = value;
         }
@@ -79,7 +79,7 @@ public class Battery
         {
             if (value <= 0)
             {
-                throw new ArgumentException("Hours of talk time must be > 0!");
+                throw new ApplicationException("Hours of talk time must be > 0!");
             }
             this.hoursIdle = value;
         }

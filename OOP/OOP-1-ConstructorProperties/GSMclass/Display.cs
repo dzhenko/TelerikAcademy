@@ -35,7 +35,7 @@ public class Display
         {
             if (value <= 0)
             {
-                throw new ArgumentException("Height must be > 0");
+                throw new ApplicationException("Height must be > 0");
             }
             this.height = value;
         }
@@ -52,7 +52,7 @@ public class Display
         {
             if (value <= 0)
             {
-                throw new ArgumentException("Width must be > 0");
+                throw new ApplicationException("Width must be > 0");
             }
             this.width = value;
         }
@@ -69,7 +69,7 @@ public class Display
         { 
             if (value <= 0)
             {
-                throw new ArgumentException("Number of colors must be > 0");
+                throw new ApplicationException("Number of colors must be > 0");
             }
             numberOfColors = value; 
         }
