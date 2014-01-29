@@ -11,8 +11,6 @@ public class GSM
     //private constants
     private const decimal defaultPrice = 1800;
     private const string defaultOwner = "JCorp";
-    private const Battery defaultBattery = new Battery();
-    private const Display defaultDisplay = new Display();
 
     //private fields
     private string model;
@@ -29,11 +27,7 @@ public class GSM
 
     //default constructor with only model and manufacturer (can not be empty)
     public GSM(string model, string manufacturer)
-        : this(model, manufacturer, defaultPrice, defaultOwner, defaultBattery, defaultDisplay)
-    {
-        this.Model = model;
-        this.Manufacturer = manufacturer;
-    }
+        : this(model, manufacturer, defaultPrice, defaultOwner, new Battery(), new Display()) { }
 
     //constructor with full arguments
     public GSM(string model, string manufacturer, decimal price, string owner, Battery battery, Display display)
