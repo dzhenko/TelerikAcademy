@@ -20,7 +20,7 @@ namespace _11.Attribute_Version
     }
 
 
-    [Version("3.14")]
+    [Version("2.11")]
     class TestAttributeClass
     {
         static void Main()
