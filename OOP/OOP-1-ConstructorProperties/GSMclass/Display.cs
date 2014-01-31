@@ -1,78 +1,80 @@
-﻿using System;
-
-public class Display
+﻿namespace GsmClass
 {
-    //private constants
-    private const int defaultHeight = 180;
-    private const int defaultWidth = 120;
-    private const long defaultNumberOfColors = 16000000;
+    using System;
 
-    //fields
-    private int height;
-    private int width;
-    private long numberOfColors;
-
-    //constructor with default properties
-    public Display()
-        : this(defaultHeight, defaultWidth, defaultNumberOfColors) { }
-
-    //constructor with input properties
-    public Display(int height, int width, long numberOfColors)
+    public class Display
     {
-        this.Height = height;
-        this.Width = width;
-        this.NumberOfColors = numberOfColors;
-    }
+        //private constants
+        private const int defaultHeight = 180;
+        private const int defaultWidth = 120;
+        private const long defaultNumberOfColors = 16000000;
 
-    //property height
-    public int Height
-    {
-        get
+        //fields
+        private int height;
+        private int width;
+        private long numberOfColors;
+
+        //constructor with default properties
+        public Display()
+            : this(defaultHeight, defaultWidth, defaultNumberOfColors) { }
+
+        //constructor with input properties
+        public Display(int height, int width, long numberOfColors)
         {
-            return this.height;
+            this.Height = height;
+            this.Width = width;
+            this.NumberOfColors = numberOfColors;
         }
-        set
+
+        //property height
+        public int Height
         {
-            if (value <= 0)
+            get
             {
-                throw new ApplicationException("Height must be > 0");
+                return this.height;
             }
-            this.height = value;
-        }
-    }
-
-    //property width
-    public int Width
-    {
-        get
-        {
-            return this.width;
-        }
-        set
-        {
-            if (value <= 0)
+            set
             {
-                throw new ApplicationException("Width must be > 0");
+                if (value <= 0)
+                {
+                    throw new ApplicationException("Height must be > 0");
+                }
+                this.height = value;
             }
-            this.width = value;
         }
-    }
 
-    //property numberOfColors
-    public long NumberOfColors
-    {
-        get 
-        { 
-            return numberOfColors; 
-        }
-        set 
-        { 
-            if (value <= 0)
+        //property width
+        public int Width
+        {
+            get
             {
-                throw new ApplicationException("Number of colors must be > 0");
+                return this.width;
             }
-            numberOfColors = value; 
+            set
+            {
+                if (value <= 0)
+                {
+                    throw new ApplicationException("Width must be > 0");
+                }
+                this.width = value;
+            }
+        }
+
+        //property numberOfColors
+        public long NumberOfColors
+        {
+            get
+            {
+                return numberOfColors;
+            }
+            set
+            {
+                if (value <= 0)
+                {
+                    throw new ApplicationException("Number of colors must be > 0");
+                }
+                numberOfColors = value;
+            }
         }
     }
 }
-

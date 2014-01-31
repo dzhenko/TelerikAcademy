@@ -18,7 +18,6 @@
             test1.AddPoint(new Point(1, 2, 3));
             test1.AddPoint(4, 5, 6);
 
-            Console.WriteLine(test1[1, 1]); //testing indexer
 
             Console.WriteLine(test1); // testing toString for a path
 

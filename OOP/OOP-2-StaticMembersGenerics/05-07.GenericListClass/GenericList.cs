@@ -1,7 +1,6 @@
 ﻿namespace GenericListClass
 {
     using System;
-    using System.Collections.Generic;
     using System.Linq;
     using System.Text;
 
@@ -9,11 +8,12 @@
         where T : IComparable
     {
         private T[] theList;
-        private int usedPositions = 0;
+        private int usedPositions;
 
         public GenericList(int size)
         {
-            theList = new T[size];
+            this.theList = new T[size];
+            this.usedPositions = 0;
         }
 
         public T this[int position]

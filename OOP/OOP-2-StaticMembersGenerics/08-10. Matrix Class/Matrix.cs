@@ -5,11 +5,16 @@
     using System.Text;
 
     public class Matrix<T>
-        where T : IComparable, IFormattable, IConvertible, IComparable<T>, IEquatable<T>
+        where T : IComparable
     {
-        private T[,] matrix; //field
+        private T[,] matrix; 
 
-        public int Rows //property
+        public Matrix(int rows, int cols) 
+        {
+            this.matrix = new T[rows, cols];
+        }
+
+        public int Rows 
         {
             get
             {
@@ -17,23 +22,22 @@
             }
         }
 
-        public int Columns //property
+        public int Columns 
         {
             get
             {
                 return this.matrix.GetLength(1);
             }
         }
-
-        public Matrix(int rows, int cols) //constructor
-        {
-            this.matrix = new T[rows, cols];
-        }
-
-        public T this[int row, int col] //indexer
+        
+        public T this[int row, int col] 
         {
             get
             {
+                if (row < 0 || row >= this.matrix.GetLength(0) || col < 0 || col >= this.matrix.GetLength(1))
+                {
+                    throw new IndexOutOfRangeException("Index out of range !");
+                }
                 return this.matrix[row, col];
             }
             set
@@ -59,6 +63,10 @@
 
         public static Matrix<T> operator +(Matrix<T> m1, Matrix<T> m2)
         {
+            if (m1 == null || m2 == null)
+            {
+                throw new ArgumentNullException("Matrix {0} is null !", m1 == null ? "1" : "2");
+            }
             if (m1.Rows != m2.Rows || m1.Columns != m2.Columns )
             {
                 throw new ArgumentException("Matreces must have same dimensions when summing !");
@@ -76,6 +84,10 @@
 
         public static Matrix<T> operator -(Matrix<T> m1, Matrix<T> m2)
         {
+            if (m1 == null || m2 == null)
+            {
+                throw new ArgumentNullException("Matrix {0} is null !", m1 == null ? "1" : "2");
+            }
             if (m1.Rows != m2.Rows || m1.Columns != m2.Columns )
             {
                 throw new ArgumentException("Matreces must have same dimensions when substracting !");
@@ -91,8 +103,12 @@
             return result;
         }
 
-        public static Matrix<T> operator *(Matrix<T> m1, Matrix<T> m2) // I dont Include the check for correct input data
+        public static Matrix<T> operator *(Matrix<T> m1, Matrix<T> m2)
         {
+            if (m1 == null || m2 == null)
+            {
+                throw new ArgumentNullException("Matrix {0} is null !", m1 == null ? "1" : "2");
+            }
             if (m1.Rows != m2.Columns)
             {
                 throw new ArgumentException("Matrix 1 rows and Matrix 2 columns must be the same number !");
@@ -111,7 +127,6 @@
                     result[row, col] = temp;
                 }
             }
-
             return result;
         }
 
@@ -127,7 +142,6 @@
                         return true;
                     }
                 }
-			 
 			}
             return false;
         }
@@ -143,7 +157,6 @@
                         return true;
                     }
                 }
-
             }
             return false;
         }
