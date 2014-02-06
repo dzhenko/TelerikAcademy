@@ -4,18 +4,16 @@
 
     public class Battery
     {
-        //fields
-        private string model;
-        private uint hoursTalk;
-        private uint hoursIdle;
-        private Type batteryType;
-
-        //preset values
         private const string defaultModel = "UnnamedModel";
         private const uint defaultHoursTalk = 100;
         private const uint defaultHoursIdle = 200;
         private const Type defaultBatteryType = Type.AlienTech;
 
+        private string model;
+        private uint hoursTalk;
+        private uint hoursIdle;
+        private Type batteryType;
+        
         //enum for BatteryTypes // not in a seperate class because only this class uses it
         public enum Type
         {
@@ -23,11 +21,9 @@
         }
 
 
-        //empty constructor with preset values
         public Battery()
             : this(defaultModel, defaultHoursTalk, defaultHoursIdle, defaultBatteryType) { }
 
-        //full constructor
         public Battery(string model, uint hoursTalk, uint hoursIdle, Type batteryType)
         {
             this.Model = model;
@@ -36,7 +32,6 @@
             this.BatteryType = batteryType;
         }
 
-        //propertiy model
         public string Model
         {
             get
@@ -53,7 +48,6 @@
             }
         }
 
-        //propertiy hoursTalk
         public uint HoursTalk
         {
             get
@@ -70,7 +64,6 @@
             }
         }
 
-        //propertiy hoursIdle
         public uint HoursIdle
         {
             get
@@ -87,7 +80,6 @@
             }
         }
 
-        //propertiy BatteryType
         public Type BatteryType
         {
             get

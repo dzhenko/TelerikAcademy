@@ -5,7 +5,6 @@
 
     class Call
     {
-        //private fields
         private DateTime dateTime;
         private string phoneNumber;
         private ulong duaration;
@@ -13,21 +12,23 @@
         //the only constructor - phonenumber and duaration needed
         public Call(string phonenumber, ulong duaration)
         {
-            this.dateTime = DateTime.Now;//setting the private field (there is no setter)
+            this.DateTime = DateTime.Now;
             this.PhoneNumber = phonenumber;
             this.Duaration = duaration;
         }
 
-        //property DateTime (readonly - setted in the constructor when instance is created (with DateTime.Now())
         public DateTime DateTime
         {
             get
             {
                 return this.dateTime;
             }
+            private set
+            {
+                this.dateTime = DateTime.Now;
+            }
         }
 
-        //property PhoneNumber
         public string PhoneNumber
         {
             get
@@ -48,7 +49,6 @@
             }
         }
 
-        //property Duaration
         public ulong Duaration
         {
             get
@@ -65,7 +65,6 @@
             }
         }
 
-        //better view for each call
         public override string ToString()
         {
             StringBuilder stringCreator = new StringBuilder();

@@ -43,7 +43,7 @@
   <ItemGroup>
     <Compile Include="Battery.cs" />
     <Compile Include="Call.cs" />
-    <Compile Include="UnitTester.cs" />
+    <Compile Include="GSMTester.cs" />
     <Compile Include="Display.cs" />
     <Compile Include="GSM.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -6,16 +6,16 @@
     {
         private static readonly Point start = new Point(0, 0, 0);
         
-        public int x { get;private set; }
-        public int y { get;private set; }
-        public int z { get;private set; }
+        public int X { get;private set; }
+        public int Y { get;private set; }
+        public int Z { get;private set; }
 
-        public Point(int X, int Y, int Z)
+        public Point(int coordX, int coordY, int coordZ)
             : this()
         {
-            this.x = X;
-            this.y = Y;
-            this.z = Z;
+            this.X = coordX;
+            this.Y = coordY;
+            this.Z = coordZ;
         }
 
         public static Point Start 
@@ -28,7 +28,7 @@
         
         public override string ToString()
         {
-            return string.Format("({0},{1},{2})", this.x, this.y, this.z);
+            return string.Format("({0},{1},{2})", this.X, this.Y, this.Z);
         }
     }
 }

@@ -2,3 +2,6 @@ C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\OOP-2-StaticMembersGeneri
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\OOP-2-StaticMembersGenerics-Homework\05-07.GenericListClass\obj\Debug\05-07 GenericListClass.pdb
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-2-StaticMembersGenerics\05-07.GenericListClass\obj\Debug\05-07 GenericListClass.exe
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-2-StaticMembersGenerics\05-07.GenericListClass\obj\Debug\05-07 GenericListClass.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-2-StaticMembersGenerics\05-07.GenericListClass\bin\Debug\05-07 GenericListClass.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-2-StaticMembersGenerics\05-07.GenericListClass\bin\Debug\05-07 GenericListClass.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-2-StaticMembersGenerics\05-07.GenericListClass\obj\Debug\05-07. GenericListClass.csprojResolveAssemblyReference.cache

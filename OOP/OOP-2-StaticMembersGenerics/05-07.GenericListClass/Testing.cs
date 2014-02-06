@@ -63,8 +63,6 @@
             test2.Add("angraer");
             Console.WriteLine(test2.Min());
             Console.WriteLine(test2.Max());
-
-
         }
     }
 }

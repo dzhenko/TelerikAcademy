@@ -8,4 +8,3 @@ C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-3-
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-3-ExtensionMethods-Delegates-Lambda-LINQ\02. IEnumerableSumProductMinMaxAverage\obj\Debug\_02.IEnumerableSumProductMinMaxAverage.pdb
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-3-ExtensionMethods-Delegates-Lambda-LINQ\02. IEnumerableSumProductMinMaxAverage\bin\Debug\_02.IEnumerableSumProductMinMaxAverage.exe
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-3-ExtensionMethods-Delegates-Lambda-LINQ\02. IEnumerableSumProductMinMaxAverage\bin\Debug\_02.IEnumerableSumProductMinMaxAverage.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-3-ExtensionMethods-Delegates-Lambda-LINQ\02. IEnumerableSumProductMinMaxAverage\obj\Debug\02. IEnumerableSumProductMinMaxAverage.csprojResolveAssemblyReference.cache

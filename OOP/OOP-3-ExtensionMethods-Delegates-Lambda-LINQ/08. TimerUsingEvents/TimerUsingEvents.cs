@@ -1,30 +1,46 @@
 ﻿//* Read in MSDN about the keyword event in C# and how to publish events. 
 //Re-implement the above using .NET events and following the best practices.
 
-using System;
-using System.Threading;
-
 namespace Events
 {
+    using System;
+    using System.Threading;
+
     public class TimeChangedEventArgs : EventArgs
     {
-        public int TickCount { get; set; }
+        public int TickCount { get; private set; }
         public TimeChangedEventArgs(int TickCount)
         {
             this.TickCount = TickCount;
         }
     }
+
     public delegate void TimeChangedEventHandler(object sender, TimeChangedEventArgs e);
+
     public class Timer
     {
         private int delay;
         private int clicks;
+
+        public Timer(int delay, int clicks)
+        {
+            this.Delay = delay;
+            this.Clicks = clicks;
+        }
 
         public int Delay 
         {
             get
             {
                 return this.delay;
+            }
+            private set
+            {
+                if (value < 0)
+                {
+                    throw new ArgumentException("Delay must be >= 0 !");
+                }
+                this.delay = value;
             }
         }
 
@@ -34,12 +50,14 @@ namespace Events
             {
                 return this.clicks;
             }
-        }
-
-        public Timer(int delay, int clicks)
-        {
-            this.delay = delay;
-            this.clicks = clicks;
+            private set
+            {
+                if (value <= 0)
+                {
+                    throw new ArgumentException("Clicks must be > 0 !");
+                }
+                this.clicks = value;
+            }
         }
 
         public event TimeChangedEventHandler TimeChanged;
@@ -68,6 +86,7 @@ namespace Events
             newThread.Start();
         }
     }
+
     public class Test
     {
         public static void Timer_TimeChanged(object sender, TimeChangedEventArgs e)

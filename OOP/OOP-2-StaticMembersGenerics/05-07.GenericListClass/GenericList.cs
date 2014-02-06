@@ -105,14 +105,32 @@
 
         public T Min()
         {
-            return this.theList.Min();
+            T minElement = theList[0];
+
+            for (int i = 1; i < theList.Length; i++)
+            {
+                if (minElement.CompareTo(theList[i]) > 0)
+                {
+                    minElement = theList[i];
+                }
+            }
+
+            return minElement;
         }
 
         public T Max()
         {
-            return this.theList.Max();
+            T maxElement = theList[0];
+
+            for (int i = 1; i < theList.Length; i++)
+            {
+                if (maxElement.CompareTo(theList[i]) < 0)
+                {
+                    maxElement = theList[i];
+                }
+            }
+
+            return maxElement;
         }
     }
-
-
 }

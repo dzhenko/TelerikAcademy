@@ -11,13 +11,14 @@ namespace Students
     using System;
     using System.Linq;
 
-    class Student
+    struct Student
     {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public int Age { get; set; }
+        public string FirstName { get; private set; }
+        public string LastName { get;  private set; }
+        public int Age { get; private set; }
 
-        public Student(string firstName,string lastname,int age)
+        public Student(string firstName,string lastname,int age) 
+            : this()
         {
             this.FirstName = firstName;
             this.LastName = lastname;
@@ -37,7 +38,7 @@ namespace Students
             //task 3
             var FirstNameBeforeLastNameAlphabetically = //thumbs up for the variable name :D
                     from student in students
-                    where student.FirstName.CompareTo(student.LastName) == -1
+                    where student.FirstName.CompareTo(student.LastName) < 0
                     select student;
 
             Console.WriteLine("First Name is before Last Name alphabetically : ");

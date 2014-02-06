@@ -87,8 +87,8 @@ namespace IEnumerableSumProductMinMaxAverage
             }
             return element;
         }
-
     }
+
     public class IEnumerable
     {
         static void Main()

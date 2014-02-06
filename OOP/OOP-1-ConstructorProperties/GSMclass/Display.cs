@@ -4,21 +4,17 @@
 
     public class Display
     {
-        //private constants
         private const int defaultHeight = 180;
         private const int defaultWidth = 120;
         private const long defaultNumberOfColors = 16000000;
 
-        //fields
         private int height;
         private int width;
         private long numberOfColors;
 
-        //constructor with default properties
         public Display()
             : this(defaultHeight, defaultWidth, defaultNumberOfColors) { }
 
-        //constructor with input properties
         public Display(int height, int width, long numberOfColors)
         {
             this.Height = height;
@@ -26,7 +22,6 @@
             this.NumberOfColors = numberOfColors;
         }
 
-        //property height
         public int Height
         {
             get
@@ -43,7 +38,6 @@
             }
         }
 
-        //property width
         public int Width
         {
             get
@@ -60,7 +54,6 @@
             }
         }
 
-        //property numberOfColors
         public long NumberOfColors
         {
             get

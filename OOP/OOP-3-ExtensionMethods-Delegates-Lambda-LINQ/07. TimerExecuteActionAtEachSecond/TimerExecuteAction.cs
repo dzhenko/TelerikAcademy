@@ -12,8 +12,24 @@ namespace TimerExecuteActionAtEachSecond
         private int count;
         private int interval; // in miliseconds
         private TimerEvent tE;
+        private int ticks;
 
-        public int ticks = 0;
+        //constructor with both thicks and interval in seconds
+        public Timer(int count, int interval, TimerEvent TE)
+        {
+            this.Count = count;
+            this.Interval = interval;
+            this.tE = TE;
+            this.ticks = 0;
+        }
+
+        //constructor with only interval in seconds and max thicks
+        public Timer(int interval, TimerEvent TE)
+            : this(int.MaxValue, interval, TE) { }
+
+        //empty constructor - max thicks and 1 second interval
+        public Timer(TimerEvent TE)
+            : this(int.MaxValue, 1, TE) { }
 
         public int Interval
         {
@@ -21,29 +37,30 @@ namespace TimerExecuteActionAtEachSecond
             {
                 return this.interval;
             }
-            set
+            private set
             {
+                if (value <= 0)
+                {
+                    throw new ArgumentException("Interval must be > 0 !");
+                }
                 this.interval = value * 1000;
             }
         }
 
-        public Timer(int count, int interval, TimerEvent TE) //constructor with both thicks and interval in seconds
+        public int Count
         {
-            this.count = count;
-            this.Interval = interval;
-            this.tE = TE;
-        }
-        public Timer(int interval, TimerEvent TE) //constructor with only interval in seconds and max thicks
-        {
-            this.Interval = interval;
-            this.count = int.MaxValue;
-            this.tE = TE;
-        }
-        public Timer(TimerEvent TE)//empty constructor - max thicks and 1 second interval
-        {
-            this.count = int.MaxValue;
-            this.Interval = 1;
-            this.tE = TE;
+            get
+            {
+                return this.count;
+            }
+            private set
+            {
+                if (value <= 0)
+                {
+                    throw new ArgumentException("Count must be > 0 !");
+                }
+                this.count = value;
+            }
         }
 
         public void Run()
@@ -88,6 +105,5 @@ namespace TimerExecuteActionAtEachSecond
         {
             Console.WriteLine("I am here every 5 seconds lol");
         }
-
     }
 }

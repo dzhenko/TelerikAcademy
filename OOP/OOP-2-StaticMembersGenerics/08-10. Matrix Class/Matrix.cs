@@ -5,9 +5,8 @@
     using System.Text;
 
     public class Matrix<T>
-        where T : IComparable
     {
-        private T[,] matrix; 
+        private T[,] matrix;
 
         public Matrix(int rows, int cols) 
         {
@@ -30,7 +29,7 @@
             }
         }
         
-        public T this[int row, int col] 
+        public T this[int row, int col]
         {
             get
             {
@@ -42,11 +41,15 @@
             }
             set
             {
+                if (row < 0 || row >= this.matrix.GetLength(0) || col < 0 || col >= this.matrix.GetLength(1))
+                {
+                    throw new IndexOutOfRangeException("Index out of range !");
+                }
                 this.matrix[row, col] = value;
             }
         }
 
-        public override string ToString() 
+        public override string ToString()
         {
             StringBuilder toStringer = new StringBuilder();
 
@@ -56,7 +59,7 @@
                 {
                     toStringer.Append(this.matrix[i, j] + " ");
                 }
-                toStringer.Append("\n");
+                toStringer.Append(Environment.NewLine);
             }
             return toStringer.ToString();
         }
@@ -66,12 +69,13 @@
             if (m1 == null || m2 == null)
             {
                 throw new ArgumentNullException("Matrix {0} is null !", m1 == null ? "1" : "2");
-            }
+            } 
             if (m1.Rows != m2.Rows || m1.Columns != m2.Columns )
             {
                 throw new ArgumentException("Matreces must have same dimensions when summing !");
             }
             Matrix<T> result = new Matrix<T>(m1.Rows, m1.Columns);
+
             for (int i = 0; i < m1.Rows; i++)
             {
                 for (int j = 0; j < m1.Columns; j++)
@@ -93,6 +97,7 @@
                 throw new ArgumentException("Matreces must have same dimensions when substracting !");
             }
             Matrix<T> result = new Matrix<T>(m1.Rows, m1.Columns);
+
             for (int i = 0; i < m1.Rows; i++)
             {
                 for (int j = 0; j < m1.Columns; j++)

@@ -19,6 +19,7 @@ namespace Matrix_Class
             test1[0, 1] = 2;
             test1[1, 0] = 3;
             test1[1, 1] = 4;
+
             if (test1)
             {
                 Console.WriteLine("damn NOW");
@@ -33,8 +34,6 @@ namespace Matrix_Class
             Console.WriteLine(test1+test2);
             Console.WriteLine(test1 - test2);
             Console.WriteLine(test1 * test2);
-
-
         }
     }
 }

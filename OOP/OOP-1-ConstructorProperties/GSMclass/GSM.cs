@@ -26,6 +26,7 @@
         private string owner;
         private Battery battery;
         private Display display;
+        private List<Call> CallHistory;
         
         //default constructor with only model and manufacturer (can not be empty)
         public GSM(string model, string manufacturer)
@@ -40,6 +41,8 @@
             this.Owner = owner;
             this.Battery = battery;
             this.Display = display;
+
+            this.CallHistory = new List<Call>();
         }
 
         //property model
@@ -56,7 +59,6 @@
             }
         }
 
-        //property manufacturer
         public string Manufacturer
         {
             get { return manufacturer; }
@@ -70,7 +72,6 @@
             }
         }
 
-        //property price
         public decimal Price
         {
             get { return price; }
@@ -84,7 +85,6 @@
             }
         }
 
-        //property owner
         public string Owner
         {
             get { return owner; }
@@ -98,21 +98,18 @@
             }
         }
 
-        //property battery
         public Battery Battery
         {
             get { return battery; }
             set { this.battery = value; } //data validity checked in battery class
         }
 
-        //property display
         public Display Display
         {
             get { return display; }
             set { this.display = value; } //data validity checked in display class
         }
 
-        //static IPhone4S getter
         public static GSM IPhone4S
         {
             get
@@ -121,7 +118,6 @@
             }
         }
 
-        //ToString override
         public override string ToString()
         {
             StringBuilder stringCreator = new StringBuilder();
@@ -146,9 +142,6 @@
 
             return stringCreator.ToString();
         }
-
-        //callhistory list
-        private List<Call> CallHistory = new List<Call>();
 
         //add call method (takes number as a string and duaration - dateTime is always NOW)
         public void AddCall(string currPhoneNumber, ulong currDuaration)
@@ -179,13 +172,11 @@
             }
         }
 
-        //clears the list
         public void ClearCallHistory()
         {
             this.CallHistory.Clear();
         }
 
-        //itterates trough all the calls and sums them
         public decimal TotalCallPrice()
         {
             ulong allDuaration = 0;

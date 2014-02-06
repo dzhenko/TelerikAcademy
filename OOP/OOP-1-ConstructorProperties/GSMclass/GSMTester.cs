@@ -2,7 +2,7 @@
 {
     using System;
     //sums all the test here
-    class UnitTester
+    class GSMTester
     {
         static void Main()
         {
