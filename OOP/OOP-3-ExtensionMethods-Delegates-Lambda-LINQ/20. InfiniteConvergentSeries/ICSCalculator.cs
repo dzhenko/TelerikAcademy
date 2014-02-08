@@ -121,7 +121,7 @@
 
             Console.WriteLine("--------------");
 
-            Console.WriteLine("Element {0} is {1} ", 11 - counterToShowAsInformation, answer);
+            Console.WriteLine("Element {0} is {1} ", ++counterToShowAsInformation, answer);
 
             while (Math.Abs(answer-prevAnswer) > precision)
             {
