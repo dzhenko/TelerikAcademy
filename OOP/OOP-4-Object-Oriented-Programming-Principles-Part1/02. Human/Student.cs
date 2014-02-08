@@ -1,8 +1,14 @@
 ﻿using System;
 
-class Student : Human
+public class Student : Human
 {
     private double grade;
+
+    public Student(string firstName, string secondName, double grade)
+        : base(firstName, secondName)
+    {
+        this.Grade = grade;
+    }
 
     public double Grade
     {
@@ -18,12 +24,6 @@ class Student : Human
             }
             this.grade = value;
         }
-    }
-
-    public Student(string firstName, string secondName, double grade)
-        : base(firstName, secondName)
-    {
-        this.Grade = grade;
     }
 }
 

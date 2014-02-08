@@ -3,6 +3,12 @@
     private double width;
     private double height;
 
+    public Shape(double width, double height)
+    {
+        this.Width = width;
+        this.Height = height;
+    }
+
     public double Width
     {
         get
@@ -34,12 +40,6 @@
             this.height = value;
         }
     }
-
-    public Shape(double width, double height)
-    {
-        this.Width = width;
-        this.Height = height;
-    }
-
+    
     public abstract double CalculateSurface();
 }

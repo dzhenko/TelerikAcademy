@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Person
+public abstract class Person
 {
     private string name;
     

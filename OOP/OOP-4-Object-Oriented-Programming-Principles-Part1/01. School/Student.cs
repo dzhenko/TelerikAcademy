@@ -4,13 +4,26 @@ public class Student : Person, ICommentable
 {
     private string comments;
     private int classNumber;
+
     public Student(string name,int classnum) : base(name) 
     {
-        if (classnum < 1)
+        this.ClassNumber = classnum;
+    }
+
+    public int ClassNumber
+    {
+        get
         {
-            throw new ArgumentException("Students class number must be greater than 0");
+            return this.classNumber;
         }
-        this.classNumber = classnum;
+        set
+        {
+            if (value < 1)
+            {
+                throw new ArgumentException("Students class number must be greater than 0");
+            }
+            this.classNumber = value;
+        }
     }
 
     public string Comments

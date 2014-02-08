@@ -1,9 +1,16 @@
 ﻿using System;
 
-class Worker : Human
+public class Worker : Human
 {
     private double workHoursPerDay;
     private double weekSalary;
+
+    public Worker(string firstName, string secondName, double WorkHoursPerDay, double WeekSalary)
+        : base(firstName, secondName)
+    {
+        this.WorkHoursPerDay = WorkHoursPerDay;
+        this.WeekSalary = WeekSalary;
+    }
 
     public double WorkHoursPerDay
     {
@@ -36,14 +43,7 @@ class Worker : Human
             this.weekSalary = value;
         }
     }
-
-    public Worker(string firstName, string secondName, double WorkHoursPerDay, double WeekSalary)
-        : base(firstName, secondName)
-    {
-        this.WorkHoursPerDay = WorkHoursPerDay;
-        this.WeekSalary = WeekSalary;
-    }
-
+    
     public double MoneyPerHour()
     {
         return this.weekSalary / this.workHoursPerDay;

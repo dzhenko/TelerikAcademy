@@ -1,19 +1,37 @@
-﻿public abstract class Acount
+﻿using System;
+
+public abstract class Acount
 {
     private Customer customer;
     private decimal balance;
     private decimal interestRate;
 
-    public Customer Customer { get { return this.customer; }  }
+    public Acount(Customer AcountCustomer, decimal AcountBalance, decimal AcountInterestRate)
+    {
+        this.Customer = AcountCustomer;
+        this.Balance = AcountBalance;
+        this.InterestRate = AcountInterestRate;
+    }
+
+    public Customer Customer
+    {
+        get
+        {
+            return this.customer;
+        }
+        private set
+        {
+            if (value == null)
+            {
+                throw new ArgumentException("Customer can not be null");
+            }
+            this.customer = value;
+        }
+    }
+
     public decimal Balance { get { return this.balance; } set { this.balance = value; } }
     public decimal InterestRate { get { return this.interestRate; } set { this.interestRate = value; } }
 
-    public Acount(Customer cstmr , decimal bal , decimal intr)
-    {
-        this.customer = cstmr;
-        this.Balance = bal;
-        this.InterestRate = intr;
-    }
 
     public virtual decimal CalculateInterestAmount(decimal periodInMonths)
     {

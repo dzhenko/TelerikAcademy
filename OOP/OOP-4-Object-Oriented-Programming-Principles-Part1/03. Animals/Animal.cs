@@ -49,7 +49,8 @@ public abstract class Animal : ISound
     public override string ToString()
     {
         return string.Format
-            ("I am an {0} and Im {1} years old and Im a {2}",this.name,this.age, this.isMale ? "Male" : "Female");
+            ("I am a {0} - My name is {1} and Im {2} years old and Im {3}"
+            ,this.GetType().Name, this.name, this.age, this.isMale ? "Male" : "Female");
     }
 
     public virtual void ProduceSound()

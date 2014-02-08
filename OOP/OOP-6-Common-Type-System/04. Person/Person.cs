@@ -6,6 +6,13 @@ public class Person
     private int? age;
     private string name;
 
+
+    public Person(string name, int? age = null)
+    {
+        this.Name = name;
+        this.Age = age;
+    }
+
     public int? Age
     {
         get
@@ -36,12 +43,6 @@ public class Person
             }
             this.name = value;
         }
-    }
-
-    public Person(string name,int? age = null)
-    {
-        this.Name = name;
-        this.Age = age;
     }
 
     public override string ToString()

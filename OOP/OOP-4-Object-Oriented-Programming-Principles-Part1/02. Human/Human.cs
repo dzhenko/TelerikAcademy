@@ -1,9 +1,15 @@
 ﻿using System;
 
-class Human
+public abstract class Human
 {
     private string firstName;
     private string lastName;
+
+    public Human(string firstName, string lastName)
+    {
+        this.FirstName = firstName;
+        this.LastName = lastName;
+    }
 
     public string FirstName
     {
@@ -36,13 +42,7 @@ class Human
             this.lastName = value;
         }
     }
-
-    public Human(string firstName,string lastName)
-    {
-        this.FirstName = firstName;
-        this.LastName = lastName;
-    }
-
+    
     public override string ToString()
     {
         return string.Format("{0} {1}", this.firstName, this.lastName);

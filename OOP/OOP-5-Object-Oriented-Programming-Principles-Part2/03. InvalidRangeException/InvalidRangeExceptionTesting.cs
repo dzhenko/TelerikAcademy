@@ -9,7 +9,7 @@ class InvalidRangeExceptionTesting
         int endInt = 100;
 
         int pointInInt;
-        Console.WriteLine("Enter Point in int");
+        Console.WriteLine("Enter Point in int from 1 to 100");
 
         try
         {
@@ -30,7 +30,7 @@ class InvalidRangeExceptionTesting
 
         DateTime dateTime;
         CultureInfo provider = CultureInfo.InvariantCulture;
-        Console.WriteLine("Enter your birthDate (Format : 06/15/2008 )");
+        Console.WriteLine("Enter your birthDate (Format : 06/15/2008 ) in range 01/01/1880 - NOW :) ");
 
         try
         {

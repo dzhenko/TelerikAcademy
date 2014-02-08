@@ -6,6 +6,7 @@ using System.Text;
 public class HumanTesting
 {
     public static Random mainRND = new Random();
+
     public static string GetRandomName()
     {
         StringBuilder name = new StringBuilder();

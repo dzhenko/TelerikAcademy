@@ -9,14 +9,23 @@ public class Class : ICommentable
 
     public Class(string textid, params Teacher[] Teachers)
     {
-        if (string.IsNullOrEmpty(textid))
+        this.TextID = textid;
+        this.teachers = new List<Teacher>(Teachers);
+    }
+
+    public string TextID
+    {
+        get
         {
-            throw new ArgumentException("Class Text Identifier can not be null or empty!");
+            return this.textIdentifier;
         }
-        this.teachers = new List<Teacher>();
-        foreach (Teacher t in Teachers)
+        set
         {
-            this.teachers.Add(t);
+            if (string.IsNullOrEmpty(value))
+            {
+                throw new ArgumentException("Class Text Identifier can not be null or empty!");
+            }
+            this.textIdentifier = value;
         }
     }
 

@@ -1,23 +1,23 @@
 ﻿using System;
+using System.Text;
+using System.Reflection;
 
 public class Student : ICloneable, IComparable<Student>
 {
-    public string FirstName { get; set; }
-    public string SecondName { get; set; }
-    public string FamilyName { get; set; }
+    private string firstName;
+    private string secondName;
+    private string familyName;
+    private string adress;
+    private ulong ssn;
+    private string mobilePhone;
+    private string email;
+    private string course;
+    private Speciality speciality;
+    private Faculty faculty;
+    private University university;
 
-    public string Adress { get; set; }
-    public int SSN { get; set; }
-    public string MobilePhone { get; set; }
-    public string Email { get; set; }
-
-    public string Course { get; set; }
-    public Speciality Speciality { get; set; }
-    public Faculty Faculty { get; set; }
-    public University University { get; set; }
-
-    public Student(string fname,string sname,string lname,string adress,int ssn,string mphone, string email
-                            ,string course , Speciality spec , Faculty fac , University uni)
+    public Student(string fname, string sname, string lname, string adress, ulong ssn, string mphone, string email
+                            , string course, Speciality spec, Faculty fac, University uni)
     {
         this.FirstName = fname;
         this.SecondName = sname;
@@ -32,11 +32,196 @@ public class Student : ICloneable, IComparable<Student>
         this.University = uni;
     }
 
+    public string FirstName 
+    { 
+        get
+        {
+            return this.firstName;
+        }
+        set
+        {
+            if (string.IsNullOrEmpty(value))
+            {
+                throw new ArgumentException("First Name can not be null or empty!");
+            }
+            this.firstName = value;
+        }
+    }
+
+    public string SecondName
+    {
+        get
+        {
+            return this.secondName;
+        }
+        set
+        {
+            if (string.IsNullOrEmpty(value))
+            {
+                throw new ArgumentException("Second Name can not be null or empty!");
+            }
+            this.secondName = value;
+        }
+    }
+
+    public string FamilyName
+    {
+        get
+        {
+            return this.familyName;
+        }
+        set
+        {
+            if (string.IsNullOrEmpty(value))
+            {
+                throw new ArgumentException("Family Name can not be null or empty!");
+            }
+            this.familyName = value;
+        }
+    }
+
+    public string Adress
+    {
+        get
+        {
+            return this.adress;
+        }
+        set
+        {
+            if (string.IsNullOrEmpty(value))
+            {
+                throw new ArgumentException("Address can not be null or empty!");
+            }
+            this.adress = value;
+        }
+    }
+    public ulong SSN
+    {
+        get
+        {
+            return this.ssn;
+        }
+        set
+        {
+            if (value.ToString().Length != 10 || value < 0)
+            {
+                throw new ArgumentException("SSN Must be a valid 10digit positive number!");
+            }
+            this.ssn = value;
+        }
+    }
+    public string MobilePhone
+    {
+        get
+        {
+            return this.mobilePhone;
+        }
+        set
+        {
+            if (string.IsNullOrEmpty(value))
+            {
+                throw new ArgumentException("Mobile Phone can not be null or empty!");
+            }
+            this.mobilePhone = value;
+        }
+    }
+    public string Email
+    {
+        get
+        {
+            return this.email;
+        }
+        set
+        {
+            if (string.IsNullOrEmpty(value))
+            {
+                throw new ArgumentException("Email can not be null or empty!");
+            }
+            this.email = value;
+        }
+    }
+
+    public string Course
+    {
+        get
+        {
+            return this.course;
+        }
+        set
+        {
+            if (string.IsNullOrEmpty(value))
+            {
+                throw new ArgumentException("Course can not be null or empty!");
+            }
+            this.course = value;
+        }
+    }
+
+    public Speciality Speciality
+    {
+        get
+        {
+            return this.speciality;
+        }
+        set
+        {
+            if (value == null)
+            {
+                throw new ArgumentException("Speciality can not be null!");
+            }
+            this.speciality = value;
+        }
+    }
+
+    public Faculty Faculty
+    {
+        get
+        {
+            return this.faculty;
+        }
+        set
+        {
+            if (value == null)
+            {
+                throw new ArgumentException("Faculty can not be null!");
+            }
+            this.faculty = value;
+        }
+    }
+
+    public University University
+    {
+        get
+        {
+            return this.university;
+        }
+        set
+        {
+            if (value == null)
+            {
+                throw new ArgumentException("University can not be null!");
+            }
+            this.university = value;
+        }
+    }
+    
     public override string ToString()
     {
-        return string.Format("{0} {1} {2} from {3} with SSN {4} MobilePhone {5} and Email {6} taking {7} course is currently studying {8} in the faculty of {9} in {10} University"
-            ,this.FirstName,this.SecondName,this.FamilyName,this.Adress,this.SSN,this.MobilePhone,this.Email
-            ,this.Course,this.Speciality,this.Faculty,this.University);
+        StringBuilder sb = new StringBuilder();
+
+        sb.AppendLine(new string('-',45));
+
+        var properties = this.GetType().GetProperties();
+
+        foreach (var prop in properties)
+        {
+            sb.AppendFormat("{0} : {1}",prop.Name.PadLeft(15),prop.GetValue(this));
+            sb.AppendLine();
+        }
+
+        sb.Append(new string('-', 45));
+
+        return sb.ToString();
     }
 
     public override bool Equals(object obj)

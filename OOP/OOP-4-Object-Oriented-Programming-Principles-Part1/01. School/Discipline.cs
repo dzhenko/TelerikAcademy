@@ -5,8 +5,15 @@ public class Discipline : ICommentable
 {
     private string name;
     private int numberOfLecturers;
-    private int numberOfExcersises;
+    private int numberOfExersises;
     private string comments;
+
+    public Discipline(string name, int numLecturers, int numExcercises)
+    {
+        this.Name = name;
+        this.NumberOfLecturers = numLecturers;
+        this.NumberOfExercises = numExcercises;
+    }
 
     public string Name
     {
@@ -44,7 +51,7 @@ public class Discipline : ICommentable
     {
         get
         {
-            return this.numberOfExcersises;
+            return this.numberOfExersises;
         }
         set
         {
@@ -52,17 +59,10 @@ public class Discipline : ICommentable
             {
                 throw new ArgumentException("The number of excercises can not be a negative number!");
             }
-            this.numberOfExcersises = value;
+            this.numberOfExersises = value;
         }
     }
-
-    public Discipline(string name, int numLecturers, int numExcercises)
-    {
-        this.Name = name;
-        this.numberOfLecturers = numLecturers;
-        this.numberOfExcersises = numExcercises;
-    }
-
+    
     public string Comments
     {
         get

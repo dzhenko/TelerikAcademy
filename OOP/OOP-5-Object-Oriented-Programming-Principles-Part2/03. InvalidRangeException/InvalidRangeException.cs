@@ -6,11 +6,28 @@ public class InvalidRangeException<T> : ApplicationException
     private T start;
     private T end;
 
+    public InvalidRangeException(string message, T start, T end, Exception e)
+        : base(message, e)
+    {
+        this.Start = start;
+        this.End = end;
+    }
+
+    public InvalidRangeException(string message, T start, T end)
+        : this(message, start, end, null) { }
+
+    public InvalidRangeException(T start, T end)
+        : this(null, start, end, null) { }
+
     public T Start
     {
         get
         {
             return this.start;
+        }
+        set
+        {
+            this.start = value;
         }
     }
 
@@ -29,17 +46,4 @@ public class InvalidRangeException<T> : ApplicationException
             this.end = value;
         }
     }
-    public InvalidRangeException(string message, T start, T end , Exception e)
-        : base(message,e)
-    {
-        this.start = start;
-        this.End = end;
-    }
-
-    public InvalidRangeException(string message, T start, T end)
-        : this(message, start, end, null) { }
-
-    public InvalidRangeException(T start, T end)
-        : this(null, start, end, null) { }
-    
 }

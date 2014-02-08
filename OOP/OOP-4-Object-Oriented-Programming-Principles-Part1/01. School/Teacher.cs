@@ -9,10 +9,7 @@ public class Teacher : Person, ICommentable
     public Teacher(string name, params Discipline[] inputDisciplines) : base(name)
     {
         disciplines = new List<Discipline>();
-        foreach (Discipline d in inputDisciplines)
-        {
-            this.disciplines.Add(d);
-        }
+        this.disciplines.AddRange(inputDisciplines);
     }
 
     public Discipline[] Disciplines
