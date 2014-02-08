@@ -4,6 +4,7 @@
 
     public class Battery
     {
+        //instead of null values..
         private const string defaultModel = "UnnamedModel";
         private const uint defaultHoursTalk = 100;
         private const uint defaultHoursIdle = 200;

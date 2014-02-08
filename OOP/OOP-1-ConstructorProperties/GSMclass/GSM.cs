@@ -16,6 +16,7 @@
         private const decimal callPricePerSecond = 0.37m;
 
         //private constants
+        //instead of null values..
         private const decimal defaultPrice = 1800;
         private const string defaultOwner = "JCorp";
 

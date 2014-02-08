@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. TimerUsingEvents", "08.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.-16. Students", "09.-16. Students\09.-16. Students.csproj", "{1960B691-5DC6-42F5-86CF-F2F85D7126F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20. InfiniteConvergentSeries", "20. InfiniteConvergentSeries\20. InfiniteConvergentSeries.csproj", "{CA446676-056A-43BA-B95B-CC909471B889}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{1960B691-5DC6-42F5-86CF-F2F85D7126F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1960B691-5DC6-42F5-86CF-F2F85D7126F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1960B691-5DC6-42F5-86CF-F2F85D7126F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA446676-056A-43BA-B95B-CC909471B889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA446676-056A-43BA-B95B-CC909471B889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA446676-056A-43BA-B95B-CC909471B889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA446676-056A-43BA-B95B-CC909471B889}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,6 +4,7 @@
 
     public class Display
     {
+        //instead of null values..
         private const int defaultHeight = 180;
         private const int defaultWidth = 120;
         private const long defaultNumberOfColors = 16000000;
