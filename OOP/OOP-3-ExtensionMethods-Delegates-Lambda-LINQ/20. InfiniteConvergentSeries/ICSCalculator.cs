@@ -339,6 +339,15 @@
         private static void ReadInput()
         {
             Console.WriteLine("Enter the first 5 elements of the function: ");
+            Console.WriteLine("Examples :");
+            Console.WriteLine("1! + 2! – 3! + 4! -5!");
+            Console.WriteLine("1 + 1/2 + 1/3 + 1/4 + 1/5");
+            Console.WriteLine("1 + 1/2! + 1/4! + 1/8! + 1/16!");
+            Console.WriteLine("1 + 1/2! + 1/3! + 1/4! + 1/5!");
+            Console.WriteLine("1 + 1/2 - 1/4 + 1/8 - 1/16");
+            Console.WriteLine("1 + 1/2 + 1/4 + 1/8 + 1/16");
+            Console.WriteLine("Enter the first 5 elements of the function: ");
+
             string function = Console.ReadLine();
 
             function = function.Replace(" ", "");
