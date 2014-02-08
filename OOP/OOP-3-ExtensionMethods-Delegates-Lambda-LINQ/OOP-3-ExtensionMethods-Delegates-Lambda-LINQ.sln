@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.-16. Students", "09.-16.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20. InfiniteConvergentSeries", "20. InfiniteConvergentSeries\20. InfiniteConvergentSeries.csproj", "{CA446676-056A-43BA-B95B-CC909471B889}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17. MaxLengthString", "17. MaxLengthString\17. MaxLengthString.csproj", "{5EE405A4-231B-4498-8AFA-B34B2BDF2DB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18-19. StudentByGroup", "18-19. StudentByGroup\18-19. StudentByGroup.csproj", "{55FB573E-2EFC-4D83-8927-8CDC7613B09C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{CA446676-056A-43BA-B95B-CC909471B889}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA446676-056A-43BA-B95B-CC909471B889}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA446676-056A-43BA-B95B-CC909471B889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE405A4-231B-4498-8AFA-B34B2BDF2DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE405A4-231B-4498-8AFA-B34B2BDF2DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE405A4-231B-4498-8AFA-B34B2BDF2DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE405A4-231B-4498-8AFA-B34B2BDF2DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55FB573E-2EFC-4D83-8927-8CDC7613B09C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55FB573E-2EFC-4D83-8927-8CDC7613B09C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55FB573E-2EFC-4D83-8927-8CDC7613B09C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55FB573E-2EFC-4D83-8927-8CDC7613B09C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

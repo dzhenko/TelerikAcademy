@@ -1,0 +1,2 @@
+﻿Create a program that extracts all students grouped by GroupName and then prints them to the console. Use LINQ.
+Rewrite the previous using extension methods.
