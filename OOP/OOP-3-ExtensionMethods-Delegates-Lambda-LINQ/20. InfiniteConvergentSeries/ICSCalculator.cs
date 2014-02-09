@@ -38,6 +38,21 @@
             return one + two;
         }
 
+        private static double Multiplication(double one, double two)
+        {
+            return one * two;
+        }
+
+        private static double GetFactoriel(double number)
+        {
+            double answer = 1;
+            for (int i = 1; i <= number; i++)
+            {
+                answer *= (i);
+            }
+            return answer;
+        }
+
         private static void VoidSum()
         {
             prevAnswer = answer;
@@ -85,26 +100,6 @@
             elementToUseNextUP = GetNextElementUP(elementToUseNextUP, elementCreatorUp);
 
             return createElement;
-        }
-
-        private static double Multiplication(double one, double two)
-        {
-            return one * two;
-        }
-
-        private static double Divion(double one, double two)
-        {
-            return one / two;
-        }
-
-        private static double GetFactoriel(double number)
-        {
-            double answer = 1;
-            for (int i = 1; i <= number; i++)
-            {
-                answer *= (i);
-            }
-            return answer;
         }
 
         public static void Main()
