@@ -7,9 +7,9 @@
         public static double CalculateDistance(Point one,Point two)
         {
             return Math.Sqrt (
-                (two.x - one.x) * (two.x - one.x) +
-                (two.y - one.y) * (two.y - one.y) + 
-                (two.z - one.z) * (two.z - one.z) ) ;
+                (two.X - one.X) * (two.X - one.X) +
+                (two.Y - one.Y) * (two.Y - one.Y) + 
+                (two.Z - one.Z) * (two.Z - one.Z) ) ;
         }
     }
 }

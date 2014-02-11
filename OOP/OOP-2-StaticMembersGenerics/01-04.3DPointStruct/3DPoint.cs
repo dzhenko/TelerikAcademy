@@ -6,11 +6,11 @@
     {
         private static readonly Point start = new Point(0, 0, 0);
         
-        public int X { get;private set; }
-        public int Y { get;private set; }
-        public int Z { get;private set; }
+        public double X { get;private set; }
+        public double Y { get;private set; }
+        public double Z { get;private set; }
 
-        public Point(int coordX, int coordY, int coordZ)
+        public Point(double coordX, double coordY, double coordZ)
             : this()
         {
             this.X = coordX;

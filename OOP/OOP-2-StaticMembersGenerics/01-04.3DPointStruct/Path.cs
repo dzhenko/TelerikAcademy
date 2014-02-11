@@ -36,7 +36,7 @@
             {
                 toStringer.AppendFormat("Point {0} --> ", pathIndexer);
                 pathIndexer++;
-                toStringer.AppendFormat("{0} , {1} , {2} \r\n", point.x,point.y,point.z);
+                toStringer.AppendFormat("{0} , {1} , {2} \r\n", point.X,point.Y,point.Z);
             }
             return toStringer.ToString();
         }
