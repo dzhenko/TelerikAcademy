@@ -22,7 +22,7 @@ namespace DivisableBy3and7
 
             Console.WriteLine("LINQ : ");
             var NumbersDivisableBy3and7LINQ = from num in nums
-                                              where num % 35 == 0
+                                              where num % 21 == 0
                                               select num;
 
             foreach (var item in NumbersDivisableBy3and7LINQ)
