@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JustCodeSettings Version="0.0" Timestamp="d3e5de88-80d6-4479-aeeb-022ceca70ab6">
+  <IgnoredErrorsAndWarningsSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <IgnoredErrorsAndWarnings Version="2">
+      <FilePath>
+        <FileRelativePath>05.%20BitArray64/BitArray.cs</FileRelativePath>
+        <ProjectRelativePath>05.%20BitArray64/05.%20BitArray64.csproj</ProjectRelativePath>
+        <IgnoredElement>
+          <TextualIdentifier>8202050466652637627</TextualIdentifier>
+        </IgnoredElement>
+      </FilePath>
+    </IgnoredErrorsAndWarnings>
+  </IgnoredErrorsAndWarningsSettings>
+</JustCodeSettings>

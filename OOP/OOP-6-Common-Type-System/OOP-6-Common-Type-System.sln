@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Person", "04. Person\04
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. BitArray64", "05. BitArray64\05. BitArray64.csproj", "{4F6A118B-E900-4B6B-8A2C-1404BEC6BD90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. AVNTree", "06. AVNTree\06. AVNTree.csproj", "{C013DCF3-5CB4-4BE1-B85C-AFE52A1C3F43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4F6A118B-E900-4B6B-8A2C-1404BEC6BD90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F6A118B-E900-4B6B-8A2C-1404BEC6BD90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F6A118B-E900-4B6B-8A2C-1404BEC6BD90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C013DCF3-5CB4-4BE1-B85C-AFE52A1C3F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C013DCF3-5CB4-4BE1-B85C-AFE52A1C3F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C013DCF3-5CB4-4BE1-B85C-AFE52A1C3F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C013DCF3-5CB4-4BE1-B85C-AFE52A1C3F43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

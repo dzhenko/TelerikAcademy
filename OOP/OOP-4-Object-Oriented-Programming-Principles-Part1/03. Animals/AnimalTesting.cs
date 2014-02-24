@@ -17,6 +17,10 @@ public class AnimalsTesting
         Kitten[] kitArr = FillKittenArr();
         Tomcat[] tomArr = FillTomArr();
 
+        Animal[] animals = new Animal[] { new Cat("cat", 2, true), new Dog("dog", 2, true), new Frog("frog", 2, true) };
+
+        Console.WriteLine(animals[1]);
+
        decimal averageAgeCats = Animal.AverageAge(catArr);
        decimal averageAgeDogs = Animal.AverageAge(dogArr);
        decimal averageAgeFrogs = Animal.AverageAge(frogArr);
