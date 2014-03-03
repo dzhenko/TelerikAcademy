@@ -12,6 +12,17 @@ namespace _03.ListOfIntsSorted
     {
         static void Main()
         {
+            List<int> allElements = ReadInput();
+
+            Console.WriteLine(string.Join(", ",allElements.OrderBy(x => x)));
+
+            SortByAscendingOrder(allElements);
+
+            Console.WriteLine(string.Join(", ",allElements));
+        }
+  
+        private static List<int> ReadInput()
+        {
             List<int> allElements = new List<int>();
 
             string line = Console.ReadLine();
@@ -21,13 +32,7 @@ namespace _03.ListOfIntsSorted
                 allElements.Add(int.Parse(line));
                 line = Console.ReadLine();
             }
-
-            SortByAscendingOrder(allElements);
-
-            for (int i = 0; i < allElements.Count; i++)
-            {
-                Console.WriteLine(allElements[i]);
-            }
+            return allElements;
         }
 
         private static void SortByAscendingOrder(List<int> allElements)

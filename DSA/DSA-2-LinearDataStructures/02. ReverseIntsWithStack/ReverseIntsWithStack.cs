@@ -28,6 +28,8 @@ namespace _02.ReverseIntsWithStack
             Console.WriteLine("Reversed order : ");
 
             Console.WriteLine(string.Join(", ",nums));
+
+            Console.WriteLine(nums.Count);
         }
     }
 }
