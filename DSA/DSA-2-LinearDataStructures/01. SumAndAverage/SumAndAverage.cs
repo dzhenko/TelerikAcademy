@@ -15,33 +15,21 @@ namespace _01.SumAndAverage
         {
             List<int> allElements = new List<int>();
 
+            Console.Write("Enter a number: ");
             string line = Console.ReadLine();
 
-            while (!string.IsNullOrEmpty(line))
+            int n;
+
+            while (int.TryParse(line, out n))
             {
-                allElements.Add(int.Parse(line));
+                allElements.Add(n);
+                Console.Write("Enter a number or something else to stop: ");
                 line = Console.ReadLine();
             }
 
-            Console.WriteLine(SumTheElements(allElements));
+            Console.WriteLine("The sum of all elements is: {0}",allElements.Sum());
 
-            Console.WriteLine(GetTheAverage(allElements));
-        }
-
-        private static double GetTheAverage(List<int> allElements)
-        {
-            return (double)SumTheElements(allElements) / allElements.Count;
-        }
-
-        private static int SumTheElements(List<int> allElements)
-        {
-            int sum = 0;
-            for (int i = 0; i < allElements.Count; i++)
-            {
-                sum += allElements[i];
-            }
-
-            return sum;
+            Console.WriteLine("The average of all elements is: {0}", allElements.Average());
         }
     }
 }
