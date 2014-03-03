@@ -8,7 +8,6 @@ namespace _01.SumAndAverage
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using System.Text;
 
     public class SumAndAverage
     {

@@ -4,20 +4,17 @@
 namespace _11.LinkedListImplementation
 {
     using System;
-    using System.Collections.Generic;
     using System.Linq;
-    using System.Text;
 
     public class JLinkedList<T>
     {
-        private ListItem<T> head;
-        private ListItem<T> tail;
+        private ListItem firstElement;
         private int count;
 
-        private class ListItem<T>
+        private class ListItem
         {
             private T value;
-            private ListItem<T> nextItem;
+            private ListItem nextItem;
 
             public T Value
             {
@@ -25,13 +22,13 @@ namespace _11.LinkedListImplementation
                 set { this.value = value; }
             }
 
-            public ListItem<T> Next
+            public ListItem Next
             {
                 get { return this.nextItem; }
                 set { this.nextItem = value; }
             }
 
-            public ListItem(T value, ListItem<T> previousItem)
+            public ListItem(T value, ListItem previousItem)
             {
                 this.value = value;
                 previousItem.Next = this;
@@ -46,22 +43,33 @@ namespace _11.LinkedListImplementation
 
         public JLinkedList()
         {
-            this.head = null;
-            this.tail = null;
+            this.firstElement = null;
             this.count = 0;
+        }
+
+        public T FirstElement
+        {
+            get
+            {
+                return this.firstElement.Value;
+            }
         }
 
         public void AddItem(T element)
         {
-            if (this.head == null)
+            if (this.firstElement == null)
             {
-                this.head = new ListItem<T>(element);
-                this.tail = this.head;
+                this.firstElement = new ListItem(element);
             }
 
             else
             {
-                this.tail = new ListItem<T>(element, this.tail);
+                var currentElement = this.firstElement;
+                while (currentElement.Next != null)
+                {
+                    currentElement = currentElement.Next;
+                }
+                currentElement.Next = new ListItem(element);
             }
             count++;
         }

@@ -18,6 +18,10 @@ namespace _11.LinkedListImplementation
             test.AddItem(18);
 
             Console.WriteLine(test.Count);
+
+            test.AddItem(22);
+
+            Console.WriteLine(test.Count);
         }
     }
 }

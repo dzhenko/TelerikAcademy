@@ -12,21 +12,22 @@ namespace _02.ReverseIntsWithStack
         {
             Stack<int> nums = new Stack<int>();
 
-            Console.Write("How many numbers are you going to add: ");
-            int n = int.Parse(Console.ReadLine());
+            Console.Write("Enter number or something else to stop: ");
 
-            for (int i = 0; i < n; i++)
+            string line = Console.ReadLine();
+
+            int n;
+
+            while (int.TryParse(line,out n))
             {
-                Console.Write("Enter number {0}: ",i+1);
-                nums.Push(int.Parse(Console.ReadLine()));
+                nums.Push(n);
+                Console.Write("Enter number or something else to stop: ");
+                line = Console.ReadLine();
             }
 
             Console.WriteLine("Reversed order : ");
 
-            for (int i = 0; i < n; i++)
-            {
-                Console.WriteLine("number {0}: is {1}", i + 1,nums.Pop());
-            }
+            Console.WriteLine(string.Join(", ",nums));
         }
     }
 }

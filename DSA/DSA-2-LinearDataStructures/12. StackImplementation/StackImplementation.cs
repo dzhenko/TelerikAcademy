@@ -1,4 +1,5 @@
-﻿//Implement the ADT stack as auto-resizable array. Resize the capacity on demand (when no space is available to add / insert a new element).
+﻿//Implement the ADT stack as auto-resizable array. 
+//Resize the capacity on demand (when no space is available to add / insert a new element).
 
 
 namespace _12.StackImplementation
@@ -10,7 +11,9 @@ namespace _12.StackImplementation
         private T[] array;
         private int pointer;
 
-        public JStack() : this(4) { }
+        private const int InitialSize = 4;
+
+        public JStack() : this(InitialSize) { }
 
         public JStack(int initialSize)
         {

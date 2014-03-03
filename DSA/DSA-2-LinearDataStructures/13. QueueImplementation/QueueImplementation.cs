@@ -22,6 +22,10 @@ namespace _13.QueueImplementation
 
         public T Peek()
         {
+            if (this.list.Count == 0)
+            {
+                throw new ArgumentException("The queue is empty!");
+            }
             return this.list.First.Value;
         }
 

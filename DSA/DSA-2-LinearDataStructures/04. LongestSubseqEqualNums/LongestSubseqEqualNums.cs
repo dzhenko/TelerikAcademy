@@ -43,10 +43,7 @@ namespace _04.LongestSubseqEqualNums
 
             List<int> answerr = GetSubSequenceOfEqualNumbers(test);
 
-            for (int i = 0; i < answerr.Count; i++)
-            {
-                Console.Write(answerr[i] + " ");
-            }
+            Console.WriteLine(string.Join(", ",answerr));
         }
     }
 }
