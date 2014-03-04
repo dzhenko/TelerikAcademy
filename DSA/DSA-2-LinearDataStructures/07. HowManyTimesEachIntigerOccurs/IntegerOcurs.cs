@@ -7,29 +7,19 @@
 namespace _07.HowManyTimesEachIntigerOccurs
 {
     using System;
-    using System.Collections.Generic;
     using System.Linq;
 
     public class IntegerOcurs
     {
         public static void Main()
         {
-            //using dictonary is too mainstream :D
-            int[] ocurances = new int[1001];
-
             int[] integers = new int[] { 3, 4, 4, 2, 3, 3, 4, 3, 2 };
 
-            foreach (var integer in integers)
-            {
-                ocurances[integer]++;
-            }
+            var dict = integers.GroupBy(x => x).ToDictionary(gr => gr.Key, gr => gr.Count());
 
-            foreach (var ocurance in ocurances)
+            foreach (var pair in dict)
             {
-                if (ocurance != 0)
-                {
-                    Console.WriteLine("{0} -> {1} times",ocurances[ocurance], ocurance);
-                }
+                Console.WriteLine("{0} --> {1} times",pair.Key,pair.Value);
             }
         }
     }

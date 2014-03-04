@@ -44,6 +44,7 @@ namespace _09.QueueSequence
                 queue.Enqueue(numToOperateOn + 2);
             }
 
+            //removing the last ", "
             sb.Length--;
             sb.Length--;
 

@@ -13,32 +13,14 @@ namespace _08.Majorant
     {
         public static void Main()
         {
-            Dictionary<int, int> counter = new Dictionary<int, int>();
-
+            //0 is the default for FirstOrDefault so 0 dont work here
             int[] array = new int[] { 2, 2, 3, 3, 2, 3, 4, 3, 3 };
 
-            foreach (var num in array)
-            {
-                if (counter.ContainsKey(num))
-                {
-                    counter[num]++;
-                }
-                else
-                {
-                    counter.Add(num, 1);
-                }
-            }
+            var dict = array.GroupBy(x => x).ToDictionary(gr => gr.Key, gr => gr.Count());
 
-            foreach (var dictItem in counter)
-            {
-                if (dictItem.Value >= ((array.Length / 2) + 1))
-                {
-                    Console.WriteLine(dictItem.Key);
-                    return;
-                }
-            }
+            var majElement = array.FirstOrDefault(x => dict[x] >= array.Length / 2 + 1);
 
-            Console.WriteLine("No majorant found!");
+            Console.WriteLine(majElement == 0 ? "No majorant found!" : "The majorant element is {0}",majElement);
         }
     }
 }

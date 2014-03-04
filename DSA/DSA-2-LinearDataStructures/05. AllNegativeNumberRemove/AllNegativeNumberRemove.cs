@@ -13,9 +13,9 @@ namespace _05.AllNegativeNumberRemove
         {
             List<int> sequence = new List<int>() {1,-4,22,-13,-11,2,0,88,-192 };
 
-            var newSequence = sequence.Where(x => x >= 0);
+            sequence.RemoveAll(x => x < 0);
 
-            Console.WriteLine(string.Join(", ", newSequence));
+            Console.WriteLine(string.Join(", ", sequence));
         }
     }
 }

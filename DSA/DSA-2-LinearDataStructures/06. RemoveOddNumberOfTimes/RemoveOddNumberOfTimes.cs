@@ -14,23 +14,11 @@ namespace _06.RemoveOddNumberOfTimes
         {
             List<int> listOfNumbers = new List<int>() { 4, 2, 2, 5, 2, 3, 2, 3, 1, 5, 2 };
 
-            Dictionary<int, int> numberOfOcurencies = new Dictionary<int, int>();
+            var dict = listOfNumbers.GroupBy(x => x).ToDictionary(gr => gr.Key, gr => gr.Count());
 
-            for (int i = 0; i < listOfNumbers.Count; i++)
-            {
-                if (numberOfOcurencies.ContainsKey(listOfNumbers[i]))
-                {
-                    numberOfOcurencies[listOfNumbers[i]]++;
-                }
-                else
-                {
-                    numberOfOcurencies.Add(listOfNumbers[i], 1);
-                }
-            }
+            listOfNumbers.RemoveAll(x => dict[x] % 2 != 0);
 
-            var answer = listOfNumbers.FindAll(x => numberOfOcurencies[x] % 2 == 0).ToList();
-
-            Console.WriteLine(string.Join(", ", answer));
+            Console.WriteLine(string.Join(", ",listOfNumbers));
         }
     }
 }
