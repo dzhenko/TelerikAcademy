@@ -4,12 +4,12 @@
 namespace _02.CWindowsExeTraversal
 {
     using System;
+    using System.Collections.Generic;
     using System.IO;
-    using System.Text;
 
     public class CWindows
     {
-        public static StringBuilder allExeFiles = new StringBuilder();
+        public static HashSet<string> allExeFiles = new HashSet<string>();
 
         public static void Main()
         {
@@ -17,23 +17,23 @@ namespace _02.CWindowsExeTraversal
 
             DFS(dirToBeguinWith);
 
-            Console.Write(allExeFiles);
+            Console.Write(string.Join(Environment.NewLine,allExeFiles));
         }
 
         private static void DFS(string dirToSearch)
         {
             try
             {
+                foreach (string file in Directory.GetFiles(dirToSearch))
+                {
+                    if (file.EndsWith(".exe"))
+                    {
+                        allExeFiles.Add(file);
+                    }
+                }
+
                 foreach (string dir in Directory.GetDirectories(dirToSearch))
                 {
-                    foreach (string file in Directory.GetFiles(dir))
-                    {
-                        if (file.EndsWith(".exe"))
-                        {
-                            allExeFiles.AppendLine(file);
-                        }
-                    }
-
                     DFS(dir);
                 }
             }
