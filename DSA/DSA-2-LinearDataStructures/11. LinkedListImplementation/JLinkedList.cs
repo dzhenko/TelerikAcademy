@@ -124,5 +124,17 @@ namespace _11.LinkedListImplementation
 
             return sb.ToString();
         }
+
+        public void AddFirst(T element)
+        {
+            var newNode = new ListItem(element);
+            newNode.Next = this.firstElement;
+            this.firstElement = newNode;
+        }
+
+        public void RemoveFirst()
+        {
+            this.firstElement = this.firstElement.Next;
+        }
     }
 }
