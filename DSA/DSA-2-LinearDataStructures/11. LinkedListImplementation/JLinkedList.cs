@@ -16,6 +16,12 @@ namespace _11.LinkedListImplementation
             private T value;
             private ListItem nextItem;
 
+            public ListItem(T value)
+            {
+                this.Value = value;
+                this.Next = null;
+            }
+
             public T Value
             {
                 get { return this.value; }
@@ -26,18 +32,6 @@ namespace _11.LinkedListImplementation
             {
                 get { return this.nextItem; }
                 set { this.nextItem = value; }
-            }
-
-            public ListItem(T value, ListItem previousItem)
-            {
-                this.value = value;
-                previousItem.Next = this;
-            }
-
-            public ListItem(T value)
-            {
-                this.value = value;
-                this.Next = null;
             }
         }
 
