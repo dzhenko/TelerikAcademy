@@ -11,17 +11,17 @@ namespace _11.LinkedListImplementation
         {
             var test = new JLinkedList<int>();
 
-            Console.WriteLine(test.Count);
-
             test.AddItem(7);
 
             test.AddItem(18);
 
-            Console.WriteLine(test.Count);
-
             test.AddItem(22);
 
-            Console.WriteLine(test.Count);
+            Console.WriteLine(test);
+
+            test.RemoveItem(181);
+
+            Console.WriteLine(test);
         }
     }
 }

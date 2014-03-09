@@ -5,11 +5,12 @@ namespace _11.LinkedListImplementation
 {
     using System;
     using System.Linq;
+    using System.Text;
 
     public class JLinkedList<T>
+        where T : IComparable
     {
         private ListItem firstElement;
-        private int count;
 
         private class ListItem
         {
@@ -33,12 +34,16 @@ namespace _11.LinkedListImplementation
                 get { return this.nextItem; }
                 set { this.nextItem = value; }
             }
+
+            public override string ToString()
+            {
+                return this.Value.ToString();
+            }
         }
 
         public JLinkedList()
         {
             this.firstElement = null;
-            this.count = 0;
         }
 
         public T FirstElement
@@ -65,9 +70,59 @@ namespace _11.LinkedListImplementation
                 }
                 currentElement.Next = new ListItem(element);
             }
-            count++;
         }
 
-        public int Count { get { return this.count; } }
+        public void RemoveItem(T element)
+        {
+            if (this.firstElement == null)
+            {
+                //emptyList
+                return;
+            }
+
+            var currentItem = this.firstElement;
+
+            if (currentItem.Value.CompareTo(element) == 0)
+            {
+                //even if null it will work OK
+                this.firstElement = currentItem.Next;
+                return;
+            }
+
+            while (currentItem.Next != null)
+            {
+                if (currentItem.Next.Value.CompareTo(element) == 0)
+                {
+                    currentItem.Next = currentItem.Next.Next;
+                    return;
+                }
+
+                currentItem = currentItem.Next;
+            }
+        }
+
+        public override string ToString()
+        {
+            if (this.firstElement == null)
+            {
+                return string.Format("[ ]");
+            }
+
+            StringBuilder sb = new StringBuilder("[ ");
+            
+            var currItem = this.firstElement;
+            sb.Append(currItem.Value);
+
+            while (currItem.Next != null)
+            {
+                sb.Append(", ");
+                sb.Append(currItem.Next);
+                currItem = currItem.Next;
+            }
+
+            sb.Append(" ]");
+
+            return sb.ToString();
+        }
     }
 }
