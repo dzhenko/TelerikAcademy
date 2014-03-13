@@ -9,30 +9,48 @@ namespace _01.DoublesCounter
     using System;
     using System.Collections.Generic;
     using System.Linq;
+    using System.Diagnostics;
 
     public class DoubleCounter
     {
         public static void Main()
         {
-            var array = new double[] { 3, 4, 4, -2.5, 3, 3, 4, 3, -2.5 };
+            var array = GetArrayWithRandomDoubleValues();
 
-            Console.WriteLine("1st way:");
+            Solve1stWay(array);
 
-            var dict1 = GetDictionaryFromIEnum1(array);
+            Console.WriteLine();
 
-            PrintResult(dict1);
-
-
-
-            Console.WriteLine("2nd way:");
-
-            var dict2 = GetDictionaryFromIEnum2(array);
-
-            PrintResult(dict2);
+            Solve2ndWay(array);
         }
 
-        private static Dictionary<double, int> GetDictionaryFromIEnum1(IEnumerable<double> array)
+        private static double[] GetArrayWithRandomDoubleValues()
         {
+            var array = new double[1000000];
+            var values = new double[] { 1.5, 4.9, -4.6, -2.5, 3.1, -3.77, 4.85, 3.1, -2.5 };
+            Random rnd = new Random();
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                array[i] = values[rnd.Next(0, values.Length)];
+            }
+
+            return array;
+        }
+
+        private static void PrintResult(IDictionary<double, int> dict)
+        {
+            foreach (var pair in dict)
+            {
+                Console.WriteLine("{0} --> {1} times", pair.Key, pair.Value);
+            }
+        }
+
+        private static void Solve1stWay(IEnumerable<double> array)
+        {
+            var sw = new Stopwatch();
+            sw.Start();
+
             var dict1 = new Dictionary<double, int>();
 
             foreach (var num in array)
@@ -46,21 +64,24 @@ namespace _01.DoublesCounter
                     dict1.Add(num, 1);
                 }
             }
-            return dict1;
+
+            sw.Stop();
+            Console.WriteLine("1st way: (" + sw.ElapsedTicks + " stopwatch ticks)");
+
+            PrintResult(dict1);
         }
 
-        private static Dictionary<double, int> GetDictionaryFromIEnum2(IEnumerable<double> array)
+        private static void Solve2ndWay(IEnumerable<double> array)
         {
+            var sw = new Stopwatch();
+            sw.Start();
+
             var dict2 = array.GroupBy(x => x).ToDictionary(g => g.Key, g => g.Count());
-            return dict2;
-        }
 
-        private static void PrintResult(IDictionary<double,int> dict)
-        {
-            foreach (var pair in dict)
-	        {
-                Console.WriteLine("{0} --> {1} times",pair.Key,pair.Value);
-	        }
+            sw.Stop();
+            Console.WriteLine("1st way: (" + sw.ElapsedTicks + " stopwatch ticks)");
+
+            PrintResult(dict2);
         }
     }
 }

@@ -12,43 +12,47 @@ namespace _02.OddNumberOfTimesElements
     {
         public static void Main()
         {
-            var array = new string[] {"C#","SQL","PHP","PHP","SQL","SQL","JAVA","C#","C#"
-            ,"SQL","PHP","PHP","SQL","SQL","JAVA","C#","C#","SQL","PHP","PHP","SQL","SQL","JAVA","C#","C#"
-            ,"SQL","PHP","PHP","SQL","SQL","JAVA","C#","C#","SQL","PHP","PHP","SQL","SQL","JAVA","C#","C#"
-            ,"SQL","PHP","PHP","SQL","SQL","JAVA","C#","C#","SQL","PHP","PHP","SQL","SQL","JAVA","C#","C#"
-            ,"SQL","PHP","PHP","SQL","SQL","JAVA","C#","C#","SQL","PHP","PHP","SQL","SQL","JAVA","C#","C#"
-            ,"SQL","PHP","PHP","SQL","SQL","JAVA","C#","C#","SQL","PHP","PHP","SQL","SQL","JAVA","C#","C#"
-            ,"SQL","PHP","PHP","SQL","SQL","JAVA","C#","C#","SQL","PHP","PHP","SQL","SQL","JAVA","C#","C#"
-            ,"SQL","PHP","PHP","SQL","SQL","JAVA","C#","C#","SQL","PHP","PHP","SQL","SQL","JAVA","C#","C#"
-            ,"SQL","PHP","PHP","SQL","SQL","JAVA","C#","C#","SQL","PHP","PHP","SQL","SQL","JAVA","C#","C#"
-            ,"SQL","PHP","PHP","SQL","SQL","JAVA","C#","C#","SQL","PHP","PHP","SQL","SQL","JAVA","C#","C#"
-            ,"SQL","PHP","PHP","SQL","SQL","JAVA","C#","C#","SQL","PHP","PHP","SQL","SQL","JAVA","C#","C#"};
+            var array = GetRandomArrayWithStrings();
 
             FirstWay(array);
 
-            //very slow
             SecondWay(array);
+        }
+
+        private static string[] GetRandomArrayWithStrings()
+        {
+            var array = new string[1000000];
+            var values = new string[] { "C#", "SQL", "PHP", "PHP", "SQL", "SQL" };
+            Random rnd = new Random();
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                array[i] = values[rnd.Next(0, values.Length)];
+            }
+
+            return array;
         }
   
         private static void SecondWay(string[] array)
         {
-            Console.WriteLine("2nd way:");
             Stopwatch sw = new Stopwatch();
             sw.Start();
+
             string[] secondWay = array.GroupBy(x => x)
                                       .ToDictionary(g => g.Key, g => g.Count())
                                       .Where(x => x.Value % 2 != 0)
                                       .Select(x => x.Key)
                                       .ToArray();
-            Console.WriteLine(sw.ElapsedTicks);
+
+            Console.WriteLine("2nd way: (" + sw.ElapsedTicks + " stopwatch ticks)");
             Console.WriteLine(string.Join(", ", secondWay));
         }
   
         private static void FirstWay(string[] array)
         {
-            Console.WriteLine("1st way:");
             Stopwatch sw = new Stopwatch();
             sw.Start();
+
             var dict1 = new Dictionary<string, int>();
 
             foreach (var str in array)
@@ -81,7 +85,8 @@ namespace _02.OddNumberOfTimesElements
                 answer[counter] = str;
                 counter++;
             }
-            Console.WriteLine(sw.ElapsedTicks);
+
+            Console.WriteLine("1st way: (" + sw.ElapsedTicks + " stopwatch ticks)");
             Console.WriteLine(string.Join(", ", answer));
         }
     }

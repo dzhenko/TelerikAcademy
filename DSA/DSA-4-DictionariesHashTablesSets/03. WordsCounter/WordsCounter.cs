@@ -17,6 +17,10 @@ namespace _03.WordsCounter
 
     public class WordsCounter
     {
+        public const string FileNotFoundErrorMessage = "File text.txt not found";
+
+        public const string FilePath = "text.txt";
+
         public static void Main()
         {
             var dict = GetDictionaryWithWordsCounted();
@@ -28,9 +32,11 @@ namespace _03.WordsCounter
         {
             var dict = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase);
 
+            var separators = new char[] { ' ', ',', ';', '.', '!', '?', ':', ';'};
+
             try
             {
-                StreamReader sr = new StreamReader("text.txt");
+                StreamReader sr = new StreamReader(FilePath);
 
                 using (sr)
                 {
@@ -38,12 +44,11 @@ namespace _03.WordsCounter
 
                     while (line != null)
                     {
-                        string[] words = line.Split(new char[] { ' ', ',', ';', '.', '!', '?', ':', ';' },
-                            StringSplitOptions.RemoveEmptyEntries);
+                        string[] words = line.Split(separators, StringSplitOptions.RemoveEmptyEntries);
 
                         foreach (var word in words)
                         {
-                            //skip 1 letter words
+                            word.Trim(separators);
                             if (word.Length == 1)
                             {
                                 continue;
@@ -64,9 +69,9 @@ namespace _03.WordsCounter
                 }
             }
 
-            catch (FileNotFoundException ex)
+            catch (FileNotFoundException)
             {
-                Console.WriteLine("File text.txt not found" + ex.Message + ex.StackTrace);
+                Console.WriteLine(FileNotFoundErrorMessage);
             }
 
             return dict;
