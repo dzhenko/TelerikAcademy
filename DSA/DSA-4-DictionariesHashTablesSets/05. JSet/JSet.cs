@@ -45,7 +45,13 @@
         /// <returns><typeparamref name="T"/> value or default</returns>
         public T Find(T element)
         {
-            return this.elements.Find(element.GetHashCode());
+            T returnedElement;
+            if(this.elements.Find(element.GetHashCode(), out returnedElement))
+            {
+                return returnedElement;
+            }
+
+            return default(T);
         }
 
         /// <summary>

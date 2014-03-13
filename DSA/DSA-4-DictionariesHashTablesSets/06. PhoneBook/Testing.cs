@@ -12,10 +12,12 @@
 
         public static void Main()
         {
-            //Test();
+            //Test1();
+
+            //Test2();
             
             GeneratePhoneContacts(PhonesPath);
-
+            
             ExecuteCommands(CommandsPath);
         }
 
@@ -91,7 +93,7 @@
             }
         }
         
-        private static void Test()
+        private static void Test1()
         {
             var book = new PhoneBook();
 
@@ -101,6 +103,14 @@
             Console.WriteLine(book.Find("Ivan"));
             Console.WriteLine();
             Console.WriteLine(book.Find("Ivan", "3"));
+        }
+
+        private static void Test2()
+        {
+            Phonebook.Add("Mimi Mimi", "Plovdiv", "088");
+            Phonebook.Add("Mimi Mimi", "Sofia", "0188");
+
+            Console.WriteLine(Phonebook.Find("Mimi"));
         }
     }
 }

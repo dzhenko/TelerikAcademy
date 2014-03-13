@@ -43,7 +43,9 @@
             Console.WriteLine("count:");
             Console.WriteLine(jHashTable.Count);
 
-            var findChecker = jHashTable.Find(3);
+            string res;
+            var findChecker = jHashTable.Find(3, out res);
+            Console.WriteLine(res);
             Console.WriteLine("Find value by key:");
             Console.WriteLine(findChecker);
         }

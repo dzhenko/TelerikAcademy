@@ -83,17 +83,7 @@
             }
             else
             {
-                var currElement = this.buckets[position].First;
-                for (int i = 0; i < this.buckets[position].Count; i++)
-                {
-                    if (currElement.Value.Key.Equals(key))
-                    {
-                        this.buckets[position].Remove(currElement);
-                        break;
-                    }
-
-                    currElement = currElement.Next;
-                }
+                this.Remove(key);
 
                 this.buckets[position].AddLast(elementToAdd);
             }
@@ -106,22 +96,23 @@
         /// </summary>
         /// <param name="key">The key from the key-value pair to find</param>
         /// <returns><typeparamref name="T"/> value or default</returns>
-        public T Find(K key)
+        public bool Find(K key, out T value)
         {
             int position = GetBucketPosition(key);
 
-            if (this.buckets[position] != null)
+            if (this.buckets[position] != null && this.buckets[position].Count != 0)
             {
                 foreach (var pair in buckets[position])
                 {
                     if (pair.Key.Equals(key))
                     {
-                        return pair.Value;
+                        value = pair.Value;
+                        return true;
                     }
                 }
             }
-
-            return default(T);
+            value = default(T);
+            return false;
         }
 
         /// <summary>
@@ -132,21 +123,20 @@
         {
             int position = GetBucketPosition(key);
 
-            if (this.buckets[position] != null)
+            if (this.buckets[position] != null && this.buckets[position].Count != 0)
             {
-                var valueToRemove = this.Find(key);
+                T valueToRemove;
 
-                if (valueToRemove != null)
+                if (Find(key,out valueToRemove))
 	            {
-                    var listNodeToRemove = this.buckets[position].First(x => x.Key.Equals(key));
+                    var nodeToRemove = this.buckets[position].First(x => x.Key.Equals(key));
 
-                    this.buckets[position].Remove(listNodeToRemove);
+                    this.buckets[position].Remove(nodeToRemove);
 
                     this.elementsCounter--;
 
                     if (this.buckets[position].Count == 0)
                     {
-                        this.buckets[position] = null;
                         this.occupiedBucketsCounter--;
                     }
 	            }
@@ -168,7 +158,7 @@
             {
                 int position = GetBucketPosition(key);
 
-                if (this.buckets[position] == null)
+                if (this.buckets[position] == null || this.buckets[position].Count == 0)
                 {
                     return default(T);
                 }

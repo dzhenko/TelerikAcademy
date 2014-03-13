@@ -10,12 +10,12 @@ namespace _06.PhoneBook
         private const string phoneEntryNotFound = "No such phone entry found!";
 
         private readonly Dictionary<string, List<PhoneBookEntry>> entries;
-        private readonly Dictionary<string, List<string>> names;
+        private readonly Dictionary<string, HashSet<string>> names;
 
         public PhoneBook()
         {
             this.entries = new Dictionary<string,List<PhoneBookEntry>>();
-            this.names = new Dictionary<string, List<string>>();
+            this.names = new Dictionary<string, HashSet<string>>();
         }
 
         public void Add(string name,string town,string phone)
@@ -39,7 +39,7 @@ namespace _06.PhoneBook
                 }
                 else
                 {
-                    this.names.Add(subname, new List<string>() { name });
+                    this.names.Add(subname, new HashSet<string>() { name });
                 }
             }
         }
