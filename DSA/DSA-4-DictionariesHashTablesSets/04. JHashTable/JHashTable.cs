@@ -85,6 +85,11 @@
             {
                 this.Remove(key);
 
+                if (this.buckets[position].Count == 0)
+                {
+                    this.occupiedBucketsCounter++;
+                }
+
                 this.buckets[position].AddLast(elementToAdd);
             }
 
@@ -156,16 +161,11 @@
         {
             get
             {
-                int position = GetBucketPosition(key);
+                T valueToReturn = default(T);
 
-                if (this.buckets[position] == null || this.buckets[position].Count == 0)
-                {
-                    return default(T);
-                }
-                else
-                {
-                    return this.buckets[position].First.Value.Value;
-                }
+                this.Find(key, out valueToReturn);
+
+                return valueToReturn;
             }
 
             set

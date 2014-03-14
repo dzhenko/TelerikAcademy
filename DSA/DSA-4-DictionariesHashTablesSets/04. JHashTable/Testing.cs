@@ -45,8 +45,8 @@
 
             string res;
             var findChecker = jHashTable.Find(3, out res);
+            Console.WriteLine("Find value by key 3:");
             Console.WriteLine(res);
-            Console.WriteLine("Find value by key:");
             Console.WriteLine(findChecker);
         }
     }
