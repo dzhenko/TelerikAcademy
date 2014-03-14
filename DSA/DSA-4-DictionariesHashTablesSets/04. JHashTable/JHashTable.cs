@@ -12,9 +12,7 @@
     /// <typeparam name="T">The type of values in the JHash table</typeparam>
     public class JHashTable<K,T> : IEnumerable<KeyValuePair<K,T>>
     {
-        #region Error Messages
         private const string CapacityZeroOrNegativeErrorMessage = "Initial JHashTable size can not be less than or equal to 0!";
-        #endregion
 
         private const int InitialCapacity = 16;
         private const double LoadFactor = 0.75;
@@ -87,6 +85,7 @@
 
                 if (this.buckets[position].Count == 0)
                 {
+                    //being an empty linked list also count as a empty bucket spot
                     this.occupiedBucketsCounter++;
                 }
 
