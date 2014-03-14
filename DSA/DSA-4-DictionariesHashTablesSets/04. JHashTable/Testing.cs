@@ -48,6 +48,20 @@
             Console.WriteLine("Find value by key 3:");
             Console.WriteLine(res);
             Console.WriteLine(findChecker);
+
+            Console.WriteLine(jHashTable);
+            Console.WriteLine("clear");
+            jHashTable.Clear();
+            Console.WriteLine(jHashTable);
+            Console.WriteLine("----");
+            Console.WriteLine("resize");
+
+            for (int i = 0; i < 100; i++)
+            {
+                jHashTable.Add(i, i.ToString());
+            }
+
+            Console.WriteLine(jHashTable);
         }
     }
 }

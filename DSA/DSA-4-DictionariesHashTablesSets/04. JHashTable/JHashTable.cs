@@ -65,11 +65,11 @@
         /// <param name="value">The value from the key-value pair to add</param>
         public void Add(K key, T value)
         {
-            CheckAndGrow();
+            this.CheckAndGrow();
 
             var elementToAdd = new KeyValuePair<K,T>(key,value);
 
-            int position = GetBucketPosition(key);
+            int position = this.GetBucketPosition(key);
 
             if (this.buckets[position] == null)
             {
@@ -102,11 +102,11 @@
         /// <returns><typeparamref name="T"/> value or default</returns>
         public bool Find(K key, out T value)
         {
-            int position = GetBucketPosition(key);
+            int position = this.GetBucketPosition(key);
 
             if (this.buckets[position] != null && this.buckets[position].Count != 0)
             {
-                foreach (var pair in buckets[position])
+                foreach (var pair in this.buckets[position])
                 {
                     if (pair.Key.Equals(key))
                     {
@@ -125,7 +125,7 @@
         /// <param name="key">The key from the key-value pair to remove</param>
         public void Remove(K key)
         {
-            int position = GetBucketPosition(key);
+            int position = this.GetBucketPosition(key);
 
             if (this.buckets[position] != null && this.buckets[position].Count != 0)
             {
@@ -154,6 +154,7 @@
         {
             this.buckets = new LinkedList<KeyValuePair<K, T>>[this.buckets.Length];
             this.occupiedBucketsCounter = 0;
+            this.elementsCounter = 0;
         }
 
         public T this[K key]
