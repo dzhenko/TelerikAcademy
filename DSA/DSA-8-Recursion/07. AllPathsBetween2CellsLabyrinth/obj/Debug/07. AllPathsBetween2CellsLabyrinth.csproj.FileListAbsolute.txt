@@ -1,6 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\07. AllPathsBetween2CellsLabyrinth\bin\Debug\_07.AllPathsBetween2CellsLabyrinth.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\07. AllPathsBetween2CellsLabyrinth\bin\Debug\_07.AllPathsBetween2CellsLabyrinth.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\07. AllPathsBetween2CellsLabyrinth\bin\Debug\_07.AllPathsBetween2CellsLabyrinth.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\07. AllPathsBetween2CellsLabyrinth\obj\Debug\07. AllPathsBetween2CellsLabyrinth.csprojResolveAssemblyReference.cache
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\07. AllPathsBetween2CellsLabyrinth\obj\Debug\_07.AllPathsBetween2CellsLabyrinth.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\07. AllPathsBetween2CellsLabyrinth\obj\Debug\_07.AllPathsBetween2CellsLabyrinth.pdb
