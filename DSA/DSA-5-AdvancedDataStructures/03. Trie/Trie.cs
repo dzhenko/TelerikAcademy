@@ -70,7 +70,7 @@
                 }
                 else
                 {
-                    currNode.Children.Add(word[i],  new Node(word[i]));
+                    currNode.Children.Add(word[i], new Node(word[i]));
                     currNode = currNode.Children[word[i]];
                 }
                 i++;
@@ -87,7 +87,21 @@
             {
                 if (i == word.Length)
                 {
-                    return currNode.Count;
+                    if (currNode.Children.Count == 0)
+                    {
+                        return currNode.Count;
+                    }
+                    else
+                    {
+                        var childrenOcurences = 0;
+
+                        foreach (var node in currNode.Children)
+                        {
+                            childrenOcurences += node.Value.Count;
+                        }
+
+                        return currNode.Count - childrenOcurences;
+                    }
                 }
 
                 if (currNode.Children.ContainsKey(word[i]))
