@@ -7,6 +7,10 @@ namespace _11.LinkedListImplementation
     using System.Linq;
     using System.Text;
 
+    /// <summary>
+    /// A new shiny Linked List
+    /// </summary>
+    /// <typeparam name="T">The type of elements to store in the Linked List</typeparam>
     public class JLinkedList<T>
         where T : IComparable
     {
@@ -41,11 +45,17 @@ namespace _11.LinkedListImplementation
             }
         }
 
+        /// <summary>
+        /// Default constructor
+        /// </summary>
         public JLinkedList()
         {
             this.firstElement = null;
         }
 
+        /// <summary>
+        /// The first element from the Linked List
+        /// </summary>
         public T FirstElement
         {
             get
@@ -54,6 +64,10 @@ namespace _11.LinkedListImplementation
             }
         }
 
+        /// <summary>
+        /// Adds a new item to the Linked List
+        /// </summary>
+        /// <param name="element">The item to add</param>
         public void AddItem(T element)
         {
             if (this.firstElement == null)
@@ -72,6 +86,10 @@ namespace _11.LinkedListImplementation
             }
         }
 
+        /// <summary>
+        /// Removes an item from the Linked List
+        /// </summary>
+        /// <param name="element">The item to remove</param>
         public void RemoveItem(T element)
         {
             if (this.firstElement == null)
@@ -100,6 +118,26 @@ namespace _11.LinkedListImplementation
                 currentItem = currentItem.Next;
             }
         }
+    
+        /// <summary>
+        /// Adds an element in the begining of the Linked List
+        /// </summary>
+        /// <param name="element">The element to add to the begining</param>
+        public void AddFirst(T element)
+        {
+            var newNode = new ListItem(element);
+            newNode.Next = this.firstElement;
+            this.firstElement = newNode;
+        }
+
+        /// <summary>
+        /// Removes an element from the begining of the Linked List
+        /// </summary>
+        /// <param name="element">The element to remove from the begining</param>
+        public void RemoveFirst()
+        {
+            this.firstElement = this.firstElement.Next;
+        }
 
         public override string ToString()
         {
@@ -109,7 +147,7 @@ namespace _11.LinkedListImplementation
             }
 
             StringBuilder sb = new StringBuilder("[ ");
-            
+
             var currItem = this.firstElement;
             sb.Append(currItem.Value);
 
@@ -123,18 +161,6 @@ namespace _11.LinkedListImplementation
             sb.Append(" ]");
 
             return sb.ToString();
-        }
-
-        public void AddFirst(T element)
-        {
-            var newNode = new ListItem(element);
-            newNode.Next = this.firstElement;
-            this.firstElement = newNode;
-        }
-
-        public void RemoveFirst()
-        {
-            this.firstElement = this.firstElement.Next;
         }
     }
 }

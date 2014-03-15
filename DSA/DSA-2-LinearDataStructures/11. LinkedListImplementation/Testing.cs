@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace _11.LinkedListImplementation
 {
@@ -9,8 +7,6 @@ namespace _11.LinkedListImplementation
     {
         public static void Main()
         {
-            var org = new LinkedList<int>();
-
             var test = new JLinkedList<int>();
 
             test.AddItem(7);

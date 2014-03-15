@@ -24,12 +24,12 @@ class PermutWithRepeat
         ReadElements(multiset);
         int[] answer = new int[numberOfElements];
 
-        List<string> combinations = new List<string>();
+        HashSet<string> combinations = new HashSet<string>();
 
         Permute(multiset, 0, answer, used, combinations);
     }
 
-    private static void Permute(int[] multiset, int index, int[] answer, bool[] used , List<string> combinations)
+    private static void Permute(int[] multiset, int index, int[] answer, bool[] used, HashSet<string> combinations)
     {
         if (index == multiset.Length)
         {
@@ -50,7 +50,7 @@ class PermutWithRepeat
         }
     }
 
-    private static void ExecuteCombination(int[] answer , List<string> combinations)
+    private static void ExecuteCombination(int[] answer, HashSet<string> combinations)
     {
         string currentCombo = null;
         for (int i = 0; i < answer.Length; i++)

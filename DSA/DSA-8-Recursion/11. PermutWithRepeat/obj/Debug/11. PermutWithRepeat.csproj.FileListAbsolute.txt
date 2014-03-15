@@ -4,3 +4,9 @@ C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\11. PermutW
 C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\11. PermutWithRepeat\bin\Debug\_11.PermutWithRepeat.pdb
 C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\11. PermutWithRepeat\obj\Debug\_11.PermutWithRepeat.exe
 C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\11. PermutWithRepeat\obj\Debug\_11.PermutWithRepeat.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\DSA\DSA-8-Recursion\11. PermutWithRepeat\bin\Debug\_11.PermutWithRepeat.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\DSA\DSA-8-Recursion\11. PermutWithRepeat\obj\Debug\_11.PermutWithRepeat.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\DSA\DSA-8-Recursion\11. PermutWithRepeat\obj\Debug\_11.PermutWithRepeat.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\DSA\DSA-8-Recursion\11. PermutWithRepeat\bin\Debug\_11.PermutWithRepeat.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\DSA\DSA-8-Recursion\11. PermutWithRepeat\bin\Debug\_11.PermutWithRepeat.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\DSA\DSA-8-Recursion\11. PermutWithRepeat\obj\Debug\11. PermutWithRepeat.csprojResolveAssemblyReference.cache

@@ -7,3 +7,6 @@ c:\users\penev\documents\visual studio 2012\Projects\SDA\SDA-8-Recursion\01. Sim
 C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\01. SimulateNNestedLoops\bin\Debug\_01.SimulateNNestedLoops.exe.config
 C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\01. SimulateNNestedLoops\obj\Debug\_01.SimulateNNestedLoops.exe
 C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\01. SimulateNNestedLoops\obj\Debug\_01.SimulateNNestedLoops.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\DSA\DSA-8-Recursion\01. SimulateNNestedLoops\bin\Debug\_01.SimulateNNestedLoops.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\DSA\DSA-8-Recursion\01. SimulateNNestedLoops\obj\Debug\_01.SimulateNNestedLoops.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\DSA\DSA-8-Recursion\01. SimulateNNestedLoops\obj\Debug\_01.SimulateNNestedLoops.pdb
