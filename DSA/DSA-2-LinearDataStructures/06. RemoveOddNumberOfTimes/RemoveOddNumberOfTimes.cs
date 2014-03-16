@@ -16,7 +16,9 @@ namespace _06.RemoveOddNumberOfTimes
 
             var dict = listOfNumbers.GroupBy(x => x).ToDictionary(gr => gr.Key, gr => gr.Count());
 
-            listOfNumbers.RemoveAll(x => dict[x] % 2 != 0);
+            var numbersToKeep = listOfNumbers.Where(x => dict[x] % 2 == 0);
+
+            listOfNumbers = numbersToKeep.ToList();
 
             Console.WriteLine(string.Join(", ",listOfNumbers));
         }
