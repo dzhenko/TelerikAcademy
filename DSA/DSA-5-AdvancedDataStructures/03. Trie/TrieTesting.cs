@@ -39,6 +39,9 @@ namespace _03.Trie
                 sw.Stop();
             }
             Console.WriteLine("Found {0} words for {1} time", wordsToSearch, sw.Elapsed);
+
+            Console.Write("Most common word: ");
+            Console.WriteLine(trie.GetMostCommonWord());
         }
 
         public static string GetRandomWord()

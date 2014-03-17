@@ -132,5 +132,33 @@
                 return answer;
             }
         }
+
+        public string GetMostCommonWord()
+        {
+            var node = this.root;
+
+            string wordToReturn = null;
+            char appendedLetter = '\0';
+
+            while (node.Children.Count != 0)
+            {
+                var newNode = node.Children.First().Value;
+
+                foreach (var child in node.Children)
+                {
+                    if (child.Value.Count >= newNode.Count)
+                    {
+                        newNode = child.Value;
+                        appendedLetter = child.Key;
+                    }
+                }
+
+                wordToReturn += appendedLetter;
+
+                node = newNode;
+            }
+
+            return wordToReturn;
+        }
     }
 }
