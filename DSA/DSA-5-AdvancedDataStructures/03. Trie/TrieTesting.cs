@@ -9,8 +9,8 @@ namespace _03.Trie
 
     public class TrieTesting
     {
-        public const int wordsToAdd = 10000000;
-        public const int wordsToSearch = 10000000;
+        public const int wordsToAdd = 1000000;
+        public const int wordsToSearch = 1000000;
 
         public static Random rnd = new Random();
 
@@ -43,7 +43,12 @@ namespace _03.Trie
 
         public static string GetRandomWord()
         {
-            return new string(((char)rnd.Next(65,91)),rnd.Next(4,12));
+            char[] newWord = new char[rnd.Next(5, 12)];
+            for (int i = 0; i < newWord.Length; i++)
+            {
+                newWord[i] = ((char)rnd.Next(65, 91));
+            }
+            return new string(newWord);
         }
     }
 }
