@@ -6,11 +6,12 @@
     using System.Text;
     using Wintellect.PowerCollections;
 
-    public class Program
+    public class ShoppingCentre
     {
-        public static OrderedDictionary<decimal, Bag<Product>> productsByPriceRange = new OrderedDictionary<decimal, Bag<Product>>();
-        public static Dictionary<string, Bag<Product>> productsByName = new Dictionary<string, Bag<Product>>();
-        public static Dictionary<string, Bag<Product>> productsByProducer = new Dictionary<string, Bag<Product>>();
+        public static OrderedMultiDictionary<double, Product> productsByPriceRange = new OrderedMultiDictionary<double, Product>(true);
+        public static MultiDictionary<string, Product> productsByName = new MultiDictionary<string, Product>(true);
+        public static MultiDictionary<string, Product> productsByProducer = new MultiDictionary<string, Product>(true);
+        public static MultiDictionary<Tuple<string, string>, Product> productsByNameProducer = new MultiDictionary<Tuple<string, string>, Product>(true);
 
         public static StringBuilder answer = new StringBuilder();
 
@@ -60,25 +61,11 @@
         {
             var tokens = command.Split(new char[] { ';' }, StringSplitOptions.RemoveEmptyEntries);
             var name = tokens[0];
-            var price = decimal.Parse(tokens[1]);
+            var price = double.Parse(tokens[1]);
             var producer = tokens[2];
             var productToAdd = new Product(name, price, producer);
 
-            if (!productsByName.ContainsKey(name))
-            {
-                productsByName.Add(name, new Bag<Product>());
-            }
-
-            if (!productsByProducer.ContainsKey(producer))
-            {
-                productsByProducer.Add(producer, new Bag<Product>());
-            }
-
-            if (!productsByPriceRange.ContainsKey(price))
-            {
-                productsByPriceRange.Add(price, new Bag<Product>());
-            }
-
+            productsByNameProducer[new Tuple<string, string>(name, producer)].Add(productToAdd);
             productsByPriceRange[price].Add(productToAdd);
             productsByName[name].Add(productToAdd);
             productsByProducer[producer].Add(productToAdd);
@@ -88,13 +75,14 @@
 
         public static void DeleteByNameProducer(string name,string producer)
         {
-            if (!productsByName.ContainsKey(name) || !productsByProducer.ContainsKey(producer)
-                || productsByName[name].Count == 0 || productsByProducer[producer].Count == 0)
+            var tuple = new Tuple<string, string>(name, producer);
+            if (!productsByNameProducer.ContainsKey(tuple) || productsByNameProducer[tuple].Count == 0)
             {
                 answer.AppendLine("No products found");
                 return;
             }
-            var productsToRemove = productsByName[name].Intersection(productsByProducer[producer]);
+            var productsToRemove = productsByNameProducer[tuple];
+            int counter = productsToRemove.Count;
 
             foreach (var pr in productsToRemove)
             {
@@ -104,36 +92,40 @@
                 productsByProducer[producer].Remove(pr);
             }
 
-            answer.AppendLine(string.Format("{0} products deleted",productsToRemove.Count));
+            productsByNameProducer.Remove(tuple);
+
+            answer.AppendLine(string.Format("{0} products deleted", counter));
         }
 
-        public static void DeleteByProducer(string command)
+        public static void DeleteByProducer(string producer)
         {
-            if (!productsByProducer.ContainsKey(command) || productsByProducer[command].Count == 0)
+            if (!productsByProducer.ContainsKey(producer) || productsByProducer[producer].Count == 0)
             {
                 answer.AppendLine("No products found");
                 return;
             }
-            var productsToRemove = new Bag<Product>();
-            productsToRemove.AddMany(productsByProducer[command]);
+            var productsToRemove = productsByProducer[producer];
+            int counter = productsToRemove.Count;
 
             foreach (var pr in productsToRemove)
             {
                 var name = pr.Name;
                 var price = pr.Price;
+                productsByNameProducer[new Tuple<string, string>(name, producer)].Remove(pr);
                 productsByPriceRange[price].Remove(pr);
                 productsByName[name].Remove(pr);
-                productsByProducer[command].Remove(pr);
             }
 
-            answer.AppendLine(string.Format("{0} products deleted", productsToRemove.Count));
+            productsByProducer.Remove(producer);
+
+            answer.AppendLine(string.Format("{0} products deleted", counter));
         }
 
         public static void FindByPriceRange(string command)
         {
             var tokens = command.Split(new char[] { ';', ' ' }, StringSplitOptions.RemoveEmptyEntries);
-            var fromPrice = decimal.Parse(tokens[0]);
-            var toPrice = decimal.Parse(tokens[1]);
+            var fromPrice = double.Parse(tokens[0]);
+            var toPrice = double.Parse(tokens[1]);
 
             var productsToShow = productsByPriceRange.Range(fromPrice, true, toPrice, true);
 
@@ -151,7 +143,7 @@
                     temp.Add(p);
                 }
             }
-            var ordered = temp.OrderBy(x => x.Name);
+            var ordered = temp.OrderBy(x => x.Name).ThenBy(x=>x.Producer).ThenBy(x=>x.Price);
 
             foreach (var item in ordered)
             {
@@ -159,15 +151,15 @@
             }
         }
 
-        public static void FindByProducer(string command)
+        public static void FindByProducer(string producer)
         {
-            if (!productsByProducer.ContainsKey(command) || productsByProducer[command].Count == 0)
+            if (!productsByProducer.ContainsKey(producer) || productsByProducer[producer].Count == 0)
             {
                 answer.AppendLine("No products found");
                 return;
             }
 
-            var productsToShow = productsByProducer[command].OrderBy(x => x.Name);
+            var productsToShow = productsByProducer[producer].OrderBy(x => x.Name).ThenBy(x => x.Producer).ThenBy(x => x.Price);
 
             foreach (var pr in productsToShow)
             {
@@ -176,14 +168,14 @@
 
         }
 
-        public static void FindByName(string command)
+        public static void FindByName(string name)
         {
-            if (!productsByName.ContainsKey(command) || productsByName[command].Count == 0)
+            if (!productsByName.ContainsKey(name) || productsByName[name].Count == 0)
             {
                 answer.AppendLine("No products found");
                 return;
             }
-            var productsToShow = productsByName[command].OrderBy(x => x.Name);
+            var productsToShow = productsByName[name].OrderBy(x => x.Name).ThenBy(x => x.Producer).ThenBy(x => x.Price);
             foreach (var pr in productsToShow)
             {
                 answer.AppendLine(pr.ToString());
@@ -195,10 +187,10 @@
     public class Product : IComparable<Product>
     {
         public string Name { get; private set; }
-        public decimal Price { get; private set; }
+        public double Price { get; private set; }
         public string Producer { get; private set; }
 
-        public Product(string name, decimal price, string producer)
+        public Product(string name, double price, string producer)
         {
             this.Name = name;
             this.Price = price;
@@ -213,6 +205,33 @@
         public int CompareTo(Product other)
         {
             return this.Price.CompareTo(other.Price);
+        }
+
+        public override bool Equals(object obj)
+        {
+            var other = obj as Product;
+            if (other == null)
+            {
+                return false;
+            }
+            if (this.Name != other.Name)
+            {
+                return false;
+            }
+            if (this.Price != other.Price)
+            {
+                return false;
+            }
+            if (this.Producer != other.Producer)
+            {
+                return false;
+            }
+            return true;
+        }
+
+        public override int GetHashCode()
+        {
+            return this.Name.GetHashCode() ^ this.Producer.GetHashCode();
         }
     }
 }

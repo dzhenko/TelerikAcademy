@@ -20,7 +20,7 @@ namespace _11.UniquePermutations
     {
         public static HashSet<string> answer = new HashSet<string>();
 
-        public static int[] multiSet = new int[] { 1, 5, 5, 5, 5, 5, 5, 5, 5, 5};
+        public static int[] multiSet = new int[] { 1, 5, 5, 5, 5, 5, 5, 5 };
 
         public static void Main()
         {
@@ -28,6 +28,7 @@ namespace _11.UniquePermutations
             sw.Start();
             Permute(new int[multiSet.Length], new bool[multiSet.Length], 0);
             Console.WriteLine("Time: {0}",sw.Elapsed);
+
             Console.WriteLine(string.Join(Environment.NewLine,answer));
         }
 
@@ -35,7 +36,7 @@ namespace _11.UniquePermutations
         {
             if (index == vector.Length)
             {
-                answer.Add(string.Join(", ", vector));
+                answer.Add(string.Join(" ",vector));
                 return;
             }
 
@@ -52,5 +53,7 @@ namespace _11.UniquePermutations
                 }
             }
         }
+
+        
     }
 }

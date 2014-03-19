@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageInABottle", "Message
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyTasks", "AcademyTasks\AcademyTasks.csproj", "{9FA713C9-920E-4B11-B539-0EE996263F0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCentre NOT", "FriendsInNeed\ShoppingCentre NOT.csproj", "{1FBEC2A1-EA24-41F9-89FE-08587B8C466A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCentre", "ShoppingCentre\ShoppingCentre.csproj", "{1FBEC2A1-EA24-41F9-89FE-08587B8C466A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiskWins", "RiskWins\RiskWins.csproj", "{D748AB1D-BB2F-4030-B57A-4E975779939D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{1FBEC2A1-EA24-41F9-89FE-08587B8C466A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FBEC2A1-EA24-41F9-89FE-08587B8C466A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FBEC2A1-EA24-41F9-89FE-08587B8C466A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D748AB1D-BB2F-4030-B57A-4E975779939D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D748AB1D-BB2F-4030-B57A-4E975779939D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D748AB1D-BB2F-4030-B57A-4E975779939D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D748AB1D-BB2F-4030-B57A-4E975779939D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
