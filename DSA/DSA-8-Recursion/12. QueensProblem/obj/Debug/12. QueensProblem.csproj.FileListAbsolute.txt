@@ -1,5 +1,15 @@
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\12. QueensProblem\bin\Debug\_12.QueensProblem.exe.config
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\12. QueensProblem\bin\Debug\_12.QueensProblem.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\12. QueensProblem\bin\Debug\_12.QueensProblem.pdb
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\12. QueensProblem\obj\Debug\12. QueensProblem.csprojResolveAssemblyReference.cache
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\12. QueensProblem\obj\Debug\_12.QueensProblem.exe
+C:\Users\Penev\Documents\Visual Studio 2012\Projects\SDA-8-Recursion\12. QueensProblem\obj\Debug\_12.QueensProblem.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\DSA\DSA-8-Recursion\12. QueensProblem\bin\Debug\_12.QueensProblem.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\DSA\DSA-8-Recursion\12. QueensProblem\obj\Debug\_12.QueensProblem.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\DSA\DSA-8-Recursion\12. QueensProblem\obj\Debug\_12.QueensProblem.pdb
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\DSA\DSA-8-Recursion\12. QueensProblem\bin\Debug\_12.QueensProblem.exe
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\DSA\DSA-8-Recursion\12. QueensProblem\bin\Debug\_12.QueensProblem.pdb
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\DSA\DSA-8-Recursion\12. QueensProblem\obj\Debug\12. QueensProblem.csprojResolveAssemblyReference.cache
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\DSA\DSA-8-Recursion\12. QueensProblem\obj\Debug\_12.QueensProblem.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\DSA\DSA-8-Recursion\12. QueensProblem\obj\Debug\_12.QueensProblem.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\DSA\DSA-8-Recursion-Old\12. QueensProblem\bin\Debug\_12.QueensProblem.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\DSA\DSA-8-Recursion-Old\12. QueensProblem\obj\Debug\_12.QueensProblem.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\DSA\DSA-8-Recursion-Old\12. QueensProblem\obj\Debug\_12.QueensProblem.pdb
