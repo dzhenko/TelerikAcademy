@@ -1,0 +1,63 @@
+﻿body, header, h1, ul, li,nav,a, section, article, footer, p{
+    padding:0;
+    margin:0;
+}
+
+body {
+    color:#FAFAD2;
+    background-color:#A9A9A9;
+}
+
+body > header {
+    text-align:center;
+}
+
+body > header h1 {
+    margin:1.4em;
+    font-size:2.6em;
+}
+
+body > header nav a{
+    text-decoration:none;
+    font-size:1.3em;
+    color:inherit;
+    margin-left:1.5em;
+}
+
+body > header nav ul li:last-child {
+    text-decoration:underline;
+    margin-bottom:3em;
+}
+
+.current {
+    background-color:#D3D3D3;
+}
+
+article > header {
+    font-size:1.4em;
+    margin:0 0 1.0em 0.6em;
+}
+
+article > p  {
+    color:#000000;
+    font-size:1.1em;
+    margin:0 0 1.0em 0.6em;
+}
+
+article > footer {
+    color:#000000;
+    font-size:0.8em;
+    margin:1.0em 0 3.0em 0.6em;
+}
+
+article > footer > p > a {
+    text-decoration:none;
+    color:inherit;
+}
+
+body > footer {
+    color:#000000;
+    text-align:center;
+    margin:1.2em;
+    font-weight:600;
+}

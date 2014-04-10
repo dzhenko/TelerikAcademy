@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCentre", "ShoppingC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiskWins", "RiskWins\RiskWins.csproj", "{D748AB1D-BB2F-4030-B57A-4E975779939D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FriendsInNeed", "FriendsInNeed\FriendsInNeed.csproj", "{E31483BA-D563-40AF-87CC-004D66544867}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoAcademySalaries", "AlgoAcademySalaries\AlgoAcademySalaries.csproj", "{69D685DE-AD97-4D19-83B5-928F71DD9CB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{D748AB1D-BB2F-4030-B57A-4E975779939D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D748AB1D-BB2F-4030-B57A-4E975779939D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D748AB1D-BB2F-4030-B57A-4E975779939D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E31483BA-D563-40AF-87CC-004D66544867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E31483BA-D563-40AF-87CC-004D66544867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E31483BA-D563-40AF-87CC-004D66544867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E31483BA-D563-40AF-87CC-004D66544867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69D685DE-AD97-4D19-83B5-928F71DD9CB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D685DE-AD97-4D19-83B5-928F71DD9CB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D685DE-AD97-4D19-83B5-928F71DD9CB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D685DE-AD97-4D19-83B5-928F71DD9CB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

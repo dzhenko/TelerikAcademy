@@ -1,0 +1,30 @@
+﻿body, table, td, th, tr, div, a {
+    padding:0;
+    margin:0;
+}
+
+table {
+    border-collapse:collapse;
+    width:40%;
+}
+
+td,th {
+    border: 0.1em solid #ECECD8;
+    padding:0.3em 0.3em 0.3em 0.6em;
+}
+
+img {
+    padding-right: 0.3em;
+}
+
+thead th {
+    background-color:#52B506;
+    color:white;
+    font-weight:100;
+    text-align:left;
+}
+
+tbody tr:nth-child(2n) {
+	background-color: #ECECD8;
+}
+

@@ -1,0 +1,58 @@
+﻿body, table, td, th, tr, div, a {
+    padding:0;
+    margin:0;
+}
+
+body {
+    background-color:#595959;
+}
+
+table {
+    margin: 1em 0 1em 0.5em;
+}
+
+table thead {
+    font-size:1.2em;
+    font-family:Arial;
+    font-weight:normal;
+    color:#BBBBBA;
+}
+
+table td{
+    padding:0.5em 0 0.5em 0;
+}
+
+table tbody tr td:first-child {
+    color:#E5F0F0;
+    font-style:italic;
+}
+
+#nameData, #emailData {
+    color:#EAE0A4;
+}
+
+#nameData span{
+    display:block;
+    color:#FF051B;
+}
+
+#greenDot {
+    width:0.8em;
+    height:0.9em;
+}
+
+#responseData, #actionData {
+    color:#BBBBBA;
+}
+
+#actionData a{
+    display:block;
+    margin-top:0.5em;
+    text-decoration:none;
+    color:#EAE0A4;
+}
+
+#statusData {
+    color:#D86E1C;
+    font-weight:800;
+}
