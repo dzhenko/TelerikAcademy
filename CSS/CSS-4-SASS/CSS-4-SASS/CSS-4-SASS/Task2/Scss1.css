@@ -2,10 +2,27 @@ body, nav, img, input, section {
   margin: 0;
   padding: 0; }
 
-#buttons {
-  display: none; }
+nav {
+  margin: 15px 0 15px 30px; }
+  nav img {
+    width: 120px;
+    height: 120px; }
 
-nav img {
-  width: 60px;
-  height: 60px; }
+#large-image img, #large-image input {
+  display: none;
+  margin-left: 30px;
+  width: 400px;
+  height: 400px; }
+#large-image input:checked + label #p1 {
+  display: block; }
+#large-image input:checked + label #p2 {
+  display: block; }
+#large-image input:checked + label #p3 {
+  display: block; }
+#large-image input:checked + label #p4 {
+  display: block; }
+#large-image input:checked + label #p5 {
+  display: block; }
+#large-image input:checked + label #p6 {
+  display: block; }
 

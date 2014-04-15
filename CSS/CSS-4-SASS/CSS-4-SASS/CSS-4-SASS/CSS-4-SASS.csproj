@@ -61,6 +61,10 @@
     <Content Include="Task1\Scss1.css">
       <DependentUpon>Scss1.scss</DependentUpon>
     </Content>
+    <Content Include="Task2\index2.html" />
+    <Content Include="Task2\Scss1.css">
+      <DependentUpon>Scss1.scss</DependentUpon>
+    </Content>
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -68,6 +72,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Task1\Scss1.scss" />
+    <Content Include="Task2\Scss1.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,9 +80,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Task2\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

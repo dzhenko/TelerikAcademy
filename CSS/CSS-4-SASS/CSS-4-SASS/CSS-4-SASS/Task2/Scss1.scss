@@ -3,11 +3,45 @@ body, nav, img, input, section {
 	padding:0;
 }
 
-#buttons {
-	display:none;
+
+nav {
+	margin:15px 0 15px 30px;
+
+	img {
+	width:120px;
+	height:120px;
+	}
 }
 
-nav img {
-	width:60px;
-	height:60px;
+#large-image {
+	img, input {
+		display:none;
+		margin-left:30px;
+		width:400px;
+		height:400px;
+	}
+	input:checked + label #p1 {
+		display:block;
+	}
+
+	input:checked + label #p2 {
+		display:block;
+	}
+
+	input:checked + label #p3 {
+		display:block;
+	}
+
+	input:checked + label #p4 {
+		display:block;
+	}
+
+	input:checked + label #p5 {
+		display:block;
+	}
+
+	input:checked + label #p6{
+		display:block;
+	}
 }
+
