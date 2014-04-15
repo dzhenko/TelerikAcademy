@@ -1,0 +1,207 @@
+@mixin gradient($fromcolor,$tocolor,$fromPercent,$toPercent) {
+	background: $fromcolor;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIyMiUiIHN0b3AtY29sb3I9IiNmZjMyMzYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI4OCUiIHN0b3AtY29sb3I9IiM3ZGI5ZTgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  $fromcolor $fromPercent, $tocolor $toPercent);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop($fromPercent,$fromcolor), color-stop($toPercent,$tocolor));
+	background: -webkit-linear-gradient(top,  $fromcolor $fromPercent,$tocolor $toPercent);
+	background: -o-linear-gradient(top,  $fromcolor $fromPercent,$tocolor $toPercent);
+	background: -ms-linear-gradient(top,  $fromcolor $fromPercent,$tocolor $toPercent);
+	background: linear-gradient(to bottom,  $fromcolor $fromPercent,$tocolor $toPercent);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$fromcolor', endColorstr='$tocolor',GradientType=0 );
+}
+
+@mixin clearfix{
+  zoom:1;
+  &:after{
+    display:block; content:"";
+    height:0; clear:both; 
+	} 
+}
+
+
+body,header,div,h1,h2,a,img,input,button, form, input,nav,ul,li,section,article,p,footer,time,aside {
+	margin:0;
+	padding:0;
+}
+
+body {
+	@include gradient(#D593FF,#9215F2,5%,25%);
+	padding:20px 10px;
+	color:#FFFFFF;
+
+	#header-container{
+		@include clearfix;
+
+		#logo-container {
+			margin-bottom:20px;
+			float:left;
+		}
+
+		#reg-form-container{
+			float:right;
+			margin:0px 100px 0px 0;
+		}
+
+		input {
+			background-color:#B35EF3;
+			border:1px solid #603382;
+			border-radius:25px;
+			margin-top:10px;
+			height:24px;
+			width:150px;
+		}
+
+		label {
+			margin-right:15px;
+		}
+
+		#btn-register {
+			border-bottom:1px solid #3C2051;
+			border-right:1px solid #3C2051;
+
+			border-top:1px solid #C0AFCE;
+			border-left:1px solid #C0AFCE;
+
+			background-color:#B35EF3;
+			width:80px;
+			height:26px;
+
+			border-radius:10px;
+
+			margin-left:-10px;
+			margin-top:2px;
+			color:#FFFFFF;
+		}
+	}
+
+	nav {
+		border:2px solid #3C0D61;
+		border-radius:10px;
+		padding:10px 20px;
+		margin: 10px 400px 0 25px;
+
+		#main-nav-list {
+			list-style:none;
+			position:relative;
+
+			&>li {
+				display:inline-block;
+				margin-right:15px;
+
+				&:hover > a {
+					text-decoration:underline;
+				}
+
+				&:hover ul{
+					display:block;
+				}
+
+				a {
+					text-decoration:none;
+					color:#FFFFFF;
+				}
+			}
+
+			li ul {
+				display:none;
+				list-style:none;
+				position:absolute;
+				background-color:#D593FF;
+				border-radius:10px;
+				
+				li {
+					border-bottom:1px solid #FFFFFF;
+					padding:10px;
+
+					&:last-of-type {
+						border:none;
+					}
+
+					&:hover > a {
+					text-decoration:underline;
+					}
+				}
+			}
+		}
+	}
+
+	section {
+		width:70%;
+		float:left;
+		margin:20px 5px 0px 0px;
+
+		article {
+			padding:30px 15px;
+			border:2px solid #3B0962;
+			border-radius:20px;
+			margin: 20px 0px 15px 5px;
+
+			header {
+				margin:5px;
+			}
+
+			footer {
+				text-align:right;
+				font-size:1em;
+
+				a{
+					text-decoration:none;
+					color:#CF9AF8;
+				}
+			}
+		}
+	}
+
+	aside {
+		@include clearfix;
+		a {
+			text-decoration:none;
+			color:#A496AF;
+		}
+
+		strong {
+			color:#CCCCD1;
+		}
+
+		em {
+			color:#C0B2D6;
+		}
+		ul {
+			list-style:none;
+		}
+		&>ul {
+			display:inline-block;
+			width:25%;
+			margin: 60px 0 0 20px;
+
+			&>li {
+				border:2px solid #07010B;
+				padding:20px;
+				margin-top:30px;
+
+				&>ul>li {
+					padding-left:25px;
+					background-image:url(imgs/li-dot.png);
+					background-repeat:no-repeat;
+					background-position-y:50%;
+					margin-left:5px;
+				}
+
+				h2 {
+					margin-bottom:10px;
+					margin-left:-5px;
+				}
+			}
+		}
+	}
+
+	footer {
+		text-align:center;
+		font-size:1.3em;
+		font-weight:800;
+		margin-top:20px;
+	}
+}
+
+
+

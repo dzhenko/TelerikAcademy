@@ -1,0 +1,30 @@
+﻿body, ul, li, a {
+    margin:0;
+    padding:0;
+}
+
+a {
+    text-decoration:none;
+    color:#000000;
+}
+
+ul {
+    list-style:none;
+}
+
+ul li ul a {
+    color:gray;
+}
+
+body ul li ul {
+    display:none;
+}
+
+body ul li a:hover {
+    text-decoration:underline;
+}
+
+body ul li:hover > ul {
+    display:block;
+    margin-left:10px;
+}

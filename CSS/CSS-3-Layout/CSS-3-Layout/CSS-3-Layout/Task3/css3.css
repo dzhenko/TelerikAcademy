@@ -1,0 +1,83 @@
+﻿body,header,h1,h2,p,a,span,section,button,img,input {
+    padding:0;
+    margin:0;
+}
+
+#wrapper {
+    border: 1px solid #806850;
+    border-radius:5px;
+    width:640px;
+    margin:5px;
+}
+
+body header {
+    background-color:#343434;
+    border-bottom:2px solid #2E2E2E;
+    padding:5px;
+    vertical-align:central;
+}
+
+body header img {
+    display:inline-block;
+    width:45px;
+    height:40px;
+    vertical-align:central;
+}
+
+body header h1 {
+    display:inline-block;
+    padding:5px;
+    font-size:1.2em;
+    margin:5px;
+    color:#FFFFFF;
+    vertical-align:top;
+}
+
+body header input {
+    vertical-align:top;
+    margin: 10px 10px 5px 0px;
+    padding:0 0 5px 10px;
+}
+
+body header button {
+    vertical-align:top;
+    margin:8px;
+
+    background: #be0208;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIzOCUiIHN0b3AtY29sb3I9IiNiZTAyMDgiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1OCUiIHN0b3AtY29sb3I9IiNmZjBlMTAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #be0208 38%, #ff0e10 58%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(38%,#be0208), color-stop(58%,#ff0e10));
+    background: -webkit-linear-gradient(top,  #be0208 38%,#ff0e10 58%);
+    background: -o-linear-gradient(top,  #be0208 38%,#ff0e10 58%);
+    background: -ms-linear-gradient(top,  #be0208 38%,#ff0e10 58%);
+    background: linear-gradient(to bottom,  #be0208 38%,#ff0e10 58%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#be0208', endColorstr='#ff0e10',GradientType=0 );
+
+    border:1px solid #EAF5F1;
+    border-radius:10px;
+
+    color:#FFFFFF;
+
+    width:60px;
+    height:30px;
+}
+
+body section {
+    background-color:#3B3B3B;
+    color:#A3A3A3;
+    padding:10px;
+}
+
+body section h2 {
+    color:#FFD616;
+    margin:20px 5px;
+}
+
+body section a {
+    text-decoration:none;
+    color:#A3A3A3;
+}
+
+body section span {
+    color:#FEFEFE;
+}

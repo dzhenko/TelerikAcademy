@@ -1,0 +1,95 @@
+﻿body, ul, li, nav, section, aside, video {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color:#1E3741;
+}
+
+nav {
+    margin:10px 0 15px 0;
+}
+
+nav ul {
+    list-style:none;
+}
+
+nav ul li {
+    display:inline-block;
+    background-color:#4B5F67;
+    padding:5px 10px 5px 10px;
+    margin:-1px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#8498A1;
+    font-size:15px;
+}
+
+nav ul li a:hover{
+    text-decoration:underline;
+}
+
+nav ul li.selectedNav{
+    background-color:#1E3741;
+}
+
+nav ul li.selectedNav a{
+    color:#FFFFFF;
+}
+
+aside {
+    width: 245px;
+    height: 270px;
+    float:left;
+}
+
+aside ul {
+    list-style:none;
+}
+
+aside ul li {
+    border-bottom:1px solid #364B55;
+    font-size:15px;
+    padding:10px;
+}
+
+aside ul li a{
+    text-decoration:none;
+    color:#A3ADB1;
+}
+
+aside ul li a:hover{
+    text-decoration:underline;
+}
+
+aside ul li:last-of-type {
+    border-bottom:none;
+}
+
+aside ul li.selectedAside {
+    background-color:#00968C;
+}
+
+aside ul li.selectedAside a {
+    color:#FFFFFF;
+}
+
+#player {
+    width:360px;
+    height:295px;
+    background-image:url(video1.jpg);
+    display:inline-block;
+}
+
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}

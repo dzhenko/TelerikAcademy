@@ -1,0 +1,97 @@
+﻿body, nav, ul, li, div, span, section, legend, fieldset, img {
+    margin:0;
+    padding:0;
+}
+
+nav {
+    margin: 0 500px 10px 10px;
+    border-bottom:2px solid #3D3D3D;
+}
+
+nav li {
+    display:inline-block;
+    align-content:center;
+    margin: 10px 0 10px 0;
+}
+
+nav li:first-of-type{
+    margin-left:150px;
+}
+
+nav li a{
+    color:#00ADEF;
+    font-size:1.8em;
+    margin-left:1px;
+}
+
+#products {
+    border:2px solid #3D3D3D;
+    width:520px;
+    margin:5px;
+    padding:5px;
+    float:left;
+}
+
+#products legend {
+    margin: 0px 45px;
+    font-size:1.1em;
+}
+
+#products fieldset {
+    margin:5px;
+    display:inline-block;
+    width:240px;
+}
+
+#products fieldset img {
+    width:120px;
+    height:70px;
+    margin:5px;
+    float:left;
+}
+
+.clearfix {
+   zoom:1;
+}
+.clearfix:after {
+   content: ""; 
+   display: block; 
+   clear: both; 
+   height: 0;
+}
+
+#products fieldset > span {
+    display:inline-block;
+    margin:5px;
+}
+
+#products fieldset > span:first-of-type {
+    margin-top:30px;
+}
+
+#products fieldset > span {
+    width:80px;
+}
+
+body .spaceSpan {
+    display:inline-block;
+    width:30px;
+}
+
+#products fieldset > div {
+    margin:0px 20px 5px 40px;
+}
+
+#ranges {
+    display:inline-block;
+    margin:5px;
+    font-size:1.6em;
+    padding:10px;
+    padding-top:70px;
+}
+
+#ranges input {
+    width:90%;
+    margin:5%;
+    margin-bottom:10%;
+}

@@ -1,0 +1,194 @@
+﻿body,nav,aside,ul,li,a,p,div,section,article,footer,header,h1,h2,button,input {
+    margin:0;
+    padding:0;
+}
+
+body ul {
+    list-style:none;
+}
+
+body {
+    
+    background-color:#F1F1F1;
+}
+
+body  a{
+    color:#8E0705;
+    font-size:1.05em;
+}
+
+#tutorial .clearfix {
+   zoom:1;
+}
+#tutorial .clearfix:after {
+   content: ""; 
+   display: block; 
+   clear: both; 
+   height: 0;
+}
+
+/*---navigation---*/
+
+body nav {
+    width:180px;
+    height:850px;
+    float:left;
+    padding-top:20px;
+}
+
+body nav > a {
+    font-size:1em;
+    font-weight:800;
+    padding-left:20px;
+    background-image:url(imgs/home.png);
+    background-repeat:no-repeat;
+} 
+
+
+body nav ul {
+    margin-top:15px;
+}
+
+body nav a {
+    text-decoration:none;
+    color:#000000;
+}
+
+body nav ul li:first-of-type a {
+    color:#8E0705;
+}
+
+
+/*---section---*/
+body section {
+    float:left;
+    border:1px solid #999999;
+    height:810px;
+    width:600px;
+    background-color:#FFFFFF;
+    display:inline-block;
+    padding:5px;
+}
+
+body section button {
+    background-repeat:no-repeat;
+    padding: 2px 35px 2px 35px;
+    background-color:#FFFFFF;
+    border:2px solid #000000;
+    text-align:center;
+    width:120px;
+    margin-bottom:10px;
+}
+
+body section button.previous {
+    background-image:url(imgs/back.png);
+    background-position:3% 50%;
+}
+
+body section button.next {
+    background-image:url(imgs/forward.png);
+    background-position:97% 50%;
+}
+
+body section header {
+    border-bottom:2px solid #919191;
+    margin-bottom:10px;
+}
+
+body section header h1 {
+    font-size:1.8em;
+    margin: 25px 0 20px 5px;
+}
+
+body section article h2 {
+    background-color:#808080;
+    font-size:1.2em;
+    padding-left:5px;
+    margin-bottom:25px;
+    color:#FFFFFF;
+}
+
+body section article#tutorial img {
+    margin-top:-10px;
+    float:left;
+}
+
+body section article#tutorial p {
+    font-weight:900;
+    font-size:1.05em;
+    margin:15px 25px 0 25px;
+}
+
+body section article#tutorial a {
+    display:inline-block;
+    margin : 10px 0 20px 0;
+}
+
+body section article a {
+    display:inline-block;
+    margin : 5px 0 10px 0;
+}
+
+body section footer {
+    border-bottom:2px solid #919191;
+    border-top:2px solid #919191;
+    padding-top:10px;
+    margin-top:20px;
+}
+
+
+/*---aside---*/
+body > aside{
+    display:inline-block;
+    width:180px;
+    background-color:#FFFFFF;
+}
+
+body > aside > div {
+    border:2px solid #999999;
+    margin:2px;
+}
+
+body > aside > div > input {
+    margin:5px;
+    width:110px;
+    height:20px;
+}
+
+body > aside > div:first-of-type > button {
+    font-weight:800;
+    width:25px;
+}
+
+body > aside > div > h2 {
+    background-color:#808080;
+    color:#FFFFFF;
+    font-size:1em;
+    text-align:center;
+    margin:-5px;
+    margin-bottom:5px;
+}
+
+body > aside > div {
+    text-align:center;
+    padding:5px;
+}
+
+body > aside > div:nth-of-type(2) > button {
+    background: #d6f1ff;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q2ZjFmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2Q2ZjFmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjZGViZmIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #d6f1ff 0%, #d6f1ff 50%, #cdebfb 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d6f1ff), color-stop(50%,#d6f1ff), color-stop(100%,#cdebfb));
+    background: -webkit-linear-gradient(top,  #d6f1ff 0%,#d6f1ff 50%,#cdebfb 100%);
+    background: -o-linear-gradient(top,  #d6f1ff 0%,#d6f1ff 50%,#cdebfb 100%);
+    background: -ms-linear-gradient(top,  #d6f1ff 0%,#d6f1ff 50%,#cdebfb 100%);
+    background: linear-gradient(to bottom,  #d6f1ff 0%,#d6f1ff 50%,#cdebfb 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6f1ff', endColorstr='#cdebfb',GradientType=0 );
+
+    color:#13C3FF;
+    
+    margin:0px 15px;
+    padding:5px 15px;
+    font-size:1.1em;
+    border:1px solid #3C7FB1;
+}

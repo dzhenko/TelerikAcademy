@@ -1,0 +1,11 @@
+body, nav, img, input, section {
+  margin: 0;
+  padding: 0; }
+
+#buttons {
+  display: none; }
+
+nav img {
+  width: 60px;
+  height: 60px; }
+
