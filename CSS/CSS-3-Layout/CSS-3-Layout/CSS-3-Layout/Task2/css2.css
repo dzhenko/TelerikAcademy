@@ -50,7 +50,7 @@ body #wrap section article button.listen {
 }
 
 body #wrap section article button.add {
-    background-image:url(imgs/listen.png);
+    background-image:url(imgs/add.png);
     border:none;
     width:70px;
     height:25px;
