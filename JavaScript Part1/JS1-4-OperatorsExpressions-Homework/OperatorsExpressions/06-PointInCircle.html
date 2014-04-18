@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write an expression that checks if given print (x,  y) is within a circle K(O, 5).-->
+    <title>Task 6</title>
+    <script>
+        function CheckNumber(input) {
+            if (isNaN(input.value)) {
+                alert("You have not entered a number! Try again");
+                input.value = null;
+            }
+        }
+        function CheckPoint() {
+            var x = document.getElementById('xInput').value;
+            var y = document.getElementById('yInput').value;
+            var result = "Check your x width and y!";
+            if (x === "" || y === "") {
+                alert(x === "" ? "x is empty!" : "y is empty!");
+            }
+            else {
+                var distance = Math.sqrt(x * x + y * y);
+                result = "The point with coordinates X:" + x + " and Y:" + y + " is in the Circle (0,5) --> ";
+
+                result += distance <= 5;
+            }
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+
+</head>
+<body>
+    <input type="text" id="xInput" autofocus="autofocus" placeholder="Enter x" onchange="CheckNumber(this)" />
+    <input type="text" id="yInput" placeholder="Enter y" onchange="CheckNumber(this)" />
+    <button onclick="CheckPoint()">CheckPoint</button>
+    <span id="result"></span>
+</body>
+</html>

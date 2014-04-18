@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write an expression that checks if given integer is odd or even.-->
+    <title>Task 1</title>
+    <script>
+        function GetOddOrEven() {
+            var number = parseInt(document.getElementById('getNumber').value);
+            var result = "";
+            if (!isNaN(number)) {
+                result = "The number " + number;
+                if (number % 2 === 0) {
+                    result +=" is even";
+                }
+                else {
+                    result += " is odd";
+                }
+            }
+            
+            else {
+                result = "You have not entered a number";
+            }
+
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+
+</head>
+<body>
+    <input type="text" id="getNumber" autofocus="autofocus" placeholder="Enter integer number" />
+    <button onclick="GetOddOrEven()">Odd / Even</button>
+    <span id="result"></span>
+</body>
+</html>

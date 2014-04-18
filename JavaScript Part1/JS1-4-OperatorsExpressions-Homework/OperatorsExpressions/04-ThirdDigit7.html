@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write an expression that checks for given integer if its third digit (right-to-left) is 7. E. g. 1732  true.-->
+    <title>Task 4</title>
+    <script>
+        function ThirdDigit7() {
+            var number = parseInt(document.getElementById('getNumber').value).toString();
+            var result = "";
+            if (isNaN(number)) {
+                result = "You have not entered a number!";
+            }
+
+            else if (number.length < 3) {
+                result = "You have not entered a number with at least 3 digits!";
+            }
+
+            else {
+                var thirdDigitIsSeven = number[number.length - 3] === "7";
+                result = "The third digit (right-to-left) of the number " + number + " is 7 --> " + thirdDigitIsSeven;
+            }
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+
+</head>
+<body>
+    <input type="text" id="getNumber" autofocus="autofocus" placeholder="Enter integer number" />
+    <button onclick="ThirdDigit7()">Third Digit 7?</button>
+    <span id="result"></span>
+</body>
+</html>

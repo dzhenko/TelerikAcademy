@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write a boolean expression that checks for given integer if it can be divided (without remainder) by 7 and 5 in the same time.-->
+    <title>Task 2</title>
+    <script>
+        function DivideBy35() {
+            var number = parseInt(document.getElementById('getNumber').value);
+            var result = "";
+            if (!isNaN(number)) {
+                var dividableBy7and5 = number % 35 === 0;
+                result = "The number " + number;
+                if (dividableBy7and5) {
+                    result += " CAN be divided (without remainder) by 7 and 5 in the same time";
+                }
+                else {
+                    result += " can NOT be divided (without remainder) by 7 and 5 in the same time";
+                }
+            }
+            else {
+                result = "You have not entered a number";
+            }
+
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+
+</head>
+<body>
+    <input type="text" id="getNumber" autofocus="autofocus" placeholder="Enter integer number" />
+    <button onclick="DivideBy35()">Divide by 35?</button>
+    <span id="result"></span>
+</body>
+</html>

@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write a boolean expression for finding if the bit 3 (counting from 0) of a given integer is 1 or 0.-->
+    <title>Task 5</title>
+    <script>
+        function FindBit3() {
+            var number = parseInt(document.getElementById('getNumber').value);
+
+            if (isNaN(number)) {
+                document.getElementById('result').innerHTML = "You have not entered a number!";
+            }
+
+            else {
+                var bit = (number & (1 << 3)) >> 3;
+                var binaryNumber = number.toString(2);
+                if (binaryNumber.length < 4) {
+                    for (var i = 0; i < 6 - binaryNumber.length; i++) {
+                        binaryNumber = "0" + binaryNumber;
+                    }
+                }
+
+                var coloredResult = binaryNumber.substr(0, binaryNumber.length - 4);
+                coloredResult += '<span style ="color:red">';
+                coloredResult += binaryNumber.substr(binaryNumber.length - 4, 1);
+                coloredResult += '</span>';
+                coloredResult += binaryNumber.substr(binaryNumber.length - 3);
+
+                var result = "The bit 3 (counting from 0) of the number " + number + " is --> " + bit
+                    + "   (The number in binary is: " + coloredResult + ")";
+                document.getElementById('result').innerHTML = result;
+            }
+
+        }
+    </script>
+
+</head>
+<body>
+    <input type="text" id="getNumber" autofocus="autofocus" placeholder="Enter integer number" />
+    <button onclick="FindBit3()">The bit 3?</button>
+    <span id="result"></span>
+</body>
+</html>
