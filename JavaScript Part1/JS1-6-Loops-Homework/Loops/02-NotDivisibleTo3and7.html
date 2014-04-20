@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write a script that prints all the numbers from 1 to N, that are not divisible by 3 and 7 at the same time-->
+    <title>Task 2</title>
+    <script>
+        function PrintNumbersNotDivTo3and7() {
+            var num = parseInt(document.getElementById('number').value);
+            if (isNaN(num)) {
+                document.getElementById('result').innerHTML = "You have not entered a number!";
+            }
+
+            else {
+                var result = "";
+                for (var i = 1; i <= num; i++) {
+                    if (i % 21 === 0) {
+                        continue;
+                    }
+                    result += i;
+                    if (i !== num) {
+                        result += ", ";
+                    }
+                }
+                document.getElementById('result').innerHTML = result;
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="number" autofocus="autofocus" placeholder="Enter number" />
+    <button onclick="PrintNumbersNotDivTo3and7()">Print numbers not divisible to 3 and 7 at the same time!</button>
+    <span id="result"></span>
+</body>
+</html>

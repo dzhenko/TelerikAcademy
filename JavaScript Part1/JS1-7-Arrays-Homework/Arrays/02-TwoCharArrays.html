@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write a script that compares two char arrays lexicographically (letter by letter).-->
+    <title>Task 2</title>
+    <script>
+        function CompareTwoArrays() {
+            var str1 = document.getElementById('a').value;
+            var str2 = document.getElementById('b').value;
+
+            var maxLength = str1.length;
+            if (maxLength > str2.length) {
+                maxLength = str2.length;
+            }
+
+            for (var i = 0; i < maxLength; i++) {
+                var currentDiv = document.createElement('div');
+
+                var currResult = str1[i] + " ";
+                if (str1[i] < str2[i]) {
+                    currResult += ">";
+                }
+                else if (str1[i] > str2[i]) {
+                    currResult += "<";
+                }
+                else {
+                    currResult += "=";
+                }
+
+                currResult += " " + str2[i];
+
+                currentDiv.innerHTML = currResult;
+                document.body.appendChild(currentDiv);
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="a" autofocus="autofocus" placeholder="Enter Array 1 as a String" />
+    <input type="text" id="b" placeholder="Enter Array 2 as a String" />
+    <button onclick="CompareTwoArrays()">Compare!</button>
+</body>
+</html>

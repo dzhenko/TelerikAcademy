@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Sorting an array means to arrange its elements in increasing order. Write a script to sort an array. Use the "selection sort" algorithm: Find the smallest element, move it at the first position, find the smallest from the rest, move it at the second position, etc.Hint: Use a second array-->
+    <title>Task 5</title>
+</head>
+<body>
+    <script>
+        var arr = [4, 3, 6, 8, 9,2,11,0,-4,-2,18];
+
+        var arrayDiv = document.createElement('div');
+        arrayDiv.innerHTML = "Unsorted array: " + arr.join(", ");
+        document.body.appendChild(arrayDiv);
+
+        for (var i = 0; i < arr.length; i++) {
+            var currMin = i;
+            for (var j = i + 1; j < arr.length; j++) {
+                if (arr[currMin] > arr[j]) {
+                    currMin = j;
+                }
+            }
+            var helper = arr[i];
+            arr[i] = arr[currMin];
+            arr[currMin] = helper;
+        }
+
+        var resultsDiv = document.createElement('div');
+        resultsDiv.innerHTML = "Sorted array: " + arr.join(", ");
+        document.body.appendChild(resultsDiv);
+        
+    </script>
+</body>
+</html>

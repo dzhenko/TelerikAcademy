@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write a function that checks if the element at given position in given array of integers is bigger 
+        than its two neighbors (when such exist)-->
+    <title>Task 6</title>
+    <script src="scripts/BiggerThanNeighbours.js"></script>
+    <script>
+        var arr = [1, 2, 3, 4, 1, 2, 4, 2, 3, 1, 4, 2, 3, 2];
+        window.onload = showArray;
+        function showArray() {
+            document.getElementById('array').innerHTML = "Array is: " + arr.join(' ');
+        }
+
+        function areYouBiggerThanNeighbours() {
+            var num = parseInt(document.getElementById('number').value);
+
+            if (isNaN(num)) {
+                alert("You have not entered a number");
+            }
+
+            else {
+                var newArray = "";
+                var openSpan = '<span style="color:red">';
+                var closeSpan = '</span>';
+                for (var i = 0; i < arr.length; i++) {
+                    if (i === num) {
+                        newArray += openSpan;
+                        newArray += arr[i];
+                        newArray += closeSpan;
+                        newArray += ' ';
+                    }
+                    else {
+                        newArray += arr[i];
+                        newArray += ' ';
+                    }
+                }
+                document.getElementById('array').innerHTML = "Array is: " + newArray;
+                var answer = BiggerThanNeighbours(arr,num);
+                document.getElementById('result').innerHTML = "The element with index " + num + " is bigger than it's two neighbours --> " +
+                    openSpan + answer + closeSpan;
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="array" ></div>
+    <input type="text" autofocus="autofocus" placeholder="Enter index" id="number" />
+    <button onclick="areYouBiggerThanNeighbours()">Are you bigger than neighbours?</button>
+    <div id="result"></div>
+</body>
+</html>

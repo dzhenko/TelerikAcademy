@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write a function that reverses the digits of given decimal number. Example: 256  652
+-->
+    <title>Task 2</title>
+    <script>
+        function GetReversedNumber(num) {
+            var answer = Array(num.length);
+            for (var i = num.length - 1; i >= 0; i--) {
+                answer[num.length - 1 - i] = num[i];
+            }
+
+            return Number(answer.join(""));
+        }
+
+        function ReverseNumber() {
+            var num = document.getElementById('number').value;
+
+            if (isNaN(num)) {
+                document.getElementById('result').innerHTML = "Invalid number";
+            }
+            else {
+                document.getElementById('result').innerHTML = GetReversedNumber(num);
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="text" autofocus="autofocus" placeholder="Enter number" id="number" />
+    <button onclick="ReverseNumber()">Reverse!</button>
+    <span id="result"></span>
+</body>
+</html>

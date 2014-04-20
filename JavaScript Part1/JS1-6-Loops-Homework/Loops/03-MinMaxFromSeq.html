@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write a script that finds the max and min number from a sequence of numbers-->
+    <title>Task 3</title>
+    <script>
+        var arr = Array();
+        function AddNumberToSequence() {
+            var a = parseInt(document.getElementById('a').value);
+            if (isNaN(a)) {
+                document.getElementById('result').innerHTML = "You have not entered a number!";
+            }
+
+            else {
+                document.getElementById('inputNumbers').innerHTML += a;
+                document.getElementById('inputNumbers').innerHTML += " ";
+
+                arr.push(a);
+            }
+
+            document.getElementById('a').value = "";
+            document.getElementById('a').focus();
+        }
+
+        function FindMinMax() {
+            if (arr.length === 0) {
+                document.getElementById('result').innerHTML = "You have not entered any numbers !";
+            }
+            else {
+                var min = arr[0];
+                var max = arr[0];
+                for (var index in arr) {
+                    if (arr[index] > max) {
+                        max = arr[index];
+                    }
+                    if (arr[index] < min) {
+                        min = arr[index];
+                    }
+                }
+                var result = "The min number is " + min + " and the max number is " + max;
+                document.getElementById('result').innerHTML = result;
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="a" autofocus="autofocus" placeholder="Enter a number" />
+    <button onclick="AddNumberToSequence()">Add number</button>
+    <button onclick="FindMinMax()">Find Min and Max</button>
+    <span id="result"></span>
+    <div id="inputNumbers"></div>
+</body>
+</html>

@@ -7,3 +7,6 @@ c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\11. Bi
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\11. BinarySearchInSortedArray\bin\Debug\_11.BinarySearchInSortedArray.exe.config
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\11. BinarySearchInSortedArray\obj\Debug\_11.BinarySearchInSortedArray.exe
 C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\11. BinarySearchInSortedArray\obj\Debug\_11.BinarySearchInSortedArray.pdb
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-1-Arrays-Homework\11. BinarySearchInSortedArray\bin\Debug\_11.BinarySearchInSortedArray.exe.config
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-1-Arrays-Homework\11. BinarySearchInSortedArray\obj\Debug\_11.BinarySearchInSortedArray.exe
+C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-1-Arrays-Homework\11. BinarySearchInSortedArray\obj\Debug\_11.BinarySearchInSortedArray.pdb

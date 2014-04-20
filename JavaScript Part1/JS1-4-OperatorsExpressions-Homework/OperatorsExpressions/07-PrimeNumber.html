@@ -13,9 +13,9 @@
 
             else {
                 result = "The number "+number+" IS a prime number";
-
-                for (var i = 2; i < 101; i++) {
-                    if (number % i ===0 && number !== i) {
+                var maxDivide = Math.sqrt(number);
+                for (var i = 2; i <= maxDivide; i++) {
+                    if (number % i ===0) {
                         result = "The number " + number + " is NOT a prime number";
                         break;
                     }

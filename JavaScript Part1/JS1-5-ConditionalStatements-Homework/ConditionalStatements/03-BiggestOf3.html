@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write a script that finds the biggest of three integers using nested if statements.-->
+    <title>Task 3</title>
+    <script>
+        function CheckNumber(input) {
+            if (isNaN(input.value)) {
+                alert("You have not entered a number! Try again");
+                input.value = null;
+            }
+        }
+        function FindBiggest() {
+            var a = parseInt(document.getElementById('a').value);
+            var b = parseInt(document.getElementById('b').value);
+            var c = parseInt(document.getElementById('c').value);
+            var result = "Check your entered a, b and c!";
+            if (isNaN(a) || isNaN(b) || isNaN(c)) {
+                alert(isNaN(a) ? "a is empty!" : isNaN(b) ? "b is empty!" : "c is empty!");
+            }
+            else {
+                if (a > b) {
+                    if (a > c) {
+                        result = a;
+                    }
+                    else {
+                        result = c;
+                    }
+                }
+                else {
+                    if (b > c) {
+                        result = b;
+                    }
+                    else {
+                        result = c;
+                    }
+                }
+
+                result += " is the biggest number!";
+            }
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+
+</head>
+<body>
+    <input type="text" id="a" autofocus="autofocus" placeholder="Enter a" onchange="CheckNumber(this)" />
+    <input type="text" id="b" placeholder="Enter b" onchange="CheckNumber(this)" />
+    <input type="text" id="c" placeholder="Enter c" onchange="CheckNumber(this)" />
+    <button onclick="FindBiggest()">Find biggest</button>
+    <span id="result"></span>
+</body>
+</html>

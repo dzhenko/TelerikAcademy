@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write a script that allocates array of 20 integers and initializes each element by its index multiplied by 5. Print the obtained array on the console.-->
+    <title>Task 1</title>
+    <script>
+        function GetArray() {
+            var arr = Array(20);
+
+            for (var i = 0; i < arr.length; i++) {
+                arr[i] = i * 5;
+            }
+
+            console.log(arr.join(", "));
+            var results = document.createElement('div');
+            results.innerHTML = arr.join(", ");
+            document.body.appendChild(results);
+        }
+       
+    </script>
+</head>
+<body>
+    <script>
+        GetArray();
+    </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write a program that finds the index of given element in a sorted array of integers by using the binary search algorithm (find it in Wikipedia)-->
+    <title>Task 7</title>
+</head>
+<body>
+    <script>
+        function FindIndexBinarySearch() {
+            var element = parseInt(document.getElementById('number').value);
+            if (isNaN(element)) {
+                alert("You have not entered a number!");
+                location.reload();
+            }
+
+            else {
+                var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+                var arrayDiv = document.createElement('div');
+                arrayDiv.innerHTML = "Array: " + arr.join(", ");
+                document.body.appendChild(arrayDiv);
+
+                var min = 0;
+                var max = arr.length - 1;
+                var answer = -1;
+
+                while (min <= max) {
+                    var mid = min + (max - min) / 2;
+                    mid = Math.floor(mid);
+                    if (arr[mid] > element) {
+                        max = mid - 1;
+                    }
+                    else if (arr[mid] < element) {
+                        min = mid + 1;
+                    }
+                    else {
+                        answer = mid;
+                        break;
+                    }
+                }
+
+                var resultDiv = document.createElement('div');
+                resultDiv.innerHTML = "Index of element " + element + " is " + answer;
+                document.body.appendChild(resultDiv);
+            }
+        }
+    </script>
+    <input type="text" id="number" placeholder="Enter element from 1 to 10" autofocus="autofocus" />
+    <button onclick="FindIndexBinarySearch()">Find Index</button>
+</body>
+</html>

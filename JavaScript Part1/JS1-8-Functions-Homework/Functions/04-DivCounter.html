@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <!--Write a function to count the number of divs on the web page
+-->
+    <style>
+        p {
+            font-size:2em;
+
+        }
+        div {
+            display:inline-block;
+            width:40px;
+            margin:5px;
+            height:30px;
+            background-color:red;
+            border:1px solid black;
+            text-align:center;
+        }
+        button {
+            background:none;
+            display:inline-block;
+            border:2px solid grey;
+            width:200px;
+            height:40px;
+            margin:20px;
+            font-size:1.4em;
+        }
+
+    </style>
+    <title>Task 4</title>
+    <script>
+        function GetDivsCount() {
+            var divs = document.getElementsByTagName('div');
+            return divs.length;
+        }
+
+        function CountDivs() {
+            document.getElementById('result').innerHTML = "The number of divs is "+GetDivsCount();
+        }
+
+        function AddNewDiv() {
+            var newDiv = document.createElement('div');
+            newDiv.innerHTML = 'D I V';
+            document.body.appendChild(newDiv);
+        }
+
+        function RemoveDiv() {
+            var divs = document.getElementsByTagName('div');
+            if (divs.length > 0) {
+                var removedDiv = divs[divs.length - 1];
+                document.body.removeChild(removedDiv);
+            }
+        }
+    </script>
+</head>
+<body >
+    <button onclick="AddNewDiv()">Add new Div</button>
+    <button onclick="RemoveDiv()">Remove a Div</button>
+    <button onclick="CountDivs()">Count them!</button>
+    <p id="result">&nbsp;</p>
+</body>
+</html>

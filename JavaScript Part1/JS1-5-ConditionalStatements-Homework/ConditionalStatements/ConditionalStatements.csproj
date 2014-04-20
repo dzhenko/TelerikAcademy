@@ -57,6 +57,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="06-SquareEquasion.html" />
+    <Content Include="07-GreatestOfFive.html" />
+    <Content Include="05-DigitToText.html" />
+    <Content Include="08-NumberToText.html" />
+    <Content Include="04-Sort3Values.html" />
+    <Content Include="03-BiggestOf3.html" />
+    <Content Include="02-ProductOf3.html" />
     <Content Include="01-GreaterValue.html" />
     <Content Include="Web.config" />
   </ItemGroup>

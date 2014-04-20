@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write a script that prints all the numbers from 1 to N-->
+    <title>Task 1</title>
+    <script>
+        function PrintNumbers() {
+            var num = parseInt(document.getElementById('number').value);
+            if (isNaN(num)) {
+                document.getElementById('result').innerHTML = "You have not entered a number!";
+            }
+
+            else {
+                var result = "";
+                for (var i = 1; i <= num; i++) {
+                    result += i;
+                    if (i !== num) {
+                        result += ", ";
+                    }
+                }
+                document.getElementById('result').innerHTML = result;
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="number" autofocus="autofocus" placeholder="Enter number" />
+    <button onclick="PrintNumbers()">Print numbers!</button>
+    <span id="result"></span>
+</body>
+</html>

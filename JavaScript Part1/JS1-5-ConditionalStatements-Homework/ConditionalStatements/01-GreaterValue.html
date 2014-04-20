@@ -15,8 +15,8 @@
             var a = parseInt(document.getElementById('a').value);
             var b = parseInt(document.getElementById('b').value);
             var result = "Check your entered a and b!";
-            if (a === "" || b === "") {
-                alert(a === "" ? "a is empty!" : "b is empty!");
+            if (isNaN(a) || isNaN(b)) {
+                alert(isNaN(a) ? "a is empty!" :  "b is empty!" );
             }
             else {
                 if (a > b) {

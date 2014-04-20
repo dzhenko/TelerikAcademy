@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Sort 3 real values in descending order using nested if statements.-->
+    <title>Task 4</title>
+    <script>
+        function CheckNumber(input) {
+            if (isNaN(input.value)) {
+                alert("You have not entered a number! Try again");
+                input.value = null;
+            }
+        }
+        function Sort3Values() {
+            var a = parseInt(document.getElementById('a').value);
+            var b = parseInt(document.getElementById('b').value);
+            var c = parseInt(document.getElementById('c').value);
+            var result = "Check your entered a, b and c!";
+            if (isNaN(a) || isNaN(b) || isNaN(c)) {
+                alert(isNaN(a) ? "a is empty!" : isNaN(b) ? "b is empty!" : "c is empty!");
+            }
+            else {
+                if (a > b) {
+                    if (a > c) {
+                        result = a;
+                        if (b > c) {
+                            result += " " + b + " " + c;
+                        }
+                        else {
+                            result += " " + c + " " + b;
+                        }
+                    }
+                    else {
+                        result = c;
+                        if (b > a) {
+                            result += " " + b + " " + a;
+                        }
+                        else {
+                            result += " " + a + " " + b;
+                        }
+                    }
+                }
+                else {
+                    if (b > c) {
+                        result = b;
+                        if (c > a) {
+                            result += " " + c + " " + a;
+                        }
+                        else {
+                            result += " " + a + " " + c;
+                        }
+                    }
+                    else {
+                        result = c + " " + b + " " + a;
+                    }
+                }
+
+                result += " are the sorted numbers";
+            }
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+
+</head>
+<body>
+    <input type="text" id="a" autofocus="autofocus" placeholder="Enter a" onchange="CheckNumber(this)" />
+    <input type="text" id="b" placeholder="Enter b" onchange="CheckNumber(this)" />
+    <input type="text" id="c" placeholder="Enter c" onchange="CheckNumber(this)" />
+    <button onclick="Sort3Values()">Sort!</button>
+    <span id="result"></span>
+</body>
+</html>

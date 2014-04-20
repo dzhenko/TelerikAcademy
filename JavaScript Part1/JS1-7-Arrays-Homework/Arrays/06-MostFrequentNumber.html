@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write a program that finds the most frequent number in an array. Example:
+	{4, 1, 1, 4, 2, 3, 4, 4, 1, 2, 4, 9, 3}  4 (5 times)
+-->
+    <title>Task 6</title>
+</head>
+<body>
+    <script>
+        var arr = [4, 1, 1, 4, 2, 3, 4, 4, 1, 2, 4, 9, 3];
+
+        var arrayDiv = document.createElement('div');
+        arrayDiv.innerHTML = "Unsorted array: " + arr.join(", ");
+        document.body.appendChild(arrayDiv);
+
+        var maxL = 0;
+        var element = arr[0];
+
+        for (var i = 0; i < arr.length; i++) {
+            var currL = 0;
+            for (var j = 0; j < arr.length; j++) {
+                if (arr[i] === arr[j]) {
+                    currL++;
+                }
+            }
+            if (currL > maxL) {
+                maxL = currL;
+                element = arr[i];
+            }
+        }
+
+        var resultsDiv = document.createElement('div');
+        resultsDiv.innerHTML = "Most frequent number: " + element + " (" + maxL + " times)";
+        document.body.appendChild(resultsDiv);
+    </script>
+</body>
+</html>

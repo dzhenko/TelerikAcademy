@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write a function that finds all the occurrences of word in a text
+The search can case sensitive or case insensitive
+Use function overloading-->
+    <style>
+        textarea {
+            width:360px;
+            height:100px;
+        }
+    </style>
+    <title>Task 3</title>
+    <script>
+        function GetWordOccurancesInText(text,word,sensitive) {
+            var caseSens = sensitive || false;
+
+            var newString = text.replace(/\W+/g, ' ');
+            var words = newString.split(' ');
+            var occurrences = 0;
+
+            if (caseSens) {
+                for (var i = 0; i < words.length; i++) {
+                    if (words[i] === word) {
+                        occurrences++;
+                    }
+                }
+            }
+            else {
+                var lower = word.toLowerCase();
+                var upper = word.toUpperCase();
+                
+                for (var i = 0; i < words.length; i++) {
+                    if (words[i] === lower || words[i] === upper) {
+                        occurrences++;
+                    }
+                }
+            }
+
+            return occurrences;
+        }
+
+        function FindWordsInText() {
+            var text = document.getElementById('text').value;
+            if (text == "") {
+                alert('you have no text entered!');
+                return;
+            }
+
+            var word = document.getElementById('word').value;
+            if (word == "") {
+                alert('you have no word entered!');
+                return;
+            }
+
+            var answer = GetWordOccurancesInText(text, word, document.getElementById('sensitive').checked);
+
+            document.getElementById('result').innerHTML = answer;
+        }
+    </script>
+
+</head>
+<body>
+    <textarea autofocus="autofocus" placeholder="Enter your text here" id="text"></textarea><br />
+    <input placeholder="Enter searched word" type="text" id="word" />
+    Case Sensitive ? <input type="checkbox" id="sensitive" />
+    <button onclick="FindWordsInText()">Find them!</button>
+    <div id="result"></div>
+</body>
+</html>
