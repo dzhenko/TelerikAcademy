@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write a function that checks if a given object contains a given property-->
+    <title>Task 4</title>
+    <script>
+        function onClickCheckObjectForProperty() {
+            var obj = document.getElementById('object').value;
+            var prop = document.getElementById('prop').value;
+
+            var spanOpen = '<span style="color:red">';
+            var spanClose = '</span>';
+            var answer = "";
+            if (obj[prop]) {
+                answer = '<span style="color:green"> HAS </span>';
+            }
+            else {
+                answer = '<span style="color:magenta"> DOESN`T HAVE </span>';
+            }
+
+            var result = "The object " + spanOpen + obj + spanClose + answer + " the property " + spanOpen + prop + spanClose;
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    <input type="text" autofocus="autofocus" id="object" placeholder="Enter object" />
+    <input type="text"  id="prop" placeholder="Enter property" />
+    <button onclick="onClickCheckObjectForProperty()">Check!</button>
+    <div id="result"></div>
+</body>
+</html>

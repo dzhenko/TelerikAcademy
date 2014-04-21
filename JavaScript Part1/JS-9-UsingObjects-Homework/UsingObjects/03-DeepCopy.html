@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write a function that makes a deep copy of an object
+The function should work for both primitive and reference types-->
+    <title>Task 3</title>
+    <script>
+        function makeDeepCopy(obj) {
+            var newObj = {};
+
+            for (var i in obj) {
+                newObj[i] = obj[i];
+            }
+
+            return newObj;
+        }
+
+        var pesho = {
+            name: "Pesho",
+            age: 16
+        };
+
+        var copy = makeDeepCopy(pesho);
+
+        console.log(pesho.age);
+        console.log(copy.age);
+
+        pesho.age = 222;
+        
+        console.log(pesho.age);
+        console.log(copy.age);
+
+        copy.age = 100;
+
+        console.log(pesho.age);
+        console.log(copy.age);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

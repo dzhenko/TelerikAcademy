@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write a program that extracts from a given text all palindromes, e.g. "ABBA", "lamal", "exe".-->
+    <title>Task 10</title>
+    <script>
+        function ExtractPolindromes() {
+            document.getElementById('result').innerHTML = "";
+            var text = document.getElementById('text').value;
+            var allPolindromes = getPolindromes(text);
+            var ol = document.createElement('ol');
+            for (var i = 0; i < allPolindromes.length; i++) {
+                var li = document.createElement('li');
+                li.innerHTML = allPolindromes[i];
+                ol.appendChild(li);
+            }
+
+            document.getElementById('result').appendChild(ol);
+        }
+
+        function getPolindromes(text) {
+            var newText = text.replace(/\W+/g, ' ');
+            var words = newText.split(' ');
+
+            var answer = [];
+
+            for (var i = 0; i < words.length; i++) {
+                if (isPolindrome(words[i])) {
+                    answer.push(words[i]);
+                }
+            }
+
+            return answer;
+        }
+
+        function isPolindrome(word) {
+            var len = word.length;
+            if (len == 1) {
+                return false;
+            }
+            for (var i = 0; i < Math.floor(len); i++) {
+                if (word[i] != word[len-1-i]) {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <textarea id="text"></textarea> <br />
+    <button onclick="ExtractPolindromes()">Extract polindromes!</button>
+    <div id="result"></div>
+</body>
+</html>

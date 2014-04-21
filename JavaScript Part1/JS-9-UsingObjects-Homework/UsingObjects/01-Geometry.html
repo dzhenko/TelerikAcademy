@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write functions for working with shapes in  standard Planar coordinate system
+Points are represented by coordinates P(X, Y)
+Lines are represented by two points, marking their beginning and ending
+L(P1(X1,Y1),P2(X2,Y2))
+Calculate the distance between two points
+Check if three segment lines can form a triangle
+-->
+    <title>Task 1</title>
+    <style>
+        div {
+            margin-top:30px;
+            font-size:1.2em;
+        }
+
+        button {
+            padding-right:25px;
+            padding-left:25px;
+
+        }
+
+        #specialButton {
+            width : 800px;
+            height : 150px;
+            margin-top:40px;
+            background-color:lightcoral;
+            border:3px solid grey;
+            font-size:3em;
+        }
+        #reset {
+            border: 3px solid grey;
+            font-size: 1em;
+            width: 800px;
+            height: 30px;
+            margin-top: 10px;
+            border:none;
+        }
+    </style>
+    <script>
+        function GetDistanceTwoPoints(x1,y1,x2,y2) {
+            return Math.sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
+        }
+
+        function GetCanWeFormATriangle(x1, y1, x2, y2, x3, y3, x4, y4, x5, y5, x6, y6) {
+            var line1 = GetDistanceTwoPoints(x1, y1, x2, y2);
+            var line2 = GetDistanceTwoPoints(x3, y3, x4, y4);
+            var line3 = GetDistanceTwoPoints(x5, y5, x6, y6);
+
+            return (line1 + line2 > line3 && line2 + line3 > line1 && line1 + line3 > line2);
+        }
+
+        function GetDistance(buttonN) {
+            switch (buttonN) {
+                case 1:
+                    var x1 = parseFloat(document.getElementById('x1').value);
+                    if (isNaN(x1)) {
+                        alert("x1 is not a number or empty!");
+                    }
+
+                    var x2 = parseFloat(document.getElementById('x2').value);
+                    if (isNaN(x2)) {
+                        alert("x2 is not a number or empty!");
+                    }
+                    var y1 = parseFloat(document.getElementById('y1').value);
+                    if (isNaN(y1)) {
+                        alert("y1 is not a number or empty!");
+                    }
+
+                    var y2 = parseFloat(document.getElementById('y2').value);
+                    if (isNaN(y2)) {
+                        alert("y2 is not a number or empty!");
+                    }
+                    document.getElementById('result1').innerHTML = "Distance is " + GetDistanceTwoPoints(x1, y1, x2, y2);
+                    break;
+
+                case 2:
+                    var x3 = parseFloat(document.getElementById('x3').value);
+                    if (isNaN(x3)) {
+                        alert("x3 is not a number or empty!");
+                    }
+
+                    var x4 = parseFloat(document.getElementById('x4').value);
+                    if (isNaN(x4)) {
+                        alert("x4 is not a number or empty!");
+                    }
+                    var y3 = parseFloat(document.getElementById('y3').value);
+                    if (isNaN(y3)) {
+                        alert("y3 is not a number or empty!");
+                    }
+
+                    var y4 = parseFloat(document.getElementById('y4').value);
+                    if (isNaN(y4)) {
+                        alert("y4 is not a number or empty!");
+                    }
+                    document.getElementById('result2').innerHTML = "Distance is " + GetDistanceTwoPoints(x3, y3, x4, y4);
+                    break;
+
+                case 3:
+                    var x5 = parseFloat(document.getElementById('x5').value);
+                    if (isNaN(x5)) {
+                        alert("x5 is not a number or empty!");
+                    }
+
+                    var x6 = parseFloat(document.getElementById('x6').value);
+                    if (isNaN(x6)) {
+                        alert("x6 is not a number or empty!");
+                    }
+                    var y5 = parseFloat(document.getElementById('y5').value);
+                    if (isNaN(y5)) {
+                        alert("y5 is not a number or empty!");
+                    }
+
+                    var y6 = parseFloat(document.getElementById('y6').value);
+                    if (isNaN(y6)) {
+                        alert("y6 is not a number or empty!");
+                    }
+                    document.getElementById('result3').innerHTML = "Distance is " + GetDistanceTwoPoints(x5, y5, x6, y6);
+                    break;
+            }
+        }
+
+        function CanWeMakeATriangle() {
+            
+            var x1 = parseFloat(document.getElementById('x1').value);
+            if (isNaN(x1)) {
+                alert("x1 is not a number or empty!");
+            }
+
+            var x2 = parseFloat(document.getElementById('x2').value);
+            if (isNaN(x2)) {
+                alert("x2 is not a number or empty!");
+            }
+
+            var x3 = parseFloat(document.getElementById('x3').value);
+            if (isNaN(x3)) {
+                alert("x3 is not a number or empty!");
+            }
+
+            var x4 = parseFloat(document.getElementById('x4').value);
+            if (isNaN(x4)) {
+                alert("x4 is not a number or empty!");
+            }
+
+            var x5 = parseFloat(document.getElementById('x5').value);
+            if (isNaN(x5)) {
+                alert("x5 is not a number or empty!");
+            }
+
+            var x6 = parseFloat(document.getElementById('x6').value);
+            if (isNaN(x6)) {
+                alert("x6 is not a number or empty!");
+            }
+
+            var y1 = parseFloat(document.getElementById('y1').value);
+            if (isNaN(y1)) {
+                alert("y1 is not a number or empty!");
+            }
+
+            var y2 = parseFloat(document.getElementById('y2').value);
+            if (isNaN(y2)) {
+                alert("y2 is not a number or empty!");
+            }
+
+            var y3 = parseFloat(document.getElementById('y3').value);
+            if (isNaN(y3)) {
+                alert("y3 is not a number or empty!");
+            }
+
+            var y4 = parseFloat(document.getElementById('y4').value);
+            if (isNaN(y4)) {
+                alert("y4 is not a number or empty!");
+            }
+
+            var y5 = parseFloat(document.getElementById('y5').value);
+            if (isNaN(y5)) {
+                alert("y5 is not a number or empty!");
+            }
+
+            var y6 = parseFloat(document.getElementById('y6').value);
+            if (isNaN(y6)) {
+                alert("y6 is not a number or empty!");
+            }
+
+            if (GetCanWeFormATriangle(x1,y1,x2,y2,x3,y3,x4,y4,x5,y5,x6,y6)) {
+                document.getElementById('specialButton').innerHTML = " ! Y E S ! "
+            }
+            else {
+                document.getElementById('specialButton').innerHTML = " ! N O O ! "
+            }
+        }
+    </script>
+</head>
+<body>
+    <button id="reset" onclick="location.reload()">R E S E T</button> <br />
+    <div>Line 1</div>
+    <input id="x1" type="text" placeholder="x1" autofocus="autofocus" />
+    <input id="y1" type="text" placeholder="y1"/>
+    <input id="x2" type="text" placeholder="x2" />
+    <input id="y2" type="text" placeholder="y2" />
+    <button onclick="GetDistance(1)">Get Line Length!</button>
+    <span id="result1"></span>
+    <div>Line 2</div>
+    <input id="x3" type="text" placeholder="x3" autofocus="autofocus" />
+    <input id="y3" type="text" placeholder="y3" />
+    <input id="x4" type="text" placeholder="x4" />
+    <input id="y4" type="text" placeholder="y4" />
+    <button onclick="GetDistance(2)">Get Line Length!</button>
+    <span id="result2"></span>
+    <div>Line 3</div>
+    <input id="x5" type="text" placeholder="x5" autofocus="autofocus" />
+    <input id="y5" type="text" placeholder="y5" />
+    <input id="x6" type="text" placeholder="x6" />
+    <input id="y6" type="text" placeholder="y6" />
+    <button onclick="GetDistance(3)">Get Line Length!</button>
+    <span id="result3"></span>
+    <br />
+    <button id="specialButton" onclick="CanWeMakeATriangle()">??? Can We Make A Triangle ???</button>
+</body>
+</html>

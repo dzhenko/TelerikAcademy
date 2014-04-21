@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write a function that groups an array of persons by age, first or last name. The function must return an associative array, with keys - the groups, and values -arrays with persons in this groups
+Use function overloading (i.e. just one function)
+        var persons = {…};
+        var groupedByFname = group(persons,"firstname");
+        var groupedByAge= group(persons,"age");-->
+    <title>Task 6</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        table {
+            display:inline-block;
+            margin-left:25px;
+        }
+            
+    </style>
+    <script src="scripts/generatePersonsArray.js"></script>
+    <script>
+
+        function group(arrPersons, key) {
+            if (arrPersons.length===0) {
+                return undefined;
+            }
+            var answer = {};
+            for (var prop in arrPersons[0]) {
+                if (prop === key) {
+                    for (var i = 0; i < arrPersons.length; i++) {
+                        if (!answer[arrPersons[i][key]]) {
+                            answer[arrPersons[i][key]] = [];
+                        }
+                        answer[arrPersons[i][key]].push(arrPersons[i]);
+                    }
+                }
+            }
+            return answer;
+        }
+
+        function showResults(asoccArray) {
+
+            var columnsCount = 0;
+            for (var i in asoccArray) {
+                columnsCount++;
+            }
+
+            var table = document.createElement('table');
+            for (var prop in asoccArray) {
+                var headrow = document.createElement('tr');
+                var headcol = document.createElement('th');
+                headcol.innerHTML = prop;
+                headcol.colSpan = columnsCount;
+                headrow.appendChild(headcol);
+                table.appendChild(headrow);
+                for (var i = 0; i < asoccArray[prop].length; i++) {
+
+                    var currRow = document.createElement('tr');
+                    for (var key in asoccArray[prop][i]) {
+                        var currCell = document.createElement('td');
+                        var currCellContent = "";
+                        currCellContent += key.toUpperCase();
+                        currCellContent += " : ";
+                        currCellContent += asoccArray[prop][i][key].toString();
+                        currCellContent += "   ";
+                        currCell.innerHTML = currCellContent;
+                        currRow.appendChild(currCell);
+                    }
+                    table.appendChild(currRow);
+                }
+            }
+
+            document.body.appendChild(table);
+        }
+    </script>
+</head>
+<body>
+    <script>
+        var persons = generatePersonsArray();
+        var groupByAge = group(persons, "age");
+        var groupByFirstName = group(persons, "firstName");
+        var groupByLastName = group(persons, "lastName");
+
+        showResults(groupByAge);
+        showResults(groupByFirstName);
+        showResults(groupByLastName);
+    </script>
+</body>
+</html>

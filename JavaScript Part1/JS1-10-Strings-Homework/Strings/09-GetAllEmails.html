@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script>
+        function extractMailFromText(text) {
+            var returned = String(text).match(/^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/);
+            return returned;
+        }
+
+        function getAllEmails() {
+            var text = document.getElementById('text').value;
+            var emails = extractMailFromText(text);
+
+            if (emails.length == 0) {
+                document.getElementById('result').innerHTML = "No emails found";
+                return;
+            }
+
+            document.getElementById('result').innerHTML = "Emails list :";
+            var ol = document.createElement('ol');
+
+            for (var i = 0; i < emails.length; i++) {
+                var li = document.createElement('li');
+                li.innerHTML = emails[i];
+                ol.appendChild(li);
+            }
+
+            document.getElementById('result').appendChild(ol);
+        }
+
+    </script>
+</head>
+<body>
+    <textarea id="text">This is sample asd@av.com text to show you that you here@there.where can extract all email@domain.com mails in this style (answer is 3) </textarea>
+    <br />
+    <button onclick="getAllEmails()">Get all emails!</button>
+    <div id="result" ></div>
+</body>
+</html>
