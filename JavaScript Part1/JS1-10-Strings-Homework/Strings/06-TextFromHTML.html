@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write a function that extracts the content of a html page given as text. 
+        The function should return anything that is in a tag, without the tags:
+        <html><head><title>Sample site</title></head><body><div>text<div>more text</div>and more...</div>in body</body></html>
+        result:
+        Sample sitetextmore textand more...in body-->
+    <title>Task 6</title>
+    <script>
+        function getDefaultText() {
+            document.getElementById('text').value = '<html><head><title>Sample site</title></head><body><div>text<div>more text</div>and more...</div>in body</body></html>';
+        }
+
+        function getContent() {
+            var text = document.getElementById('text').value;
+
+            var pureText = extractTextFromHTML(text);
+
+            document.getElementById('result').innerHTML = pureText;
+        }
+
+        function extractTextFromHTML(text) {
+            var answer = "";
+
+            var inTag = false;
+
+            for (var i = 0; i < text.length; i++) {
+                var a;
+                if (text[i] == '<') {
+                    inTag = true;
+                }
+                else if (text[i] == '>') {
+                    inTag = false;
+                }
+                else if (!inTag) {
+                    answer += text[i];
+                }
+            }
+
+            return answer;
+        }
+    </script>
+</head>
+<body onload="getDefaultText()">
+    <textarea id="text" style="width:500px;height:150px"></textarea> 
+    <br />
+    <button onclick="getContent()">Extract!</button>
+    <div id="result"></div>
+</body>
+</html>

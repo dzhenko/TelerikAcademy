@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write a function that replaces non breaking white-spaces in a text with &nbsp;-->
+    <title>Task 5</title>
+    <script>
+        function getDefaultText() {
+            document.getElementById('text').value = 'Among going manor who did. Do ye is celebrated it sympathize considered. May ecstatic did surprise elegance the ignorant age. Own her miss cold last. It so numerous if he outlived disposal. How but sons mrs lady when. Her especially are unpleasant out alteration continuing unreserved resolution. Hence hopes noisy may china fully and. Am it regard stairs branch thirty length afford.';
+        }
+
+        function replaceNBWS() {
+            var text = document.getElementById('text').value;
+
+            var replacedText = replaceSpaceWithNBWSInText(text);
+
+            document.getElementById('result').innerHTML = replacedText;
+        }
+
+        function replaceSpaceWithNBWSInText(text) {
+            var nbws = '&nbws;'
+
+            var answer = "";
+
+            for (var i = 0; i < text.length; i++) {
+                if (text[i] == ' ') {
+                    answer += nbws;
+                }
+                else {
+                    answer += text[i];
+                }
+            }
+
+            return answer;
+        }
+
+    </script>
+</head>
+<body onload="getDefaultText()">
+    <textarea id="text" style="width:500px;height:150px"></textarea>
+    <br />
+    <button onclick="replaceNBWS()">Replace!</button>
+    <br />
+    <textarea id="result" style="width:500px;height:150px"></textarea>
+</body>
+</html>

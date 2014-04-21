@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write a JavaScript function that finds how many times a substring is contained in a given text (perform case insensitive search).
+		Example: The target substring is "in". The text is as follows:
+        We are living in an yellow submarine. We don't have anything else. Inside the submarine is very tight. So we are drinking all the day. We will move out of it in 5 days.
+-->
+    <title>Task 3</title>
+    <script>
+        function getDefaultText() {
+            document.getElementById('text').innerHTML = "We are living in an yellow submarine. We don't have anything else. Inside the submarine is very tight. So we are drinking all the day. We will move out of it in 5 days.";
+        }
+
+        function countWords() {
+            var text = document.getElementById('text').innerHTML;
+            var word = document.getElementById('word').value;
+
+            var countedWords = getWordCountFromText(text, word);
+
+            colorText(word);
+
+            document.getElementById('result').innerHTML = countedWords;
+        }
+
+        function colorText(word) {
+            var text = document.getElementById('text').innerHTML;
+            var searchedText = text.toLowerCase();
+            word = word.toLowerCase();
+            var newText = "";
+            var openSpan = '<span style="color:red">';
+            var closeSpan = '</span>';
+            var oldindex = 0;
+            var index = text.indexOf(word);
+            var entered = false;
+            while (index > -1) {
+                entered = true;
+                newText += text.substring(oldindex, index);
+                newText += openSpan;
+                newText += text.substr(index, word.length);
+                newText += closeSpan;
+                oldindex = index + word.length;
+                index = searchedText.indexOf(word, index + 1);
+            }
+            if (entered) {
+                newText += text.substr(oldindex);
+            }
+
+            document.getElementById('text').innerHTML = newText;
+        }
+
+        function getWordCountFromText(text, word) {
+            text = text.toLowerCase();
+            word = word.toLowerCase();
+            var answer = 0;
+            var index = text.indexOf(word);
+
+            while (index > -1) {
+                answer++;
+                index = text.indexOf(word, index + 1);
+            }
+
+            return answer;
+        }
+    </script>
+</head>
+<body onload="getDefaultText()">
+    <div id="text"></div>
+    <br />
+    <input type="text" value="in" id="word"/>
+    <br />
+    <button onclick="countWords()">Count!</button>
+    <br />
+    <div id="result"></div>
+</body>
+</html>

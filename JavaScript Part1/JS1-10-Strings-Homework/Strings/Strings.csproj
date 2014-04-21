@@ -57,6 +57,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="01-StringReverser.html" />
+    <Content Include="02-CorrectBrackets.html" />
+    <Content Include="03-WordsCounter.html" />
+    <Content Include="04-RegionsChangeText.html" />
+    <Content Include="05-ReplaceNBWS.html" />
+    <Content Include="06-TextFromHTML.html" />
+    <Content Include="07-URLExtractor.html" />
+    <Content Include="08-AtagToURLTag.html" />
     <Content Include="09-GetAllEmails.html" />
     <Content Include="10-ExtractPalindromes.html" />
     <Content Include="11-StringFormatPlaceholders.html" />

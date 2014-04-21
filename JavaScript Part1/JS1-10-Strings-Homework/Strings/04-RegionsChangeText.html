@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--You are given a text. Write a function that changes the text in all regions:
+<upcase>text</upcase> to uppercase.   <lowcase>text</lowcase> to lowercase   <mixcase>text</mixcase> to mix casing(random)
+        We are <mixcase>living</mixcase> in a <upcase>yellow submarine</upcase>. We <mixcase>don't</mixcase> have <lowcase>anything</lowcase> else.
+The expected result:
+        We are LiVinG in a YELLOW SUBMARINE. We dOn'T have anything else.
+Regions can be nested-->
+    <title>Task 4</title>
+    <script>
+        function getDefaultText() {
+            document.getElementById('text').value = "We are <mixcase>living</mixcase> in a <upcase>yellow submarine</upcase>. We <mixcase>don't</mixcase> have <lowcase>anything</lowcase> else.";
+        }
+
+        function changeRegions() {
+            var text = document.getElementById('text').value;
+
+            var replacedText = getReplacedTextRegions(text);
+
+            document.getElementById('result').innerHTML = replacedText;
+        }
+
+        function getReplacedTextRegions(text) {
+            text = String(text);
+
+            function mixCase(letter) {
+                var upper = Math.random() < 0.5;
+                if (upper) {
+                    return letter.toUpperCase();
+                }
+                else {
+                    return letter.toLowerCase();
+                }
+            }
+
+            function lowCase(letter) {
+                return letter.toLowerCase();
+            }
+
+            function upCase(letter) {
+                return letter.toUpperCase();
+            }
+
+            var answer = "";
+            var cases = [];
+
+            for (var i = 0; i < text.length; i++) {
+                if (text[i] == '<') {
+                    i++;
+                    if (text[i] == "/") {
+                        cases.pop();
+                        while (text[i] != '>') {
+                            i++;
+                        }
+                    }
+                    else if (text[i] == 'm') {
+                        cases.push(mixCase);
+                        while (text[i] != '>') {
+                            i++;
+                        }
+                    }
+                    else if (text[i] == 'u') {
+                        cases.push(upCase);
+                        while (text[i] != '>') {
+                            i++;
+                        }
+                    }
+                    else if (text[i] == 'l') {
+                        cases.push(lowCase);
+                        while (text[i] != '>') {
+                            i++;
+                        }
+                    }
+                    else {
+                        alert(i+ "Something wrong at this index mr Developer");
+                    }
+                }
+                else {
+                    if (cases.length == 0) {
+                        answer += text[i];
+                    }
+                    else {
+                        var currLetter = text[i];
+
+                        for (var j = cases.length - 1; j >= 0; j--) {
+                            currLetter = cases[j](currLetter);
+                        }
+
+                        answer += currLetter;
+                    }
+                }
+            }
+
+            return answer;
+        }
+
+    </script>
+</head>
+<body onload="getDefaultText()">
+    <textarea id="text" style="width:500px;height:150px"></textarea>
+    <br />
+    <button onclick="changeRegions()">Change!</button>
+    <br />
+    <textarea id="result" style="width:500px;height:150px"></textarea>
+</body>
+</html>
