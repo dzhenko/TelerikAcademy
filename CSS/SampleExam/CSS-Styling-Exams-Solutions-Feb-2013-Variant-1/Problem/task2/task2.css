@@ -1,0 +1,111 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+#wrapper {
+    width: 960px;
+    font-family: Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
+    font-size: 16px;
+}
+
+.tab-strip {
+    margin:15px;
+    border:1px solid #000000;
+    border-radius:5px;
+    list-style:none;
+    width:340px;
+    height:230px;
+    position:relative;
+}
+
+.tab-strip > li {
+    display:inline-block;
+    border-right:1px solid #000000;
+    padding:5px 15px;
+}
+
+.tab-strip > li:last-of-type {
+    border-right:none;
+}
+
+.tab-strip > li > a {
+    text-decoration:none;
+    text-align:center;
+    color:#000000;
+    font-size:1.4em;
+}
+
+.tab-strip > li:not(.current) {
+    background: #ededed;
+    background: -moz-linear-gradient(top,  #ededed 0%, #ababab 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#ababab));
+    background: -webkit-linear-gradient(top,  #ededed 0%,#ababab 100%);
+    background: -o-linear-gradient(top,  #ededed 0%,#ababab 100%);
+    background: -ms-linear-gradient(top,  #ededed 0%,#ababab 100%);
+    background: linear-gradient(to bottom,  #ededed 0%,#ababab 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#ababab',GradientType=0 );
+    border-bottom:1px solid #000000;
+    border-radius:5px;
+
+}
+
+.tab-strip > li:not(.current):hover {
+    background:none;
+    background-color:#EEEEEE;
+}
+
+.tab-strip li:not(.current) .tab-content {
+    display:none;
+}
+
+.tab-strip .current > a {
+    font-weight:900;
+}
+
+.current .tab-content {
+    display:block;
+    position:absolute;
+    top:50px;
+    left:20px;
+}
+
+.tab-content > ul {
+    list-style:disc;
+    list-style-type:disc;
+}
+
+.tab-content > ul ul {
+    list-style:lower-latin;
+    margin-left:25px;
+}
+
+
+table thead tr th {
+    text-align:center;
+}
+
+table {
+    background: #ababab;
+background: -moz-linear-gradient(top,  #ababab 0%, #eeeeee 15%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ababab), color-stop(15%,#eeeeee));
+background: -webkit-linear-gradient(top,  #ababab 0%,#eeeeee 15%);
+background: -o-linear-gradient(top,  #ababab 0%,#eeeeee 15%);
+background: -ms-linear-gradient(top,  #ababab 0%,#eeeeee 15%);
+background: linear-gradient(to bottom,  #ababab 0%,#eeeeee 15%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ababab', endColorstr='#eeeeee',GradientType=0 );
+
+    border-collapse:collapse;
+}
+
+th,td {
+    border:1px solid #000000;
+}
+
+td {
+    padding:5px 10px 5px 5px;
+}
+
+th {
+    padding: 5px 15px;
+}

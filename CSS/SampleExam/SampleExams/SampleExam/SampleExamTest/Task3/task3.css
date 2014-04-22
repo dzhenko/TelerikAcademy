@@ -1,0 +1,114 @@
+﻿* {
+    margin:0;
+    padding:0;
+}
+
+#wrapper {
+    padding-top:14px;
+    padding-left:15px;
+}
+
+div[class='popup-content invisible'] {
+    display:none;
+}
+
+ul {
+    list-style:none;
+}
+
+#popup-box { /*ul*/
+    width:110px;
+}
+
+.popup-item { /*li*/
+    position:relative;
+    border-top:1px solid #000000;
+    padding:5px;
+    padding-bottom:7px;
+    
+}
+
+.popup-item:last-of-type { /*li*/
+    border-bottom:1px solid #000000;
+    
+}
+
+.popup-item a{ /*li*/
+    color:black;
+    text-decoration:none;
+}
+
+.popup-item img {
+    width:25px;
+    height:25px;
+}
+
+div[class='popup-content invisible'] {
+    display:none;
+}
+
+div.popup-content {
+    position:absolute;
+    left:120px;
+    top:0;
+    color :#333333;
+
+}
+
+div.popup-content {
+    font-weight:800;
+}
+
+.btn-popup-close {
+    border:1px solid #070707;
+    border-radius:5px;
+    color :#333333;
+    position:absolute;
+    right:16px;
+    top:15px;
+    width:17px;
+    text-align:center;
+    font-weight:100;
+}
+
+fieldset {
+    padding:15px;
+    border:1px solid #000000;
+}
+
+fieldset label{
+    font-size:1em;
+    font-weight:100;
+}
+
+fieldset legend {
+    font-size:1.2em;
+    font-weight:700;
+    padding:0 2px;
+}
+
+fieldset button {
+    background: #cacaca;
+background: -moz-linear-gradient(top,  #cacaca 0%, #686868 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cacaca), color-stop(100%,#686868));
+background: -webkit-linear-gradient(top,  #cacaca 0%,#686868 100%);
+background: -o-linear-gradient(top,  #cacaca 0%,#686868 100%);
+background: -ms-linear-gradient(top,  #cacaca 0%,#686868 100%);
+background: linear-gradient(to bottom,  #cacaca 0%,#686868 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cacaca', endColorstr='#686868',GradientType=0 );
+
+    border:none;
+    border-radius:15px;
+
+    padding:5px 10px;
+    color:#333333;
+}
+
+div.popup-content button:hover {
+    background:none;
+    background-color:#CCCCCC;
+}
+
+.current {
+    font-weight:900;
+}

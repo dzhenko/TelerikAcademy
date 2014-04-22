@@ -1,0 +1,164 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+#wrapper {
+    width: 960px;
+    font-family: Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
+    font-size: 16px;
+    color:#555555;
+}
+
+#wrapper .date {
+    font-family:Consolas;
+    font-size:0.8em;
+}
+
+#wrapper > div {
+    background: #eeeeee;
+background: -moz-linear-gradient(top,  #eeeeee 0%, #aaaaaa 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#aaaaaa));
+background: -webkit-linear-gradient(top,  #eeeeee 0%,#aaaaaa 100%);
+background: -o-linear-gradient(top,  #eeeeee 0%,#aaaaaa 100%);
+background: -ms-linear-gradient(top,  #eeeeee 0%,#aaaaaa 100%);
+background: linear-gradient(to bottom,  #eeeeee 0%,#aaaaaa 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#aaaaaa',GradientType=0 );
+
+    width:380px;
+    height: 463px;
+    margin-top:30px;
+    margin-left:30px;
+
+    border:1px solid #000000;
+    border-radius:15px;
+}
+
+.messages-list:after {
+    content:"";
+    clear:both;
+    height:0;
+    display:table;
+}
+
+h1 {
+    font-size:1.8em;
+    text-align:center;
+    margin-top:15px;
+    margin-bottom:5px;
+}
+
+.messages-list {
+    list-style:none;
+}
+
+.messages-list li {
+    width:230px;
+    height:65px;
+    border:1px solid #000000;
+    border-radius:15px;
+    margin:5px 15px 0px 15px;
+
+
+}
+
+.messages-list li span:first-of-type {
+    margin-top:5px;
+    display:inline-block;
+    font-weight:900;
+    font-size:1.1em;
+}
+
+.me-item {
+    background: #29edff;
+background: -moz-linear-gradient(top,  #29edff 0%, #c0faff 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#29edff), color-stop(100%,#c0faff));
+background: -webkit-linear-gradient(top,  #29edff 0%,#c0faff 100%);
+background: -o-linear-gradient(top,  #29edff 0%,#c0faff 100%);
+background: -ms-linear-gradient(top,  #29edff 0%,#c0faff 100%);
+background: linear-gradient(to bottom,  #29edff 0%,#c0faff 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29edff', endColorstr='#c0faff',GradientType=0 );
+
+    float:right;
+
+}
+
+.me-item span{
+    text-align:left;
+    content:"";
+    clear:both;
+    height:0;
+    display:table;
+
+    margin-left:15px;
+
+}
+
+.me-item p {
+    margin-left:15px;
+}
+
+.me-item .date {
+    margin-left:96px;
+}
+
+.toshko-item {
+    background: #dfffd2;
+background: -moz-linear-gradient(top,  #dfffd2 0%, #6fff3b 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dfffd2), color-stop(100%,#6fff3b));
+background: -webkit-linear-gradient(top,  #dfffd2 0%,#6fff3b 100%);
+background: -o-linear-gradient(top,  #dfffd2 0%,#6fff3b 100%);
+background: -ms-linear-gradient(top,  #dfffd2 0%,#6fff3b 100%);
+background: linear-gradient(to bottom,  #dfffd2 0%,#6fff3b 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfffd2', endColorstr='#6fff3b',GradientType=0 );
+
+    float:left;
+
+}
+
+.toshko-item p{
+    margin-left:15px;
+}
+
+.toshko-item .date {
+    margin-left:15px;
+    margin-bottom:5px;
+}
+
+.toshko-item span:first-of-type {
+    margin-left:159px;
+}
+
+
+
+
+
+input {
+    background-color:#EEEEEE;
+    border:none;
+    border-radius:5px;
+    margin-top:7px;
+    margin-bottom:0px;
+    margin-left:15px;
+    height:35px;
+    width :275px;
+}
+
+
+button {
+    background: #ededed;
+background: -moz-linear-gradient(top,  #ededed 0%, #ababab 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#ababab));
+background: -webkit-linear-gradient(top,  #ededed 0%,#ababab 100%);
+background: -o-linear-gradient(top,  #ededed 0%,#ababab 100%);
+background: -ms-linear-gradient(top,  #ededed 0%,#ababab 100%);
+background: linear-gradient(to bottom,  #ededed 0%,#ababab 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#ababab',GradientType=0 );
+
+
+    height:30px;
+    width:70px;
+    border:none;
+    border-radius:5px;
+    font-size:1.1em;
+}
