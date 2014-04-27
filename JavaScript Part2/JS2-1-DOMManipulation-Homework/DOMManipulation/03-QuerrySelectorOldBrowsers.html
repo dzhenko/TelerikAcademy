@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write a script that shims querySelector and querySelectorAll in older browsers-->
+    <title>Task 3</title>
+    <script>
+        function querySelector(querry) {
+            if (!document.querySelector) {
+                return document.getElementById(querry.substr(1));
+            }
+        }
+
+        function querySelectorAll(querry) {
+            if (!document.querySelectorAll) {
+                if (querry[0] == "#") {
+                    return querySelector(querry);
+                }
+                else if (querry[0] == '.') {
+                    return document.getElementsByClassName(querry.substr(1));
+                }
+                else {
+                    return document.getElementsByTagName(querry.substr(1));
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

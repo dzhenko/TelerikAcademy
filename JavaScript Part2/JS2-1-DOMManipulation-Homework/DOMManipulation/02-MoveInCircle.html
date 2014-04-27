@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write a script that creates 5 div elements and moves them in circular path with interval of 100 milliseconds-->
+    <title>Task 2</title>
+    <style>
+        div {
+            text-align:center;
+            line-height:120px;
+
+            width:120px;
+            height:120px;
+            border:3px solid red;
+            border-radius:120px;
+            position:absolute;
+        }
+    </style>
+   
+</head>
+<body>
+    <script>
+        var innerHtmls = ["GO", "WE", "ROUND", "AND", "ROUND"];
+        var divs = Array(5);
+
+        for (var i = 0; i < divs.length; i++) {
+            var currDiv = document.createElement('div');
+            currDiv.innerHTML = innerHtmls[i];
+            document.body.appendChild(currDiv);
+            divs[i] = currDiv;
+        }
+
+
+        var centerX = 200;
+        var centerY = 200;
+        var radius = 200;
+
+        var angle = 0;
+
+        var functionTimer = setInterval(function moveDivs() {
+            angle++;
+            if (angle == 360) {
+                angle = 0;
+            }
+
+            for (var i = 0; i < divs.length; i++) {
+                //to space out the divs
+                var addition = (360 / divs.length) * i;
+
+                var left = centerX + Math.cos((2*3.14/180)*(angle + addition)) * radius;
+                var right = centerY + Math.sin((2*3.14/180)*(angle + addition)) * radius;
+                divs[i].style.left = left+"px";
+                divs[i].style.top = right + "px";
+            }
+        }, 100);
+
+        
+    </script>
+</body>
+</html>

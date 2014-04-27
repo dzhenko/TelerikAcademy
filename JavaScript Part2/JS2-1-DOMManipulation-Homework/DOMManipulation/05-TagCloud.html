@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Visualize a string of tags (strings) in a given container-->
+    <title>Task 5</title>
+
+    <script>
+        function onGenerateTagCloud() {
+            var min = document.getElementById('minFontSize').value;
+            var max = document.getElementById('maxFontSize').value;
+            var words = document.getElementById('cloudSource').value.split(',');
+
+            var cloud = generateTagCloud(words, min, max);
+
+            var resultDiv = document.getElementById('result');
+
+            while (resultDiv.firstChild) {
+                resultDiv.removeChild(resultDiv.firstChild);
+            }
+
+            resultDiv.appendChild(cloud);
+        }
+
+        function generateTagCloud(words,minFont,maxFont) {
+
+            var ocurences = {};
+
+            //counting the words
+            for (var i = 0; i < words.length; i++) {
+                var currWord = words[i].toLowerCase().trim();
+
+                if (!ocurences[currWord]) {
+                    ocurences[currWord] = 0;
+                }
+
+                ocurences[currWord]++;
+            }
+
+            var mostCommon = 0;
+            var leastCommon = words.length + 1;
+            
+            for (var word in ocurences) {
+                if (mostCommon < ocurences[word]) {
+                    mostCommon = ocurences[word];
+                }
+
+                if (leastCommon > ocurences[word]) {
+                    leastCommon = ocurences[word];
+                }
+
+                console.log(ocurences[word]);
+            }
+            //1 2 3 and 4 -> 3;
+            var allFontsCount = mostCommon - leastCommon;
+
+            //40 - 10 = 30
+            var fontDifference = maxFont - minFont;
+
+            var oneStep = fontDifference / allFontsCount;
+
+            var resultDiv = document.createElement('div');
+
+            for (var word in ocurences) {
+                var currSpan = document.createElement('span');
+                var currSize = ((ocurences[word] - 1) * oneStep);
+                currSize += Number(minFont);
+                currSpan.style.fontSize = currSize + "px";
+                currSpan.innerHTML = word;
+                resultDiv.appendChild(currSpan);
+                resultDiv.innerHTML += " ";
+            }
+            resultDiv.style.border = "1px solid #000000";
+            resultDiv.style.width = 180 + "px";
+            resultDiv.style.padding = "5px";
+
+
+            return resultDiv;
+        }
+    </script>
+
+</head>
+<body>
+    <textarea id="cloudSource" style="width:300px;height:100px" autofocus="autofocus">cms, javascript, js, ASP.NET MVC, .net, .net, css, wordpress, xaml, js, http, web, asp.net, asp.net MVC, ASP.NET MVC, wp, javascript, js, cms, html, javascript, http, http, CMS</textarea>
+    <br />
+    Min Font Size (px) : <input type="number" id="minFontSize" value="17"/> <br />
+    Max Font Size (px): <input type="number" id="maxFontSize" value="42"/> <br />
+    <button onclick="onGenerateTagCloud()">Generate!</button>
+    <div id="result"></div>
+</body>
+</html>

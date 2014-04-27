@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write a script that creates a number of div elements. -->
+    <title>Task 1</title>
+    <script>
+        function getRandomNumber(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        function getRandomColor() {
+            var red = Math.floor(Math.random() * 256);
+            var green = Math.floor(Math.random() * 256);
+            var blue = Math.floor(Math.random() * 256);
+
+            return "rgb(" + red + "," + green + "," + blue + ")";
+        }
+
+        function onCreateDivs() {
+            /*clear the result div */
+            var resultDiv = document.getElementById('result');
+            while (resultDiv.firstChild) {
+                resultDiv.removeChild(resultDiv.firstChild);
+            }
+
+            var divsCount = document.getElementById('number').value | 0;
+            var frag = document.createDocumentFragment();
+
+            for (var i = 0; i < divsCount; i++) {
+                var currDiv = document.createElement('div');
+
+                currDiv.style.width = getRandomNumber(20, 100) + "px";
+                currDiv.style.height = getRandomNumber(20, 100) + "px";
+
+                currDiv.style.backgroundColor = getRandomColor();
+                currDiv.style.color = getRandomColor();
+
+                currDiv.style.position = 'absolute';
+                currDiv.style.top = getRandomNumber(0, screen.height - 220) + "px";
+                currDiv.style.left = getRandomNumber(0, screen.width - 120) + "px";
+                
+                currDiv.innerHTML = '<strong>div</strong>';
+                currDiv.style.textAlign = 'center';
+
+                currDiv.style.borderRadius = getRandomNumber(0, 100) + "px";
+                currDiv.style.borderColor = getRandomColor();
+                currDiv.style.borderWidth = getRandomNumber(1, 20) + "px";
+
+                frag.appendChild(currDiv);
+            }
+
+            resultDiv.appendChild(frag);
+        }
+    </script>
+</head>
+<body>
+    <input id="number" type="number" autofocus="autofocus" placeholder="Enter number of DIVs" />
+    <button onclick="onCreateDivs()">Create !</button>
+    <div id="result"></div>
+</body>
+</html>

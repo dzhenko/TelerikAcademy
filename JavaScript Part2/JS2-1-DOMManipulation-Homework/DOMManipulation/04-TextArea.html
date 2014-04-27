@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Create a text area and two inputs with type="color"
+        Make the font color of the text area as the value of the first color input
+        Make the background color of the text area as the value of the second input-->
+    <title>Task 4</title>
+    <script>
+        function onChangeFontColor(value) {
+            document.getElementById('textarea').style.color = value;
+        }
+
+        function onChangeBackgroundColor(value) {
+            document.getElementById('textarea').style.backgroundColor = value;
+        }
+    </script>
+</head>
+<body>
+    <textarea id="textarea"></textarea> <br />
+    <input type="color" onchange="onChangeFontColor(this.value)" /> <span>Font</span> <br />
+    <input type="color" onchange="onChangeBackgroundColor(this.value)"  /> <span>Background</span> <br />
+</body>
+</html>
