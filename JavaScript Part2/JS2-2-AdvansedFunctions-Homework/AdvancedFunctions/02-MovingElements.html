@@ -38,13 +38,13 @@
             function addMovingShape(type) {
                 var div = generateDiv();
                 div.setAttribute('movementConst', 0);
+                document.body.appendChild(div);
                 if (type == 'rect') {
                     moveThatRect(div);
                 }
                 else {
                     moveThatEll(div);
                 }
-                document.body.appendChild(div);
 
             }
 
@@ -52,36 +52,55 @@
             var rectY = 300;
 
             function moveThatRect(div) {
-                var interval = setInterval(function MoveRect() {
-                    var movement = div.getAttribute('movementConst');
-                    movement+=1;
+                function rectMovement() {
+                    var movement = parseInt(div.getAttribute('movementConst'));
+                    movement+=3;
                     if (movement == 360) {
                         movement = 0;
                     }
 
-                    if (movement < 90) {
+                    if (movement <= 90) {
                         var x = (rectX * (movement / 90));
                         div.style.left = x + "px";
                     }
-                    else if (movement < 180) {
-                        var y = (rectY * (movement / 90));
+                    else if (movement <= 180) {
+                        var y = (rectY * ((movement-90) / 90));
                         div.style.top = y + "px";
                     }
-                    else if (movement < 270) {
+                    else if (movement <= 270) {
                         var x2 = (rectX - rectX * ((movement - 180) / 90));
                         div.style.left = x2 + "px";
                     }
                     else {
                         var y2 = (rectY - rectY * ((movement - 270) / 90));
-                        div.style.left = y2 + "px";
+                        div.style.top = y2 + "px";
                     }
 
-                    div.movementConst = movement;
-                }, 100);
+                    div.setAttribute('movementConst', movement);
+                }
+                setInterval(rectMovement, 100);
             }
 
-            function moveThatEll(div) {
 
+            var ellX = 300;
+            var ellY = 150;
+            var ellR = 150;
+            function moveThatEll(div) {
+                function ellMovement() {
+                    var movement = parseInt(div.getAttribute('movementConst'));
+                    movement += 3;
+                    if (movement == 360) {
+                        movement = 0;
+                    }
+
+                    var left = ellX + Math.cos((2 * 3.14 / 180) * (movement)) * ellR;
+                    var right = 2 * (ellY + Math.sin((2 * 3.14 / 180) * (movement)) * ellR);
+                    div.style.left = left + "px";
+                    div.style.top = right + "px";
+
+                    div.setAttribute('movementConst', movement);
+                }
+                setInterval(ellMovement, 100);
             }
             
             return {
@@ -96,6 +115,7 @@
     <script>
         //testing 
         movingShapes.add('rect');
+        movingShapes.add('ellipse');
     </script>
 </body>
 </html>
