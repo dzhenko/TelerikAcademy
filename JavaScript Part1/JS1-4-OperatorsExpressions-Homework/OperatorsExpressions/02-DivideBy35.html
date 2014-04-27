@@ -5,9 +5,9 @@
     <title>Task 2</title>
     <script>
         function DivideBy35() {
-            var number = parseInt(document.getElementById('getNumber').value);
+            var number = document.getElementById('getNumber').value;
             var result = "";
-            if (!isNaN(number)) {
+            if (!isNaN(number) && number != "") {
                 var dividableBy7and5 = number % 35 === 0;
                 result = "The number " + number;
                 if (dividableBy7and5) {
