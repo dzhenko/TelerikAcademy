@@ -47,7 +47,7 @@
                 var addition = (360 / divs.length) * i;
 
                 var left = centerX + Math.cos((2*3.14/180)*(angle + addition)) * radius;
-                var right = centerY + Math.sin((2*3.14/180)*(angle + addition)) * radius;
+                var right = 2*(centerY + Math.sin((2*3.14/180)*(angle + addition)) * radius);
                 divs[i].style.left = left+"px";
                 divs[i].style.top = right + "px";
             }

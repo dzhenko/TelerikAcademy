@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Create a module that works with moving div elements-->
+    <title>Task 2</title>
+    <script>
+        var movingShapes = (function () {
+            function generateDiv() {
+                var generated = document.createElement('div');
+                var width = 100;
+                var height = 100;
+                generated.style.width = width + "px";
+                generated.style.height = height + "px";
+
+                generated.style.textAlign = 'center';
+
+                generated.style.borderRadius = width + "px";
+                generated.style.borderWidth = 5 + "px";
+                generated.style.borderStyle = 'solid';
+
+                generated.style.backgroundColor = getRandomColor();
+                generated.style.color = getRandomColor();
+                generated.style.borderColor = getRandomColor();
+
+                generated.style.position = 'absolute';
+
+                return generated;
+            }
+
+            function getRandomColor() {
+                var red = Math.floor(Math.random() * 256);
+                var green = Math.floor(Math.random() * 256);
+                var blue = Math.floor(Math.random() * 256);
+
+                return "rgb(" + red + "," + green + "," + blue + ")";
+            }
+
+            function addMovingShape(type) {
+                var div = generateDiv();
+                div.setAttribute('movementConst', 0);
+                if (type == 'rect') {
+                    moveThatRect(div);
+                }
+                else {
+                    moveThatEll(div);
+                }
+                document.body.appendChild(div);
+
+            }
+
+            var rectX = 300;
+            var rectY = 300;
+
+            function moveThatRect(div) {
+                var interval = setInterval(function MoveRect() {
+                    var movement = div.getAttribute('movementConst');
+                    movement+=1;
+                    if (movement == 360) {
+                        movement = 0;
+                    }
+
+                    if (movement < 90) {
+                        var x = (rectX * (movement / 90));
+                        div.style.left = x + "px";
+                    }
+                    else if (movement < 180) {
+                        var y = (rectY * (movement / 90));
+                        div.style.top = y + "px";
+                    }
+                    else if (movement < 270) {
+                        var x2 = (rectX - rectX * ((movement - 180) / 90));
+                        div.style.left = x2 + "px";
+                    }
+                    else {
+                        var y2 = (rectY - rectY * ((movement - 270) / 90));
+                        div.style.left = y2 + "px";
+                    }
+
+                    div.movementConst = movement;
+                }, 100);
+            }
+
+            function moveThatEll(div) {
+
+            }
+            
+            return {
+                add : addMovingShape,
+            };
+        })();
+
+
+    </script>
+</head>
+<body>
+    <script>
+        //testing 
+        movingShapes.add('rect');
+    </script>
+</body>
+</html>

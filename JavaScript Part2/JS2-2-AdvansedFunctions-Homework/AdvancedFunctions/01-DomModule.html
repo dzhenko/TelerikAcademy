@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Create a module for working with DOM. The module should have the following functionality-->
+    <title>Task 1</title>
+    <style>
+        div {
+            background:red;
+            height:20px;
+            margin:5px;
+        }
+
+        section {
+            background:green;
+            height:30px;
+            margin:5px;
+        }
+    </style>
+    <script>
+        var domModule = (function () {
+            function addElementToParentStringSelector(HTMLElementToAppend, parentStringSelector) {
+                
+                //get parentStringSelector elementToAppends
+                var parentElement = document.querySelector(parentStringSelector);
+                if (!parentElement) {
+                    return;
+                }
+
+                parentElement.appendChild(HTMLElementToAppend);
+            }
+
+            function removeElementFromParentStringSelector(HTMLParentElement, elementToRemoveStringSelector) {
+                
+                //get parentStringSelector elementToAppends
+                var elementToRemove = document.querySelector(elementToRemoveStringSelector);
+                if (!elementToRemove) {
+                    return;
+                }
+
+                HTMLParentElement.removeChild(elementToRemove);
+            }
+
+            function addEventHandlerStringSelector(querrySelector,event,handler) {
+                var allElements = document.querySelectorAll(querrySelector);
+                for (var i = 0; i < allElements.length; i++) {
+                    allElements[i].addEventListener(event, handler);
+                }
+            }
+
+            var buffer = {};
+            var counterWhenToAppendToDOM = 100;
+
+            function addElementToBuffer(HTMLElementToAppend, parentStringSelector) {
+                var parent = document.querySelector(parentStringSelector);
+                if (!parent) {
+                    return;
+                }
+
+                if (!buffer[parent]) {
+                    buffer[parent] = [];
+                }
+
+                buffer[parent].push(HTMLElementToAppend);
+
+                if (buffer[parent].length == counterWhenToAppendToDOM) {
+                    var frag = document.createDocumentFragment();
+
+                    for (var i = 0; i < buffer[parent].length; i++) {
+                        frag.appendChild(buffer[parent][i]);
+                    }
+
+                    parent.appendChild(frag);
+
+                    buffer[parent] = [];
+                }
+            }
+
+            function getElementsByCSSSelector(CSSSelector) {
+                return document.querySelectorAll(CSSSelector);
+            }
+
+            return {
+                appendChild: addElementToParentStringSelector,
+                removeChild: removeElementFromParentStringSelector,
+                addHandler: addEventHandlerStringSelector,
+                appendToBuffer: addElementToBuffer,
+                cssSelectAll: getElementsByCSSSelector,
+            };
+        })();
+
+
+    </script>
+</head>
+<body>
+    <script>
+        //testing 
+        domModule.appendChild(document.createElement('div'), "body");
+        domModule.appendChild(document.createElement('div'), "body");
+        domModule.removeChild(document.body, 'body > div');
+        var section = document.createElement('section');
+        section.innerHTML = "Im the section";
+        domModule.appendChild(section, "body");
+        domModule.addHandler('div', 'click', function () { alert(this.tagName + " CLICKED!!! "); });
+        domModule.addHandler('section', 'click', function () { alert(this.tagName + " DAMN IT!!! "); });
+
+        for (var i = 0; i < 99; i++) {
+            domModule.appendToBuffer(document.createElement('div'), 'body');
+        }
+        //uncomment to add 100 divs
+        //domModule.appendToBuffer(document.createElement('div'), 'body');
+
+        alert(domModule.cssSelectAll('body > section')[0].innerHTML);
+    </script>
+</body>
+</html>
