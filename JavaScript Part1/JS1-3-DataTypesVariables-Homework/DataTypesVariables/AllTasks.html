@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>All Tasks</title>
+</head>
+<body>
+    <script>
+        //Task 1
+        //Assign all the possible JavaScript literals to different variables.
+
+        var intLit = 1;
+        var floatLit = 1.05;
+        var boolLit = true;
+        var stringLit = "Hello";
+        var objectLit = {
+            name: 'Gosho',
+            age: 16
+        };
+
+        var arrayLit = [1, 2, 3];
+        var functionLit = function () { alert('Hi!'); };
+
+        //Task 2
+        //Create a string variable with quoted text in it. For example: "How you doin'?", Joey said.
+
+        var quotedString = '"How you doin\'?", Joey said.';
+
+        //Task 3
+        //Try typeof on all variables you created.
+
+        function GetTypeOf(obj) {
+            var result = 'The type of ' + obj + ' --> ' + '<span style="color:magenta">' + typeof (obj) + '</span>';
+            var currDiv = document.createElement('div');
+            currDiv.innerHTML = result;
+            document.body.appendChild(currDiv);
+        }
+
+        GetTypeOf(intLit);
+        GetTypeOf(floatLit);
+        GetTypeOf(boolLit);
+        GetTypeOf(stringLit);
+        GetTypeOf(objectLit);
+        GetTypeOf(arrayLit);
+        GetTypeOf(functionLit);
+
+        GetTypeOf(quotedString);
+
+        //Task 4
+        //Create null, undefined variables and try typeof on them.
+
+        var nullVar = null;
+        var undefinedVar = undefined;
+
+        GetTypeOf(nullVar);
+        GetTypeOf(undefinedVar);
+    </script>
+</body>
+</html>
