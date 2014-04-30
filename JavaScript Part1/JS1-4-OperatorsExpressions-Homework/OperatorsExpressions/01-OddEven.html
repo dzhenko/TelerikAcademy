@@ -4,10 +4,14 @@
     <!--Write an expression that checks if given integer is odd or even.-->
     <title>Task 1</title>
     <script>
-        function GetOddOrEven() {
+        function onGetOddOrEven() {
             var number = document.getElementById('getNumber').value;
             var result = "";
-            if (!isNaN(number) && number != "") {
+
+            //checks if the input is number && if the input is not emptyspace && if the input is integer
+            //http://stackoverflow.com/questions/18082/validate-decimal-numbers-in-javascript-isnumeric/1830844#1830844
+            //via The Green Eyed One :))
+            if (!isNaN(number) && isFinite(number) && Math.floor(number) == number) {
                 result = "The number " + number;
                 if (number % 2 === 0) {
                     result +=" is even";
@@ -18,7 +22,7 @@
             }
             
             else {
-                result = "You have not entered a number";
+                result = "You have not entered a valid integer number";
             }
 
             document.getElementById('result').innerHTML = result;
@@ -28,7 +32,7 @@
 </head>
 <body>
     <input type="text" id="getNumber" autofocus="autofocus" placeholder="Enter integer number" />
-    <button onclick="GetOddOrEven()">Odd / Even</button>
+    <button onclick="onGetOddOrEven()">Odd / Even</button>
     <span id="result"></span>
 </body>
 </html>

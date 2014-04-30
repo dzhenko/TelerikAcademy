@@ -4,13 +4,13 @@
     <!--Write an expression that calculates trapezoid's area by given sides a and b and height h.-->
     <title>Task 8</title>
     <script>
-        function CheckNumber(input) {
-            if (isNaN(input.value)) {
+        function onCheckNumber(input) {
+            if (isNaN(parseFloat(input.value)) || !isFinite(input.value)) {
                 alert("You have not entered a number! Try again");
                 input.value = null;
             }
         }
-        function CalculateTrapezoidArea() {
+        function onCalculateTrapezoidArea() {
             var a = document.getElementById('a').value;
             var b = document.getElementById('b').value;
             var h = document.getElementById('h').value;
@@ -26,10 +26,6 @@
             }
 
             else {
-                //fastest way to convert to numbers green-eyed one :))
-                a = a | 0;
-                b = b | 0;
-                h = h | 0;
                 result = ((a + b) / 2 )*h;
             }
 
@@ -39,10 +35,10 @@
 
 </head>
 <body>
-    <input type="text" id="a" autofocus="autofocus" placeholder="Enter a" onchange="CheckNumber(this)"/>
-    <input type="text" id="b" placeholder="Enter b" onchange="CheckNumber(this)" />
-    <input type="text" id="h" placeholder="Enter h" onchange="CheckNumber(this)" />
-    <button onclick="CalculateTrapezoidArea()">CalculateTrapezoidArea</button>
+    <input type="text" id="a" autofocus="autofocus" placeholder="Enter a" onchange="onCheckNumber(this)"/>
+    <input type="text" id="b" placeholder="Enter b" onchange="onCheckNumber(this)" />
+    <input type="text" id="h" placeholder="Enter h" onchange="onCheckNumber(this)" />
+    <button onclick="onCalculateTrapezoidArea()">CalculateTrapezoidArea</button>
     <span id="result"></span>
 </body>
 </html>

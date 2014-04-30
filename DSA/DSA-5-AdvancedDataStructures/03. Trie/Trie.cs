@@ -37,7 +37,7 @@
             }
         }
 
-        private Node root;
+        private readonly Node root;
 
         public Trie()
         {

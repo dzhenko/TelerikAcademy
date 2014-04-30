@@ -4,11 +4,13 @@
     <!--Write an expression that checks if given positive integer number n (n ≤ 100) is prime. E.g. 37 is prime.-->
     <title>Task 7</title>
     <script>
-        function IsPrime() {
+        function onIsPrime() {
             var number = document.getElementById('getNumber').value;
             var result = "";
-            if (isNaN(number) || number == "") {
-                result = "You have not entered a number!";
+            
+            //checks if the input is number && if the input is not emptyspace && if the input is integer
+            if (isNaN(parseInt(number)) || !isFinite(number) || Math.floor(number) != number) {
+                result = "You have not entered a valid integer number!";
             }
 
             else {
@@ -29,7 +31,7 @@
 </head>
 <body>
     <input type="text" id="getNumber" autofocus="autofocus" placeholder="Enter integer number" />
-    <button onclick="IsPrime()">IsPrime?</button>
+    <button onclick="onIsPrime()">IsPrime?</button>
     <span id="result"></span>
 </body>
 </html>

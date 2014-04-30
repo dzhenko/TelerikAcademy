@@ -28,22 +28,22 @@
         //Task 3
         //Try typeof on all variables you created.
 
-        function GetTypeOf(obj) {
+        function getTypeOf(obj) {
             var result = 'The type of ' + obj + ' --> ' + '<span style="color:magenta">' + typeof (obj) + '</span>';
             var currDiv = document.createElement('div');
             currDiv.innerHTML = result;
             document.body.appendChild(currDiv);
         }
 
-        GetTypeOf(intLit);
-        GetTypeOf(floatLit);
-        GetTypeOf(boolLit);
-        GetTypeOf(stringLit);
-        GetTypeOf(objectLit);
-        GetTypeOf(arrayLit);
-        GetTypeOf(functionLit);
+        getTypeOf(intLit);
+        getTypeOf(floatLit);
+        getTypeOf(boolLit);
+        getTypeOf(stringLit);
+        getTypeOf(objectLit);
+        getTypeOf(arrayLit);
+        getTypeOf(functionLit);
 
-        GetTypeOf(quotedString);
+        getTypeOf(quotedString);
 
         //Task 4
         //Create null, undefined variables and try typeof on them.
@@ -51,8 +51,8 @@
         var nullVar = null;
         var undefinedVar = undefined;
 
-        GetTypeOf(nullVar);
-        GetTypeOf(undefinedVar);
+        getTypeOf(nullVar);
+        getTypeOf(undefinedVar);
     </script>
 </body>
 </html>

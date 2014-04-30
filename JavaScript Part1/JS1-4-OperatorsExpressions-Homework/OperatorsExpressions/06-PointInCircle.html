@@ -4,13 +4,13 @@
     <!--Write an expression that checks if given print (x,  y) is within a circle K(O, 5).-->
     <title>Task 6</title>
     <script>
-        function CheckNumber(input) {
-            if (isNaN(input.value)) {
+        function onCheckNumber(input) {
+            if (isNaN(parseFloat(input.value)) || !isFinite(input.value)) {
                 alert("You have not entered a number! Try again");
                 input.value = null;
             }
         }
-        function CheckPoint() {
+        function onCheckPoint() {
             var x = document.getElementById('xInput').value;
             var y = document.getElementById('yInput').value;
             var result = "Check your x width and y!";
@@ -29,9 +29,9 @@
 
 </head>
 <body>
-    <input type="text" id="xInput" autofocus="autofocus" placeholder="Enter x" onchange="CheckNumber(this)" />
-    <input type="text" id="yInput" placeholder="Enter y" onchange="CheckNumber(this)" />
-    <button onclick="CheckPoint()">CheckPoint</button>
+    <input type="text" id="xInput" autofocus="autofocus" placeholder="Enter x" onchange="onCheckNumber(this)" />
+    <input type="text" id="yInput" placeholder="Enter y" onchange="onCheckNumber(this)" />
+    <button onclick="onCheckPoint()">CheckPoint</button>
     <span id="result"></span>
 </body>
 </html>

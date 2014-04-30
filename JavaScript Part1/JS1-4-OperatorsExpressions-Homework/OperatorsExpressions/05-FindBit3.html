@@ -4,11 +4,12 @@
     <!--Write a boolean expression for finding if the bit 3 (counting from 0) of a given integer is 1 or 0.-->
     <title>Task 5</title>
     <script>
-        function FindBit3() {
+        function onFindBit3() {
             var number = parseInt(document.getElementById('getNumber').value);
 
-            if (isNaN(number)) {
-                document.getElementById('result').innerHTML = "You have not entered a number!";
+            //checks if the input is number && if the input is not emptyspace && if the input is integer
+            if (isNaN(number) || !isFinite(number) || Math.floor(number) != number) {
+                document.getElementById('result').innerHTML = "You have not entered a valid integer number!";
             }
 
             else {
@@ -37,7 +38,7 @@
 </head>
 <body>
     <input type="text" id="getNumber" autofocus="autofocus" placeholder="Enter integer number" />
-    <button onclick="FindBit3()">The bit 3?</button>
+    <button onclick="onFindBit3()">The bit 3?</button>
     <span id="result"></span>
 </body>
 </html>

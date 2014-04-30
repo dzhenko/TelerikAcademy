@@ -4,14 +4,16 @@
     <!--Write an expression that checks for given integer if its third digit (right-to-left) is 7. E. g. 1732  true.-->
     <title>Task 4</title>
     <script>
-        function ThirdDigit7() {
-            var number = parseInt(document.getElementById('getNumber').value).toString();
+        function onThirdDigit7() {
+            var number = document.getElementById('getNumber').value;
             var result = "";
-            if (isNaN(number)) {
-                result = "You have not entered a number!";
+
+            //checks if the input is number && if the input is not emptyspace && if the input is integer
+            if (isNaN(number) || !isFinite(number) || Math.floor(number) != number) {
+                result = "You have not entered a valid integer number!";
             }
 
-            else if (number.length < 3) {
+            else if (number < 100) {
                 result = "You have not entered a number with at least 3 digits!";
             }
 
@@ -26,7 +28,7 @@
 </head>
 <body>
     <input type="text" id="getNumber" autofocus="autofocus" placeholder="Enter integer number" />
-    <button onclick="ThirdDigit7()">Third Digit 7?</button>
+    <button onclick="onThirdDigit7()">Third Digit 7?</button>
     <span id="result"></span>
 </body>
 </html>

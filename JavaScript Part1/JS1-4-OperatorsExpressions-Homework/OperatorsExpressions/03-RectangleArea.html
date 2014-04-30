@@ -4,13 +4,14 @@
     <!--Write an expression that calculates rectangle’s area by given width and height.-->
     <title>Task 3</title>
     <script>
-        function CheckNumber(input) {
-            if (isNaN(input.value)) {
+        function onCheckNumber(input) {
+            //checks if the input is number or if the input is not emptyspace
+            if (isNaN(parseFloat(input.value)) || !isFinite(input.value)) {
                 alert("You have not entered a number! Try again");
                 input.value = null;
             }
         }
-        function CalculateArea() {
+        function onCalculateArea() {
             var width = document.getElementById('width').value;
             var height = document.getElementById('height').value;
             var result = "Check your entered width and height!";
@@ -26,9 +27,9 @@
 
 </head>
 <body>
-    <input type="text" id="width" autofocus="autofocus" placeholder="Enter width" onchange="CheckNumber(this)"/>
-    <input type="text" id="height" placeholder="Enter height" onchange="CheckNumber(this)" />
-    <button onclick="CalculateArea()">CalculateArea</button>
+    <input type="text" id="width" autofocus="autofocus" placeholder="Enter width" onchange="onCheckNumber(this)"/>
+    <input type="text" id="height" placeholder="Enter height" onchange="onCheckNumber(this)" />
+    <button onclick="onCalculateArea()">CalculateArea</button>
     <span id="result"></span>
 </body>
 </html>
