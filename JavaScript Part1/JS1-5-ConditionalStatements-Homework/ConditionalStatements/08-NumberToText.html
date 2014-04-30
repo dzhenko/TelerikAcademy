@@ -4,12 +4,11 @@
     <!--Write a script that converts a number in the range [0...999] to a text corresponding to its English pronunciation.-->
     <title>Task 8</title>
     <script>
-        function TranslateNumberToText() {
+        function onTranslateNumberToText() {
             var num = parseInt(document.getElementById('num').value);
             var result = "";
             if (isNaN(num)) {
-                alert("number is empty!");
-                result = "Check your entered number!";
+                result = "You have not entered a valid integer number!";
             }
             else {
                 if (num >= 100) {
@@ -94,7 +93,7 @@
 </head>
 <body>
     <input type="text" id="num" autofocus="autofocus" placeholder="Enter number" />
-    <button onclick="TranslateNumberToText()">Translate !</button>
+    <button onclick="onTranslateNumberToText()">Translate !</button>
     <span id="result"></span>
 </body>
 </html>

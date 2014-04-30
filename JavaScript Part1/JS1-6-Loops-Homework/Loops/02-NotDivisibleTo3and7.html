@@ -4,10 +4,14 @@
     <!--Write a script that prints all the numbers from 1 to N, that are not divisible by 3 and 7 at the same time-->
     <title>Task 2</title>
     <script>
-        function PrintNumbersNotDivTo3and7() {
-            var num = parseInt(document.getElementById('number').value);
-            if (isNaN(num)) {
-                document.getElementById('result').innerHTML = "You have not entered a number!";
+        function onPrintNumbersNotDivTo3and7() {
+            var num = document.getElementById('number').value;
+
+            //checks if the input is number && if the input is not emptyspace && if the input is integer
+            //http://stackoverflow.com/questions/18082/validate-decimal-numbers-in-javascript-isnumeric/1830844#1830844
+            //via The Green Eyed One :))
+            if (isNaN(parseFloat(num)) || !isFinite(num) || Math.floor(num) != num) {
+                document.getElementById('result').innerHTML = "You have not entered a valid integer number!";
             }
 
             else {
@@ -28,7 +32,7 @@
 </head>
 <body>
     <input type="text" id="number" autofocus="autofocus" placeholder="Enter number" />
-    <button onclick="PrintNumbersNotDivTo3and7()">Print numbers not divisible to 3 and 7 at the same time!</button>
+    <button onclick="onPrintNumbersNotDivTo3and7()">Print numbers not divisible to 3 and 7 at the same time!</button>
     <span id="result"></span>
 </body>
 </html>

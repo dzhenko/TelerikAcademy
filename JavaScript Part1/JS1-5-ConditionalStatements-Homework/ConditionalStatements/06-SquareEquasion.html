@@ -6,13 +6,13 @@
 		and calculates and prints its real roots. Note that quadratic equations may have 0, 1 or 2 real roots.-->
     <title>Task 6</title>
     <script>
-        function CheckNumber(input) {
-            if (isNaN(input.value)) {
+        function onCheckNumber(input) {
+            if (isNaN(parseFloat(input.value)) || !isFinite(input.value)) {
                 alert("You have not entered a number! Try again");
                 input.value = null;
             }
         }
-        function SolveSquareEq() {
+        function onSolveSquareEq() {
             var a = parseFloat(document.getElementById('a').value);
             var b = parseFloat(document.getElementById('b').value);
             var c = parseFloat(document.getElementById('c').value);
@@ -42,10 +42,10 @@
 
 </head>
 <body>
-    <input type="text" id="a" autofocus="autofocus" placeholder="Enter a" onchange="CheckNumber(this)" />
-    <input type="text" id="b" placeholder="Enter b" onchange="CheckNumber(this)" />
-    <input type="text" id="c" placeholder="Enter c" onchange="CheckNumber(this)" />
-    <button onclick="SolveSquareEq">Solve!</button>
+    <input type="text" id="a" autofocus="autofocus" placeholder="Enter a" onchange="onCheckNumber(this)" />
+    <input type="text" id="b" placeholder="Enter b" onchange="onCheckNumber(this)" />
+    <input type="text" id="c" placeholder="Enter c" onchange="onCheckNumber(this)" />
+    <button onclick="onSolveSquareEq()">Solve!</button>
     <span id="result"></span>
 </body>
 </html>

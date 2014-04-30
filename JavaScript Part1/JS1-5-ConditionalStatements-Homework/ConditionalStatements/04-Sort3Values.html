@@ -4,16 +4,16 @@
     <!--Sort 3 real values in descending order using nested if statements.-->
     <title>Task 4</title>
     <script>
-        function CheckNumber(input) {
-            if (isNaN(input.value)) {
+        function onCheckNumber(input) {
+            if (isNaN(parseFloat(input.value)) || !isFinite(input.value)) {
                 alert("You have not entered a number! Try again");
                 input.value = null;
             }
         }
-        function Sort3Values() {
-            var a = parseInt(document.getElementById('a').value);
-            var b = parseInt(document.getElementById('b').value);
-            var c = parseInt(document.getElementById('c').value);
+        function onSort3Values() {
+            var a = parseFloat(document.getElementById('a').value);
+            var b = parseFloat(document.getElementById('b').value);
+            var c = parseFloat(document.getElementById('c').value);
             var result = "Check your entered a, b and c!";
             if (isNaN(a) || isNaN(b) || isNaN(c)) {
                 alert(isNaN(a) ? "a is empty!" : isNaN(b) ? "b is empty!" : "c is empty!");
@@ -56,10 +56,10 @@
 
 </head>
 <body>
-    <input type="text" id="a" autofocus="autofocus" placeholder="Enter a" onchange="CheckNumber(this)" />
-    <input type="text" id="b" placeholder="Enter b" onchange="CheckNumber(this)" />
-    <input type="text" id="c" placeholder="Enter c" onchange="CheckNumber(this)" />
-    <button onclick="Sort3Values()">Sort!</button>
+    <input type="text" id="a" autofocus="autofocus" placeholder="Enter a" onchange="onCheckNumber(this)" />
+    <input type="text" id="b" placeholder="Enter b" onchange="onCheckNumber(this)" />
+    <input type="text" id="c" placeholder="Enter c" onchange="onCheckNumber(this)" />
+    <button onclick="onSort3Values()">Sort!</button>
     <span id="result"></span>
 </body>
 </html>

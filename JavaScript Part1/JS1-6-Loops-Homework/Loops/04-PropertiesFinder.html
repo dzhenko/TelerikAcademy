@@ -3,8 +3,18 @@
 <head>
     <!--Write a script that finds the lexicographically smallest and largest property in document, window and navigator objects-->
     <title>Task 4</title>
+    <style>
+        table {
+            border-collapse:collapse;
+        }
+
+        th,td {
+            border:1px solid black;
+            padding:5px 15px;
+        }
+    </style>
     <script>
-        function GetPropertiesOfObject(obj) {
+        function getPropertiesOfObject(obj) {
             var min = 0;
             var max = 0;
             for (var i in obj) {
@@ -35,7 +45,7 @@
             document.getElementById('results').appendChild(newRow);
         }
 
-        function FindProperties() {
+        function onFindProperties() {
             var newRow = document.createElement('tr');
             var col1 = document.createElement('th');
             col1.innerHTML = "OBJECT";
@@ -48,18 +58,18 @@
             newRow.appendChild(col3);
             document.getElementById('results').appendChild(newRow);
 
-            GetPropertiesOfObject(document);
+            getPropertiesOfObject(document);
 
-            GetPropertiesOfObject(window);
+            getPropertiesOfObject(window);
 
-            GetPropertiesOfObject(navigator);
+            getPropertiesOfObject(navigator);
         }
     </script>
 </head>
 <body>
     <table id="results"></table>
     <script>
-        FindProperties();
+        onFindProperties();
     </script>
 </body>
 </html>

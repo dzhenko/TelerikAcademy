@@ -5,13 +5,13 @@
         if the first one is greater than the second one.-->
     <title>Task 1</title>
     <script>
-        function CheckNumber(input) {
-            if (isNaN(input.value)) {
-                alert("You have not entered a number! Try again");
+        function onCheckNumber(input) {
+            if (isNaN(parseFloat(input.value)) || !isFinite(input.value) || Math.floor(input.value) != input.value) {
+                alert("You have not entered a valid integer number! Try again");
                 input.value = null;
             }
         }
-        function Exchange() {
+        function onExchange() {
             var a = parseInt(document.getElementById('a').value);
             var b = parseInt(document.getElementById('b').value);
             var result = "Check your entered a and b!";
@@ -34,9 +34,9 @@
 
 </head>
 <body>
-    <input type="text" id="a" autofocus="autofocus" placeholder="Enter a" onchange="CheckNumber(this)" />
-    <input type="text" id="b" placeholder="Enter b" onchange="CheckNumber(this)" />
-    <button onclick="Exchange()">Check a b</button>
+    <input type="text" id="a" autofocus="autofocus" placeholder="Enter a" onchange="onCheckNumber(this)" />
+    <input type="text" id="b" placeholder="Enter b" onchange="onCheckNumber(this)" />
+    <button onclick="onExchange()">Check a b</button>
     <span id="result"></span>
 </body>
 </html>

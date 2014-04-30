@@ -9,7 +9,7 @@
             var result = "";
 
             //checks if the input is number && if the input is not emptyspace && if the input is integer
-            if (!isNaN(parseInt(number)) && isFinite(number) && Math.floor(number) == number) {
+            if (!isNaN(parseFloat(number)) && isFinite(number) && Math.floor(number) == number) {
                 var dividableBy7and5 = number % 35 === 0;
                 result = "The number " + number;
                 if (dividableBy7and5) {

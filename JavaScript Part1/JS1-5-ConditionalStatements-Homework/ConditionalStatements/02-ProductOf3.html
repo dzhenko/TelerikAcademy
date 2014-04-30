@@ -5,13 +5,13 @@
          without calculating it. Use a sequence of if statements.-->
     <title>Task 2</title>
     <script>
-        function CheckNumber(input) {
-            if (isNaN(input.value)) {
+        function onCheckNumber(input) {
+            if (isNaN(parseFloat(input.value)) || !isFinite(input.value)) {
                 alert("You have not entered a number! Try again");
                 input.value = null;
             }
         }
-        function CheckProduct() {
+        function onCheckProduct() {
             var a = parseFloat(document.getElementById('a').value);
             var b = parseFloat(document.getElementById('b').value);
             var c = parseFloat(document.getElementById('c').value);
@@ -51,10 +51,10 @@
 
 </head>
 <body>
-    <input type="text" id="a" autofocus="autofocus" placeholder="Enter a" onchange="CheckNumber(this)" />
-    <input type="text" id="b" placeholder="Enter b" onchange="CheckNumber(this)" />
-    <input type="text" id="c" placeholder="Enter c" onchange="CheckNumber(this)" />
-    <button onclick="CheckProduct()">Check product</button>
+    <input type="text" id="a" autofocus="autofocus" placeholder="Enter a" onchange="onCheckNumber(this)" />
+    <input type="text" id="b" placeholder="Enter b" onchange="onCheckNumber(this)" />
+    <input type="text" id="c" placeholder="Enter c" onchange="onCheckNumber(this)" />
+    <button onclick="onCheckProduct()">Check product</button>
     <span id="result"></span>
 </body>
 </html>

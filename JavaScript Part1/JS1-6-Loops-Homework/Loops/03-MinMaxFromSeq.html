@@ -5,9 +5,9 @@
     <title>Task 3</title>
     <script>
         var arr = Array();
-        function AddNumberToSequence() {
-            var a = parseInt(document.getElementById('a').value);
-            if (isNaN(a)) {
+        function onAddNumberToSequence() {
+            var a = document.getElementById('a').value;
+            if (isNaN(parseFloat(a)) || !isFinite(a)) {
                 document.getElementById('result').innerHTML = "You have not entered a number!";
             }
 
@@ -22,7 +22,7 @@
             document.getElementById('a').focus();
         }
 
-        function FindMinMax() {
+        function onFindMinMax() {
             if (arr.length === 0) {
                 document.getElementById('result').innerHTML = "You have not entered any numbers !";
             }
@@ -45,8 +45,8 @@
 </head>
 <body>
     <input type="text" id="a" autofocus="autofocus" placeholder="Enter a number" />
-    <button onclick="AddNumberToSequence()">Add number</button>
-    <button onclick="FindMinMax()">Find Min and Max</button>
+    <button onclick="onAddNumberToSequence()">Add number</button>
+    <button onclick="onFindMinMax()">Find Min and Max</button>
     <span id="result"></span>
     <div id="inputNumbers"></div>
 </body>

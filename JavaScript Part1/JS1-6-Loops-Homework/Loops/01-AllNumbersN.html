@@ -4,17 +4,21 @@
     <!--Write a script that prints all the numbers from 1 to N-->
     <title>Task 1</title>
     <script>
-        function PrintNumbers() {
-            var num = parseInt(document.getElementById('number').value);
-            if (isNaN(num)) {
-                document.getElementById('result').innerHTML = "You have not entered a number!";
+        function onPrintNumbers() {
+            var num = document.getElementById('number').value;
+
+            //checks if the input is number && if the input is not emptyspace && if the input is integer
+            //http://stackoverflow.com/questions/18082/validate-decimal-numbers-in-javascript-isnumeric/1830844#1830844
+            //via The Green Eyed One :))
+            if (isNaN(parseFloat(num)) || !isFinite(num) || Math.floor(num) != num) {
+                document.getElementById('result').innerHTML = "You have not entered a valid integer number!";
             }
 
             else {
                 var result = "";
                 for (var i = 1; i <= num; i++) {
                     result += i;
-                    if (i !== num) {
+                    if (i !=num) {
                         result += ", ";
                     }
                 }
@@ -25,7 +29,7 @@
 </head>
 <body>
     <input type="text" id="number" autofocus="autofocus" placeholder="Enter number" />
-    <button onclick="PrintNumbers()">Print numbers!</button>
+    <button onclick="onPrintNumbers()">Print numbers!</button>
     <span id="result"></span>
 </body>
 </html>

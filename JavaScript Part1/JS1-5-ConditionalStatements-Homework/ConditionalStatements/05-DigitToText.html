@@ -4,11 +4,10 @@
     <!--Write script that asks for a digit and depending on the input shows the name of that digit (in English) using a switch statement.-->
     <title>Task 5</title>
     <script>
-        function TranslateDigitToText() {
-            var num = parseInt(document.getElementById('num').value);
+        function onTranslateDigitToText() {
+            var num = document.getElementById('num').value;
             var result = "";
-            if (isNaN(num)) {
-                alert("number is empty!");
+            if (isNaN(num) || !isFinite(num)) {
                 result = "Check your entered number!";
             }
             else {
@@ -33,7 +32,7 @@
 </head>
 <body>
     <input type="text" id="num" autofocus="autofocus" placeholder="Enter number" />
-    <button onclick="TranslateDigitToText()">Translate Digit!</button>
+    <button onclick="onTranslateDigitToText()">Translate Digit!</button>
     <span id="result"></span>
 </body>
 </html>
