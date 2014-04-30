@@ -6,10 +6,11 @@
     <title>Task 9</title>
     <script>
         function extractMailFromText(text) {
-            return text.match(/([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9._-]+)/gi);
+            var reg = /([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9._-]+)/gi;
+            return text.match(reg);
         }
 
-        function getAllEmails() {
+        function onGetAllEmails() {
             var text = document.getElementById('text').value;
             var emails = extractMailFromText(text);
 
@@ -35,7 +36,7 @@
 <body>
     <textarea id="text">This is sample asd@av.com text to show you that you here@there.where can extract all email@domain.com mails in this style (answer is 3) </textarea>
     <br />
-    <button onclick="getAllEmails()">Get all emails!</button>
+    <button onclick="onGetAllEmails()">Get all emails!</button>
     <div id="result" ></div>
 </body>
 </html>

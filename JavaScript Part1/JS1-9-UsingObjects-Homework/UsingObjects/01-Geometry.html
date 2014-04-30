@@ -39,11 +39,11 @@ Check if three segment lines can form a triangle
         }
     </style>
     <script>
-        function GetDistanceTwoPoints(x1,y1,x2,y2) {
+        function getDistanceTwoPoints(x1,y1,x2,y2) {
             return Math.sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
         }
 
-        function GetCanWeFormATriangle(x1, y1, x2, y2, x3, y3, x4, y4, x5, y5, x6, y6) {
+        function getCanWeFormATriangle(x1, y1, x2, y2, x3, y3, x4, y4, x5, y5, x6, y6) {
             var line1 = GetDistanceTwoPoints(x1, y1, x2, y2);
             var line2 = GetDistanceTwoPoints(x3, y3, x4, y4);
             var line3 = GetDistanceTwoPoints(x5, y5, x6, y6);
@@ -51,7 +51,7 @@ Check if three segment lines can form a triangle
             return (line1 + line2 > line3 && line2 + line3 > line1 && line1 + line3 > line2);
         }
 
-        function GetDistance(buttonN) {
+        function onGetDistance(buttonN) {
             switch (buttonN) {
                 case 1:
                     var x1 = parseFloat(document.getElementById('x1').value);
@@ -72,7 +72,7 @@ Check if three segment lines can form a triangle
                     if (isNaN(y2)) {
                         alert("y2 is not a number or empty!");
                     }
-                    document.getElementById('result1').innerHTML = "Distance is " + GetDistanceTwoPoints(x1, y1, x2, y2);
+                    document.getElementById('result1').innerHTML = "Distance is " + getDistanceTwoPoints(x1, y1, x2, y2);
                     break;
 
                 case 2:
@@ -94,7 +94,7 @@ Check if three segment lines can form a triangle
                     if (isNaN(y4)) {
                         alert("y4 is not a number or empty!");
                     }
-                    document.getElementById('result2').innerHTML = "Distance is " + GetDistanceTwoPoints(x3, y3, x4, y4);
+                    document.getElementById('result2').innerHTML = "Distance is " + getDistanceTwoPoints(x3, y3, x4, y4);
                     break;
 
                 case 3:
@@ -116,12 +116,12 @@ Check if three segment lines can form a triangle
                     if (isNaN(y6)) {
                         alert("y6 is not a number or empty!");
                     }
-                    document.getElementById('result3').innerHTML = "Distance is " + GetDistanceTwoPoints(x5, y5, x6, y6);
+                    document.getElementById('result3').innerHTML = "Distance is " + getDistanceTwoPoints(x5, y5, x6, y6);
                     break;
             }
         }
 
-        function CanWeMakeATriangle() {
+        function onCanWeMakeATriangle() {
             
             var x1 = parseFloat(document.getElementById('x1').value);
             if (isNaN(x1)) {
@@ -183,7 +183,7 @@ Check if three segment lines can form a triangle
                 alert("y6 is not a number or empty!");
             }
 
-            if (GetCanWeFormATriangle(x1,y1,x2,y2,x3,y3,x4,y4,x5,y5,x6,y6)) {
+            if (getCanWeFormATriangle(x1,y1,x2,y2,x3,y3,x4,y4,x5,y5,x6,y6)) {
                 document.getElementById('specialButton').innerHTML = " ! Y E S ! "
             }
             else {
@@ -199,23 +199,23 @@ Check if three segment lines can form a triangle
     <input id="y1" type="text" placeholder="y1"/>
     <input id="x2" type="text" placeholder="x2" />
     <input id="y2" type="text" placeholder="y2" />
-    <button onclick="GetDistance(1)">Get Line Length!</button>
+    <button onclick="onGetDistance(1)">Get Line Length!</button>
     <span id="result1"></span>
     <div>Line 2</div>
     <input id="x3" type="text" placeholder="x3" autofocus="autofocus" />
     <input id="y3" type="text" placeholder="y3" />
     <input id="x4" type="text" placeholder="x4" />
     <input id="y4" type="text" placeholder="y4" />
-    <button onclick="GetDistance(2)">Get Line Length!</button>
+    <button onclick="onGetDistance(2)">Get Line Length!</button>
     <span id="result2"></span>
     <div>Line 3</div>
     <input id="x5" type="text" placeholder="x5" autofocus="autofocus" />
     <input id="y5" type="text" placeholder="y5" />
     <input id="x6" type="text" placeholder="x6" />
     <input id="y6" type="text" placeholder="y6" />
-    <button onclick="GetDistance(3)">Get Line Length!</button>
+    <button onclick="onGetDistance(3)">Get Line Length!</button>
     <span id="result3"></span>
     <br />
-    <button id="specialButton" onclick="CanWeMakeATriangle()">??? Can We Make A Triangle ???</button>
+    <button id="specialButton" onclick="onCanWeMakeATriangle()">??? Can We Make A Triangle ???</button>
 </body>
 </html>

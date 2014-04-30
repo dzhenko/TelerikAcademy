@@ -6,43 +6,46 @@
 </head>
 <body>
     <script>
-        var arr = [3, 2, 3, 4, 2, 2, 4, 5, 6, 7];
+        (function () {
 
-        var currentL = 1;
-        var maxL = 0;
-        var lastIndex = 0;
+            var arr = [3, 2, 3, 4, 2, 2, 4, 5, 6, 7];
 
-        for (var i = 1; i < arr.length; i++) {
-            if (arr[i - 1] + 1 === arr[i]) {
-                currentL++;
-            }
-            else {
-                if (maxL < currentL) {
-                    maxL = currentL;
-                    currentL = 1;
-                    lastIndex = i;
+            var currentL = 1;
+            var maxL = 0;
+            var lastIndex = 0;
+
+            for (var i = 1; i < arr.length; i++) {
+                if (arr[i - 1] + 1 === arr[i]) {
+                    currentL++;
+                }
+                else {
+                    if (maxL < currentL) {
+                        maxL = currentL;
+                        currentL = 1;
+                        lastIndex = i;
+                    }
                 }
             }
-        }
 
-        if (maxL < currentL) {
-            maxL = currentL;
-            lastIndex = arr.length;
-        }
+            if (maxL < currentL) {
+                maxL = currentL;
+                lastIndex = arr.length;
+            }
 
-        var arrayDiv = document.createElement('div');
-        arrayDiv.innerHTML = arr.join(", ");
-        document.body.appendChild(arrayDiv);
+            var arrayDiv = document.createElement('div');
+            arrayDiv.innerHTML = arr.join(", ");
+            document.body.appendChild(arrayDiv);
 
-        var results = document.createElement('div');
-        var resultsStr = "maximal increasing sequence : ";
-        for (var i = 0; i < maxL; i++) {
-            resultsStr += arr[lastIndex - maxL + i];
-            resultsStr += " ";
-        }
+            var results = document.createElement('div');
+            var resultsStr = "maximal increasing sequence : ";
+            for (var i = 0; i < maxL; i++) {
+                resultsStr += arr[lastIndex - maxL + i];
+                resultsStr += " ";
+            }
 
-        results.innerHTML = resultsStr;
-        document.body.appendChild(results);        
+            results.innerHTML = resultsStr;
+            document.body.appendChild(results);
+        })();
     </script>
 </body>
 </html>

@@ -6,10 +6,11 @@
 </head>
 <body>
     <script>
-        function FindIndexBinarySearch() {
-            var element = parseInt(document.getElementById('number').value);
-            if (isNaN(element)) {
-                alert("You have not entered a number!");
+        function onFindIndexBinarySearch() {
+            var element = document.getElementById('number').value;
+            if (isNaN(parseFloat(element)) || !isFinite(element) || Math.floor(element) != element) {
+                alert("You have not entered a valid integer number from 1 to 10!");
+                //reloads the page :)
                 location.reload();
             }
 
@@ -45,7 +46,7 @@
             }
         }
     </script>
-    <input type="text" id="number" placeholder="Enter element from 1 to 10" autofocus="autofocus" />
-    <button onclick="FindIndexBinarySearch()">Find Index</button>
+    <input type="text" id="number" placeholder="Enter integer number from 1 to 10" autofocus="autofocus" style="width:300px"/>
+    <button onclick="onFindIndexBinarySearch()">Find Index</button>
 </body>
 </html>

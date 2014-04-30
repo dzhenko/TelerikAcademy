@@ -6,27 +6,30 @@
 </head>
 <body>
     <script>
-        var arr = [4, 3, 6, 8, 9,2,11,0,-4,-2,18];
+        (function () {
 
-        var arrayDiv = document.createElement('div');
-        arrayDiv.innerHTML = "Unsorted array: " + arr.join(", ");
-        document.body.appendChild(arrayDiv);
+            var arr = [4, 3, 6, 8, 9, 2, 11, 0, -4, -2, 18];
 
-        for (var i = 0; i < arr.length; i++) {
-            var currMin = i;
-            for (var j = i + 1; j < arr.length; j++) {
-                if (arr[currMin] > arr[j]) {
-                    currMin = j;
+            var arrayDiv = document.createElement('div');
+            arrayDiv.innerHTML = "Unsorted array: " + arr.join(", ");
+            document.body.appendChild(arrayDiv);
+
+            for (var i = 0; i < arr.length; i++) {
+                var currMin = i;
+                for (var j = i + 1; j < arr.length; j++) {
+                    if (arr[currMin] > arr[j]) {
+                        currMin = j;
+                    }
                 }
+                var helper = arr[i];
+                arr[i] = arr[currMin];
+                arr[currMin] = helper;
             }
-            var helper = arr[i];
-            arr[i] = arr[currMin];
-            arr[currMin] = helper;
-        }
 
-        var resultsDiv = document.createElement('div');
-        resultsDiv.innerHTML = "Sorted array: " + arr.join(", ");
-        document.body.appendChild(resultsDiv);        
+            var resultsDiv = document.createElement('div');
+            resultsDiv.innerHTML = "Sorted array: " + arr.join(", ");
+            document.body.appendChild(resultsDiv);
+        })();
     </script>
 </body>
 </html>

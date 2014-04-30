@@ -7,11 +7,11 @@
 -->
     <title>Task 3</title>
     <script>
-        function getDefaultText() {
+        function onGetDefaultText() {
             document.getElementById('text').innerHTML = "We are living in an yellow submarine. We don't have anything else. Inside the submarine is very tight. So we are drinking all the day. We will move out of it in 5 days.";
         }
 
-        function countWords() {
+        function onCountWords() {
             var text = document.getElementById('text').innerHTML;
             var word = document.getElementById('word').value;
 
@@ -63,12 +63,12 @@
         }
     </script>
 </head>
-<body onload="getDefaultText()">
+<body onload="onGetDefaultText()">
     <div id="text"></div>
     <br />
     <input type="text" value="in" id="word"/>
     <br />
-    <button onclick="countWords()">Count!</button>
+    <button onclick="onCountWords()">Count!</button>
     <br />
     <div id="result"></div>
 </body>

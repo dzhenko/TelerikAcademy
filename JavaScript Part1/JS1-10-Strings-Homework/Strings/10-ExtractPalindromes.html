@@ -4,7 +4,7 @@
     <!--Write a program that extracts from a given text all palindromes, e.g. "ABBA", "lamal", "exe".-->
     <title>Task 10</title>
     <script>
-        function ExtractPolindromes() {
+        function onExtractPolindromes() {
             document.getElementById('result').innerHTML = "";
             var text = document.getElementById('text').value;
             var allPolindromes = getPolindromes(text);
@@ -35,7 +35,7 @@
 
         function isPolindrome(word) {
             var len = word.length;
-            if (len == 1) {
+            if (len < 2) {
                 return false;
             }
             for (var i = 0; i < Math.floor(len); i++) {
@@ -50,7 +50,7 @@
 </head>
 <body>
     <textarea id="text"></textarea> <br />
-    <button onclick="ExtractPolindromes()">Extract polindromes!</button>
+    <button onclick="onExtractPolindromes()">Extract polindromes!</button>
     <div id="result"></div>
 </body>
 </html>

@@ -5,7 +5,7 @@
 -->
     <title>Task 2</title>
     <script>
-        function GetReversedNumber(num) {
+        function getReversedNumber(num) {
             var answer = Array(num.length);
             for (var i = num.length - 1; i >= 0; i--) {
                 answer[num.length - 1 - i] = num[i];
@@ -14,21 +14,21 @@
             return Number(answer.join(""));
         }
 
-        function ReverseNumber() {
+        function onReverseNumber() {
             var num = document.getElementById('number').value;
 
-            if (isNaN(num)) {
+            if (isNaN(parseFloat(num)) || !isFinite(num) || Math.floor(num) != num) {
                 document.getElementById('result').innerHTML = "Invalid number";
             }
             else {
-                document.getElementById('result').innerHTML = GetReversedNumber(num);
+                document.getElementById('result').innerHTML = getReversedNumber(num);
             }
         }
     </script>
 </head>
 <body>
     <input type="text" autofocus="autofocus" placeholder="Enter number" id="number" />
-    <button onclick="ReverseNumber()">Reverse!</button>
+    <button onclick="onReverseNumber()">Reverse!</button>
     <span id="result"></span>
 </body>
 </html>

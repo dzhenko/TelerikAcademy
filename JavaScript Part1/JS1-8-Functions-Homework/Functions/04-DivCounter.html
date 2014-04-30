@@ -10,12 +10,13 @@
         }
         div {
             display:inline-block;
-            width:40px;
+            width:80px;
             margin:5px;
-            height:30px;
+            height:40px;
             background-color:red;
             border:1px solid black;
             text-align:center;
+            line-height:40px;
         }
         button {
             background:none;
@@ -30,22 +31,22 @@
     </style>
     <title>Task 4</title>
     <script>
-        function GetDivsCount() {
+        function getDivsCount() {
             var divs = document.getElementsByTagName('div');
             return divs.length;
         }
 
-        function CountDivs() {
-            document.getElementById('result').innerHTML = "The number of divs is "+GetDivsCount();
+        function onCountDivs() {
+            document.getElementById('result').innerHTML = "The number of divs is "+getDivsCount();
         }
 
-        function AddNewDiv() {
+        function onAddNewDiv() {
             var newDiv = document.createElement('div');
             newDiv.innerHTML = 'D I V';
             document.body.appendChild(newDiv);
         }
 
-        function RemoveDiv() {
+        function onRemoveDiv() {
             var divs = document.getElementsByTagName('div');
             if (divs.length > 0) {
                 var removedDiv = divs[divs.length - 1];
@@ -55,9 +56,9 @@
     </script>
 </head>
 <body >
-    <button onclick="AddNewDiv()">Add new Div</button>
-    <button onclick="RemoveDiv()">Remove a Div</button>
-    <button onclick="CountDivs()">Count them!</button>
+    <button onclick="onAddNewDiv()">Add new Div</button>
+    <button onclick="onRemoveDiv()">Remove a Div</button>
+    <button onclick="onCountDivs()">Count them!</button>
     <p id="result">&nbsp;</p>
 </body>
 </html>

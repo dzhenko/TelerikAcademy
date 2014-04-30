@@ -4,39 +4,99 @@
     <!--Write a function that makes a deep copy of an object
 The function should work for both primitive and reference types-->
     <title>Task 3</title>
-    <script>
-        function makeDeepCopy(obj) {
-            var newObj = {};
-
-            for (var i in obj) {
-                newObj[i] = obj[i];
-            }
-
-            return newObj;
+    <style>
+        span {
+            font-family:Consolas;
         }
-
-        var pesho = {
-            name: "Pesho",
-            age: 16
-        };
-
-        var copy = makeDeepCopy(pesho);
-
-        console.log(pesho.age);
-        console.log(copy.age);
-
-        pesho.age = 222;
-        
-        console.log(pesho.age);
-        console.log(copy.age);
-
-        copy.age = 100;
-
-        console.log(pesho.age);
-        console.log(copy.age);
-    </script>
+    </style>
 </head>
 <body>
+    <script>
+        (function () {
+
+            function makeDeepCopy(obj) {
+                var newObj = {};
+
+                for (var i in obj) {
+                    if (typeof obj[i] == 'object') {
+                        newObj[i] = makeDeepCopy(obj[i]);
+                    }
+                    else {
+                        newObj[i] = obj[i];
+                    }
+                }
+
+                return newObj;
+            }
+
+
+            //all the stuff below is for visualisation and testing
+            var pesho = {
+                name: "Pesho",
+                age: 16,
+                objProp: { prop1: 4, prop2: 7 },
+            };
+
+            var copy = makeDeepCopy(pesho);
+
+            writeToBody('><span style="font-style:italic">var pesho = {name: "Pesho", age: 16, objProp: { prop1: 4, prop2: 7 }}</span>');
+
+            writeToBody('><span style="font-style:italic">pesho</span>');
+            writeToBody(pesho);
+            writeToBody('><span style="font-style:italic">pesho.objProp</span>');
+            writeToBody(pesho.objProp);
+            writeToBody('><span style="font-style:italic">pesho.objProp.prop1</span>');
+            writeToBody(pesho.objProp.prop1);
+            writeToBody('><span style="font-style:italic">pesho.objProp.prop2</span>');
+            writeToBody(pesho.objProp.prop2);
+
+            writeToBody('><span style="font-style:italic">var copy = makeDeepCopy(pesho)</span>');
+
+            writeToBody('><span style="font-style:italic">copy</span>');
+            writeToBody(copy);
+            writeToBody('><span style="font-style:italic">copy.objProp</span>');
+            writeToBody(copy.objProp);
+            writeToBody('><span style="font-style:italic">copy.objProp.prop1</span>');
+            writeToBody(copy.objProp.prop1);
+            writeToBody('><span style="font-style:italic">copy.objProp.prop2</span>');
+            writeToBody(copy.objProp.prop2);
+
+            writeToBody('><span style="font-style:italic">copy.objProp.prop1 = 222;</span>');
+            copy.objProp.prop1 = 222;
+            writeToBody('><span style="font-style:italic">copy.objProp.prop1</span>');
+            writeToBody(copy.objProp.prop1);
+
+            writeToBody('><span style="font-style:italic">pesho.objProp.prop1</span>');
+            writeToBody(pesho.objProp.prop1);
+
+            writeToBody('><span style="font-style:italic">pesho.objProp = { newProp1: 500, newProp2: 501 }</span>');
+            pesho.objProp = { newProp1: 500, newProp2: 501 };
+            writeToBody('><span style="font-style:italic">pesho.objProp</span>');
+            writeToBody(pesho.objProp);
+            writeToBody('><span style="font-style:italic">pesho.objProp.newProp1</span>');
+            writeToBody(pesho.objProp.newProp1);
+            writeToBody('><span style="font-style:italic">pesho.objProp.newProp2</span>');
+            writeToBody(pesho.objProp.newProp2);
+
+            writeToBody('><span style="font-style:italic">copy.objProp</span>');
+            writeToBody(copy.objProp);
+            writeToBody('><span style="font-style:italic">copy.objProp.newProp1</span>');
+            writeToBody(copy.objProp.newProp1);
+            writeToBody('><span style="font-style:italic">copy.objProp.newProp2</span>');
+            writeToBody(copy.objProp.newProp2);
+            writeToBody('><span style="font-style:italic">copy.objProp.prop1</span>');
+            writeToBody(copy.objProp.prop1);
+            writeToBody('><span style="font-style:italic">copy.objProp.prop2</span>');
+            writeToBody(copy.objProp.prop2);
+
+
+            function writeToBody(stuff) {
+                var div = document.createElement('div');
+                div.innerHTML = stuff;
+                document.body.appendChild(div);
+            }
+        })();
+    </script>
 
 </body>
 </html>

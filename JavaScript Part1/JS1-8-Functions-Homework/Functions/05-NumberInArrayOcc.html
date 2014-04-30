@@ -21,11 +21,11 @@
             document.getElementById('array').innerHTML = "Array is: " + arr.join(' ');
         }
 
-        function getNumberOcc() {
+        function onGetNumberOcc() {
             var num = parseInt(document.getElementById('number').value);
 
-            if (isNaN(num)) {
-                alert('You have not entered a number!');
+            if (isNaN(parseFloat(num)) || !isFinite(num)) {
+                alert('You have not entered a valid number!');
             }
 
             else {
@@ -55,7 +55,7 @@
 <body>
     <div id="array" ></div>
     <input type="text" autofocus="autofocus" placeholder="Enter number" id="number" />
-    <button onclick="getNumberOcc()">Count !</button>
+    <button onclick="onGetNumberOcc()">Count !</button>
     <div id="result"></div>
 </body>
 </html>

@@ -53,8 +53,8 @@
             return ul;
         }
 
-        function GenerateUl() {
-            GenerateTemplate();
+        function onGenerateUl() {
+            onGenerateTemplate();
             var template = document.getElementById('list-item').innerHTML;
             var people = generatePersonsArray(500);
 
@@ -64,7 +64,7 @@
             document.getElementById('result').appendChild(ul);
         }
 
-        function GenerateTemplate() {
+        function onGenerateTemplate() {
             var nameStyle = document.getElementById('nameStyle').value;
             var ageStyle = document.getElementById('ageStyle').value;
 
@@ -108,10 +108,10 @@
             <span>Style for -{name}-</span><input id="nameStyle" type="text" value="strong" /> <br />
             <span>Style for -{age}-</span><input id="ageStyle" type="text" value="span" /><br />
         </div>
-        <button onclick="GenerateTemplate()" id="btnTemp">Change Style</button>
+        <button onclick="onGenerateTemplate()" id="btnTemp">Change Style</button>
     </section>
 
-    <button onclick="GenerateUl()" id="btnGenerate">Generate UL</button>
+    <button onclick="onGenerateUl()" id="btnGenerate">Generate UL</button>
 
     <div id="result"></div>
 </body>

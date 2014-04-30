@@ -8,11 +8,11 @@
         Sample sitetextmore textand more...in body-->
     <title>Task 6</title>
     <script>
-        function getDefaultText() {
+        function onGetDefaultText() {
             document.getElementById('text').value = '<html><head><title>Sample site</title></head><body><div>text<div>more text</div>and more...</div>in body</body></html>';
         }
 
-        function getContent() {
+        function onGetContent() {
             var text = document.getElementById('text').value;
 
             var pureText = extractTextFromHTML(text);
@@ -42,10 +42,10 @@
         }
     </script>
 </head>
-<body onload="getDefaultText()">
+<body onload="onGetDefaultText()">
     <textarea id="text" style="width:500px;height:150px"></textarea> 
     <br />
-    <button onclick="getContent()">Extract!</button>
+    <button onclick="onGetContent()">Extract!</button>
     <div id="result"></div>
 </body>
 </html>

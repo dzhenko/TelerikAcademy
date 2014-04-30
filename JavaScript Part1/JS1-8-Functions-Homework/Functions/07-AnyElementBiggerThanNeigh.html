@@ -7,16 +7,16 @@ Use the function from the previous exercise.-->
     <script src="scripts/BiggerThanNeighbours.js"></script>
     <script>
         var arr = [1, 2, 3, 4, 1, 2, 4, 2, 3, 1, 4, 2, 3, 2];
-        window.onload = showArray;
-        window.onload = areYouBiggerThanNeighbours;
-        function showArray() {
+        window.onload = onShowArray;
+        window.onload = onAreYouBiggerThanNeighbours;
+        function onShowArray() {
             document.getElementById('array').innerHTML = "Array is: " + arr.join(' ');
         }
 
-        function areYouBiggerThanNeighbours() {
+        function onAreYouBiggerThanNeighbours() {
             var num = -1;
             for (var i = 1; i < arr.length-1; i++) {
-                if (BiggerThanNeighbours(arr,i)) {
+                if (biggerThanNeighbours(arr,i)) {
                     num = i;
                     break;
                 }

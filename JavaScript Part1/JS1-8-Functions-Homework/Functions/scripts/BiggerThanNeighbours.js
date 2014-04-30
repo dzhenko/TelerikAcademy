@@ -1,4 +1,6 @@
-﻿function BiggerThanNeighbours(arr,position) {
+﻿function biggerThanNeighbours(arr, position) {
+    //convert position to int number
+    position = position | 0;
     if (position >= arr.length) {
         return false;
     }

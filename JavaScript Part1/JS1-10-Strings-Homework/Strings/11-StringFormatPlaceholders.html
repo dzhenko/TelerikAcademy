@@ -9,29 +9,43 @@
         var str = stringFormat(format,1,"Pesho","Gosho");
         //str = "1, Pesho, 1 text Gosho"-->
     <title>Task 11</title>
-    <script>
-        function stringFormat() {
-            if (arguments.length == 0) {
-                return undefined;
-            }
-            var formated = String(arguments[0]);
-
-            for (var i = 1; i < arguments.length; i++) {
-                var replaceString = "{" + (i - 1) + "}";
-                while (formated.indexOf(replaceString) > -1) {
-                    formated = formated.replace(replaceString, arguments[i]);
-                }
-            }
-
-            return formated;
-        }
-
-        var format = "{0}, {1}, {0} text {2}";
-        var str = stringFormat(format, 1, "Pesho", "Gosho");
-        console.log(str);
-    </script>
+    
 </head>
 <body>
+    <script>
+        (function () {
 
+            function stringFormat() {
+                if (arguments.length == 0) {
+                    return undefined;
+                }
+                var formated = String(arguments[0]);
+
+                for (var i = 1; i < arguments.length; i++) {
+                    var replaceString = "{" + (i - 1) + "}";
+                    while (formated.indexOf(replaceString) > -1) {
+                        formated = formated.replace(replaceString, arguments[i]);
+                    }
+                }
+
+                return formated;
+            }
+
+            writeToBody('var format = "{0}, {1}, {0} text {2}";');
+            var format = "{0}, {1}, {0} text {2}";
+
+            writeToBody('var str = stringFormat(format, 1, "Pesho", "Gosho");');
+            var str = stringFormat(format, 1, "Pesho", "Gosho");
+
+            writeToBody('result:');
+            writeToBody(str);
+
+            function writeToBody(stuff) {
+                var div = document.createElement('div');
+                div.innerHTML = stuff;
+                document.body.appendChild(div);
+            }
+        })();
+    </script>
 </body>
 </html>

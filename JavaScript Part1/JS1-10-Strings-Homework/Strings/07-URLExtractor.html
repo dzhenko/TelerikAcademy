@@ -10,7 +10,7 @@
         resource: "/forum/index.php"}-->
     <title>Task 7</title>
     <script>
-        function extractURL() {
+        function onExtractURL() {
             document.getElementById('result').innerHTML = "";
 
             var url = document.getElementById('text').value;
@@ -46,7 +46,7 @@
 </head>
 <body>
     <input id="text" type="text" value="http://www.devbg.org/forum/index.php" />
-    <button onclick="extractURL()">Extract!</button>
+    <button onclick="onExtractURL()">Extract!</button>
     <div id="result"></div>
 </body>
 </html>

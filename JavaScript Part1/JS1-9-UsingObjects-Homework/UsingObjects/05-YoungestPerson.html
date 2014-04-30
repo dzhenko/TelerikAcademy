@@ -8,7 +8,7 @@ Each person have properties firstname, lastname and age, as shown:var persons = 
     <title>Task 5</title>
     <script src="scripts/generatePersonsArray.js"></script>
     <script>
-        function FindYoungestPerson() {
+        function onFindYoungestPerson() {
             var persons = generatePersonsArray();
             document.getElementById('generated').innerHTML = "";
 
@@ -42,7 +42,7 @@ Each person have properties firstname, lastname and age, as shown:var persons = 
 </head>
 <body>
     <div id="result"></div>
-    <button onclick="FindYoungestPerson()">Find youngest person</button>
+    <button onclick="onFindYoungestPerson()">Find youngest person</button>
     <div id="generated"></div>
     <div id="result"></div>
 </body>

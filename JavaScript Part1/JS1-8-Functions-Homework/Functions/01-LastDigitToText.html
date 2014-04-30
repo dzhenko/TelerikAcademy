@@ -5,7 +5,7 @@
         Examples: 512  "two", 1024  "four", 12309  "nine"-->
     <title>Task 1</title>
     <script>
-        function LastDigitToText(num) {
+        function getLastDigitToText(num) {
             switch (num % 10) {
                 case 0: return "zero";  
                 case 1: return "one";   
@@ -21,21 +21,21 @@
             }
         }
 
-        function GetLastDigitToText() {
-            var num = parseInt(document.getElementById('number').value);
+        function onGetLastDigitToText() {
+            var num = document.getElementById('number').value;
 
-            if (isNaN(num)) {
+            if (isNaN(parseFloat(num)) || !isFinite(num) || Math.floor(num) != num) {
                 document.getElementById('result').innerHTML = "Invalid number";
             }
             else {
-                document.getElementById('result').innerHTML = LastDigitToText(num);
+                document.getElementById('result').innerHTML = getLastDigitToText(parseInt(num));
             }
         }
     </script>
 </head>
 <body>
     <input type="text" autofocus="autofocus" placeholder="Enter number" id="number"/>
-    <button onclick="GetLastDigitToText()">Translate!</button>
+    <button onclick="onGetLastDigitToText()">Translate!</button>
     <span id="result"></span>
 </body>
 </html>

@@ -4,11 +4,11 @@
     <!--Write a function that replaces non breaking white-spaces in a text with &nbsp;-->
     <title>Task 5</title>
     <script>
-        function getDefaultText() {
+        function onGetDefaultText() {
             document.getElementById('text').value = 'Among going manor who did. Do ye is celebrated it sympathize considered. May ecstatic did surprise elegance the ignorant age. Own her miss cold last. It so numerous if he outlived disposal. How but sons mrs lady when. Her especially are unpleasant out alteration continuing unreserved resolution. Hence hopes noisy may china fully and. Am it regard stairs branch thirty length afford.';
         }
 
-        function replaceNBWS() {
+        function onReplaceNBWS() {
             var text = document.getElementById('text').value;
 
             var replacedText = replaceSpaceWithNBWSInText(text);
@@ -35,10 +35,10 @@
 
     </script>
 </head>
-<body onload="getDefaultText()">
+<body onload="onGetDefaultText()">
     <textarea id="text" style="width:500px;height:150px"></textarea>
     <br />
-    <button onclick="replaceNBWS()">Replace!</button>
+    <button onclick="onReplaceNBWS()">Replace!</button>
     <br />
     <textarea id="result" style="width:500px;height:150px"></textarea>
 </body>

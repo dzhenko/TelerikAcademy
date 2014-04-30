@@ -7,16 +7,16 @@
     <script src="scripts/BiggerThanNeighbours.js"></script>
     <script>
         var arr = [1, 2, 3, 4, 1, 2, 4, 2, 3, 1, 4, 2, 3, 2];
-        window.onload = showArray;
-        function showArray() {
+        window.onload = onShowArray;
+        function onShowArray() {
             document.getElementById('array').innerHTML = "Array is: " + arr.join(' ');
         }
 
-        function areYouBiggerThanNeighbours() {
-            var num = parseInt(document.getElementById('number').value);
+        function onAreYouBiggerThanNeighbours() {
+            var num = document.getElementById('number').value;
 
-            if (isNaN(num)) {
-                alert("You have not entered a number");
+            if (isNaN(parseFloat(num)) || !isFinite(num) || Math.floor(num) != num) {
+                alert("You have not entered a valid index");
             }
 
             else {
@@ -24,7 +24,7 @@
                 var openSpan = '<span style="color:red">';
                 var closeSpan = '</span>';
                 for (var i = 0; i < arr.length; i++) {
-                    if (i === num) {
+                    if (i == num) {
                         newArray += openSpan;
                         newArray += arr[i];
                         newArray += closeSpan;
@@ -36,7 +36,8 @@
                     }
                 }
                 document.getElementById('array').innerHTML = "Array is: " + newArray;
-                var answer = BiggerThanNeighbours(arr,num);
+
+                var answer = biggerThanNeighbours(arr, num);
                 document.getElementById('result').innerHTML = "The element with index " + num + " is bigger than it's two neighbours --> " +
                     openSpan + answer + closeSpan;
             }
@@ -46,7 +47,7 @@
 <body>
     <div id="array" ></div>
     <input type="text" autofocus="autofocus" placeholder="Enter index" id="number" />
-    <button onclick="areYouBiggerThanNeighbours()">Are you bigger than neighbours?</button>
+    <button onclick="onAreYouBiggerThanNeighbours()">Are you bigger than neighbours?</button>
     <div id="result"></div>
 </body>
 </html>
