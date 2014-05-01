@@ -1,0 +1,289 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write a hierarchy of classes to simulate vehicles-->
+    <title>Task 1</title>
+    <script src="vehicleModule.js"></script>
+    <script>
+        var vehiclesModule = vehicleModule();
+    </script>
+    <style>
+        h1 {
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <section> 
+        <h1>Choose your tests :)</h1>
+        <button onclick="onTest1()">Test Wheel</button>
+        <button onclick="onTest2()">Test Propeller</button>
+        <button onclick="onTest3()">Test Propeller Nozzle</button>
+        <button onclick="onTest4()">Test Land Vehicle</button>
+        <button onclick="onTest5()">Test Air Vehicle</button>
+        <button onclick="onTest6()">Test Water Vehicle</button>
+        <button onclick="onTest7()">Test Amphibious Vehicle</button>
+        <button onclick="onTest8()">Test Object Dependencies</button>
+    </section>
+
+    
+    <!--this is only for the visualisation of the test! The JS file holds the logic-->
+    <script>
+        var wh = new vehiclesModule.Wheel(20);
+        var pr = new vehiclesModule.Propeller(50);
+        var nz = new vehiclesModule.PropellingNozzle(250);
+
+        function cw(apender, text, input) {
+            input = input | false;
+            var div = document.createElement('div');
+            div.innerHTML = text;
+            if (input) {
+                div.innerHTML = '>>>' + text;
+                div.style.fontStyle = 'italic';
+                div.style.fontFamily = 'Consolas';
+            }
+            else {
+                div.style.fontWeight = '900';
+                div.style.fontFamily = 'Arial';
+                div.style.marginBottom = '10px';
+            }
+            apender.appendChild(div);
+        }
+
+        function clearAndAppendToBody(element) {
+            var removed = document.body.firstElementChild.nextElementSibling;
+            if (removed) {
+                document.body.removeChild(removed);
+            }
+            document.body.appendChild(element);
+        }
+
+        function onTest1() {
+            var test1 = document.createElement('div');
+
+            cw(test1, 'var wh = new vehiclesModule.Wheel(20);', true);
+            cw(test1, wh);
+            cw(test1, 'wh instanceof vehiclesModule.Wheel', true);
+            cw(test1, wh instanceof vehiclesModule.Wheel);
+            cw(test1, 'wh instanceof vehiclesModule.PropellingNozzle', true);
+            cw(test1, wh instanceof vehiclesModule.PropellingNozzle);
+            cw(test1, 'wh.getAcceleration()', true);
+            cw(test1, wh.getAcceleration());
+
+            clearAndAppendToBody(test1);
+        }
+
+        function onTest2() {
+            var test2 = document.createElement('div');
+
+            cw(test2, 'var pr = new vehiclesModule.Propeller(50);', true);
+            cw(test2, pr);
+            cw(test2, 'pr instanceof vehiclesModule.Propeller', true);
+            cw(test2, pr instanceof vehiclesModule.Propeller);
+            cw(test2, 'pr instanceof vehiclesModule.Wheel', true);
+            cw(test2, pr instanceof vehiclesModule.Wheel);
+            cw(test2, 'pr.getAcceleration()', true);
+            cw(test2, pr.getAcceleration());
+            cw(test2, 'pr.clockwise', true);
+            cw(test2, pr.clockwise);
+            cw(test2, 'pr.clockwise = false', true);
+            cw(test2, pr.clockwise = false);
+            cw(test2, 'pr.getAcceleration()', true);
+            cw(test2, pr.getAcceleration());
+            cw(test2, 'pr.clockwise = true', true);
+            cw(test2, pr.clockwise = true);
+            cw(test2, 'pr.getAcceleration()', true);
+            cw(test2, pr.getAcceleration());
+
+            clearAndAppendToBody(test2);
+        }
+
+        function onTest3() {
+            var test3 = document.createElement('div');
+
+            cw(test3, 'var nz = new vehiclesModule.PropellingNozzle(250);', true);
+            cw(test3, nz);
+            cw(test3, 'nz instanceof vehiclesModule.PropellingNozzle', true);
+            cw(test3, nz instanceof vehiclesModule.PropellingNozzle);
+            cw(test3, 'nz instanceof vehiclesModule.Propeller', true);
+            cw(test3, nz instanceof vehiclesModule.Propeller);
+            cw(test3, 'nz.getAcceleration()', true);
+            cw(test3, nz.getAcceleration());
+            cw(test3, 'nz.afterburnerSwitchedOn', true);
+            cw(test3, nz.afterburnerSwitchedOn);
+            cw(test3, 'nz.afterburnerSwitchedOn = true', true);
+            cw(test3, nz.afterburnerSwitchedOn = true);
+            cw(test3, 'nz.getAcceleration()');
+            cw(test3, nz.getAcceleration());
+            cw(test3, 'nz.afterburnerSwitchedOn = false', true);
+            cw(test3, nz.afterburnerSwitchedOn = false);
+            cw(test3, 'nz.getAcceleration()', true);
+            cw(test3, nz.getAcceleration());
+
+            clearAndAppendToBody(test3);
+        }
+
+        function onTest4() {
+            var test4 = document.createElement('div');
+
+            cw(test4, 'var wh = new vehiclesModule.Wheel(20);', true);
+            cw(test4, 'var land = new vehiclesModule.LandVehicle([wh, wh, wh, wh]);', true);
+            var land = new vehiclesModule.LandVehicle([wh, wh, wh, wh]);
+            cw(test4, land);
+            cw(test4, 'land instanceof vehiclesModule.LandVehicle', true);
+            cw(test4, land instanceof vehiclesModule.LandVehicle);
+            cw(test4, 'land instanceof vehiclesModule.AirVehicle', true);
+            cw(test4, land instanceof vehiclesModule.AirVehicle);
+            cw(test4, 'land.speed', true);
+            cw(test4, land.speed);
+            cw(test4, 'land.accelerate()', true);
+            land.accelerate();
+            cw(test4, 'land.speed', true);
+            cw(test4, land.speed);
+            cw(test4, 'land.accelerate()', true);
+            land.accelerate();
+            cw(test4, 'land.speed', true);
+            cw(test4, land.speed);
+
+            clearAndAppendToBody(test4);
+        }
+
+        function onTest5() {
+            var test5 = document.createElement('div');
+
+            cw(test5, 'var nz = new vehiclesModule.PropellingNozzle(250);', true);
+            cw(test5, 'var air = new vehiclesModule.AirVehicle(nz);', true);
+            var air = new vehiclesModule.AirVehicle(nz);
+            cw(test5, air);
+            cw(test5, 'air instanceof vehiclesModule.AirVehicle', true);
+            cw(test5, air instanceof vehiclesModule.AirVehicle);
+            cw(test5, 'air instanceof vehiclesModule.LandVehicle', true);
+            cw(test5, air instanceof vehiclesModule.LandVehicle);
+            cw(test5, 'air.speed', true);
+            cw(test5, air.speed);
+            cw(test5, 'air.accelerate()', true);
+            air.accelerate();
+            cw(test5, 'air.speed', true);
+            cw(test5, air.speed);
+            cw(test5, 'air.toggleAfterBurner();', true);
+            air.toggleAfterBurner();
+            cw(test5, 'air.speed', true);
+            cw(test5, air.speed);
+            cw(test5, 'air.toggleAfterBurner();', true);
+            air.toggleAfterBurner();
+            cw(test5, 'air.speed', true);
+            cw(test5, air.speed);
+
+            clearAndAppendToBody(test5);
+        }
+
+        function onTest6() {
+            var test6 = document.createElement('div');
+
+            cw(test6, 'var pr = new vehiclesModule.Propeller(50);', true);
+            cw(test6, 'var water = new vehiclesModule.WaterVehicle([pr,pr]);', true);
+            var water = new vehiclesModule.WaterVehicle([pr, pr]);
+            cw(test6, water);
+            cw(test6, 'water instanceof vehiclesModule.WaterVehicle', true);
+            cw(test6, water instanceof vehiclesModule.WaterVehicle);
+            cw(test6, 'water instanceof vehiclesModule.LandVehicle', true);
+            cw(test6, water instanceof vehiclesModule.LandVehicle);
+            cw(test6, 'water.speed', true);
+            cw(test6, water.speed);
+            cw(test6, 'water.accelerate()', true);
+            water.accelerate();
+            cw(test6, 'water.speed', true);
+            cw(test6, water.speed);
+            cw(test6, 'water.togglePropellerSpinDirection();', true);
+            water.togglePropellerSpinDirection();
+            cw(test6, 'water.speed', true);
+            cw(test6, water.speed);
+            cw(test6, 'water.togglePropellerSpinDirection();', true);
+            water.togglePropellerSpinDirection();
+            cw(test6, 'water.speed', true);
+            cw(test6, water.speed);
+
+            clearAndAppendToBody(test6);
+        }
+
+        function onTest7() {
+            var test7 = document.createElement('div');
+
+            cw(test7, 'var pr = new vehiclesModule.Propeller(50);', true);
+            cw(test7, 'var wh = new vehiclesModule.Wheel(20);', true);
+            cw(test7, 'var amph = new vehiclesModule.AmphibiousVehicle([pr, pr],[wh,wh,wh]);', true);
+            var amph = new vehiclesModule.AmphibiousVehicle([pr, pr], [wh, wh, wh]);
+            cw(test7, amph);
+            cw(test7, 'amph instanceof vehiclesModule.AmphibiousVehicle', true);
+            cw(test7, amph instanceof vehiclesModule.AmphibiousVehicle);
+            cw(test7, 'amph instanceof vehiclesModule.WaterVehicle', true);
+            cw(test7, amph instanceof vehiclesModule.WaterVehicle);
+            cw(test7, 'amph instanceof vehiclesModule.LandVehicle', true);
+            cw(test7, amph instanceof vehiclesModule.LandVehicle);
+            cw(test7, 'amph.LandMode', true);
+            cw(test7, amph.LandMode);
+            cw(test7, 'amph.speed', true);
+            cw(test7, amph.speed);
+            cw(test7, 'amph.accelerate()', true);
+            amph.accelerate();
+            cw(test7, 'amph.speed', true);
+            cw(test7, amph.speed);
+
+            cw(test7, 'amph.toggleLandWaterMode();', true);
+            amph.toggleLandWaterMode();
+            cw(test7, 'amph.LandMode', true);
+            cw(test7, amph.LandMode);
+            cw(test7, 'amph.speed', true);
+            cw(test7, amph.speed);
+            cw(test7, 'amph.accelerate()', true);
+            amph.accelerate();
+            cw(test7, 'amph.speed', true);
+            cw(test7, amph.speed);
+
+            cw(test7, 'amph.togglePropellerSpinDirection();', true);
+            amph.togglePropellerSpinDirection();
+            cw(test7, 'amph.speed', true);
+            cw(test7, amph.speed);
+            cw(test7, 'amph.togglePropellerSpinDirection();', true);
+            amph.togglePropellerSpinDirection();
+            cw(test7, 'amph.speed', true);
+            cw(test7, amph.speed);
+
+            clearAndAppendToBody(test7);
+        }
+
+        function onTest8() {
+            var test8 = document.createElement('div');
+            cw(test8, 'OBJECT CHANGES DO NOT AFFECT VEHICLES');
+
+            cw(test8, 'var w = new vehiclesModule.Wheel(20);', true);
+            var w = new vehiclesModule.Wheel(20);
+            cw(test8, w);
+            cw(test8, 'w.getAcceleration()', true);
+            cw(test8, w.getAcceleration());
+            cw(test8, 'w.radius', true);
+            cw(test8, w.radius);
+
+            cw(test8, 'var l = new vehiclesModule.LandVehicle([w, w, w, w]);', true);
+            var l = new vehiclesModule.LandVehicle([w, w, w, w]);
+            cw(test8, l);
+            cw(test8, 'l.accelerate()', true);
+            l.accelerate();
+            cw(test8, 'l.speed', true);
+            cw(test8, l.speed);
+
+            cw(test8, 'w.radius = 3000');
+            w.radius = 3000;
+            cw(test8, 'w.getAcceleration()', true);
+            cw(test8, w.getAcceleration());
+
+            cw(test8, 'l.accelerate()', true);
+            l.accelerate();
+            cw(test8, 'l.speed', true);
+            cw(test8, l.speed);
+
+            clearAndAppendToBody(test8);
+        }
+    </script>
+</body>
+</html>
