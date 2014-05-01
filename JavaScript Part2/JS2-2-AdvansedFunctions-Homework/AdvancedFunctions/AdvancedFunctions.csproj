@@ -59,6 +59,8 @@
   <ItemGroup>
     <Content Include="02-MovingElements.html" />
     <Content Include="01-DomModule.html" />
+    <Content Include="03-ConsoleModule.html" />
+    <Content Include="04-TreeViewModule.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

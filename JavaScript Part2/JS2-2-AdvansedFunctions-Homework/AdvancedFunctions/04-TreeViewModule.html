@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Wrap the TreeView from the previous presentation into a module-->
+    <title>Task 4</title>
+    <style>
+        ul {
+            max-width:300px;
+            margin:0;
+            list-style:none;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+            display: inline-block;
+            width: 100%;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            border-collapse: collapse;
+        }
+
+            a:hover {
+                background-color: #EEEEEE;
+                border-top: 1px solid black;
+                border-bottom: 1px solid black;
+                letter-spacing:3px;
+            }
+    </style>
+    <script>
+        function treeViewControls() {
+
+            function generateTreeView(querrySelectorElement) {
+
+                var ulRoot = document.createElement('ul');
+
+                document.querySelector(querrySelectorElement).appendChild(ulRoot);
+
+                function addNode(root) {
+
+                    var newNode = document.createElement('li');
+                    var newAnchor = document.createElement('a');
+                    newAnchor.href = '#';
+
+                    newNode.appendChild(newAnchor);
+
+                    root.appendChild(newNode);
+
+                    function changeContent(newContent) {
+                        newAnchor.innerHTML = newContent;
+                    }
+
+                    return {
+                        content: changeContent,
+                        addNode: function () {
+                            var newUl = document.createElement('ul');
+
+                            newUl.style.display = 'none';
+                            newNode.addEventListener('click', function (event) {
+
+                                var target = event.target;
+                                if (target instanceof HTMLAnchorElement) {
+                                    target = target.parentElement;
+                                }
+
+                                if (!(target instanceof HTMLLIElement)) {
+                                    return false;
+                                }
+
+                                var child = target.firstElementChild;
+                                while (child && !(child instanceof HTMLUListElement)) {
+                                    child = child.nextElementSibling;
+                                }
+                                if (child) {
+                                    var newStyle = '';
+                                    if (child.style.display == 'none') {
+                                        newStyle = 'block';
+                                    }
+                                    else {
+                                        newStyle = 'none';
+                                    }
+
+                                    while (child) {
+                                        child.style.display = newStyle;
+                                        child = child.nextElementSibling;
+                                        while (child && !(child instanceof HTMLUListElement)) {
+                                            child = child.nextElementSibling;
+                                        }
+                                    }   
+                                }
+                                event.stopImmediatePropagation();
+                            });
+
+                            newNode.appendChild(newUl);
+                            return addNode(newUl);
+                        }
+                    }
+                }
+
+                return {
+                    addNode: function () {
+                        return addNode(ulRoot);
+                    }
+                }
+            }
+
+            return {
+                treeView:generateTreeView,
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="tree-view"></div>
+
+    <script>
+        (function test() {
+
+            var controls = treeViewControls();
+            var treeView = controls.treeView("div.tree-view");
+            var jsnode = treeView.addNode();
+            jsnode.content('JavaScript');
+            var js1subnode = jsnode.addNode();
+            js1subnode.content("JavaScript - part 1");
+            var js2subnode = jsnode.addNode();
+            js2subnode.content("JavaScript - part 2");
+            var jslibssubnode = jsnode.addNode();
+            jslibssubnode.content("JS Libraries");
+            var jsframeworksnode = jsnode.addNode();
+            jsframeworksnode.content("JS Frameworks and UI");
+
+            var webnode = treeView.addNode();
+            webnode.content("Web");
+
+            var innerWebNode = webnode.addNode();
+            innerWebNode.content('inner Web');
+
+            var innerInnerWebNode = innerWebNode.addNode();
+            innerInnerWebNode.content('even inner Web node');
+
+        })();
+    </script>
+</body>
+</html>

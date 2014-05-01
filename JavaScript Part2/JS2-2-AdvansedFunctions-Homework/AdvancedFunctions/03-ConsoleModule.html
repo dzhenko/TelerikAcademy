@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Create a module to work with the console object.-->
+    <title>Task 3</title>
+    <script>
+        function ConsoleModule() {
+            function formatString(arguments) {
+                //no args = no string
+                if (!arguments) {
+                    return undefined;
+                }
+                var result = arguments[0].toString();
+
+                if (arguments.length == 1) {
+                    return result;
+                }
+
+                for (var i = 1; i < arguments.length; i++) {
+                    var currPlace = i - 1;
+                    currPlace = "{" + currPlace + "}";
+
+                    var currIndex = result.indexOf(currPlace);
+                    while (currIndex > -1) {
+                        result = result.replace(currPlace, arguments[1].toString());
+                        currIndex = result.indexOf(currPlace);
+                    }
+                }
+
+                return result;
+            }
+
+            return {
+                writeLine: function() {console.log(formatString(arguments))},
+                writeError: function () { console.error(formatString(arguments)) },
+                writeWarning: function () { console.warn(formatString(arguments)) },
+            }
+        }
+        (function () {
+            var specialConsole = ConsoleModule();
+
+            specialConsole.writeLine('hi {0}', '1111');
+            specialConsole.writeError('err {0}', '2222');
+            specialConsole.writeWarning('war {0}', '3333');
+        })();
+    </script>
+</head>
+<body>
+
+</body>
+</html>
