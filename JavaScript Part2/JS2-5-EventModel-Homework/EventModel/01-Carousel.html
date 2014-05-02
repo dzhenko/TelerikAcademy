@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Create a Simple JS Carousel with N images and two arrows for image control -->
+    <title>Task 1</title>
+    <script>
+        function onCreateNewCarousel() {
+            var holder = document.getElementById('carouselHolder');
+            holder.style.margin = 0;
+            holder.style.padding = 0;
+
+            document.body.style.margin = 0;
+            document.body.style.padding = 0;
+
+            var images = (function () {
+                var images = document.createElement('div');
+                images.style.width = 1000 + 'px';
+                images.style.height = 600 + 'px';
+                images.style.position = 'relative';
+                images.style.border = '1px solid black';
+                images.style.top = 0;
+                return images;
+            })();
+
+            function makeImageHolderDiv(sizeSML) {
+                var returned = document.createElement('div');
+                returned.style.position = 'absolute';
+                returned.style.backgroundRepeat = 'no-repeat';
+                returned.style.width = 600 + 'px';
+                returned.style.height = 600 + 'px';
+
+                if (sizeSML === 'S') {
+                    returned.style.width = 400 + 'px';
+                    returned.style.height = 400 + 'px';
+                    returned.style.top = 100 + 'px';
+                    returned.style.zIndex = 4;
+                }
+                else if (sizeSML === 'M') {
+                    returned.style.width = 500 + 'px';
+                    returned.style.height = 500 + 'px';
+                    returned.style.top = 50 + 'px';
+                    returned.style.zIndex = 6;
+                }
+                else if (sizeSML === 'L') {
+                    returned.style.width = 600 + 'px';
+                    returned.style.height = 600 + 'px';
+                    returned.style.left = '200px';
+                    returned.style.top = 0;
+                    returned.style.zIndex = 10;
+                }
+                else {
+                    return undefined;
+                }
+                images.appendChild(returned);
+                return returned;
+            }
+
+            var center = makeImageHolderDiv('L');
+
+            var left1 = makeImageHolderDiv('M');
+            left1.style.left = 50 + 'px';
+            var left2 = makeImageHolderDiv('S');
+            left2.style.left = 0;
+
+            var right1 = makeImageHolderDiv('M');
+            right1.style.right = 50 + 'px';
+            var right2 = makeImageHolderDiv('S');
+            right2.style.right = 0;
+
+            var currentImage = 5;
+
+            function updateImages() {
+                center.style.backgroundImage = "url(imgs/" + currentImage + ".jpg)";
+
+                var temp1 = currentImage - 1;
+                var temp2 = currentImage + 1;
+
+                temp1--;
+                if (temp1 < 1) {
+                    temp1 = 9;
+                }
+                left1.style.backgroundImage = "url(imgs/" + temp1 + ".jpg)";
+
+                temp1--;
+                if (temp1 < 1) {
+                    temp1 = 9;
+                }
+                left2.style.backgroundImage = "url(imgs/" + temp1 + ".jpg)";
+
+                temp2++;
+                if (temp2 > 9) {
+                    temp2 = 1;
+                }
+                right1.style.backgroundImage = "url(imgs/" + temp2 + ".jpg)";
+
+                temp2++;
+                if (temp2 > 9) {
+                    temp2 = 1;
+                }
+                right2.style.backgroundImage = "url(imgs/" + temp2 + ".jpg)";
+            };
+
+            function onPrevClick() {
+                currentImage--;
+                if (currentImage == 0) {
+                    currentImage = 9;
+                }
+                updateImages();
+            }
+
+            function onNextClick() {
+                currentImage++;
+                if (currentImage == 10) {
+                    currentImage = 1;
+                }
+                updateImages();
+            }
+
+            var button1 = document.createElement('button');
+            var button2 = document.createElement('button');
+
+            button1.addEventListener('click', onPrevClick, false);
+            button2.addEventListener('click', onNextClick, false);
+
+            var buttons = generateButtons(button1, button2);
+
+            function generateButtons(button1,button2) {
+                var buttons = document.createElement('div');
+                var text1 = document.createElement('span');
+                var text2 = document.createElement('span');
+
+                text2.style.verticalAlign = 'top';
+                text1.style.verticalAlign = 'top';
+                text2.style.lineHeight = '40px';
+                text1.style.lineHeight = '40px';
+                text1.innerHTML = 'PREVIOUS IMAGE';
+                text2.innerHTML = 'NEXT IMAGE';
+
+                button1.style.display = 'inline-block';
+                button2.style.display = 'inline-block';
+                button1.style.width = '40px';
+                button2.style.width = '40px';
+                button1.style.height = '40px';
+                button2.style.height = '40px';
+                buttons.style.display = 'inline-block';
+                button1.style.backgroundImage = "url(imgs/prev.png)";
+                button2.style.backgroundImage = "url(imgs/next.png)";
+                button1.style.backgroundRepeat = 'no-repeat';
+                button2.style.backgroundRepeat = 'no-repeat';
+                button1.style.margin = 0;
+                button2.style.margin = 0;
+                buttons.style.margin = 0;
+                button1.style.padding = 0;
+                button2.style.padding = 0;
+                buttons.style.padding = 0;
+
+                buttons.appendChild(text1);
+                buttons.appendChild(button1);
+                buttons.appendChild(button2);
+                buttons.appendChild(text2);
+
+                buttons.style.marginLeft = '300px';
+                button1.style.marginRight = '100px';
+
+                return buttons;
+            }
+
+            holder.appendChild(images);
+            holder.appendChild(buttons);
+
+            updateImages();
+        }
+    </script>
+</head>
+<body onload="onCreateNewCarousel()">
+    <div id="carouselHolder"></div>
+</body>
+</html>
