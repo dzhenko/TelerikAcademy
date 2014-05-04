@@ -1,0 +1,311 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Create the famous game "Snake-->
+    <title>Task 6</title>
+    <script>
+        function generateGameSettings() {
+            var holder = document.getElementById('gameSettings');
+            holder.style.fontSize = '1em';
+            var pixelS = document.createElement('select');
+            pixelS.id = 'pixelSizeValue';
+            var pixelSText = document.createElement('span');
+            holder.appendChild(pixelSText);
+            holder.appendChild(pixelS);
+            pixelSText.innerHTML = "Pixel size: ";
+            
+            var sugestedPixels = [1,2, 5, 10, 15, 20, 25, 30, 50];
+            var suggestedObsticles = [300, 200, 100, 50, 40, 20, 15, 10,1];
+            var subbestedSpeed = [50, 50, 50, 75, 100, 120, 120, 135, 150];
+
+            for (var i = 0; i < sugestedPixels.length; i++) {
+                var currSelection = document.createElement('option');
+                currSelection.innerHTML = sugestedPixels[i];
+                if (currSelection.innerHTML == '10') {
+                    currSelection.innerHTML += ' (Recomended)';
+                    currSelection.selected = 'selected';                    
+                }
+                pixelS.appendChild(currSelection);
+            }
+            var obsticlesText = document.createElement('span');
+            obsticlesText.innerHTML = ' Obsticles count: ';
+            var obsticlesInput = document.createElement('input');
+            obsticlesInput.type = 'number';
+            obsticlesInput.id = 'obsticlesValue';
+            obsticlesInput.style.width = '60px';
+            obsticlesInput.value = 50;
+            holder.appendChild(obsticlesText);
+            holder.appendChild(obsticlesInput);
+
+            var speedText = document.createElement('span');
+            speedText.innerHTML = ' Game Delay: ';
+            var speedInput = document.createElement('input');
+            speedInput.type = 'number';
+            speedInput.id = 'speedValue';
+            speedInput.style.width = '60px';
+            speedInput.value = 75;
+            holder.appendChild(speedText);
+            holder.appendChild(speedInput);
+
+            pixelS.onchange = function () {
+                speedInput.value = subbestedSpeed[pixelS.selectedIndex];
+                obsticlesInput.value = suggestedObsticles[pixelS.selectedIndex];
+            }
+
+            var button = document.createElement('button');
+            button.innerHTML = 'START';
+            button.onclick = function () {
+                holder.style.display = 'none';
+                onStartGame();
+            }
+            holder.appendChild(button);
+        }
+        function onStartGame() {
+            var canvas = document.getElementById('canvas');
+            canvas.style.border = '1px solid black';
+            var ctx = canvas.getContext('2d');
+
+            //game settings // 10 - 75 (<50) // 15 - 40 - 100speed / 20 , 25 = 120 gs 30 - 135 gs 50 - 150gs
+            var pixelSizeHolder = document.getElementById('pixelSizeValue');
+            var pixelSize = parseInt(pixelSizeHolder.options[pixelSizeHolder.selectedIndex].text);
+            var gamespeed = parseInt(document.getElementById('speedValue').value);
+            var numberOfObsticles = parseInt(document.getElementById('obsticlesValue').value);
+            
+            //helping functions
+            function getRandomNumberInRange(min,max) {
+                return Math.floor(Math.random() * (max - min + 1) + min);
+            }
+
+            function getNumberCloseToPixel(num) {
+                return num - num % pixelSize;
+            }
+
+            //obstacles
+            var obsticles = (function () {
+                var obsticles = [];
+                function generateObsticle(_x, _y) {
+                    obsticles.push({ x: _x, y: _y });
+                }
+
+                //generating walls
+                for (var i = 0; i < canvas.width; i += pixelSize) {
+                    generateObsticle(i, 0);
+                    generateObsticle(i, canvas.height - pixelSize);
+                }
+                for (var i = 0; i < canvas.height; i += pixelSize) {
+                    generateObsticle(0,i);
+                    generateObsticle(canvas.width-pixelSize, i);
+                }
+
+                //generating random obsticles
+                (function generateRandomObsticles() {
+                    for (var i = 0; i < numberOfObsticles; i++) {
+                        var newX = getNumberCloseToPixel(getRandomNumberInRange(0, canvas.width));
+                        var newY = getNumberCloseToPixel(getRandomNumberInRange(0, canvas.height));
+
+                        //checks if the obsticle is near the start of the snake
+                        while (newY == canvas.height / 2) {
+                            newX = getNumberCloseToPixel(getRandomNumberInRange(0, canvas.width));
+                            newY = getNumberCloseToPixel(getRandomNumberInRange(0, canvas.height));
+                        }
+
+                        //checks if the obsticle is near another obsticle
+                        var loop = true;
+                        while (loop) {
+                            loop = false;
+                            for (var j = 0; j < obsticles.length; j++) {
+                                if ((newX == obsticles[j].x - pixelSize || newX == obsticles[j].x || newX == obsticles[j].x + pixelSize) &&
+                                    (newY == obsticles[j].y - pixelSize || newY == obsticles[j].y || newY == obsticles[j].y + pixelSize)) {
+                                    newX = getNumberCloseToPixel(getRandomNumberInRange(0, canvas.width));
+                                    newY = getNumberCloseToPixel(getRandomNumberInRange(0, canvas.height));
+
+                                    loop = true;
+                                    break;
+                                }
+                            }
+                        }
+
+                        generateObsticle(newX, newY);
+                    }
+                })();
+
+                return obsticles;
+            })();
+
+            //apple
+            function Apple() {
+                this.X = 0;
+                this.Y = 0;
+
+                this.refresh = function () {
+                    this.X = getNumberCloseToPixel(getRandomNumberInRange(0, canvas.width));
+                    this.Y = getNumberCloseToPixel(getRandomNumberInRange(0, canvas.height));
+
+                    //aplle not close to obsticles
+                    var loop = true;
+                    while (loop) {
+                        loop = false;
+                        for (var j = 0; j < obsticles.length; j++) {
+                            if ((this.X == obsticles[j].x - pixelSize || this.X == obsticles[j].x || this.X == obsticles[j].x + pixelSize) &&
+                                (this.Y == obsticles[j].y - pixelSize || this.Y == obsticles[j].y || this.Y == obsticles[j].y + pixelSize)) {
+                                this.X = getNumberCloseToPixel(getRandomNumberInRange(0, canvas.width));
+                                this.Y = getNumberCloseToPixel(getRandomNumberInRange(0, canvas.height));
+
+                                loop = true;
+                                break;
+                            }
+                        }
+                    }
+
+                    //apple not over snake
+                    //TODO
+                };
+
+                this.refresh();
+            }
+            var apple = new Apple();
+
+            //snake
+            function GenerateSnake() {
+                this.elements = [];
+                this.direction = 'R';
+                this.alive = true;
+                this.score = 0;
+
+                function getNewElement(_x, _y) {
+                    return { x: _x, y: _y };
+                }
+
+                //initialize snake
+                this.elements.push(getNewElement(canvas.width / 2 + pixelSize*2, canvas.height / 2));
+                this.elements.push(getNewElement(canvas.width/2 + pixelSize,canvas.height/2));
+                this.elements.push(getNewElement(canvas.width/2 + 0,canvas.height/2));
+                this.elements.push(getNewElement(canvas.width / 2 - pixelSize, canvas.height / 2));
+
+                this.move = function () {
+
+                    var newElement;
+
+                    switch (this.direction) {
+                        case 'R': newElement = getNewElement(this.elements[0].x + pixelSize, this.elements[0].y); break;
+                        case 'L': newElement = getNewElement(this.elements[0].x - pixelSize, this.elements[0].y); break;
+                        case 'U': newElement = getNewElement(this.elements[0].x, this.elements[0].y - pixelSize); break;
+                        case 'D': newElement = getNewElement(this.elements[0].x, this.elements[0].y + pixelSize); break;
+                    }
+
+                    for (var i = 0; i < obsticles.length; i++) {
+                        
+                        if (obsticles[i].x == newElement.x && obsticles[i].y == newElement.y) {
+                            this.alive = false;
+                            return;
+                        }
+                    }
+
+                    if (newElement.x != apple.X || newElement.y != apple.Y) {
+                        this.elements.pop();
+                    }
+                    else {
+                        this.score++;
+                        apple.refresh();
+                    }
+
+                    this.elements.unshift(newElement);
+
+                    for (var i = 0; i < this.elements.length; i++) {
+                        
+                        for (var j = 0; j < this.elements.length; j++) {
+                            
+                            if (i == j) {
+                                continue;
+                            }
+
+                            if (this.elements[i].x == this.elements[j].x && this.elements[i].y == this.elements[j].y) {
+                                this.alive = false;
+                                return;
+                            }
+                        }
+                    }
+                }
+
+                this.changeDirection = function (newDirection) {
+                    if (newDirection == 'U') {
+                        
+                        if (this.direction != 'D') {
+                            this.direction = 'U';
+                        }
+                    }
+                    else if (newDirection == 'D') {
+                        if (this.direction != 'U') {
+                            this.direction = 'D';
+                        }
+                    }
+                    else if (newDirection == 'R') {
+                        if (this.direction != 'L') {
+                            this.direction = 'R';
+                        }
+                    }
+                    else if (newDirection == 'L') {
+                        if (this.direction != 'R') {
+                            this.direction = 'L';
+                        }
+                    }
+                }
+            }
+            var snake = new GenerateSnake();
+
+            function keyPressedHandler(e) {
+                switch (e.keyCode) {
+                    case 37: snake.changeDirection('L');break;       //left 
+                    case 38: snake.changeDirection ('U');break;           //up
+                    case 39: snake.changeDirection ('R');break;        //right
+                    case 40: snake.changeDirection ('D');break;         //down 
+                }
+            }
+
+            document.onkeydown = keyPressedHandler;
+
+            function reDraw() {
+                //clear
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+                //obsticles
+                ctx.fillStyle = '#333';
+                for (var i = 0; i < obsticles.length; i++) {
+                    ctx.fillRect(obsticles[i].x, obsticles[i].y, pixelSize, pixelSize);
+                }
+
+                //apple
+                ctx.fillStyle = '0F0';
+                ctx.fillRect(apple.X, apple.Y, pixelSize, pixelSize);
+                ctx.fillStyle = 'F00';
+                ctx.fillRect(apple.X + pixelSize / 4, apple.Y + pixelSize / 4, pixelSize - pixelSize / 2, pixelSize - pixelSize / 2);
+
+                //snake
+                ctx.fillStyle = '#2A8EC2';
+                for (var i = 0; i < snake.elements.length; i++) {
+                    ctx.fillRect(snake.elements[i].x, snake.elements[i].y, pixelSize, pixelSize);
+                }
+                ctx.fillStyle = '#0F0';
+                ctx.fillRect(snake.elements[0].x + pixelSize / 4, snake.elements[0].y + pixelSize / 4 , pixelSize / 2, pixelSize / 2);
+            }
+
+            function gameRefresh() {
+                if (snake.alive) {
+                    snake.move();
+                    reDraw();
+                }
+                else {
+                    alert('You are so dead!');
+                    clearInterval(gameEngine);
+                }
+            }
+
+            var gameEngine = setInterval(gameRefresh, gamespeed);
+        }
+    </script>
+</head>
+<body onload="generateGameSettings()">
+    <div id="gameSettings"></div>
+    <canvas id="canvas" width="600" height="600"></canvas>
+</body>
+</html>

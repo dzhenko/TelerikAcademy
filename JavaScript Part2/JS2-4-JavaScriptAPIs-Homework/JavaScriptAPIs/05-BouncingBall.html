@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Draw a circle that flies inside a box-->
+    <title>Task 5</title>
+    <script>
+        function onGetBouncingBall() {
+            var ctx = document.getElementById('theCanvas').getContext('2d');
+            var allW = ctx.canvas.width;
+            var allH = ctx.canvas.height;
+
+            var cMX = 'P';
+            var cMY = 'P';
+
+            var cX = allW/2;
+            var cY = allH/2;
+            var cR = 20;
+            var cS = 2;
+
+            function drawCircle() {
+                ctx.beginPath();
+                ctx.fillStyle = '#2A8EC2';
+                ctx.moveTo(cX, cY);
+                ctx.arc(cX, cY, cR, 0, 7);
+                ctx.fill();
+            }
+
+            function updateDirections() {
+                if (cMX == 'P') {
+                    cX += cS;
+                    if (cX + cR > allW) {
+                        cMX = 'N';
+                        cX -= 2 * cS;
+                    }
+                }
+                else if (cMX == 'N') {
+                    cX -= cS;
+                    if (cX - cR < 0) {
+                        cMX = 'P';
+                        cX += 2 * cS;
+                    }
+                }
+
+                if (cMY == 'P') {
+                    cY += cS;
+                    if (cY + cR > allH) {
+                        cMY = 'N';
+                        cY -= 2 * cS;
+                    }
+                }
+                else if (cMY == 'N') {
+                    cY -= cS;
+                    if (cY - cR < 0) {
+                        cMY = 'P';
+                        cY += 2 * cS;
+                    }
+                }
+            }
+
+            function cMove() {
+                ctx.clearRect(0, 0, allW, allH);
+                updateDirections();
+                drawCircle();
+            }
+
+            setInterval(cMove, 10);
+        }
+    </script>
+</head>
+<body onload="onGetBouncingBall()">
+    <canvas id="theCanvas" width="400" height="300" style="border:2px solid black"></canvas>
+</body>
+</html>

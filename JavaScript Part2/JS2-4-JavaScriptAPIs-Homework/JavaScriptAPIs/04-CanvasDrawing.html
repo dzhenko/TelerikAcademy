@@ -1,0 +1,260 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Draw the following graphics using canvas-->
+    <title>Task 4</title>
+    <script>
+        function onDrawOnCanvas() {
+            //colors
+            var pinky = '#975B5B';
+            var lightblue = '#90CAD7';
+            var blue = '#396693';
+            var black = '#000000';
+            var background = '#373737';
+            var manblue = '#22545F';
+
+            var ctx = document.getElementById('canvas').getContext('2d');
+            ctx.fillStyle = background;
+            ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+
+            //house
+            (function () {
+                ctx.fillStyle = pinky;
+                ctx.strokeStyle = black;
+                ctx.lineWidth = 3;
+                //outline
+                ctx.beginPath();
+                ctx.moveTo(500, 250);
+                ctx.lineTo(500, 450);
+                ctx.lineTo(750, 450);
+                ctx.lineTo(750, 250);
+                ctx.lineTo(500, 250);
+                ctx.stroke();
+                ctx.fill();
+
+                ctx.beginPath();
+                ctx.moveTo(500, 250);
+                ctx.lineTo(625, 100);
+                ctx.lineTo(750, 250);
+                ctx.lineTo(500, 250);
+                ctx.stroke();
+                ctx.fill();
+
+                //chimny
+                ctx.beginPath();
+                ctx.moveTo(680, 220);
+                ctx.lineTo(680, 130);
+                ctx.lineTo(710, 130);
+                ctx.lineTo(710, 220);
+                ctx.stroke();
+                ctx.lineTo(680, 220);
+                ctx.fill();
+
+                //chimny arc
+                ctx.beginPath();
+                ctx.moveTo(680, 130);
+                ctx.arcTo(695, 120, 710, 130, 27);
+                ctx.arcTo(695, 140, 680, 130, 27);
+                ctx.fill();
+                ctx.stroke();
+
+                //windows
+                function createWindow(x, y) {
+                    ctx.beginPath();
+                    ctx.fillStyle = black;
+                    ctx.strokeStyle = pinky;
+                    ctx.fillRect(x, y, 100, 70);
+
+                    ctx.moveTo(x + 50, y);
+                    ctx.lineTo(x + 50, y + 70);
+                    ctx.moveTo(x, y + 35);
+                    ctx.lineTo(x + 100, y + 35);
+                    ctx.stroke();
+                    ctx.closePath();
+                }
+
+                createWindow(515, 270);
+                createWindow(635, 270);
+                createWindow(635, 360);
+
+                //door
+                ctx.beginPath();
+                ctx.moveTo(595, 450);
+                ctx.lineTo(595, 380);
+
+                ctx.moveTo(560, 450);
+                ctx.lineTo(560, 365);
+
+                ctx.moveTo(525, 450);
+                ctx.lineTo(525, 380);
+
+                ctx.strokeStyle = black;
+                ctx.stroke();
+                ctx.closePath();
+
+                ctx.beginPath();
+                ctx.arc(560, 410, 45, (Math.PI / 180) * 220, (Math.PI / 180) * 320);
+                ctx.stroke();
+                ctx.closePath();
+
+                ctx.beginPath();
+                //2 * PI = 6.38 = 7
+                ctx.arc(550, 425, 3, 0, 7);
+                ctx.stroke();
+                ctx.closePath();
+
+                ctx.beginPath();
+                ctx.arc(570, 425, 3, 0, 7);
+                ctx.stroke();
+                ctx.closePath();
+            })();
+
+            //bike
+            (function () {
+
+                ctx.lineWidth = 2;
+                ctx.beginPath();
+                ctx.fillStyle = lightblue;
+                ctx.strokeStyle = blue;
+                ctx.arc(150, 500, 50, 0, 7);
+                ctx.arc(350, 500, 50, 0, 7);
+                ctx.fill();
+                ctx.beginPath();
+                ctx.moveTo(150, 500);
+                ctx.lineTo(225, 500);
+                ctx.lineTo(330, 430);
+                ctx.moveTo(350, 500);
+                ctx.lineTo(322, 400);
+                ctx.lineTo(280, 410);
+                ctx.moveTo(322, 400);
+                ctx.lineTo(345, 360);
+
+                ctx.moveTo(330, 430);
+                ctx.lineTo(190, 428);
+                ctx.lineTo(150, 500);
+                //
+                ctx.moveTo(225, 500);
+                ctx.lineTo(180, 410);
+                ctx.moveTo(160, 410);
+                ctx.lineTo(200, 410);
+                ctx.stroke();
+
+                ctx.beginPath();
+                ctx.arc(225, 500, 10, 0, 7);
+                ctx.moveTo(217, 492);
+                ctx.lineTo(210, 485);
+                ctx.moveTo(232, 508);
+                ctx.lineTo(239, 515);
+                ctx.stroke();
+                ctx.closePath();
+            })();
+
+            //man
+            (function () {
+
+                //head
+                ctx.beginPath();
+                ctx.strokeStyle = manblue;
+                ctx.fillStyle = lightblue;
+                ctx.lineWidth = 1.5;
+                ctx.arc(200, 285, 66, (Math.PI / 180) * 187, (Math.PI / 180) * 353);
+                ctx.arc(200, 265, 66, (Math.PI / 180) * 7, (Math.PI / 180) * 173);
+                ctx.fill();
+                ctx.moveTo(200, 275);//center!
+
+                //mouth
+                ctx.moveTo(160, 300);
+                ctx.arcTo(200, 295, 240, 325, 60);
+                ctx.stroke();
+                ctx.moveTo(220, 310);
+                ctx.arcTo(190, 330, 155, 303, 50);
+                ctx.stroke();
+                ctx.moveTo(160, 300);
+                ctx.lineTo(157, 302);
+                ctx.lineTo(162, 308);
+                ctx.stroke();
+
+                //ctx.moveTo(200, 275);//center!
+                //eyes
+                ctx.beginPath();
+                ctx.arc(210, 255, 10, (Math.PI / 180) * 190, (Math.PI / 180) * 350);
+                ctx.stroke();
+                ctx.beginPath();
+                ctx.arc(170, 255, 10, (Math.PI / 180) * 190, (Math.PI / 180) * 350);
+                ctx.stroke();
+
+                ctx.beginPath();
+                ctx.arc(210, 250, 10, (Math.PI / 180) * 10, (Math.PI / 180) * 170);
+                ctx.stroke();
+                ctx.beginPath();
+                ctx.arc(170, 250, 10, (Math.PI / 180) * 10, (Math.PI / 180) * 170);
+                ctx.stroke();
+                //eye1
+                ctx.beginPath();
+                ctx.moveTo(168, 260);
+                ctx.arcTo(162, 250, 173, 242, 9);
+
+                ctx.arcTo(172, 251, 169, 260, 19);
+                ctx.fillStyle = manblue;
+                ctx.fill();
+                //eye2
+                ctx.beginPath();
+                ctx.moveTo(208, 260);
+                ctx.arcTo(202, 250, 213, 242, 9);
+
+                ctx.arcTo(212, 251, 209, 260, 19);
+                ctx.fillStyle = manblue;
+                ctx.fill();
+
+                //nose
+                ctx.beginPath();
+                ctx.moveTo(190, 285);
+                ctx.lineTo(172, 285);
+                ctx.lineTo(190, 255);
+                ctx.stroke();
+
+
+                //hat
+                ctx.beginPath();
+                ctx.lineWidth = 3;
+                ctx.strokeStyle = black;
+                ctx.fillStyle = blue;
+                ctx.arc(200, 340, 150, (Math.PI / 180) * 240, (Math.PI / 180) * 300);
+                ctx.arc(200, 80, 150, (Math.PI / 180) * 60, (Math.PI / 180) * 120);
+                ctx.stroke();
+                ctx.fill();
+                ctx.lineWidth = 2;
+                ctx.beginPath();
+                ctx.fillRect(170, 125, 70, 70);
+                ctx.beginPath();
+                ctx.moveTo(170, 127);
+                ctx.lineTo(170, 192);
+                ctx.stroke();
+                ctx.beginPath();
+                ctx.moveTo(240, 125);
+                ctx.lineTo(240, 195);
+                ctx.stroke();
+
+                ctx.beginPath();
+                ctx.moveTo(170, 125);
+                ctx.arcTo(205, 85, 240, 125, 48);
+                ctx.fill();
+                ctx.stroke();
+                ctx.beginPath();
+                ctx.moveTo(170, 125);
+                ctx.arcTo(205, 165, 240, 125, 48);
+                ctx.stroke();
+
+                ctx.beginPath();
+                ctx.moveTo(170, 192);
+                ctx.arcTo(205, 230, 240, 192, 46);
+                ctx.stroke();
+            })();
+
+        }
+    </script>
+</head>
+<body onload="onDrawOnCanvas()">
+    <canvas width="800" height="600" id="canvas">Get a new browser!</canvas>
+</body>
+</html>
