@@ -55,10 +55,13 @@
             var button = document.createElement('button');
             button.innerHTML = 'START';
             button.onclick = function () {
-                holder.style.display = 'none';
                 onStartGame();
+                holder.style.display = 'none';
             }
             holder.appendChild(button);
+
+            var highScores = document.createElement('div');
+            holder.appendChild(highScores);
         }
         function onStartGame() {
             var canvas = document.getElementById('canvas');
@@ -205,7 +208,7 @@
                         this.elements.pop();
                     }
                     else {
-                        this.score++;
+                        this.score+= 50;
                         apple.refresh();
                     }
 
@@ -260,6 +263,7 @@
                     case 39: snake.changeDirection ('R');break;        //right
                     case 40: snake.changeDirection ('D');break;         //down 
                 }
+                gameRefresh();
             }
 
             document.onkeydown = keyPressedHandler;
@@ -291,11 +295,12 @@
 
             function gameRefresh() {
                 if (snake.alive) {
+                    snake.score++;
                     snake.move();
                     reDraw();
                 }
                 else {
-                    alert('You are so dead!');
+                    alert(snake.score);
                     clearInterval(gameEngine);
                 }
             }

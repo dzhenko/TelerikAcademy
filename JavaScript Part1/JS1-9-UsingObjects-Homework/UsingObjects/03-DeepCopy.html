@@ -15,18 +15,7 @@ The function should work for both primitive and reference types-->
         (function () {
 
             function makeDeepCopy(obj) {
-                var newObj = {};
-
-                for (var i in obj) {
-                    if (typeof obj[i] == 'object') {
-                        newObj[i] = makeDeepCopy(obj[i]);
-                    }
-                    else {
-                        newObj[i] = obj[i];
-                    }
-                }
-
-                return newObj;
+                return JSON.parse(JSON.stringify(obj));
             }
 
 
