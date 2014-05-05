@@ -10,11 +10,11 @@
         //self executing function
         (function () {
 
-            var arr = [2, 1, 1, 2, 3, 3, 2, 2, 2, 1];
+            var arr = [2, 2, 1, 1,1,1,5,5,5,5,5,5];
 
             var maxLength = 0;
             var element = arr[0];
-            var currentL = 0;
+            var currentL = 1;
 
             for (var i = 1; i < arr.length; i++) {
                 if (arr[i - 1] === arr[i]) {
@@ -23,10 +23,14 @@
                 else {
                     if (currentL > maxLength) {
                         maxLength = currentL;
-                        currentL = 0;
+                        currentL = 1;
                         element = arr[i - 1];
                     }
                 }
+            }
+            if (currentL > maxLength) {
+                maxLength = currentL;
+                element = arr[arr.length - 1];
             }
 
             var arrayDiv = document.createElement('div');
