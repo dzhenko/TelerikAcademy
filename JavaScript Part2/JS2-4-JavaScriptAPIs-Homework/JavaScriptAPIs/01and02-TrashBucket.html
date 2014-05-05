@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 1 and Task 2</title>
+    <style>
+        #gameWrap {
+            border:1px solid black;
+            position:relative;
+            width:1000px;
+            height:600px;
+        }
+
+        .trashItem {
+            width:100px;
+            height:80px;
+            background-image:url(imgs/trash.png);
+            position:absolute;
+            z-index:100;
+        }
+
+        #theButton {
+            position : absolute;
+            height:300px;
+            width:500px;
+            top:100px;
+            left:200px;
+            background: #3e9cbf; 
+            padding: 8px 14px 10px; 
+            border:1px solid #3e9cbf; 
+            cursor:pointer; 
+            font-size:1.5em;
+            font-family:Oswald, sans-serif; 
+            letter-spacing:.1em;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3); 
+            color: #fff;
+            box-shadow: inset 0 1px 0 #3e9cbf, 0 5px 0 0 #205c73, 0 10px 5px #999;
+            border-radius: 10px;
+        }
+
+        #theButton:hover {
+            color:#dfe7ea;
+            box-shadow: inset 0 1px 0 #3e9cbf, 0 2px 0 0 #205c73, 0 2px 5px #999;
+        }
+        #bucket {
+            width:60px;
+            height:100px;
+            position: absolute;
+        }
+    </style>
+    <script>
+        function trashGame() {
+            var but = document.getElementById('theButton');
+            document.body.removeChild(but);
+            var gameWrap = document.getElementById('gameWrap');
+
+            var itemsLeft = 2;
+            var playOn = true;
+
+            generateBucket();
+
+            generateTrash(itemsLeft);
+
+            generateGameInfo();
+
+            function generateGameInfo() {
+                var gameInfo = document.createElement('div');
+                gameWrap.appendChild(gameInfo);
+                gameInfo.style.textAlign = 'center';
+                gameInfo.style.position = 'absolute';
+                gameInfo.style.left = 800 + 'px';
+                gameInfo.style.fontSize = '2em';
+
+                var gameInfoText = document.createElement('div');
+                gameInfo.appendChild(gameInfoText);
+                gameInfoText.innerHTML = "THE TRASH GAME";
+                gameInfoText.style.marginBottom = 40 + 'px';
+
+                var itemsLeftText = document.createElement('div');
+                gameInfo.appendChild(itemsLeftText);
+                itemsLeftText.innerHTML = "ITEMS LEFT:";
+                var itemsLeftNumber = document.createElement('div');
+                gameInfo.appendChild(itemsLeftNumber);
+                itemsLeftNumber.style.marginBottom = 40 + 'px';
+                var timeText = document.createElement('div');
+                gameInfo.appendChild(timeText);
+                timeText.innerHTML = "TIME:";
+                var timeScore = document.createElement('div');
+                var miliSeconds = document.createElement('span');
+                miliSeconds.innerHTML = '00';
+                miliSeconds.id = 'scoreMiliseconds';
+                var seconds = document.createElement('span');
+                seconds.innerHTML = '00';
+                seconds.id = 'scoreSeconds';
+                var minutes = document.createElement('span');
+                minutes.innerHTML = '0';
+                minutes.id = 'scoreMinutes';
+                var dots1 = document.createElement('span');
+                dots1.innerHTML = ' : ';
+                var dots2 = document.createElement('span');
+                dots2.innerHTML = ' : ';
+                timeScore.appendChild(minutes);
+                timeScore.appendChild(dots1);
+                timeScore.appendChild(seconds);
+                timeScore.appendChild(dots2);
+                timeScore.appendChild(miliSeconds);
+                gameInfo.appendChild(timeScore);
+
+                var timer = setInterval(function () {
+                    var newMilisec = miliSeconds.innerHTML | 0;
+                    if (playOn) {
+                        itemsLeftNumber.innerHTML = itemsLeft;
+                        newMilisec++;
+                        if (newMilisec == 100) {
+                            newMilisec = 0;
+                            var newSec = seconds.innerHTML | 0;
+                            newSec++;
+                            if (newSec == 60) {
+                                newSec = 0;
+                                var newMin = minutes.innerHTML | 0;
+                                newMin++;
+                                minutes.innerHTML = newMin;
+                            }
+                            seconds.innerHTML = newSec;
+                        }
+                        miliSeconds.innerHTML = newMilisec;
+                    }
+                    else {
+                        clearInterval(timer);
+                    }
+                }, 10);
+            }
+
+            function generateTrash(numberOfTrashPieces) {
+
+                for (var i = 0; i < numberOfTrashPieces; i++) {
+                    var currPiecePosition = getRandomPosition();
+                    var currPiece = document.createElement('div');
+                    currPiece.style.left = currPiecePosition.W + 'px';
+                    currPiece.style.top = currPiecePosition.H + 'px';
+                    currPiece.classList.add('trashItem');
+                    currPiece.id = 'trashItem' + i;
+                    currPiece.draggable = 'true';
+                    currPiece.ondragstart = onDragTrash;
+                    gameWrap.appendChild(currPiece);
+                }
+
+                function getRandomPosition() {
+                    return { W: Math.random() * 600 + 100, H: Math.random() * 400 + 100 };
+                }
+
+                function onDragTrash(ev) {
+                    ev.dataTransfer.setData('doppedElementID', ev.target.id);
+                }
+            }
+
+            function generateBucket() {
+                var bucket = document.createElement('div');
+                bucket.id = 'bucket';
+                bucket.style.top = '40px';
+                bucket.style.left = '40px';
+                bucket.style.backgroundImage = 'url(imgs/bucketClosed.png)';
+
+                bucket.ondragenter = function () {
+                    bucket.style.backgroundImage = 'url(imgs/bucketOpen.png)';
+                }
+                bucket.ondragleave = function () {
+                    bucket.style.backgroundImage = 'url(imgs/bucketClosed.png)';
+                }
+                bucket.ondrop = function (ev) {
+                    bucket.style.backgroundImage = 'url(imgs/bucketClosed.png)';
+                    var droppedItem = ev.dataTransfer.getData('doppedElementID');
+                    gameWrap.removeChild(document.getElementById(droppedItem));
+                    itemsLeft--;
+                    if (itemsLeft == 0) {
+                        playOn = false;
+                        saveScore();
+                    }
+
+                }
+                bucket.ondragover = function (ev) {
+                    ev.preventDefault();
+                }
+                gameWrap.appendChild(bucket);
+            };
+
+            function saveScore() {
+                var userName = prompt('Enter your name: ', 'unnamed');
+
+                var scoreMiliseconds = parseInt(document.getElementById('scoreMiliseconds').innerHTML);
+                var scoreSeconds = parseInt(document.getElementById('scoreSeconds').innerHTML);
+                var scoreMinutes = parseInt(document.getElementById('scoreMinutes').innerHTML);
+
+                var trashScore = scoreMiliseconds + 100 * scoreSeconds + 60 * 100 * scoreMinutes;
+
+                var trashScores = localStorage.getItem('trashScores');
+                if (!trashScores) {
+                    trashScores = [];
+                }
+                else {
+                    trashScores = JSON.parse(trashScores);
+                }
+
+                if (trashScores.length == 0) {
+                    trashScores.push({ name: userName, score: trashScore, mins:scoreMinutes, secs:scoreSeconds, milisecs: scoreMiliseconds });
+                }
+                else {
+
+                    if (trashScores.length == 5 && trashScore > trashScores[4]) {
+                        showScore();
+                        return false;
+                    }
+
+                    if (trashScore > trashScores[trashScores.length - 1].score) {
+                        trashScores.push({ name: userName, score: trashScore, mins: scoreMinutes, secs: scoreSeconds, milisecs: scoreMiliseconds });
+                    }
+                    else {
+                        for (var i = 0; i < trashScores.length; i++) {
+                            if (trashScores[i].score > trashScore) {
+                                trashScores.splice(i, 0, { name: userName, score: trashScore, mins: scoreMinutes, secs: scoreSeconds, milisecs: scoreMiliseconds });
+                                while (trashScores.length > 5) {
+                                    trashScores.pop();
+                                }
+                                break;
+                            }
+                        }
+                    }
+                }
+
+                localStorage.removeItem('trashScores');
+                localStorage.setItem('trashScores', JSON.stringify(trashScores));
+                showScore();
+
+                function showScore() {
+                    var scoresBoard = document.createElement('div');
+                    var gameOverSighn = document.createElement('div');
+                    gameOverSighn.innerHTML = 'GAME OVER';
+                    scoresBoard.appendChild(gameOverSighn);
+
+                    var listScores = document.createElement('ol');
+                    for (var i = 0; i < trashScores.length; i++) {
+                        var stringScore = trashScores[i].mins + " minutes " + trashScores[i].secs + " seconds " + trashScores[i].milisecs + " milisecods";
+                        
+                        var currLI = document.createElement('li');
+                        currLI.innerHTML = trashScores[i].name + " --> " + stringScore;
+                        listScores.appendChild(currLI);
+                    }
+
+                    scoresBoard.style.fontSize = '2em';
+                    scoresBoard.appendChild(listScores);
+                    
+                    while (gameWrap.firstElementChild) {
+                        gameWrap.removeChild(gameWrap.firstElementChild);
+                    }
+
+                    gameWrap.appendChild(scoresBoard);
+                }
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="gameWrap"></div>
+    <button onclick="trashGame()" id="theButton">Start the game</button>
+</body>
+</html>

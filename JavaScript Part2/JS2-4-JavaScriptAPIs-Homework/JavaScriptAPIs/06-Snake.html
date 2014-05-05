@@ -293,6 +293,63 @@
                 ctx.fillRect(snake.elements[0].x + pixelSize / 4, snake.elements[0].y + pixelSize / 4 , pixelSize / 2, pixelSize / 2);
             }
 
+            function gameOver() {
+                clearInterval(gameEngine);
+
+                var userName = prompt('Enter your name: ', 'unnamed');
+
+                var currentScores = localStorage.getItem('scores');
+                if (!currentScores) {
+                    currentScores = [];
+                }
+                else {
+                    currentScores = JSON.parse(currentScores);
+                }
+
+                if (currentScores.length == 0) {
+                    currentScores.push({ name: userName, score: snake.score });
+                }
+                else {
+
+                    if (snake.score < currentScores[currentScores.length - 1].score) {
+                        currentScores.push({ name: userName, score: snake.score });
+                    }
+                    else {
+                        for (var i = 0; i < currentScores.length; i++) {
+                            if (currentScores[i].score < snake.score) {
+                                currentScores.splice(i, 0, { name: userName, score: snake.score });
+                                break;
+                            }
+                        }
+                    }
+                }
+
+                localStorage.removeItem('scores');
+                localStorage.setItem('scores', JSON.stringify(currentScores));
+                showScoreOnCanvas();
+
+                function showScoreOnCanvas() {
+                    canvas.style.display = 'none';
+
+                    var scoresBoard = document.createElement('div');
+                    var gameOverSighn = document.createElement('div');
+                    gameOverSighn.innerHTML = 'GAME OVER';
+                    scoresBoard.appendChild(gameOverSighn);
+
+                    var listScores = document.createElement('ol');
+                    for (var i = 0; i < currentScores.length; i++) {
+                        var currLI = document.createElement('li');
+                        currLI.innerHTML = currentScores[i].name + " --> " + currentScores[i].score;
+                        listScores.appendChild(currLI);
+                    }
+
+                    scoresBoard.appendChild(listScores);
+                    document.body.appendChild(scoresBoard);
+                }
+
+                return false;
+            }
+
             function gameRefresh() {
                 if (snake.alive) {
                     snake.score++;
@@ -300,8 +357,7 @@
                     reDraw();
                 }
                 else {
-                    alert(snake.score);
-                    clearInterval(gameEngine);
+                    gameOver();
                 }
             }
 

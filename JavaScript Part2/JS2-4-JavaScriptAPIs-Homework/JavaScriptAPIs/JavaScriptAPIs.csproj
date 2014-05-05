@@ -57,6 +57,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="01and02-TrashBucket.html" />
+    <Content Include="03-Polyfills.html" />
     <Content Include="04-CanvasDrawing.html" />
     <Content Include="05-BouncingBall.html" />
     <Content Include="06-Snake.html" />
