@@ -28,10 +28,9 @@ Use function overloading-->
             }
             else {
                 var lower = word.toLowerCase();
-                var upper = word.toUpperCase();
                 
                 for (var i = 0; i < words.length; i++) {
-                    if (words[i] === lower || words[i] === upper) {
+                    if (words[i].toLowerCase() === lower) {
                         occurrences++;
                     }
                 }
