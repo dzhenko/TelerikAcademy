@@ -1,55 +1,58 @@
-using System;
-using System.Text;
-
-class Event : IComparable
+namespace Events
 {
-    private DateTime date;
-    private string title;
-    private string location;
+    using System;
+    using System.Text;
 
-    public Event(DateTime date, string title, string location)
+    class Event : IComparable
     {
-        this.date = date;
-        this.title = title;
-        this.location = location;
-    }
+        private DateTime date;
+        private string title;
+        private string location;
 
-    public int CompareTo(object obj)
-    {
-        Event other = obj as Event;
-
-        int byDate = this.date.CompareTo(other.date);
-        int byTitle = this.title.CompareTo(other.title);
-        int byLocation = this.location.CompareTo(other.location);
-
-        if (byDate == 0)
+        public Event(DateTime date, string title, string location)
         {
-            if (byTitle == 0)
+            this.date = date;
+            this.title = title;
+            this.location = location;
+        }
+
+        public int CompareTo(object obj)
+        {
+            Event other = obj as Event;
+
+            int byDate = this.date.CompareTo(other.date);
+            int byTitle = this.title.CompareTo(other.title);
+            int byLocation = this.location.CompareTo(other.location);
+
+            if (byDate == 0)
             {
-                return byLocation;
+                if (byTitle == 0)
+                {
+                    return byLocation;
+                }
+                else
+                {
+                    return byTitle;
+                }
             }
             else
             {
-                return byTitle;
+                return byDate;
             }
         }
-        else
+
+        public override string ToString()
         {
-            return byDate;
+            StringBuilder toString = new StringBuilder();
+            toString.Append(date.ToString("yyyy-MM-ddTHH:mm:ss"));
+            toString.Append(" | " + title);
+
+            if (location != null && location != "")
+            {
+                toString.Append(" | " + location);
+            }
+
+            return toString.ToString();
         }
-    }
-
-    public override string ToString()
-    {
-        StringBuilder toString = new StringBuilder();
-        toString.Append(date.ToString("yyyy-MM-ddTHH:mm:ss"));
-        toString.Append(" | " + title);
-
-        if (location != null && location != "")
-        {
-            toString.Append(" | " + location);
-        }
-
-        return toString.ToString();
     }
 }
