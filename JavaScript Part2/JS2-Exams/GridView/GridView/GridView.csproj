@@ -57,7 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="2ndTry.html" />
+    <Content Include="GridView.html" />
     <Content Include="GridView.js" />
     <Content Include="Web.config" />
   </ItemGroup>

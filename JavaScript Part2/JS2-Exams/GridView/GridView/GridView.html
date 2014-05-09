@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Grid View</title>
+    <script src="GridView.js"></script>
+    <style>
+        table {
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+
+        th, tr, td {
+            border: 1px solid #000;
+            padding: 5px 10px;
+        }
+
+        th {
+            background-color: #e2e2e2;
+        }
+    </style>
+</head>
+<body>
+    <div id="grid-view-holder"></div>
+    <div id="grid-view-copy-holder"></div>
+    <script>
+        function test1() {
+            var schoolsGrid = controls.getGridView("#grid-view-holder");
+
+            schoolsGrid.addHeader("Name", "Location", "Total Courses", "Specialty");
+            var school = schoolsGrid.addRow("sch1", "Burgas", 400, "Math");
+            schoolsGrid.addRow("sch2", "Sofia", 500, "IT");
+            schoolsGrid.addRow("sch3", "Lovech", 5000, "IT");
+
+            var innerSchool = school.getNestedGridView();
+            innerSchool.addHeader('Title', 'start date', 'total students');
+            var course = innerSchool.addRow('crs1', '12', '3');
+            innerSchool.addRow('crs2', '13', '0');
+            innerSchool.addRow('crs2', '14', '0');
+
+            var students = course.getNestedGridView();
+            students.addHeader('Fname', 'Lname', 'Grade', 'Marks');
+            students.addRow('name1', 'asd', '3', '33,33,23,23');
+            students.addRow('name2', 'www', '4', '3,43,3,3');
+            students.addRow('name3', 'sss', '3', '13,3,3,443');
+
+            schoolsGrid.render();
+            var hmm = schoolsGrid.getGridViewData();
+            console.log(hmm);
+        }
+        //test1();
+
+        function test2() {
+            var schoolsData = [
+                new School('PG', 'Sofia', 3, 'Rockets', [
+                    new Course('title 1', 'today', 3, [
+                        new Student('pesho', 'petrov', 5, '4, 5, 6'),
+                        new Student('ivan', 'georgiev', 4, '3, 4, 5'),
+                        new Student('mariika', 'ivanova', 2, '2, 2, 1'),
+                    ]),
+                    new Course('title 2', 'tommorow', 2, [
+                        new Student('anna', 'annava', 5, '4, 5, 6'),
+                        new Student('ivanka', 'ivankova', 4, '3, 4, 5'),
+                    ]),
+                    new Course('title 3', 'in a year', 4, [
+                        new Student('n1', 'n11', 5, '4, 5, 6'),
+                        new Student('n2', 'n22', 4, '3, 4, 5'),
+                        new Student('n3', 'n33', 2, '2, 2, 1'),
+                        new Student('n4', 'n44', 2, '2, 2, 1'),
+                    ]),
+                ]),
+                new School('MG', 'Yambol', 3, 'Medicine', [
+                    new Course('mm 1', 'Mtoday', 3, [
+                        new Student('Mpesho', 'petrov', 5, '4, 5, 6'),
+                        new Student('Mivan', 'georgiev', 4, '3, 4, 5'),
+                        new Student('Mmariika', 'ivanova', 2, '2, 2, 1'),
+                    ]),
+                    new Course('mm 2', 'Mtommorow', 2, [
+                        new Student('Manna', 'annava', 5, '4, 5, 6'),
+                        new Student('Mivanka', 'ivankova', 4, '3, 4, 5'),
+                    ]),
+                    new Course('mm 3', 'Min a year', 4, [
+                        new Student('Mn1', 'n11', 5, '4, 5, 6'),
+                        new Student('Mn2', 'n22', 4, '3, 4, 5'),
+                        new Student('Mn3', 'n33', 2, '2, 2, 1'),
+                        new Student('Mn4', 'n44', 2, '2, 2, 1'),
+                    ]),
+                ]),
+            ];
+
+            schoolRepository.save('mySchool', schoolsData);
+
+            var loaded = schoolRepository.load('mySchool');
+
+            controls.buildGridView("#grid-view-holder", schoolsData);
+
+            controls.buildGridView("#grid-view-copy-holder", loaded);
+        }
+        test2();
+    </script>
+</body>
+</html>
