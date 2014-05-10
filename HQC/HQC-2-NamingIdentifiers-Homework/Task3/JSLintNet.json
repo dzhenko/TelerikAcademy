@@ -1,0 +1,8 @@
+﻿{
+  "ignore": [
+    "JSCS: Keyword `else` should not be placed on new line"
+  ],
+  "options": {
+    "predef": {}
+  }
+}

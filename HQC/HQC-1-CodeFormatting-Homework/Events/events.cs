@@ -3,7 +3,7 @@ namespace Events
     using System;
     using System.Text;
 
-    class Event : IComparable
+    public class Event : IComparable
     {
         private DateTime date;
         private string title;
@@ -44,12 +44,12 @@ namespace Events
         public override string ToString()
         {
             StringBuilder toString = new StringBuilder();
-            toString.Append(date.ToString("yyyy-MM-ddTHH:mm:ss"));
-            toString.Append(" | " + title);
+            toString.Append(this.date.ToString("yyyy-MM-ddTHH:mm:ss"));
+            toString.Append(" | " + this.title);
 
-            if (location != null && location != "")
+            if (this.location != null && this.location != string.Empty)
             {
-                toString.Append(" | " + location);
+                toString.Append(" | " + this.location);
             }
 
             return toString.ToString();

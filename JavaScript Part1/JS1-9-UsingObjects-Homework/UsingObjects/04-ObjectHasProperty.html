@@ -5,11 +5,18 @@
     <title>Task 4</title>
     <script>
         function onClickCheckObjectForProperty() {
-            var obj = document.getElementById('object').value;
+            var objStr = document.getElementById('object').value;
             var prop = document.getElementById('prop').value;
 
             var spanOpen = '<span style="color:red">';
             var spanClose = '</span>';
+
+            if (!window[objStr]) {
+                document.getElementById('result').innerHTML = spanOpen + 'THIS OBJECT DOES NOT EXIST' + spanClose;
+            }
+
+            var obj = new window[objStr];
+
             var answer = "";
             if (obj[prop]) {
                 answer = '<span style="color:green"> HAS </span>';
