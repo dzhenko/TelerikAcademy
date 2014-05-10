@@ -13,6 +13,7 @@
 
             if (!window[objStr]) {
                 document.getElementById('result').innerHTML = spanOpen + 'THIS OBJECT DOES NOT EXIST' + spanClose;
+                return false;
             }
 
             var obj = new window[objStr];
