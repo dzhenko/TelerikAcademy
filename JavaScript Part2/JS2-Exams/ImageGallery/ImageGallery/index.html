@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Image Gallery</title>
+    <script src="imageGallery.js"></script>
+</head>
+<body>
+    <div id="holder"></div>
+    <h1> Copied trough local storage table :</h1>
+    <div id="loaded"></div>
+    <script>
+        var gallery = controls.getImageGallery('#holder');
+        function test1() {
+            gallery.addImage('yo1', 'images/js-ninja.png');
+            gallery.addImage('yo2', 'images/js-ninja.png');
+            gallery.addImage('yo3', 'images/js-ninja.png');
+            gallery.addImage('yo4', 'images/js-ninja.png');
+            gallery.addImage('yo5', 'images/js-ninja.png');
+            gallery.addImage('yo6', 'images/js-ninja.png');
+
+            var album1 = gallery.addAlbum('a');
+            album1.addImage('yo11', 'images/js-ninja.png');
+
+            var album2 = gallery.addAlbum('b');
+            album2.addImage('yo12', 'images/js-ninja.png');
+
+            var album3 = gallery.addAlbum('c');
+            album2.addImage('yo13', 'images/js-ninja.png');
+
+            var innerAlbum1 = album1.addAlbum('cmon a');
+            innerAlbum1.addImage('yo111', 'images/js-ninja.png');
+            innerAlbum1.addImage('yo112', 'images/js-ninja.png');
+            innerAlbum1.addImage('yo113', 'images/js-ninja.png');
+
+            var innerAlbum2 = album1.addAlbum('cmon b');
+            innerAlbum2.addImage('yo121', 'images/js-ninja.png');
+            innerAlbum2.addImage('yo122', 'images/js-ninja.png');
+            innerAlbum2.addImage('yo123', 'images/js-ninja.png');
+
+            var innerAlbum3 = album1.addAlbum('cmon c');
+            innerAlbum3.addImage('yo131', 'images/js-ninja.png');
+            innerAlbum3.addImage('yo132', 'images/js-ninja.png');
+            innerAlbum3.addImage('yo133', 'images/js-ninja.png');
+
+            var evenInnerAlb1 = innerAlbum1.addAlbum('stop a');
+            evenInnerAlb1.addImage('yo1111', 'images/js-ninja.png');
+            evenInnerAlb1.addImage('yo1112', 'images/js-ninja.png');
+            evenInnerAlb1.addImage('yo1113', 'images/js-ninja.png');
+
+            var evenInnerAlb2 = innerAlbum1.addAlbum('stop b');
+            evenInnerAlb2.addImage('yo1121', 'images/js-ninja.png');
+            evenInnerAlb2.addImage('yo1122', 'images/js-ninja.png');
+            evenInnerAlb2.addImage('yo1123', 'images/js-ninja.png');
+
+            var evenInnerAlb3 = innerAlbum1.addAlbum('stop c');
+            evenInnerAlb3.addImage('yo1131', 'images/js-ninja.png');
+            evenInnerAlb3.addImage('yo1132', 'images/js-ninja.png');
+            evenInnerAlb3.addImage('yo1133', 'images/js-ninja.png');
+        }
+        test1();
+
+        var data = gallery.getImageGalleryData();
+
+        imageGalleryRepository.save('gal1', data);
+
+        var loaded = imageGalleryRepository.load('gal1');
+
+        controls.buildImageGallery('#loaded', loaded);
+    </script>
+</body>
+</html>
