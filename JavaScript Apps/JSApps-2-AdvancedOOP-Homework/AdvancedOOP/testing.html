@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="additionalScripts/ClassCreateInherit.js"></script>
+</head>
+<body>
+    <script>
+        var School = OOPHelper.classical.createClass(function (name, title) {
+            this.name = name;
+            this.title = title;
+        },
+            {
+                changeName: function (newName) {
+                    this.name = newName;
+                }
+            });
+
+        var mg = new School('ivan', 'gosho');
+
+        var upgradedSchool = OOPHelper.classical.createClass(function (name, title, added) {
+            this._super._init(name,title);
+            this.added = added;
+        },
+            {
+                printInfo: function () {
+                    console.log('instance of school -> ' + this instanceof School);
+                }
+        }
+        );
+
+        OOPHelper.classical.inheritClass(upgradedSchool, School);
+
+        var testInheritanceClass = new upgradedSchool('name', 'titlebe', 'haha');
+        testInheritanceClass.printInfo();
+    </script>
+</body>
+</html>
