@@ -12,7 +12,7 @@ Read about prototype and how to attach methods-->
 <body>
     <script>
         (function () {
-            var arr = [1, 2, 1, 4, 1, 3, 4, 1, 111, 3, 2, 1, "1"];
+            var arr = [1, 2, 1, 4,1,1,1, 1, 3, 4, 1,1, 111, 3, 2, 1, "1"];
 
             function writeToBody(stuff) {
                 var div = document.createElement('div');
@@ -24,6 +24,7 @@ Read about prototype and how to attach methods-->
                 for (var i = 0; i < this.length; i++) {
                     if (this[i] === number) {
                         this.splice(i, 1);
+                        i--;
                     }
                 }
             }
