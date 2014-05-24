@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Create a slider control using jQuery-->
+    <title>Task 1</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <style>
+        * {
+            cursor:none;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        $(document).on('mousemove', function (ev) {
+            var div = document.createElement('div');
+            div.style.backgroundColor = 'red';
+            div.style.position = 'absolute';
+            div.style.width = '5px';
+            div.style.height = '5px';
+            div.style.top = ev.pageY + 'px';
+            div.style.left = ev.pageX + 'px';
+            div.style.borderRadius = '25px';
+            $('body').append(div);
+            $(div).toggle('puff');
+            setTimeout(function () {
+                $(div).remove();
+            }, 500);
+        });
+
+        $(document).on('click', function (ev) {
+            var div = document.createElement('div');
+            div.style.backgroundColor = 'red';
+            div.style.position = 'absolute';
+            div.style.width = '30px';
+            div.style.height = '30px';
+            div.style.borderRadius = '25px';
+            div.style.top = (ev.pageY-10) + 'px';
+            div.style.left = (ev.pageX - 10) + 'px';
+            $('body').append(div);
+            $(div).toggle('puff');
+            setTimeout(function () {
+                $(div).remove();
+            }, 500);
+        })
+    </script>
+</body>
+</html>

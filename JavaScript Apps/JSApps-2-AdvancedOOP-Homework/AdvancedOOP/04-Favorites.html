@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Create a favorite sites bar-->
+    <title>Task 4</title>
+    <script src="scripts/04-Favorites.js"></script>
+    <style>
+        a {
+            text-decoration:none;
+        }
+
+        .url {
+            display:inline-block;
+            margin : 20px;
+        }
+
+        .folder {
+            padding : 20px;
+            display:inline-block;
+            position:relative;
+        }
+
+        .folder .url {
+            display:block;
+        }
+
+        .nestedURLs {
+            position:absolute;
+            padding:0;
+        }
+
+        #mainFolders {
+            display:inline-block;
+        }
+
+        #mainUrls {
+            display:inline-block;
+        }
+
+        #mainFolders .folder .nestedURLs{
+            display:none;
+        }
+
+        #mainFolders .folder:hover .nestedURLs{
+            display:block;
+        }
+
+        #mainFolders .folder .nestedURLs:hover{
+            display:block;
+        }
+    </style>
+</head>
+<body>
+    <div id="favorites"></div>
+    <script>
+        var f1 = new FFolder('folder1');
+        var u11 = new FUrl('url11', 'www.abv.bg');
+        var u12 = new FUrl('url12', 'www.abv.bg');
+        var u13 = new FUrl('url13', 'www.abv.bg');
+        f1.urls.push(u11);
+        f1.urls.push(u12);
+        f1.urls.push(u13);
+
+        var f2 = new FFolder('folder2');
+        var u21 = new FUrl('url21', 'www.abv.bg');
+        var u22 = new FUrl('url22', 'www.abv.bg');
+        var u23 = new FUrl('url23', 'www.abv.bg');
+        f2.urls.push(u21);
+        f2.urls.push(u22);
+        f2.urls.push(u23);
+
+        var u1 = new FUrl('url1', 'www.abv.bg');
+        var u2 = new FUrl('url2', 'www.abv.bg');
+        var u3 = new FUrl('url3', 'www.abv.bg');
+
+        FavoritesBar.addUrl(u1);
+        FavoritesBar.addUrl(u2);
+        FavoritesBar.addUrl(u3);
+
+        FavoritesBar.addFolder(f1);
+        FavoritesBar.addFolder(f2);
+
+        FavoritesBar.render(document.getElementById('favorites'));
+    </script>
+</body>
+</html>

@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{815776B1-1F05-4D08-9220-9F5EEF9AB71C}</ProjectGuid>
+    <ProjectGuid>{85B7C2F1-7DA0-45C5-95C9-F80DE6994B3B}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AdvancedOOP</RootNamespace>
-    <AssemblyName>AdvancedOOP</AssemblyName>
+    <RootNamespace>RealExam</RootNamespace>
+    <AssemblyName>RealExam</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -57,13 +57,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="03-SliderControl.html" />
-    <Content Include="04-Favorites.html" />
-    <Content Include="scripts\01-SchoolRepoPrototypalOOP.js" />
-    <Content Include="scripts\02-SchoolRepoClassicalOOP.js" />
-    <Content Include="01-02-SchoolRepo.html" />
-    <Content Include="scripts\03-SliderControl.js" />
-    <Content Include="scripts\04-Favorites.js" />
+    <Content Include="task1.html" />
+    <Content Include="task1.js" />
+    <Content Include="task2.html" />
+    <Content Include="task2.js" />
+    <Content Include="task3.html" />
+    <Content Include="task3.js" />
+    <Content Include="task4.html" />
+    <Content Include="task4.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -90,9 +91,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>61233</DevelopmentServerPort>
+          <DevelopmentServerPort>49749</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:61233/</IISUrl>
+          <IISUrl>http://localhost:49749/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

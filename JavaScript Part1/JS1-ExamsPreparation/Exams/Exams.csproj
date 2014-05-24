@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{815776B1-1F05-4D08-9220-9F5EEF9AB71C}</ProjectGuid>
+    <ProjectGuid>{913435AA-5A7B-434A-8411-110B06202B77}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AdvancedOOP</RootNamespace>
-    <AssemblyName>AdvancedOOP</AssemblyName>
+    <RootNamespace>Exams</RootNamespace>
+    <AssemblyName>Exams</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -57,13 +57,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="03-SliderControl.html" />
-    <Content Include="04-Favorites.html" />
-    <Content Include="scripts\01-SchoolRepoPrototypalOOP.js" />
-    <Content Include="scripts\02-SchoolRepoClassicalOOP.js" />
-    <Content Include="01-02-SchoolRepo.html" />
-    <Content Include="scripts\03-SliderControl.js" />
-    <Content Include="scripts\04-Favorites.js" />
+    <Content Include="Clojure.html" />
+    <Content Include="Clojure.js" />
+    <Content Include="Joro.html" />
+    <Content Include="Joro.js" />
+    <Content Include="Sequences.html" />
+    <Content Include="Sequences.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -90,9 +89,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>61233</DevelopmentServerPort>
+          <DevelopmentServerPort>58907</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:61233/</IISUrl>
+          <IISUrl>http://localhost:58907/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
