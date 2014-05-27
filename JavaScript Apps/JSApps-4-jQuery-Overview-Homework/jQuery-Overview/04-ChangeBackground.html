@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Implement functionality to change the background color of a web page-->
+    <title>Task 4</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+        function onChangeBackgroundColor() {
+            var colorValue = $('#backgroundColorPicker').val();
+            $('body').css('background-color', colorValue);
+        }
+    </script>
+</head>
+<body>
+    <span style ="background-color:#fff">
+        <label for="backgroundColorPicker">Change color:</label>
+        <input type="color" id="backgroundColorPicker" onchange="onChangeBackgroundColor()" />
+    </span>
+</body>
+</html>

@@ -4,45 +4,73 @@
     <!--Create a slider control using jQuery-->
     <title>Task 1</title>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="scripts/SliderSlides.js"></script>
     <style>
-        * {
-            cursor:none;
+        #sliderContent {
+            width : 600px;
+            height: 500px;
+            border: 2px solid black;
+            padding:20px;
+        }
+        #sliderHolder > button:first-of-type {
+            margin-left:200px;
         }
     </style>
 </head>
 <body>
-    <script>
-        $(document).on('mousemove', function (ev) {
-            var div = document.createElement('div');
-            div.style.backgroundColor = 'red';
-            div.style.position = 'absolute';
-            div.style.width = '5px';
-            div.style.height = '5px';
-            div.style.top = ev.pageY + 'px';
-            div.style.left = ev.pageX + 'px';
-            div.style.borderRadius = '25px';
-            $('body').append(div);
-            $(div).toggle('puff');
-            setTimeout(function () {
-                $(div).remove();
-            }, 500);
-        });
+    <div id="sliderHolder">
+        <div id="sliderContent"></div>
+        <button id = "btnPreviousSlide">Previous Slide</button>
+        <button id = "btnNextSlide">Next Slide</button>
+    </div>
 
-        $(document).on('click', function (ev) {
-            var div = document.createElement('div');
-            div.style.backgroundColor = 'red';
-            div.style.position = 'absolute';
-            div.style.width = '30px';
-            div.style.height = '30px';
-            div.style.borderRadius = '25px';
-            div.style.top = (ev.pageY-10) + 'px';
-            div.style.left = (ev.pageX - 10) + 'px';
-            $('body').append(div);
-            $(div).toggle('puff');
-            setTimeout(function () {
-                $(div).remove();
-            }, 500);
-        })
+    <script>
+        (function () {
+            var allSlides = getAllSlides();
+            var sliderContent = $('#sliderContent');
+            var currentSlideIndex = 0;
+
+            $('#btnPreviousSlide').on('click', onPreviousSlide);
+            $('#btnNextSlide').on('click', onNextSlide);
+
+            var autoSlideChanger = setInterval(onNextSlide, 5000);
+
+            showCurrentSlide();
+
+            function onPreviousSlide() {
+                currentSlideIndex--;
+                if (currentSlideIndex < 0) {
+                    currentSlideIndex = allSlides.length - 1;
+                }
+
+                // resets the timer for changing slides
+                clearInterval(autoSlideChanger);
+                autoSlideChanger = setInterval(onNextSlide, 5000);
+
+                showCurrentSlide();
+            }
+
+            function onNextSlide() {
+                currentSlideIndex++;
+                if (currentSlideIndex == allSlides.length) {
+                    currentSlideIndex = 0;
+                }
+
+                // resets the timer for changing slides
+                clearInterval(autoSlideChanger);
+                autoSlideChanger = setInterval(onNextSlide, 5000);
+
+                showCurrentSlide();
+            }
+
+            function showCurrentSlide() {
+                sliderContent.fadeOut(300);
+                setTimeout(function () {
+                    sliderContent.html(allSlides[currentSlideIndex]);
+                }, 300);
+                sliderContent.fadeIn(300);
+            };
+        }())
     </script>
 </body>
 </html>

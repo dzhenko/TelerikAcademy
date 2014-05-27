@@ -58,6 +58,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="01-Slider.html" />
+    <Content Include="02-InsertFunctionality.html" />
+    <Content Include="03-StudentsTable.html" />
+    <Content Include="04-ChangeBackground.html" />
+    <Content Include="05-GridViewControl.html" />
+    <Content Include="scripts\GridControl.js" />
+    <Content Include="scripts\SliderSlides.js" />
+    <Content Include="scripts\StudentsArray.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

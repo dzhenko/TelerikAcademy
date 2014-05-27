@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Using jQuery implement functionality to insert a DOM element before or after another element-->
+    <title>Task 2</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Click on the div to insert new Div</h1>
+    <input type="radio" id="btnBefore" value="before" name="insertPlace" checked="checked" /><label for="btnBefore">Insert before</label>
+    <br />
+    <input type="radio" id="btnAfter" value="after" name="insertPlace" /><label for="btnAfter">Insert after</label>
+    <div>
+        <div>Div 1</div>
+        <div>Div 2</div>
+        <div>Div 3</div>
+        <div>Div 4</div>
+        <div>Div 5</div>
+    </div>
+
+    <script>
+        function getRadioButtonValue() {
+            var valueToReturn = $("input[type='radio'][name='insertPlace']:checked").val();
+            return valueToReturn;
+        }
+
+        (function () {
+            $('div').on('click', function (e) {
+                if (getRadioButtonValue() == 'before') {
+                    $(e.target).before($('<div style="color:#f00">New Div</div>'));
+                }
+                else {
+                    $(e.target).after($('<div style="color:#0f0">New Div</div>'));
+                }
+                e.stopImmediatePropagation();
+            });
+        }());
+    </script>
+</body>
+</html>

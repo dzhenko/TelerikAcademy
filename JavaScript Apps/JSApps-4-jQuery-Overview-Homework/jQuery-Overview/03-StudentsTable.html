@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--By given an array of students, generate a table that represents these students-->
+    <title>Task 3</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="scripts/StudentsArray.js"></script>
+    <style>
+        td,th {
+            border:1px solid black;
+            padding:5px 10px;
+        }
+        table {
+            border-collapse:collapse;
+        }
+    </style>
+</head>
+<body>
+    <div id="tableHolder"></div>
+
+    <script>
+        $(document).ready(generateTable());
+
+        function generateTable() {
+            var table = $('<table></table>');
+            $('#tableHolder').append(table);
+            
+            var allStudents = getAllStudents();
+
+            // generating header
+            var tHeader = $('<thead></thead>');
+            table.append(tHeader);
+
+            var headRow = $('<tr></tr>');
+            tHeader.append(headRow);
+
+            for (var stProp in allStudents[0]) {
+                var currHead = $('<th></th>');
+                currHead.text(stProp);
+                headRow.append(currHead);
+            }
+
+            // generating body
+            var tbody = $('<tbody></tbody>');
+            table.append(tbody);
+
+            for (var i = 0; i < allStudents.length; i++) {
+                var currRow = $('<tr></tr>');
+                tbody.append(currRow);
+
+                var currStudent = allStudents[i];
+
+                for (var stProp in currStudent) {
+                    var currCell = $('<td></td>');
+                    currCell.text(currStudent[stProp]);
+                    currRow.append(currCell);
+                }
+            }
+        }
+    </script>
+</body>
+</html>

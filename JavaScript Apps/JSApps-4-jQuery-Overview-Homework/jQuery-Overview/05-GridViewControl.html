@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Implement a GridView control-->
+    <title>Task 5</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <style>
+        th, td {
+            border:1px solid black;
+            padding:5px 10px;
+        }
+
+        table {
+            border-collapse:collapse;
+            border:2px solid green;
+            margin:auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="holder"></div>
+
+    <script>
+        function getGridControl(element) {
+            var currTable = document.createElement('table');
+
+            return {
+                addRow: function () {
+                    var newRow = document.createElement('tr');
+
+                    if (element instanceof HTMLTableRowElement) {
+                        var newRowToUse = document.createElement('tr');
+                        $(element).after(newRowToUse);
+
+                        var newCellToUse = document.createElement('td');
+                        newRowToUse.appendChild(newCellToUse);
+                        newCellToUse.colSpan = $(element).children().length;
+                        element = newCellToUse;
+                    }
+
+                    element.appendChild(currTable);
+
+                    var currTBody = currTable.getElementsByTagName('tbody')[0];
+                    if (!currTBody) {
+                        currTBody = document.createElement('tbody');
+                        currTable.appendChild(currTBody);
+                    }
+
+                    currTBody.appendChild(newRow);
+
+                    for (var i = 0; i < arguments.length; i++) {
+                        var currCell = document.createElement('td');
+                        $(currCell).text(arguments[i]);
+                        newRow.appendChild(currCell);
+                    }
+
+                    return getGridControl(newRow);
+                },
+
+                addHead: function () {
+                    var oldHead = currTable.getElementsByTagName('thead')[0];
+                    if (oldHead) {
+                        currTable.removeChild(oldHead)[0];
+                    }
+
+                    var thead = document.createElement('thead');
+                    currTable.appendChild(thead);
+
+                    var theadRow = document.createElement('tr');
+                    thead.appendChild(theadRow);
+
+                    for (var i = 0; i < arguments.length; i++) {
+                        var currHead = document.createElement('th');
+                        $(currHead).text(arguments[i]);
+                        theadRow.appendChild(currHead);
+                    }
+                }
+            }
+        }
+
+        var mainView = getGridControl(document.getElementById('holder'));
+
+        mainView.addHead('head1', 'head2', 'head3');
+
+        var row1 = mainView.addRow('row11', 'row12', 'row13');
+        var row2 = mainView.addRow('row21', 'row22', 'row23');
+        var row3 = mainView.addRow('row31', 'row32', 'row33');
+
+        row3.addHead('head 31', 'head 32');
+        var inception = row3.addRow('311', '312');
+        row3.addRow('321', '322');
+
+        inception.addHead('recursion', 'is', 'cool');
+        inception.addRow('o', 'm', 'g');
+
+        row1.addHead('head 11', 'head 12');
+        row1.addRow('111', '112');
+        row1.addRow('121', '122');
+    </script>
+</body>
+</html>
