@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Using Kinetic create a family tree-->
+    <title>Task 2</title>
+    <script src="scripts/kinetic-v5.1.0.min.js"></script>
+    <script src="scripts/FTInputData.js"></script>
+    <script src="scripts/FTObjectsBuilder.js"></script>
+    <script src="scripts/FTIndexesBuilder.js"></script>
+    <script src="scripts/FTDrawer.js"></script>
+
+    <script>
+        function buildFamilyTree() {
+            var rawData = getFTData();
+
+            var familyTree = getFTObjects(rawData);
+
+            var familyTreeWithIndexes = getFTIndexes(familyTree.allGrandparents, familyTree.allHumans);
+
+            var divContainer = document.createElement('div');
+            divContainer.id = 'familytree-kinetic-canvas';
+            document.body.appendChild(divContainer);
+
+            var familyTreeRenderer = getFTDrawer('familytree-kinetic-canvas');
+
+            familyTreeRenderer.renderTree(familyTreeWithIndexes);
+        }
+    </script>
+</head>
+<body onload="buildFamilyTree()">
+</body>
+</html>
