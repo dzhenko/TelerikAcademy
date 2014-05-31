@@ -2,7 +2,7 @@
 {
     using System;
 
-    public class NumberPrinter
+    public static class NumberPrinter
     {
         public static void PrintAsDecimal(object number)
         {
@@ -20,3 +20,9 @@
         }
     }
 }
+
+// ------ StyleCop completed ------
+
+// ========== Violation Count: 0 ==========
+
+// :)

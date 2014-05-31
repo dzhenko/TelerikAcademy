@@ -10,8 +10,26 @@
     <script src="scripts/FTDrawer.js"></script>
 
     <script>
-        function buildFamilyTree() {
-            var rawData = getFTData();
+        function buildFamilyTree(option) {
+            var rawData;
+
+            switch (option) {
+                case 1: rawData = getFTData1(); break;
+                case 2: rawData = getFTData2(); break;
+                case 3: rawData = getFTData3(); break;
+
+                case 4:
+                    var valueOfObj = document.getElementById('objValue').value;
+
+                    valueOfObj = valueOfObj.replace(/'/g, '"');
+                    valueOfObj = valueOfObj.replace(/mother/g, '"mother"');
+                    valueOfObj = valueOfObj.replace(/father/g, '"father"');
+                    valueOfObj = valueOfObj.replace(/children/g, '"children"');
+
+                    var currObj = JSON.parse(valueOfObj);
+                    rawData = currObj;
+                    break;
+            }
 
             var familyTree = getFTObjects(rawData);
 
@@ -24,9 +42,18 @@
             var familyTreeRenderer = getFTDrawer('familytree-kinetic-canvas');
 
             familyTreeRenderer.renderTree(familyTreeWithIndexes);
+
+            document.body.removeChild(document.body.firstElementChild);
         }
     </script>
 </head>
-<body onload="buildFamilyTree()">
+<body>
+    <div>
+        <input type="text" placeholder="Your Object" id="objValue" />
+        <button onclick="buildFamilyTree(1)">Test 1</button>
+        <button onclick="buildFamilyTree(2)">Test 2</button>
+        <button onclick="buildFamilyTree(3)">Test 3</button>
+        <button onclick="buildFamilyTree(4)">Build from input object</button>
+    </div>
 </body>
 </html>

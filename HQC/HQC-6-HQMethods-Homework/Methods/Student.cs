@@ -1,15 +1,14 @@
-﻿
-namespace Methods
+﻿namespace Methods
 {
     using System;
 
     public class Student
     {
-        private const string firstNameNullOrEmptyException = "First name can not be null or empty.";
-        private const string lastNameNullOrEmptyException = "Last name can not be null or empty.";
-        private const string dateOfBirthNullOrEmptyException = "Date of birth can not be null or empty.";
-        private const string dateOfBirthFormatException = "Date of birth must be in format DD.MM.YYYY.";
-        private const string otherInfoNullOrEmptyException = "Other info can not be null or empty.";
+        private const string FirstNameNullOrEmptyException = "First name can not be null or empty.";
+        private const string LastNameNullOrEmptyException = "Last name can not be null or empty.";
+        private const string DateOfBirthNullOrEmptyException = "Date of birth can not be null or empty.";
+        private const string DateOfBirthFormatException = "Date of birth must be in format DD.MM.YYYY.";
+        private const string OtherInfoNullOrEmptyException = "Other info can not be null or empty.";
 
         private string firstName;
         private string lastName;
@@ -35,7 +34,7 @@ namespace Methods
             {
                 if (string.IsNullOrEmpty(value))
                 {
-                    throw new ArgumentException(firstNameNullOrEmptyException);
+                    throw new ArgumentException(FirstNameNullOrEmptyException);
                 }
 
                 this.firstName = value;
@@ -53,7 +52,7 @@ namespace Methods
             {
                 if (string.IsNullOrEmpty(value))
                 {
-                    throw new ArgumentException(lastNameNullOrEmptyException);
+                    throw new ArgumentException(LastNameNullOrEmptyException);
                 }
 
                 this.lastName = value;
@@ -72,7 +71,7 @@ namespace Methods
             {
                 if (string.IsNullOrEmpty(value))
                 {
-                    throw new ArgumentException(dateOfBirthNullOrEmptyException);
+                    throw new ArgumentException(DateOfBirthNullOrEmptyException);
                 }
 
                 DateTime dateOfBirth;
@@ -83,7 +82,7 @@ namespace Methods
                 }
                 else
                 {
-                    throw new ArgumentException(dateOfBirthFormatException);
+                    throw new ArgumentException(DateOfBirthFormatException);
                 }
             }
         }
@@ -99,7 +98,7 @@ namespace Methods
             {
                 if (string.IsNullOrEmpty(value))
                 {
-                    throw new ArgumentException(otherInfoNullOrEmptyException);
+                    throw new ArgumentException(OtherInfoNullOrEmptyException);
                 }
 
                 this.otherInfo = value;
@@ -114,3 +113,9 @@ namespace Methods
         }
     }
 }
+
+// ------ StyleCop completed ------
+
+// ========== Violation Count: 0 ==========
+
+// :)

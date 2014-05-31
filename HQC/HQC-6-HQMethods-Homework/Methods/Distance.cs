@@ -4,7 +4,7 @@
 
     public class Distance
     {
-        private const string pointCanNotBeNullException = "Point can not be null.";
+        private const string PointCanNotBeNullException = "Point can not be null.";
 
         private double pointAX;
         private double pointAY;
@@ -29,9 +29,9 @@
             set
             {
                 if (value == null)
-	            {
-                    throw new ArgumentException(pointCanNotBeNullException);
-	            }
+                {
+                    throw new ArgumentException(PointCanNotBeNullException);
+                }
 
                 this.pointAX = value;
             }
@@ -48,7 +48,7 @@
             {
                 if (value == null)
                 {
-                    throw new ArgumentException(pointCanNotBeNullException);
+                    throw new ArgumentException(PointCanNotBeNullException);
                 }
 
                 this.pointAY = value;
@@ -66,7 +66,7 @@
             {
                 if (value == null)
                 {
-                    throw new ArgumentException(pointCanNotBeNullException);
+                    throw new ArgumentException(PointCanNotBeNullException);
                 }
 
                 this.pointBX = value;
@@ -84,7 +84,7 @@
             {
                 if (value == null)
                 {
-                    throw new ArgumentException(pointCanNotBeNullException);
+                    throw new ArgumentException(PointCanNotBeNullException);
                 }
 
                 this.pointBY = value;
@@ -95,8 +95,8 @@
         {
             get
             {
-                double distanceValue = Math.Sqrt((this.PointBX - this.PointAX) * (this.PointBX - this.PointAX) +
-                                                    (this.PointBY - this.PointAY) * (this.PointBY - this.PointAY));
+                double distanceValue = Math.Sqrt(((this.PointBX - this.PointAX) * (this.PointBX - this.PointAX)) +
+                                                    ((this.PointBY - this.PointAY) * (this.PointBY - this.PointAY)));
                 return distanceValue;
             }
         }
@@ -120,3 +120,9 @@
         }
     }
 }
+
+// ------ StyleCop completed ------
+
+// ========== Violation Count: 0 ==========
+
+// :)
