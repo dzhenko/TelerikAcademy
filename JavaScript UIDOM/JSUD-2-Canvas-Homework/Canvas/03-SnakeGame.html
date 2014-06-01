@@ -1,10 +1,11 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <!--Create the famous game "Snake-->
-    <title>Task 6</title>
+    <!--*Create the famous game "Snake"-->
+    <title>Task 3</title>
     <script src="snakeGame.js"></script>
     <script>
+        // all this code gets the settings for the game chosen by the user
         function generateGameSettings() {
             var holder = document.getElementById('gameSettings');
             holder.style.fontSize = '1em';
@@ -14,9 +15,9 @@
             holder.appendChild(pixelSText);
             holder.appendChild(pixelS);
             pixelSText.innerHTML = "Pixel size: ";
-            
-            var sugestedPixels = [1,2, 5, 10, 15, 20, 25, 30, 50];
-            var suggestedObsticles = [300, 200, 100, 50, 40, 20, 15, 10,1];
+
+            var sugestedPixels = [1, 2, 5, 10, 15, 20, 25, 30, 50];
+            var suggestedObsticles = [300, 200, 100, 50, 40, 20, 15, 10, 1];
             var subbestedSpeed = [50, 50, 50, 75, 100, 120, 120, 135, 150];
 
             for (var i = 0; i < sugestedPixels.length; i++) {
@@ -24,7 +25,7 @@
                 currSelection.innerHTML = sugestedPixels[i];
                 if (currSelection.innerHTML == '10') {
                     currSelection.innerHTML += ' (Recomended)';
-                    currSelection.selected = 'selected';                    
+                    currSelection.selected = 'selected';
                 }
                 pixelS.appendChild(currSelection);
             }
@@ -74,7 +75,8 @@
             var pixelSize = parseInt(pixelSizeHolder.options[pixelSizeHolder.selectedIndex].text);
             var gamespeed = parseInt(document.getElementById('speedValue').value);
             var numberOfObsticles = parseInt(document.getElementById('obsticlesValue').value);
-            
+
+            // the actual snake game :))
             var snakeGame = new SnakeGame(canvas, pixelSize, numberOfObsticles, gamespeed);
             snakeGame.startGame();
         }

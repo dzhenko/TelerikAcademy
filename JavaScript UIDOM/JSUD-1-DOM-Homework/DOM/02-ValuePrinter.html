@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Create a function that gets the value of <input type="text"> ands prints its value to the console-->
+    <title>Task 2</title>
+    <script>
+        function getMyText(text) {
+            document.getElementById('showText').innerHTML = text;
+            console.log(text);
+        }
+    </script>
+</head>
+<body>
+    <input type="text" onkeyup="getMyText(this.value)" autofocus="autofocus" placeholder="Your text here"/>
+    <div>Text is in the console and bellow</div>
+    <span id="showText" style="font-size:4em"></span>
+</body>
+</html>

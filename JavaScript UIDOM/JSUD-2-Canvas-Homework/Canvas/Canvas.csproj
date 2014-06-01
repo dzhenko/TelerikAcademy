@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{55B57011-7A8F-4E78-8FDD-4CCFC9D483D7}</ProjectGuid>
+    <ProjectGuid>{C7021E78-F805-4276-B25A-6D115CA8C113}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>JavaScriptAPIs</RootNamespace>
-    <AssemblyName>JavaScriptAPIs</AssemblyName>
+    <RootNamespace>Canvas</RootNamespace>
+    <AssemblyName>Canvas</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -57,11 +57,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="01and02-TrashBucket.html" />
-    <Content Include="03-Polyfills.html" />
-    <Content Include="04-CanvasDrawing.html" />
-    <Content Include="05-BouncingBall.html" />
-    <Content Include="06-Snake.html" />
+    <Content Include="01-Graphics.html" />
+    <Content Include="02-BouncingBall.html" />
+    <Content Include="03-SnakeGame.html" />
     <Content Include="snakeGame.js" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -89,9 +87,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>60457</DevelopmentServerPort>
+          <DevelopmentServerPort>64272</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:60457/</IISUrl>
+          <IISUrl>http://localhost:64272/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

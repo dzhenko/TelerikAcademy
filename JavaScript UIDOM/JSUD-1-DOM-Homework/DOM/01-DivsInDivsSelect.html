@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write a script that selects all the div nodes that are directly inside other div elements-->
+    <title>Task 1</title>
+</head>
+<body>
+    <div></div>
+    <div></div>
+    <div>
+        <div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+        </div>
+    </div>
+    <div></div>
+
+    <script>
+        function viaQuerySelectorAll() {
+            return document.querySelectorAll('div div');
+        }
+        function viaGetElementByTagName() {
+            var returnedNodeList = [];
+            var allDivs = document.getElementsByTagName('div');
+
+            for (var i = 0, len=allDivs.length; i < len; i++) {
+                if (allDivs[i].parentElement instanceof HTMLDivElement) {
+                    returnedNodeList.push(allDivs[i]);
+                }
+            }
+            return returnedNodeList;
+        }
+
+        console.log(viaQuerySelectorAll());
+        console.log(viaGetElementByTagName());
+    </script>
+</body>
+</html>

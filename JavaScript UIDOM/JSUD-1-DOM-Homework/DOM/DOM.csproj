@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{55B57011-7A8F-4E78-8FDD-4CCFC9D483D7}</ProjectGuid>
+    <ProjectGuid>{677F32C4-7315-4E48-BB07-5579573C4A3D}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>JavaScriptAPIs</RootNamespace>
-    <AssemblyName>JavaScriptAPIs</AssemblyName>
+    <RootNamespace>DOM</RootNamespace>
+    <AssemblyName>DOM</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -57,12 +57,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="01and02-TrashBucket.html" />
-    <Content Include="03-Polyfills.html" />
-    <Content Include="04-CanvasDrawing.html" />
-    <Content Include="05-BouncingBall.html" />
-    <Content Include="06-Snake.html" />
-    <Content Include="snakeGame.js" />
+    <Content Include="01-DivsInDivsSelect.html" />
+    <Content Include="02-ValuePrinter.html" />
+    <Content Include="03-ChangeColor.html" />
+    <Content Include="04-QSelectShimmer.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -89,9 +87,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>60457</DevelopmentServerPort>
+          <DevelopmentServerPort>64216</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:60457/</IISUrl>
+          <IISUrl>http://localhost:64216/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
