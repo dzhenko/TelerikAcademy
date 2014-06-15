@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Create a dynamic select using Handlebars.js-->
+    <title>Task 2</title>
+    <script src="libs/handlebars.min.js"></script>
+    <script src="data/get-items.js"></script>
+</head>
+<body>
+    <script id="template" type="text/x-handlebars-template">
+        <select>
+            {{#items}}
+                <option value="{{value}}">{{text}}</option>
+            {{/items}}
+        </select>
+    </script>
+
+    <script>
+        var allItems = {
+            items : getItems(),
+        }
+
+        var templateString = document.getElementById('template').innerHTML;
+        var template = Handlebars.compile(templateString);
+        var resultHTML = template(allItems);
+
+        document.body.innerHTML += resultHTML;
+    </script>
+</body>
+</html>

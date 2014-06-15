@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Visualize a string of tags (strings) in a given container-->
+    <title>Task 4</title>
+    <script src="scripts/get-cloud-tag-div.js"></script>
+    <script>
+        function onGenerateTagCloud() {
+            var min = document.getElementById('minFontSize').value;
+            var max = document.getElementById('maxFontSize').value;
+            var words = document.getElementById('cloudSource').value.split(',');
+
+            var cloud = generateTagCloud(words, min, max);
+
+            var resultDiv = document.getElementById('result');
+
+            // removing old result
+            while (resultDiv.firstChild) {
+                resultDiv.removeChild(resultDiv.firstChild);
+            }
+
+            resultDiv.appendChild(cloud);
+        }
+    </script>
+
+</head>
+<body>
+    <textarea id="cloudSource" style="width:300px;height:120px" autofocus="autofocus">cms, javascript, js, ASP.NET MVC, .net, .net, css, wordpress, xaml, js, http, web, asp.net, asp.net MVC, ASP.NET MVC, wp, javascript, js, cms, html, javascript, http, http, CMS</textarea>
+    <br />
+    Min Font Size (px) : <input type="number" id="minFontSize" value="17"/> <br />
+    Max Font Size (px): <input type="number" id="maxFontSize" value="42"/> <br />
+    <button onclick="onGenerateTagCloud()">Generate!</button>
+    <div id="result"></div>
+</body>
+</html>

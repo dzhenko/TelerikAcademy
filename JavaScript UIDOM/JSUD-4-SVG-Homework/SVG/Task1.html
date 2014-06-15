@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+    <!--Implement the MEAN image with SVG-->
+    <title>Task 1</title>
+    <style type="text/css">
+        svg {
+            margin-top:30px;
+            margin-left:20px;
+        }
+        text {
+            font-family: Calibri;
+        }
+    </style>
+</head>
+<body>
+    <svg width="400" height="350">
+        <!--Vertical Text-->
+	    <text x="90" y="105" fill="#3E3F37" font-size="40px" font-weight="900">M</text>
+        <text x="95" y="157" fill="#282827" font-size="40px" font-weight="900">E</text>
+        <text x="93" y="214" fill="#E23337" font-size="40px" font-weight="900">A</text>
+        <text x="93" y="270" fill="#8EC74E" font-size="40px" font-weight="900">N</text>
+		
+        <!--Circle 1-->
+        <!--Container-->
+        <circle cx="200" cy="100" r="55" fill="#3E3F37" />
+        <!--Left half of leaf-->
+        <path d="M200 70 Q170 95 200 150" stroke=#5EB14A fill="#5EB14A" stroke-width="3" />
+        <!--Right half of leaf-->
+        <path d="M200 70 Q230 95 200 150" stroke=#449644 fill="#449644" stroke-width="3" />
+		
+        <!--Circle 2-->
+        <!--Container-->
+        <circle cx="200" cy="150" r="55" fill="#282827" />
+        <!--Text express-->
+        <text x="153" y="150" stroke-width="2" fill="white" font-size="25px" letter-spacing="2">express</text>
+		
+        <!--Circle 3-->
+        <!--Container-->
+        <circle cx="200" cy="204" r="55" fill="#E23337" />
+        <!--Outher emblem lining-->
+        <path d="M177 209 L 173 180 L 200 171 L 226 180 L 223 209" stroke="lightgrey" stroke-width="3" fill="none"/>
+        <!--Inner emblem lining-->
+        <path d="M190 204 L 200 181 L 210 204" stroke="lightgrey" stroke-width="5" fill="none"/>
+		
+        <!--Circle 4-->
+        <!--Container-->
+        <circle cx="200" cy="253" r="55" fill=" #8EC74E" />
+        <!--N-->
+		<polygon points="162 243 172 248 172 263 165 260 165 253 162 251 159 253 159 260 152 263 152 248 162 243" style="fill: #47493F" />
+        <!--O-->
+		<polygon points="187 243 197 248 197 258 187 263 177 258 177 248" style="fill: #FEFEFE" />
+        <!--D-->
+		<polygon points="212 243 215 245 215 231 222 235 222 260 212 266 202 260 202 250 212 243" style="fill: #47493F" />
+		<circle cx="212" cy="255" r="3" style="fill: #8EC74E" />
+        <!--E-->
+		<polygon points="239 243 249 248 249 252 242 255 236 255 244 261 239 266 229 260 229 248 239 243" style="fill: #47493F" />
+		<circle cx="239" cy="254" r="3" style="fill: #F2F8EC" />
+    </svg>
+</body>
+</html>

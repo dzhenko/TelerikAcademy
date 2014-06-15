@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--*Create a jQuery plugin for ListView-->
+    <title>Task 3</title>
+    <script src="libs/jquery.min.js"></script>
+    <script src="libs/handlebars.min.js"></script>
+    <script src="data/get-books-students.js"></script>
+    <script src="list-view-creator.js"></script>
+    <style>
+        table {
+            border-collapse:collapse;
+        }
+
+        td, th {
+            border : 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!--Template 1-->
+    <ul id="books-list" data-template="book-item-template"></ul>
+    <script id="book-item-template" type="text/x-handlebars-template">
+        <li class="book-item">
+            <a href="/#books/{{id}}">
+                <strong>{{title}}</strong>
+            </a>
+        </li>
+    </script>
+
+    <!--Template 2-->
+    <table>
+        <thead>
+            <tr><th>#</th><th>Name</th><th>Mark</th></tr>
+        </thead>
+        <tbody id="students-table" data-template="students-row-template"></tbody>
+    </table>
+    <script id="students-row-template" type="…">
+        <tr class="student-row">
+            <td>{{number}}</td>
+            <td>{{name}}</td>
+            <td>{{mark}}</td>
+        </tr>
+    </script>
+
+    <script>
+        $('#books-list').listView(getBooks());
+        $('#students-table').listView(getStudents());
+    </script>
+
+</body>
+</html>

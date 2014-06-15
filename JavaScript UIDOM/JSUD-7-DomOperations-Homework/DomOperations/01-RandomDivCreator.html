@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write a script that creates a number of div elements. -->
+    <title>Task 1</title>
+    <script src="scripts/random-divs-creator.js"></script>
+    <script>
+        function onCreateDivs() {
+
+            var numberOfDivs = document.getElementById('number').value | 0;
+
+            var createdDivs = createRandomDivs(numberOfDivs);
+
+            var resultDiv = document.getElementById('result');
+
+            /*clear the result div */
+            while (resultDiv.firstChild) {
+                resultDiv.removeChild(resultDiv.firstChild);
+            }
+
+            resultDiv.appendChild(createdDivs);
+        }
+    </script>
+</head>
+<body>
+    <input id="number" type="number" autofocus="autofocus" placeholder="Enter number of DIVs" />
+    <button onclick="onCreateDivs()">Create !</button>
+    <div id="result"></div>
+</body>
+</html>

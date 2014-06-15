@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--*Create a jQuery plugin for fading in/fading out message box-->
+    <title>Task 2</title>
+    <script src="scripts/libs/jquery.min.js"></script>
+    <script src="scripts/message-box.js"></script>
+    <style>
+        div {
+            margin:20px;
+            height:140px;
+            width:200px;
+            text-align:center;
+            font-size:44px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="msgBox.success('Success message')">SUCCESS!</button>
+    <button onclick="msgBox.error('Error message')">ERROR!</button>
+    <div id="message-box"></div>
+    <script>
+        var msgBox = $('#message-box').messageBox();
+    </script>
+</body>
+</html>

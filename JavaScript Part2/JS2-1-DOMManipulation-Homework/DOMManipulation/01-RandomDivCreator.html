@@ -42,9 +42,11 @@
                 currDiv.innerHTML = '<strong>div</strong>';
                 currDiv.style.textAlign = 'center';
 
-                currDiv.style.borderRadius = getRandomNumber(0, 100) + "px";
-                currDiv.style.borderColor = getRandomColor();
+				currDiv.style.border = ""+getRandomNumber(0, 100) + "px "+"solid " + getRandomColor();
                 currDiv.style.borderWidth = getRandomNumber(1, 20) + "px";
+				currDiv.style.borderRadius = getRandomNumber(1, 100) + "px";
+				currDiv.style.borderColor =  getRandomColor();
+				currDiv.style.borderStyle = ['dashed','solid','dotted'][getRandomNumber(0, 2)];
 
                 frag.appendChild(currDiv);
             }

@@ -1,0 +1,10 @@
+﻿#sliderHolder > button:first-of-type {
+    margin-left:200px;
+}
+
+#sliderContent {
+    width : 600px;
+    height: 500px;
+    border: 2px solid black;
+    padding:20px;
+}

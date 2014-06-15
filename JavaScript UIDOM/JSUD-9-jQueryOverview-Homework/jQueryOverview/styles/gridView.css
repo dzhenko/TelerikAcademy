@@ -1,0 +1,36 @@
+﻿#tableCols {
+    width:200px;
+    height:17px;
+}
+
+tr { 
+    border: 1px;
+    position:relative;
+}
+
+table { 
+    border: thick solid black;
+    text-align:center;
+}
+
+td, th {
+    border: 1px solid black;
+    padding:5px 10px;
+}
+
+thead { 
+    border: 14pt double(1,12,1);
+    background: #ff0000 ;
+}
+
+tbody tr:nth-of-type(2n+1) { 
+    background: yellow 
+}
+
+tbody tr:nth-of-type(2n) { 
+    background: cyan 
+}
+
+#controls button, #controls input {
+    margin-right :20px;
+}

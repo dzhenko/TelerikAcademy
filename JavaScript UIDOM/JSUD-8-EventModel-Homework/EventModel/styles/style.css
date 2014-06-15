@@ -1,0 +1,11 @@
+﻿#itemsHolder > div {
+    background-image:url(../images/todoBackground.jpg);
+}
+
+#itemsHolder > div:hover {
+    font-weight:900;
+}
+
+#itemsHolder > div:hover button {
+    background:none;
+}

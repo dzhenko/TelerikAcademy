@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Create the following using Handlebars.js-->
+    <title>Task 1</title>
+    <script src="libs/handlebars.min.js"></script>
+    <script src="data/get-lectures.js"></script>
+    <style>
+        thead {
+            background-color:#A6A6A6;
+        }
+
+        tbody tr:nth-child(2n+1) {
+            background-color:#D9D9D9;
+        }
+
+        td, th {
+            border: 1px solid black;
+        }
+
+        table {
+            border-collapse: collapse;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <script id="table-template" type="text/x-handlebars-template">
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Title</th>
+                    <th>Date #1</th>
+                    <th>Date #2</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each lectures}}
+                <tr>
+                    <td>{{@index}}</td>
+                    <td>{{title}}</td>
+                    <td>{{firstDate}}</td>
+                    <td>{{secondDate}}</td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </script>
+
+    <script>
+        var allLectures = {
+            lectures: getLectures()
+        };
+
+        var templateString = document.getElementById('table-template').innerHTML;
+        var template = Handlebars.compile(templateString);
+        var resultHTML = template(allLectures);
+
+        document.body.innerHTML += resultHTML;
+    </script>
+</body>
+</html>

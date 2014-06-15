@@ -20,6 +20,26 @@
         }
 
         [TestMethod]
+        public void AddingStudentsShouldIncreazeNumberOfStudents()
+        {
+            var school = new School();
+            var student1 = new Student("pesho", 22222);
+            var student2 = new Student("gosho", 33333);
+            school.AddStudent(student1);
+            school.AddStudent(student2);
+
+            Assert.AreEqual(2, school.StudentsCount, "Student adding does not increaze count to 2");
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentNullException))]
+        public void AddingNullStudentShouldThrowException()
+        {
+            var school = new School();
+            school.AddStudent(null);
+        }
+
+        [TestMethod]
         public void AddingCourseShouldIncreazeNumberOfCourses()
         {
             var school = new School();

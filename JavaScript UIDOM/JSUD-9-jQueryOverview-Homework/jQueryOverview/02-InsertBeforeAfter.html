@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Using jQuery implement functionality to insert a DOM element before or after another element-->
+    <title>Task 2</title>
+    <script src="scripts/libs/jquery.min.js"></script>
+    <style>
+        #base {
+            width:100px;
+            height:60px;
+            background-color:#ff3700;
+        }
+        section div {
+            width:100px;
+            height:60px;
+            background-color:aqua;
+            text-align:center;
+        }
+        button {
+            margin: 40px 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button onclick="addBefore()">ADD BEFORE</button>
+        <button onclick="addAfter()">ADD AFTER</button>
+    </div>
+    <section id="target">
+        <div id="base">TARGET</div>
+    </section>
+    <script>
+        function addBefore() {
+            $('<div />')
+                .html("BEFORE")
+                .prependTo("#target")
+                .hide()
+                .fadeIn(500);
+        }
+
+        function addAfter() {
+            $('<div />')
+                .html("AFTER")
+                .appendTo("#target")
+                .hide()
+                .fadeIn(500);
+        }
+    </script>
+</body>
+</html>

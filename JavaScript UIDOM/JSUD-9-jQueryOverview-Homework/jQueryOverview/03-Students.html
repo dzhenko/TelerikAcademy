@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--By given an array of students, generate a table that represents these students-->
+    <title>Task 3</title>
+    <script src="scripts/libs/jquery.min.js"></script>
+    <script src="data/students.js"></script>
+    <script src="scripts/table-generator.js"></script>
+    <style>
+        td, th {
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <div id="holder"></div>
+    <script>
+        var allStudents = getAllStudents();
+        generateTable('#holder', allStudents);
+    </script>
+</body>
+</html>

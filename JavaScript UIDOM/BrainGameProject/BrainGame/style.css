@@ -1,0 +1,141 @@
+﻿body {
+    margin: 0 auto;
+    padding:0;
+    width: 1000px;
+    height: 700px;
+    font-family: 'Trebuchet MS', Consolas, sans-serif;
+    border: 1px solid black;
+    position:relative;
+    background: black;
+    background-image: url(../images/bodyBack.png);
+    background-repeat:repeat;
+}
+
+#game-wrapper {
+    margin: 0 auto;
+    padding:0;
+    width: 1000px;
+    height: 700px;
+    border: 1px solid black;
+    position:relative;
+    background-image: url(../images/GameBackground.png);
+}
+
+#game-wrapper text {
+    /*this fix bug cursor select text over nodes
+      and more fluent gameplay*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor:default;
+}
+
+#game-wrapper > div {
+    position:absolute;
+}
+
+#game-wrapper .game-numbers {
+    margin:20px 0;
+    position:absolute;
+    right:0;
+    width:460px;
+    height:460px;
+}
+
+#game-wrapper .game-ship {
+    margin:20px 0;
+    left:0;
+    width:460px;
+    height:460px;
+}
+
+#game-wrapper .game-graph {
+    top:500px;
+    left:350px;
+    width: 300px;
+    height: 120px;
+}
+
+#game-wrapper .information h3 {
+    margin: 0;
+}
+
+#game-wrapper .help-title {
+    align-content: center;
+    text-align: center;
+    color: mediumturquoise;
+    margin-left:45px;
+    font-size:28px;
+    font-weight: bold;
+    padding-left: 25px;
+    text-shadow: 0 0 10px aqua;
+}
+
+#game-wrapper .help-text {
+    
+    color: azure;
+    margin-left:45px;
+    font-size:20px;
+    padding-left: 25px;
+    top: 800px;
+    left: 1300px;
+    text-shadow: 0 0 10px aqua;
+}
+
+#game-wrapper .return {
+    
+    color: mediumturquoise;
+    margin:45px;
+    font-size:20px;
+    padding-left: 25px;
+    font-weight: bold;
+    top: 800px;
+    left: 1300px;
+    text-shadow: 0 0 10px aqua;
+}
+
+#game-wrapper h1 {
+    align-content: center;
+    text-align: center;
+    color: mediumturquoise;
+    margin:45px;
+    padding-left: 25px;
+    text-shadow: 0 0 10px aqua;
+}
+
+#game-wrapper ul {
+    list-style-type: none;
+}
+
+#game-wrapper li {
+    text-emphasis:none;
+    /*
+        font-weight:bold;
+        */
+    text-align: center;
+    margin:45px;
+    font-size:28px;
+    text-shadow: 0 0 5px azure;
+}
+
+#game-wrapper a{   
+    text-decoration: none;
+    color: azure;
+}
+
+#game-wrapper a:hover {
+    color: darkgoldenrod;
+    text-shadow: 0 0 5px darkgoldenrod;
+}
+
+#game-wrapper footer {
+    font-family: 'helvetica', Consolas, sans-serif;
+    position: absolute;
+    left: 0;
+    top: 560px;
+    color: azure;
+    background-color:darkslateblue;
+    width: 975px;
+    padding-left: 25px;
+}

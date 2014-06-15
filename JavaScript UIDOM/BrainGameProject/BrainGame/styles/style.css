@@ -1,0 +1,136 @@
+﻿body {
+    margin: 0 auto;
+    padding:0;
+    font-family: 'Trebuchet MS', Consolas, sans-serif;
+    position:relative;
+    background: black;
+    background-image: url(../images/bodyBack.png);
+    background-repeat:repeat;
+}
+
+#game-wrapper {
+    margin: 0 auto;
+    padding:0;
+    width: 1000px;
+    height: 640px;
+    position:relative;
+    display:none;
+    background-image: url(../images/GameBackground.png);
+}
+
+#game-wrapper text {
+    /*this fix bug cursor select text over nodes
+      and more fluent gameplay*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor:default;
+}
+
+#game-wrapper > div {
+    position:absolute;
+}
+
+#game-wrapper .game-numbers {
+    margin:20px 0;
+    position:absolute;
+    right:0;
+    width:460px;
+    height:460px;
+}
+
+#game-wrapper .game-ship {
+    margin:20px 0;
+    left:0;
+    width:460px;
+    height:460px;
+}
+
+#game-wrapper .game-graph {
+    top:500px;
+    left:350px;
+    width: 300px;
+    height: 120px;
+}
+
+#start-game-menu-container {
+    background-image: url(../images/bodyBack.png);
+    background-repeat:repeat;
+    text-align: center;
+}
+
+#start-game-menu-container ul {
+    list-style:none;
+    padding:0;
+    margin:0;
+    list-style-type: none;
+}
+
+#start-game-menu-container .information h3 {
+    margin: 0;
+}
+
+#start-game-menu-container .help-title {
+    align-content: center;
+    color: mediumturquoise;
+    font-size:3em;
+    font-weight: bold;
+    text-shadow: 0 0 10px aqua;
+}
+
+#start-game-menu-container .help-text {
+    color: azure;
+    font-size:3em;
+    text-shadow: 0 0 10px aqua;
+}
+
+#start-game-menu-container .help-content {
+    display:none;
+    color:white;
+}
+
+#start-game-menu-container .help-content h2{
+    color: aqua;
+    text-shadow: 0 0 10px mediumturquoise;
+}
+
+#start-game-menu-container .return {
+    color: mediumturquoise;
+    margin:45px;
+    font-size:3em;
+    font-weight: bold;
+    text-shadow: 0 0 10px aqua;
+}
+
+#start-game-menu-container h1 {
+    align-content: center;
+    color: mediumturquoise;
+    margin:45px;
+    text-shadow: 0 0 10px aqua;
+    font-size:4em;
+}
+
+#start-game-menu-container li {
+    text-emphasis:none;
+    margin:45px;
+    font-size:3em;
+    text-shadow: 0 0 5px azure;
+}
+
+#start-game-menu-container a{   
+    text-decoration: none;
+    color: azure;
+}
+
+#start-game-menu-container a:hover {
+    color: orangered;
+    text-shadow: 0 0 5px orangered;
+}
+
+#start-game-menu-container footer {
+    font-family: 'helvetica', Consolas, sans-serif;
+    color: azure;
+    background-color:darkslateblue;
+    padding:10px 0;
+}
