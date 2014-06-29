@@ -1,0 +1,14 @@
+﻿.person-item {
+    width:100%;
+    height:100%;
+    border:3px solid black;
+    display:none;
+}
+
+.person-item:hover {
+    background-color:#DDD;
+}
+
+.person-item.selected {
+    display:block !important;
+}

@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Create a module that works with moving div nodes-->
+    <title>Task 2</title>
+    <script src="scripts/moving-divs.js"></script>
+</head>
+<body>
+    <h1>Click on the document to add shape</h1>
+    <label for="rect">Add Rect</label>
+    <input type="radio" name="shape" value="rect" id="rect" style="margin-right:200px" checked="checked"/>
+    <label for="ellipse">Add Ellipse</label>
+    <input type="radio" name="shape" value="ellipse" id="ellipse"/>
+    <br />
+    <script>
+        document.addEventListener('click', function (e) {
+            if (e.target instanceof HTMLInputElement || e.target instanceof HTMLLabelElement) {
+                return false;
+            }
+
+            e.preventDefault();
+
+            var shape = document.getElementById('rect').checked ? 'rect' : 'ellipse';
+
+            movingShapes.add(shape, e.clientY, e.clientX);
+        })
+    </script>
+</body>
+</html>

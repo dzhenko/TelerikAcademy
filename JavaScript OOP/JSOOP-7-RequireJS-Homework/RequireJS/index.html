@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Implement a ComboBox control (like a dropdown list)-->
+    <title>Task 1 & 2</title>
+    <script src="scripts/libs/require.js" data-main="scripts/combo-box"></script>
+    <link href="styles/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="holder"></div>
+
+    <script type="text/x-handlebars-template" id="person-template">
+        <div class="person-item" id="person-item-{{id}}">
+            <strong class="person-name">{{name}}</strong>
+            <p class="person-age">{{age}}</p>
+            <img src="{{avatarUrl}}" height="100" />
+        </div>
+    </script>
+</body>
+</html>
