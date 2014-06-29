@@ -1,0 +1,18 @@
+﻿<#@ output extension=".txt" #>
+<#
+    string[] months = { "January", "February", "March", "April", "May", "June", "July", 
+						"August", "September", "Octomber", "November", "December" };
+
+	int[] daysInMonth = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+
+	int year = 2014;
+
+    for(int i = 0; i < months.Length; i++)
+    {
+		for(int j = 1; j <= daysInMonth[i]; j++)
+		{
+			WriteLine("{0} {1}, {2}", 
+						months[i], j.ToString(), year);
+		}
+    }
+#>
