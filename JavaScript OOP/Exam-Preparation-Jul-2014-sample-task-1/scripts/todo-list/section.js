@@ -3,10 +3,10 @@ define(['./item'], function (Item) {
     var Section;
     Section = (function () {
         function Section(title) {
-			if (typeof title !== 'string') {
+            if (typeof title !== 'string') {
                 throw new Error('Section title must be string');
             }
-			
+
             var allItems = [];
 
             this.add = function (item) {
@@ -24,7 +24,7 @@ define(['./item'], function (Item) {
                     items: []
                 };
 
-                for (var i = 0; i < allItems.length; i+=1) {
+                for (var i = 0; i < allItems.length; i += 1) {
                     allData.items.push(allItems[i].getData());
 
                 }
