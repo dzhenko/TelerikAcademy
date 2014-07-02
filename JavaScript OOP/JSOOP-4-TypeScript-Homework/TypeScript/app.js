@@ -285,7 +285,7 @@ var NovCraft;
 })(NovCraft || (NovCraft = {}));
 
 NovCraft.Tests.Test1.run();
-/* Output:
+/* ---------------------Output---------------------
 Initial state
 Tank {id: "tank1", race: 0, health: 150, armour: 0, attack: 25…}
 Ultralisk {id: "untouchable:)", race: 2, health: 250, armour: 7, attack: 40…}
