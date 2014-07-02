@@ -1,0 +1,15 @@
+{
+  "name": "VideoPlayer",
+  "version": "0.0.0",
+  "authors": [
+    "fast4y <dzhenko@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "libs",
+    "test",
+    "tests"
+  ]
+}
