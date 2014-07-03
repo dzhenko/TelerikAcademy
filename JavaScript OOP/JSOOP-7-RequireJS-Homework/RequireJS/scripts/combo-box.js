@@ -1,7 +1,5 @@
-﻿/// <reference path="libs/require.js" />
-/// <reference path="libs/jquery.min.js" />
-/// <reference path="combo-box-generator.js" />
-/// <reference path="libs/handlebars.min.js" />
+﻿/// <reference path="controls.js" />
+/// <reference path="controls.js" />
 (function () {
     require.config({
         paths: {
@@ -10,23 +8,14 @@
         }
     });
 
-    require(['jquery', 'combo-box-generator', 'data/allPeople'], function (unUsed$, generator, people) {
-        var $controlBox = generator.getControlBox(people);
-
-        $controlBox.on('onCollapsing', function () {
-            alert('colapsed');
-        });
-
-        $controlBox.on('onExpanding', function () {
-            alert('expanded');
-        });
-
-        $controlBox.on('onSelectionChanged', function (e, old, current) {
-            alert('check console for info for old and new element');
-            console.log(old);
-            console.log(current);
-        });
-
-        $('#holder').html($controlBox);
+    //var comboBox = controls.ComboBox(people);
+    //var template = $("#person-template").html();
+    //var comboBoxHtml = comboBox.render(template);
+    //container.innerHTML = comboBoxHtml;
+    require(['jquery', 'controls', 'data/allPeople'], function (unUsed$, controls, people) {
+        var comboBox = controls.ComboBox(people);
+        var template = $('#person-template').html();
+        var comboBoxHtml = comboBox.render(template);
+        $('#holder').html(comboBoxHtml);
     });
 }());

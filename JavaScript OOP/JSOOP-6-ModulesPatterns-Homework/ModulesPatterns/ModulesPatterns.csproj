@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{6361C9AE-4AEE-4569-93FD-AB482F8AE5A8}</ProjectGuid>
+    <ProjectGuid>{9FD63275-A89C-45A2-94C6-A8472E669149}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RequireJS</RootNamespace>
-    <AssemblyName>RequireJS</AssemblyName>
+    <RootNamespace>ModulesPatterns</RootNamespace>
+    <AssemblyName>ModulesPatterns</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -57,17 +57,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="scripts\data\allPeople.js" />
-    <Content Include="images\img1.jpg" />
-    <Content Include="images\img2.jpg" />
-    <Content Include="images\img3.jpg" />
     <Content Include="index.html" />
-    <Content Include="scripts\controls.js" />
-    <Content Include="scripts\combo-box.js" />
-    <Content Include="scripts\libs\handlebars.min.js" />
-    <Content Include="scripts\libs\jquery.min.js" />
-    <Content Include="scripts\libs\require.js" />
-    <Content Include="styles\style.css" />
+    <Content Include="scripts\game-renderer.js" />
+    <Content Include="scripts\game-logic.js" />
+    <Content Include="scripts\game-objects.js" />
+    <Content Include="scripts\menu-generator.js" />
+    <Content Include="scripts\game-main.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -81,7 +76,6 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -95,9 +89,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>4948</DevelopmentServerPort>
+          <DevelopmentServerPort>4470</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:4948/</IISUrl>
+          <IISUrl>http://localhost:4470/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
