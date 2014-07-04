@@ -47,7 +47,7 @@ snakeGame.GameLogic = function () {
             answer;
 
         appleCoordinates = apple.getCoordinates();
-        answer = newSnakeElement.x === appleCoordinates.X && newSnakeElement.y === appleCoordinates.Y;
+        answer = newSnakeElement.x === appleCoordinates.x && newSnakeElement.y === appleCoordinates.y;
         return answer;
     };
 

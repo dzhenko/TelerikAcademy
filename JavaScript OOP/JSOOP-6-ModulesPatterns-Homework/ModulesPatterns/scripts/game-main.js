@@ -16,6 +16,7 @@ snakeGame.SnakeGame = function (canvas, pixelSize, numberOfObsticles, gamespeed)
             logic,
             gameLoopInterval,
             gameRefresh,
+            appleSpawn,
             reDrawBoard,
             gameOver;
 
@@ -49,10 +50,7 @@ snakeGame.SnakeGame = function (canvas, pixelSize, numberOfObsticles, gamespeed)
                 snake.grow();
                 score += 50;
 
-                apple.refresh();
-                while (logic.checkIfAppleIsOnObsticle(apple, obsticles)) {
-                    apple.refresh();
-                }
+                appleSpawn();
             }
 
             // checked, because if snake eats itself only she knows :)
@@ -69,11 +67,19 @@ snakeGame.SnakeGame = function (canvas, pixelSize, numberOfObsticles, gamespeed)
             renderer.drawObsticles(obsticles);
         };
 
+        appleSpawn = function () {
+            apple.refresh();
+            while (logic.checkIfAppleIsOnObsticle(apple, obsticles)) {
+                apple.refresh();
+            }
+        };
+        
         gameOver = function () {
             renderer.clear();
             renderer.drawGameOver(score);
         };
 
+        appleSpawn();
         gameLoopInterval = setInterval(gameRefresh, gamespeed);
     };
 

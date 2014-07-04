@@ -16,16 +16,16 @@ snakeGame.GameRenderer = function (canvas) {
     // public
     drawApple = function (apple) {
         var appleSize,
-            appleElements;
+            appleCoordinates;
 
-        appleElements = apple.getCoordinates();
+        appleCoordinates = apple.getCoordinates();
         appleSize = apple.getAppleSize();
 
         ctx.fillStyle = '0F0';
-        ctx.fillRect(appleElements.X, appleElements.Y, appleSize, appleSize);
+        ctx.fillRect(appleCoordinates.x, appleCoordinates.y, appleSize, appleSize);
 
         ctx.fillStyle = 'F00';
-        ctx.fillRect(appleElements.X + appleSize / 4, appleElements.Y + appleSize / 4,
+        ctx.fillRect(appleCoordinates.x + appleSize / 4, appleCoordinates.y + appleSize / 4,
                      appleSize - appleSize / 2, appleSize - appleSize / 2);
     };
 

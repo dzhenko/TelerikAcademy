@@ -48,12 +48,20 @@ snakeGame.gameObjects = function () {
         // public
         keyPressedHandler = function (e) {
             switch (e.keyCode) {
-                case 37: changeDirection('L'); break;       //left 
+                case 65:                                    //a
+                case 37: changeDirection('L'); break;       //left
+
+                case 87:                                    //w
                 case 38: changeDirection('U'); break;       //up
+
+                case 68:                                    //d
                 case 39: changeDirection('R'); break;       //right
+
+                case 83:                                    //s
                 case 40: changeDirection('D'); break;       //down 
             }
-            move();
+
+            e.preventDefault();
         }
 
         var getElements = function () {
@@ -114,8 +122,8 @@ snakeGame.gameObjects = function () {
 
     var Apple = function (appleSize, maxX, maxY) {
         // private
-        var X = 0,
-            Y = 0,
+        var x = 0,
+            y = 0,
             getCoordinates,
             getAppleSize,
             refresh;
@@ -123,8 +131,8 @@ snakeGame.gameObjects = function () {
         // public
         getCoordinates = function () {
             return {
-                x: X,
-                y: Y,
+                x: x,
+                y: y,
             }
         }
 
@@ -133,8 +141,8 @@ snakeGame.gameObjects = function () {
         }
 
         refresh = function () {
-            X = getNumberCloseToPixel(getRandomNumberInRange(0, maxX), appleSize);
-            Y = getNumberCloseToPixel(getRandomNumberInRange(0, maxY), appleSize);
+            x = getNumberCloseToPixel(getRandomNumberInRange(0, maxX), appleSize);
+            y = getNumberCloseToPixel(getRandomNumberInRange(0, maxY), appleSize);
         }
 
         return {
