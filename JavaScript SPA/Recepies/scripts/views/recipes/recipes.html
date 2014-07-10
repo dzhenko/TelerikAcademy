@@ -1,0 +1,72 @@
+﻿<h1 data-bind="html: title"></h1>
+<p data-bind="html: content"></p>
+<ul data-role="kendo.ui.Listview"
+    data-template="small-recepie-template"
+    data-bind="source: recipes"
+    id="all-recipes-listview"></ul>
+
+<style scoped>
+    #all-recipes-listview {
+        list-style:none;
+        padding: 10px 5px;
+        margin-bottom: 45px;
+        /*height:250px; 2 lines of data */
+    }
+
+    .recepie {
+        float: left;
+        position: relative;
+        width: 111px;
+        height: 170px;
+        margin: 0 5px;
+        padding: 0;
+    }
+
+        .recepie img {
+            width: 110px;
+            height: 110px;
+        }
+
+        .recepie h3 {
+            margin: 0;
+            padding: 3px 5px 0 0;
+            max-width: 96px;
+            overflow: hidden;
+            line-height: 1.1em;
+            font-size: .9em;
+            font-weight: normal;
+            text-transform: uppercase;
+            font-family: Cabin;
+        }
+
+        .recepie p {
+            visibility: hidden;
+        }
+
+        .recepie:hover p {
+            visibility: visible;
+            position: absolute;
+            width: 110px;
+            height: 110px;
+            top: 0;
+            margin: 0;
+            padding: 0;
+            line-height: 110px;
+            vertical-align: middle;
+            text-align: center;
+            color: #fff;
+            background-color: rgba(0,0,0,0.75);
+            transition: background .2s linear, color .2s linear;
+            -moz-transition: background .2s linear, color .2s linear;
+            -webkit-transition: background .2s linear, color .2s linear;
+            -o-transition: background .2s linear, color .2s linear;
+        }
+
+    #content:after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+</style>

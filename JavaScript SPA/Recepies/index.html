@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Recepies SPA</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet"/>
+
+    <script src="scripts/libs/jquery.min.js"></script>
+    <script src="scripts/libs/bootstrap.min.js"></script>
+    <script src="scripts/libs/kendo.web.min.js"></script>
+    <script src="scripts/libs/everlive.all.min.js"></script>
+    <script src="scripts/libs/require.js" data-main="scripts/app"></script>
+</head>
+<body>
+<script type="text/x-kendo-template" id="small-recepie-template">
+    <li class="recepie">
+        <a href="\\#/recipe/#:Id#" style="text-decoration:none">
+            <img src="#= Image #" alt="#: Name # image"/>
+
+            <h3>#:Name#</h3>
+
+            <p>#:Minutes# min</p>
+        </a>
+    </li>
+</script>
+
+<div class="navbar navbar-default" navbar-fixed-top>
+    <div class="container">
+        <div class="navbar-header">
+            <a href="#/" class="navbar-brand">Recipes SPA</a>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Search recipes <span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu" aria-labelledby="themes">
+                        <li><a href="../default/">By name</a></li>
+                        <li class="divider"></li>
+                        <li><a href="../default/">By category</a></li>
+                        <li class="divider"></li>
+                        <li><a href="../default/">By time</a></li>
+                        <li class="divider"></li>
+                        <li><a href="../default/">By products</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#/recipes">All recipes</a>
+                </li>
+                <li>
+                    <a href="#/add">Add recipe</a>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://telerikacademy.com/Users/dzhenko">About the author</a></li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <section id="content" class="text-center"></section>
+        </div>
+    </div>
+
+    <footer class="text-center">
+        <br/>
+        <strong>Author: Dzhenko Penev</strong>
+
+    </footer>
+
+
+</div>
+</body>
+</html>

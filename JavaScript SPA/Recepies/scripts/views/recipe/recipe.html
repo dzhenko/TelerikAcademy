@@ -1,0 +1,23 @@
+﻿<div class="container">
+    <h1 data-bind="html: title"></h1>
+    <h5>
+        <img data-bind="attr: {src: clock" alt="Time to cook" width="30" height="30"/>
+        <span data-bind="html: minutes"></span><span> min</span>
+    </h5>
+
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <img data-bind="attr: {src: imgSrc, alt: title, title: title}" width="250" height="250"/>
+        </div>
+
+        <div class="col-md-4 text-left">
+            <h3>Products needed:</h3>
+            <ol data-bind="source: products"></ol>
+        </div>
+
+        <div class="col-md-4 text-left">
+            <h3>Steps:</h3>
+            <ol data-bind="source: directions" class="text-left"></ol>
+        </div>
+    </div>
+</div>

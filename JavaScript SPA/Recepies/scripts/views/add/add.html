@@ -1,0 +1,73 @@
+﻿<h1 data-bind="html: title" xmlns="http://www.w3.org/1999/html"></h1>
+<p data-bind="html: content"></p>
+
+<form class="form-horizontal">
+    <fieldset>
+        <legend>Add recipe</legend>
+        <div class="form-group">
+            <label for="add-recepie-input-name" class="col-lg-2 control-label">Name</label>
+
+            <div class="col-lg-10">
+                <input type="text" class="form-control" id="add-recepie-input-name" placeholder="Name">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="add-recepie-input-time" class="col-lg-2 control-label">Time to cook</label>
+
+            <div class="col-lg-10">
+                <select data-bind="source: times"
+                        id="add-recepie-input-time"
+                        class="form-control">
+                </select>
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="add-recepie-input-time" class="col-lg-2 control-label">Category</label>
+
+            <div class="col-lg-10">
+                <select data-text-field="Name"
+                       data-value-field="Id"
+                       data-bind="value: Id,
+                                  source: categories"
+                       id="add-recepie-input-category"
+                       class="form-control">
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="add-recepie-input-name" class="col-lg-2 control-label">Steps</label>
+
+            <div class="col-lg-10" id="add-recepie-input-directions">
+                <input class="form-control" type="text" placeholder="add step" data-bind="events: {change:addNewInput}"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="add-recepie-input-name" class="col-lg-2 control-label">Products</label>
+
+            <div class="col-lg-10" id="add-recepie-input-products">
+                <input class="form-control" type="text" placeholder="add product" data-bind="events: {change:addNewInput}"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="add-recepie-input-time" class="col-lg-2 control-label">Image</label>
+
+            <div class="col-lg-10">
+                <input type="text"
+                       id="add-recepie-input-image"
+                       class="form-control"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2">
+                <button type="submit" class="btn btn-default" data-bind="events: {click:addItem}">Add</button>
+            </div>
+        </div>
+    </fieldset>
+</form>
