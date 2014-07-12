@@ -1,0 +1,74 @@
+<div ng-controller="AddRecipeController" class="container">
+    <div class="row jumbotron">
+        <h1 class="col-md-8">Add recipe</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <form class="form-horizontal" name="newRecipeForm">
+                <div class="form-group">
+                    <label for="add-recepie-input-name" class="col-md-2 control-label">Name</label>
+                    <div class="col-md-10">
+                        <input type="text" class="form-control" id="add-recepie-input-name" placeholder="Name"
+                               required ng-model="newRecipe.Name">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="add-recepie-input-time" class="col-md-2 control-label">Time to cook</label>
+
+                    <div class="col-md-10">
+                        <select id="add-recepie-input-time" class="form-control" required ng-model="newRecipe.Minutes">
+                            <option ng-repeat="minute in minutes" value="{{ minute }}">{{ minute }}</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="add-recepie-input-category" class="col-md-2 control-label">Category</label>
+                    <div class="col-md-10">
+                        <select id="add-recepie-input-category" class="form-control" required ng-model="newRecipe.Category">
+                            <option  ng-repeat="category in categories" value="{{ category.Id }}">{{ category.Name }}</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="add-recepie-input-products" class="col-md-2 control-label">Products</label>
+                    <div class="col-md-8" id="add-recepie-input-products">
+                        <input type="text" class="form-control" ng-model="products[0]"/>
+                    </div>
+                    <button class="pull-left btn btn-md bg-success col-md-1" ng-click="addProduct()">Add</button>
+                </div>
+
+                <div class="form-group">
+                    <label for="add-recepie-input-directions" class="col-md-2 control-label">Directions</label>
+                    <div class="col-md-8" id="add-recepie-input-directions">
+                        <input type="text" class="form-control" ng-model="directions[0]"/>
+                    </div>
+                    <button class="pull-left btn btn-md bg-success col-md-1" ng-click="addDirection()">Add</button>
+                </div>
+
+                <div class="form-group">
+                    <label for="add-recepie-input-image" class="col-md-2 control-label">Image</label>
+                    <div class="col-md-10">
+                        <input type="text" id="add-recepie-input-image" class="form-control" required
+                               ng-pattern="/\.(gif|jpg|jpeg|tiff|png)$/i" ng-model="newRecipe.Image" placeholder="Image URL"/>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-6">
+                        <button class="pull-right btn btn-success" ng-disabled="newRecipeForm.$invalid" ng-click="saveRecipe(newRecipe, newRecipeForm.$invalid)">Save</button>
+                    </div>
+                    <div class="col-md-6">
+                        <button class="pull-left btn btn-primary" ng-click="cancelEdit()">Cancel</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-3 pull-right">
+            <p class="lead">Image preview:</p>
+            <img src="" ng-src="{{ newRecipe.Image }}" width="250" height="250" alt="preview"/>
+        </div>
+    </div>
+</div>

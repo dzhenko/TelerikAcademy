@@ -35,6 +35,8 @@
         require(['views/recipe/recipe'], function(recipe) {
             recipe.init(id).then(viewShower);
         });
+
+        $wrapper.fadeIn(1500);
     });
 
     router.route('/add', function () {

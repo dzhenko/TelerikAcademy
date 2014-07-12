@@ -7,7 +7,7 @@
         target.parentElement.appendChild(node);
     }
 
-    function getNewRecepieInfo() {
+    function addItem() {
         var directions = (function () {
             var val,
                 i;
@@ -40,10 +40,22 @@
             }
             return arr;
         }());
-        var name = document.getElementById('add-recepie-input-name').value;
-        var category = document.getElementById('add-recepie-input-category').value;
-        var time = document.getElementById('add-recepie-input-time').value;
-        var image = document.getElementById('add-recepie-input-image').value;
+
+        var name = $('#add-recepie-input-name').val();
+        if (!name) {
+            alert('You must specify name');
+            return;
+        }
+
+        var category = $('#add-recepie-input-category').find(":selected").val();
+        if (!category) {
+            alert('You must specify category');
+            return;
+        }
+
+        var time = $('#add-recepie-input-time').find(":selected").val();
+
+        var image = $('#add-recepie-input-image').val();
 
         var newRecepie = {
             'Category': category,
@@ -78,7 +90,7 @@
                     content: 'Here you can add a brand new recipe',
                     categories: categories,
                     times: times,
-                    addItem: getNewRecepieInfo,
+                    addItem: addItem,
                     addNewInput: addNewInput
                 };
 

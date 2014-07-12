@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Recipes SPA</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body ng-app="recipesApp" ng-cloak>
+
+<div class="navbar navbar-default" navbar-fixed-top>
+    <div class="container">
+        <div class="navbar-header">
+            <a href="#/home" class="navbar-brand">Recipes SPA</a>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="#/all-recipes">All recipes</a>
+                </li>
+                <li>
+                    <a href="#/all-categories">All categories</a>
+                </li>
+                <li>
+                    <a href="#/add-recipe">Add recipe</a>
+                </li>
+                <li>
+                    <a href="#/add-category">Add category</a>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-left">
+                <input type="text" class="form-control col-lg-8" placeholder="Search recipe" ng-model="searchText" />
+                <a class="form-control btn-primary" href="#/search-recipes/{{ searchText }}">Search</a>
+            </form>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://telerikacademy.com/Users/dzhenko">About the author</a></li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+<div ng-view class="container" ng-cloak>
+
+</div>
+
+<div class="panel-footer text-right">Created by Dzhenko Penev</div>
+
+<script src="libs/jquery.min.js"></script>
+<script src="libs/angular.min.js"></script>
+<script src="libs/angular-route.min.js"></script>
+<script src="libs/bootstrap.min.js"></script>
+<script src="libs/everlive.all.min.js"></script>
+<script src="scripts/app.js"></script>
+<script src="scripts/controllers/HomeController.js"></script>
+<script src="scripts/controllers/SingleRecipeController.js"></script>
+<script src="scripts/controllers/AddRecipeController.js"></script>
+<script src="scripts/controllers/AddCategoryController.js"></script>
+<script src="scripts/controllers/AllRecipesController.js"></script>
+<script src="scripts/controllers/AllCategoriesController.js"></script>
+<script src="scripts/controllers/CategoryRecipesController.js"></script>
+<script src="scripts/controllers/SearchRecipesController.js"></script>
+<script src="scripts/directives/BackgroundColorDirective.js"></script>
+<script src="scripts/services/dataFetcherService.js"></script>
+</body>
+</html>

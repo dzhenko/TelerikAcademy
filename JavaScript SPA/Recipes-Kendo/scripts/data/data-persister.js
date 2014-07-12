@@ -35,7 +35,7 @@
             Name: name
         })
             .then(function (category) {
-                return getRecepiesByCategoryID(category.result[0].Id);
+                return getRecipesByCategoryID(category.result[0].Id);
             });
     }
 

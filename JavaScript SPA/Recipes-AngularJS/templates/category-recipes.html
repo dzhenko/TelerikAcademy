@@ -1,0 +1,22 @@
+<div ng-controller="CategoryRecipesController" class="container">
+    <div class="row jumbotron">
+        <h1>Category {{ name }}</h1>
+        <h3 class="col-md-8">Found recipes: <span>{{information}}</span></h3>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3" ng-repeat="recipe in foundRecipes">
+                <a href="#/single-recipe/{{ recipe.Id }}" class="btn-link  single-recipe-container">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <p class="panel-title lead">{{ recipe.Name }}</p>
+                        </div>
+                        <div class="panel-body image-container text-center" back-img="{{ recipe.Image }}"></div>
+                        <div class="well well-sm">{{ recipe.Minutes }} minutes</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

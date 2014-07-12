@@ -1,0 +1,39 @@
+<div ng-controller="SingleRecipeController" class="container">
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>{{ recipe.Name }}</h1>
+                <p class="lead">Cook time: {{ recipe.Minutes }} minutes</p>
+            </div>
+            <div class="col-md-6">
+                <img class="pull-left" src="" ng-src="{{ recipe.Image }}" alt="{{ recipe.Name }}" width="350" height="250"/>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 pull-left">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Products needed</h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <li class="list-group-item" ng-repeat="prod in recipe.Products">{{prod}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 pull-right">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Directions</h3>
+                </div>
+                <div class="panel-body">
+                    <ol class="list-group">
+                        <li class="list-group-item" ng-repeat="step in recipe.Directions">{{step}}</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -8,7 +8,7 @@
             <label for="add-recepie-input-name" class="col-lg-2 control-label">Name</label>
 
             <div class="col-lg-10">
-                <input type="text" class="form-control" id="add-recepie-input-name" placeholder="Name">
+                <input type="text" class="form-control" id="add-recepie-input-name" placeholder="Name" required="required">
             </div>
         </div>
 
@@ -18,7 +18,8 @@
             <div class="col-lg-10">
                 <select data-bind="source: times"
                         id="add-recepie-input-time"
-                        class="form-control">
+                        class="form-control"
+                        required="required">
                 </select>
 
             </div>
@@ -33,7 +34,8 @@
                        data-bind="value: Id,
                                   source: categories"
                        id="add-recepie-input-category"
-                       class="form-control">
+                       class="form-control"
+                       required="required">
                 </select>
             </div>
         </div>
@@ -60,7 +62,8 @@
             <div class="col-lg-10">
                 <input type="text"
                        id="add-recepie-input-image"
-                       class="form-control"/>
+                       class="form-control"
+                       required="required"/>
             </div>
         </div>
 

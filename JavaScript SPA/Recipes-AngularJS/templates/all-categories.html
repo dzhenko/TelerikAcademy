@@ -1,0 +1,17 @@
+<div ng-controller="AllCategoriesController" class="container">
+    <div class="row jumbotron">
+        <h1 class="col-md-8">All categories</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-6" ng-repeat="category in foundCategories">
+            <a href="#/category-recipes/{{ category.Name }}" class="btn-link  single-recipe-container">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <p class="panel-title lead">{{ category.Name }}</p>
+                    </div>
+                    <div class="panel-body category-image-container text-center" back-img="{{ category.Image }}"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
