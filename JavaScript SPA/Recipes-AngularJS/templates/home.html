@@ -1,10 +1,18 @@
 <div ng-controller="HomeController">
     <div class="jumbotron">
         <h1>{{welcome}}</h1>
-        <p class="lead">*Home of <span class="label-primary">{{recipesCount}}</span>  wonderfull recipes</p>
-        <div class="panel-danger">{{ joke }}</div>
+        <div class="divider"></div>
+        <div class="row">
+            <p class="col-md-7 lead">*Home of <span class="label-primary">{{recipesCount}}</span> wonderful recipes</p>
+            <a class="col-md-2 pull-left btn-primary btn-lg" href="#/all-categories">All categories</a>
+            <a class="col-md-2 pull-right btn-primary btn-lg" href="#/all-recipes">All recipes</a>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-md-7 panel-danger">{{ joke }}</div>
+            <a class="col-md-2 pull-left btn-primary  btn-success btn-lg" href="#/add-category">Add category</a>
+            <a class="col-md-2 pull-right btn-primary btn-success btn-lg" href="#/add-recipe">Add recipe</a>
+        </div>
     </div>
-    <div class="row">
-        <img class="col-md-12" src="" ng-src="{{imgSrc}}" alt="recipes"/>
-    </div>
+    <img class="col-md-8 col-lg-offset-2" height="400" src="" ng-src="{{imgSrc}}" alt="recipes"/>
 </div>
