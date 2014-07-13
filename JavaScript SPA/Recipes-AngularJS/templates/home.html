@@ -1,10 +1,10 @@
 <div ng-controller="HomeController">
     <div class="jumbotron">
         <h1>{{welcome}}</h1>
+        <p class="lead">*Home of <span class="label-primary">{{recipesCount}}</span>  wonderfull recipes</p>
+        <div class="panel-danger">{{ joke }}</div>
     </div>
     <div class="row">
-        <img class="col-md-8" src="" ng-src="{{imgSrc}}" alt="recipes"/>
-        <p class="col-md-4 lead text-capitalize">*Home of <span class="label-primary">{{recipesCount}}</span>  wonderfull recipes</p>
+        <img class="col-md-12" src="" ng-src="{{imgSrc}}" alt="recipes"/>
     </div>
-    <div class="panel-danger">{{ joke }}</div>
 </div>
