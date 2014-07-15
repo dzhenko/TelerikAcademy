@@ -1,0 +1,14 @@
+{
+  "name": "Recipes-SPA-AngularJS-mongodb",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dzhenko Penev",
+  "license": "ISC",
+  "devDependencies": {
+    "mongodb": "^1.4.7"
+  }
+}

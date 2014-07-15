@@ -7,8 +7,6 @@ recipesApp.controller('AddCategoryController', function AddCategoryController($s
         });
     });
 
-
-
     $scope.saveCategory = function(category, invalidForm) {
         if (invalidForm) {
             alert('Invalid category info!');
