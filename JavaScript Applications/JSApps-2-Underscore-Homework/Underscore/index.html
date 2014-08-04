@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Underscore</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="scripts/underscore.js"></script>
+    <script src="scripts/data.js"></script>
+    <script src="scripts/allTasks.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="well">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Choose task and action</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <p class="lead">Task</p>
+                        </div>
+                        <div class="col-md-3 col-md-offset-1">
+                            <p class="lead">Action</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="btn-group btn-group-justified" id="tasks">
+                                <a href="#" class="btn btn-default">1</a>
+                                <a href="#" class="btn btn-default">2</a>
+                                <a href="#" class="btn btn-default">3</a>
+                                <a href="#" class="btn btn-default">4</a>
+                                <a href="#" class="btn btn-default">5</a>
+                                <a href="#" class="btn btn-default">6</a>
+                                <a href="#" class="btn btn-default">7</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-md-offset-1">
+                            <ul class="nav nav-pills" id="options">
+                                <li><a href="#">Result</a></li>
+                                <li><a href="#">Code</a></li>
+                                <li><a href="#">Data</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-primary">
+                <div id="result" class="panel-body"></div>
+            </div>
+        </div>
+        <div class="bg-primary">
+            <div class="text-right lead">
+                *All data is in console as well !
+            </div>
+        </div>
+        <footer class="footer text-center text-primary">
+            &copy; Dzhenko Penev
+        </footer>
+    </div>
+    <script src="scripts/index.js"></script>
+</body>
+</html>
