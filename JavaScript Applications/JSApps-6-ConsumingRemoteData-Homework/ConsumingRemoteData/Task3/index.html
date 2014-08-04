@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Using the REST API at 'localhost:3000/students' create a web application for managing students-->
+    <title>Task 3</title>
+    <script src="../libs/jquery.js"></script>
+    <script src="../libs/q.js"></script>
+</head>
+<body>
+    <h1>Add student</h1>
+    <label for="tb-name">Name</label>
+    <input type="text" id="tb-name" placeholder="name" />
+    <br />
+    <label for="tb-grade">Grade</label>
+    <input type="number" id="tb-grade" placeholder="grade" />
+    <br />
+    <button id="btn-add">Add</button>
+    <button id="btn-refresh">Refresh</button>
+
+    <h1>All students</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Grade</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody id="students" ></tbody>
+    </table>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Read the developer documentation of Twitter
+        Create a simple application that visualizes all public tweets for a given user (maybe from a textbox)-->
+    <title>Task 2</title>
+    <script src="../libs/jquery.js"></script>
+    <script src="../libs/q.js"></script>
+    <script src="oauth.js"></script>
+</head>
+<body>
+    <h1>Get tweets for user</h1>
+    <label for="tb-username">Username: </label>
+    <input type="text" id="tb-username" placeholder="Username" autofocus="autofocus"/>
+    <label for="tb-username">Tweets count: </label>
+    <input type="number" id="tb-count" value="20" placeholder="Tweets count" />
+    <button onclick="loadLastTweets()">Load tweets</button>
+
+    <ul id="feed"></ul>
+    <script src="index.js"></script>
+</body>
+</html>

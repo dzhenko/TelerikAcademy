@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Create a module that exposes methods for performing HTTP requests by given URL and headers
+        getJSON and postJSON - Both methods should work with promises-->
+    <title>Task 1</title>
+    <script src="../libs/jquery.js"></script>
+    <script src="../libs/q.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="result"></div>
+
+    <script>
+        HttpJSON.getJSON('http://jsonip.com')
+            .then(function (data) {
+                $('#result').append('Your IP address is ' + data.ip);
+            }, function (error) {
+                $('#result').append('Something bad happened - look at the console');
+                console.log(error);
+            })
+            .done();
+    </script>
+</body>
+</html>
