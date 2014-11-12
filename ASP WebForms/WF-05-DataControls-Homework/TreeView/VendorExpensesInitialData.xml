@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<expenses-by-month>
+  <vendor name="Blizzard">
+    <expenses month="Jan-2014">700.00</expenses>
+    <expenses month="Feb-2014">600.00</expenses>
+    <expenses month="Mar-2014">500.00</expenses>
+    <expenses month="Apr-2014">500.00</expenses>
+    <expenses month="May-2014">400.00</expenses>
+    <expenses month="Jun-2014">300.00</expenses>
+    <expenses month="Jul-2014">300.00</expenses>
+    <expenses month="Aug-2014">400.00</expenses>
+    <expenses month="Sep-2014">400.00</expenses>
+    <expenses month="Oct-2014">500.00</expenses>
+    <expenses month="Nov-2014">600.00</expenses>
+    <expenses month="Dec-2014">700.00</expenses>
+  </vendor>
+  <vendor name="Angry Korean Guy">
+    <expenses month="Jan-2014">700.00</expenses>
+    <expenses month="Feb-2014">600.00</expenses>
+    <expenses month="Mar-2014">500.00</expenses>
+    <expenses month="Apr-2014">500.00</expenses>
+    <expenses month="May-2014">400.00</expenses>
+    <expenses month="Jun-2014">300.00</expenses>
+    <expenses month="Jul-2014">300.00</expenses>
+    <expenses month="Aug-2014">400.00</expenses>
+    <expenses month="Sep-2014">400.00</expenses>
+    <expenses month="Oct-2014">500.00</expenses>
+    <expenses month="Nov-2014">600.00</expenses>
+    <expenses month="Dec-2014">700.00</expenses>
+  </vendor>
+  <vendor name="Poor Bulgarian Gamer">
+    <expenses month="Jan-2014">1.99</expenses>
+    <expenses month="Feb-2014">1.99</expenses>
+    <expenses month="Mar-2014">1.99</expenses>
+    <expenses month="Apr-2014">1.99</expenses>
+    <expenses month="May-2014">1.99</expenses>
+    <expenses month="Jun-2014">1.99</expenses>
+    <expenses month="Jul-2014">1.99</expenses>
+    <expenses month="Aug-2014">1.99</expenses>
+    <expenses month="Sep-2014">1.99</expenses>
+    <expenses month="Oct-2014">1.99</expenses>
+    <expenses month="Nov-2014">1.99</expenses>
+    <expenses month="Dec-2014">1.99</expenses>
+  </vendor>
+  <vendor name="StarCraft Pro">
+    <expenses month="Jan-2014">30.00</expenses>
+    <expenses month="Feb-2014">30.00</expenses>
+    <expenses month="Mar-2014">30.00</expenses>
+    <expenses month="Apr-2014">40.00</expenses>
+    <expenses month="May-2014">30.00</expenses>
+    <expenses month="Jun-2014">30.00</expenses>
+    <expenses month="Jul-2014">30.00</expenses>
+    <expenses month="Aug-2014">40.00</expenses>
+    <expenses month="Sep-2014">30.00</expenses>
+    <expenses month="Oct-2014">30.00</expenses>
+    <expenses month="Nov-2014">30.00</expenses>
+    <expenses month="Dec-2014">40.00</expenses>
+  </vendor>
+  <vendor name="South Park Gang">
+    <expenses month="Jan-2014">150.00</expenses>
+    <expenses month="Feb-2014">150.00</expenses>
+    <expenses month="Mar-2014">150.00</expenses>
+    <expenses month="Apr-2014">150.00</expenses>
+    <expenses month="May-2014">150.00</expenses>
+    <expenses month="Jun-2014">150.00</expenses>
+    <expenses month="Jul-2014">150.00</expenses>
+    <expenses month="Aug-2014">150.00</expenses>
+    <expenses month="Sep-2014">150.00</expenses>
+    <expenses month="Oct-2014">150.00</expenses>
+    <expenses month="Nov-2014">150.00</expenses>
+    <expenses month="Dec-2014">150.00</expenses>
+  </vendor>
+</expenses-by-month>

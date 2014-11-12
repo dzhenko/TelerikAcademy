@@ -1,5 +1,0 @@
-c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\4. DescendingOrderValues\bin\Debug\_4.DescendingOrderValues.exe.config
-c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\4. DescendingOrderValues\bin\Debug\_4.DescendingOrderValues.exe
-c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\4. DescendingOrderValues\bin\Debug\_4.DescendingOrderValues.pdb
-c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\4. DescendingOrderValues\obj\Debug\_4.DescendingOrderValues.exe
-c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\4. DescendingOrderValues\obj\Debug\_4.DescendingOrderValues.pdb

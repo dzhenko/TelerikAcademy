@@ -1,6 +1,0 @@
-c:\users\penev\documents\visual studio 2012\Projects\OperatorsHomework\OperatorsHomework\bin\Debug\OperatorsHomework.exe.config
-c:\users\penev\documents\visual studio 2012\Projects\OperatorsHomework\OperatorsHomework\bin\Debug\OperatorsHomework.exe
-c:\users\penev\documents\visual studio 2012\Projects\OperatorsHomework\OperatorsHomework\bin\Debug\OperatorsHomework.pdb
-c:\users\penev\documents\visual studio 2012\Projects\OperatorsHomework\OperatorsHomework\obj\Debug\OperatorsHomework.csprojResolveAssemblyReference.cache
-c:\users\penev\documents\visual studio 2012\Projects\OperatorsHomework\OperatorsHomework\obj\Debug\OperatorsHomework.exe
-c:\users\penev\documents\visual studio 2012\Projects\OperatorsHomework\OperatorsHomework\obj\Debug\OperatorsHomework.pdb

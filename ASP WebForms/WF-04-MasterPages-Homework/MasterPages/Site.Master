@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="MasterPages.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header>
+        <h1>Welcome to BookFace</h1>
+    </header>
+    <nav>
+        <a href="PersonalInfo.aspx">Personal Info</a>
+        <a href="Details.aspx">Details</a>
+        <a href="Friends.aspx">Friends</a>
+        <a href="About.aspx">About</a>
+    </nav>
+    <aside>
+        <h3>If you think our design is bad - apply for a job now !</h3>
+    </aside>
+
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+
+    <footer>
+        <p>BookFace 2014 - All faces reserved!</p>
+    </footer>
+</body>
+</html>

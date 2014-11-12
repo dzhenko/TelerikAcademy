@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic Tac Toe AngularJS SPA</title>
+
+    <link rel="stylesheet" href="content/bootstrap.css" />
+    <link rel="stylesheet" href="content/app.css" />
+
+    <link rel="shortcut icon" type="image/png" href="https://cdn4.iconfinder.com/data/icons/epic-outlines/30/tic_tac_toe-64.png"/>
+</head>
+<body ng-app="TicTacToeApp" ng-cloak>
+    <div ng-include="'app/views/partials/main-nav.html'">
+        <!--Main navigation of the SPA-->
+    </div>
+
+    <section ng-view>
+        <!--Changing content of the SPA-->
+    </section>
+
+    <footer class="text-primary text-center">
+        Copyright : Some Telerik Academy Student (c)
+    </footer>
+
+    <script src="libs/jquery.js"></script>
+    <script src="libs/bootstrap.js"></script>
+    <script src="libs/angular.js"></script>
+    <script src="libs/angular-route.js"></script>
+    <script src="libs/angular-cookies.js"></script>
+
+    <script src="app/app.js"></script>
+
+    <script src="app/services/requester.js"></script>
+    <script src="app/services/auth.js"></script>
+    <script src="app/services/game.js"></script>
+    <script src="app/services/players.js"></script>
+    <script src="app/services/identity.js"></script>
+
+    <script src="app/directives/modalWindow/modalWindow.js"></script>
+
+    <script src="app/filters/gameStateFilter.js"></script>
+
+    <script src="app/controllers/mainNavCtrl.js"></script>
+    <script src="app/controllers/registerCtrl.js"></script>
+    <script src="app/controllers/homeCtrl.js"></script>
+    <script src="app/controllers/playersCtrl.js"></script>
+    <script src="app/controllers/playGameCtrl.js"></script>
+</body>
+</html>

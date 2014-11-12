@@ -1,9 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\13. WordsInTextFileOcurences\bin\Debug\_13.WordsInTextFileOcurences.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\13. WordsInTextFileOcurences\bin\Debug\_13.WordsInTextFileOcurences.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\13. WordsInTextFileOcurences\bin\Debug\_13.WordsInTextFileOcurences.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\13. WordsInTextFileOcurences\obj\Debug\13. WordsInTextFileOcurences.csprojResolveAssemblyReference.cache
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\13. WordsInTextFileOcurences\obj\Debug\_13.WordsInTextFileOcurences.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\13. WordsInTextFileOcurences\obj\Debug\_13.WordsInTextFileOcurences.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-7-TextFiles-Homework\13. WordsInTextFileOcurences\bin\Debug\_13.WordsInTextFileOcurences.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-7-TextFiles-Homework\13. WordsInTextFileOcurences\obj\Debug\_13.WordsInTextFileOcurences.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-7-TextFiles-Homework\13. WordsInTextFileOcurences\obj\Debug\_13.WordsInTextFileOcurences.pdb

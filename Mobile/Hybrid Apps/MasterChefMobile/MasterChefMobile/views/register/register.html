@@ -1,0 +1,30 @@
+<div data-role="view" data-title="Register" data-layout="main-layout" data-model="app.register.model">
+    <div class="col-md-10 col-xs-10 col-lg-10 col-md-offset-1 col-xs-offset-1 col-lg-offset-1 container">
+        <br/>
+        <div class="form-group">
+            <label for="login-email" class="col-md-12 col-xs-12 col-lg-12 control-label">Email</label>
+            <div class="col-md-12 col-xs-12 col-lg-12">
+                <input id="login-email" type="email" placeholder="Email" data-bind="value: regUsername" required="required" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="login-password" class="col-md-12 col-xs-12 col-lg-12 control-label">Password</label>
+            <div class="col-md-12 col-xs-12 col-lg-12">
+                <input id="login-password" type="password" placeholder="Password" data-bind="value: regPassword" required="required" class="form-control" />
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label for="login-password" class="col-md-12 col-xs-12 col-lg-12 control-label">Confirm Password</label>
+            <div class="col-md-12 col-xs-12 col-lg-12">
+                <input id="login-password" type="password" placeholder="Password" data-bind="value: regConfirmPassword" required="required" class="form-control" />
+            </div>
+        </div>
+                
+        <div class="form-group">
+            <label class="col-md-12 col-xs-12 col-lg-12"></label>
+            <button data-bind="events: {click: registerClick}"class="btn btn-success col-md-10 col-xs-10 col-lg-10 col-md-offset-1 col-xs-offset-1 col-lg-offset-1">Register</button>
+        </div>
+    </div>
+</div>

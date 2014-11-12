@@ -1,3 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\2. NotDivisibleToSevenAndThree\bin\Debug\_2.NotDivisibleToSevenAndThree.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\2. NotDivisibleToSevenAndThree\obj\Debug\_2.NotDivisibleToSevenAndThree.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\2. NotDivisibleToSevenAndThree\obj\Debug\_2.NotDivisibleToSevenAndThree.pdb

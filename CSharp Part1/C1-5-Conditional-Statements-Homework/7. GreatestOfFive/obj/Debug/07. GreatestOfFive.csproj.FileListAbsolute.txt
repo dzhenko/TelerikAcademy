@@ -1,3 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-5-Conditional-Statements-Homework\7. GreatestOfFive\bin\Debug\_7.GreatestOfFive.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-5-Conditional-Statements-Homework\7. GreatestOfFive\obj\Debug\_7.GreatestOfFive.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-5-Conditional-Statements-Homework\7. GreatestOfFive\obj\Debug\_7.GreatestOfFive.pdb

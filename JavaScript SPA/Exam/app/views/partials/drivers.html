@@ -1,0 +1,15 @@
+<div class="container text-center">
+    <h1>Drivers</h1>
+    <div class="row" ng-show="isUserAuthenticated">
+        <div class="col-md-2">
+            <input type="text" placeholder="filter by username" class="form-control" ng-model="nameFilter"/>
+        </div>
+        <div class="col-md-2">
+            <button class="btn btn-info" ng-click="filterResults(nameFilter)">Filter</button>
+        </div>
+        <div class="pull-right col-md-3" page-number-select></div>
+    </div>
+    <br/>
+    <div drivers-table ng-hide="noResultsFound"></div>
+    <h1 ng-show="noResultsFound">No results!</h1>
+</div>

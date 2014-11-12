@@ -1,5 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Pillars\bin\Debug\Pillars.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Pillars\bin\Debug\Pillars.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Pillars\bin\Debug\Pillars.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Pillars\obj\Debug\Pillars.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Pillars\obj\Debug\Pillars.pdb

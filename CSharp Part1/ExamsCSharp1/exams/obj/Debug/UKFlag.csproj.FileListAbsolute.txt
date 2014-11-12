@@ -1,8 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\exams\exams\bin\Debug\exams.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\exams\exams\obj\Debug\exams.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\trash\exams\exams\obj\Debug\exams.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\exams\bin\Debug\exams.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\exams\obj\Debug\exams.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\exams\obj\Debug\exams.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\exams\bin\Debug\exams.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\exams\bin\Debug\exams.pdb

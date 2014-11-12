@@ -1,0 +1,18 @@
+﻿table{
+    border:2px solid black;
+}
+
+td input {
+    width:100px;
+    background-color:white;
+    height:100px;
+    text-align:center;
+    vertical-align:central;
+    border: 2px solid black;
+}
+
+td:hover{
+    color: aqua;
+    background-color: aqua;
+    border-color:aqua;
+}

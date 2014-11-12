@@ -1,5 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\1. SumOfThreeIntNum\bin\Debug\_1.SumOfThreeIntNum.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\1. SumOfThreeIntNum\obj\Debug\_1.SumOfThreeIntNum.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\1. SumOfThreeIntNum\bin\Debug\_1.SumOfThreeIntNum.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\1. SumOfThreeIntNum\bin\Debug\_1.SumOfThreeIntNum.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\1. SumOfThreeIntNum\obj\Debug\_1.SumOfThreeIntNum.pdb

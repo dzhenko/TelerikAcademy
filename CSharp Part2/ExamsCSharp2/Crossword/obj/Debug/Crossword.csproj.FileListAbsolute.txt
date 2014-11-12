@@ -1,9 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\Crossword\bin\Debug\Crossword.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\Crossword\bin\Debug\Crossword.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\Crossword\bin\Debug\Crossword.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\Crossword\obj\Debug\Crossword.csprojResolveAssemblyReference.cache
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\Crossword\obj\Debug\Crossword.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\Crossword\obj\Debug\Crossword.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Crossword\bin\Debug\Crossword.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Crossword\obj\Debug\Crossword.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Crossword\obj\Debug\Crossword.pdb

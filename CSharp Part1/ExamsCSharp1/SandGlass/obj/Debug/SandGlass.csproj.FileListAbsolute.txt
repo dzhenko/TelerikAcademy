@@ -1,5 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\SandGlass\bin\Debug\SandGlass.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\SandGlass\bin\Debug\SandGlass.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\SandGlass\bin\Debug\SandGlass.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\SandGlass\obj\Debug\SandGlass.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\SandGlass\obj\Debug\SandGlass.pdb

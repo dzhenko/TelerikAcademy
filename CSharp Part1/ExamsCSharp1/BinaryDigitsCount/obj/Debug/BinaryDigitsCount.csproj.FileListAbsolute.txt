@@ -1,6 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\BinaryDigitsCount\bin\Debug\BinaryDigitsCount.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\BinaryDigitsCount\bin\Debug\BinaryDigitsCount.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\BinaryDigitsCount\bin\Debug\BinaryDigitsCount.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\BinaryDigitsCount\obj\Debug\BinaryDigitsCount.csprojResolveAssemblyReference.cache
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\BinaryDigitsCount\obj\Debug\BinaryDigitsCount.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\BinaryDigitsCount\obj\Debug\BinaryDigitsCount.pdb

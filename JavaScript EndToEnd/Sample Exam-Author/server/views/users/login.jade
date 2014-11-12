@@ -1,0 +1,17 @@
+extends ../shared/layout
+
+block main-content
+    .well: form.form-horizontal(method="post"): fieldset
+        legend Login
+        .form-group
+            label.col-md-2.control-label(for="username") Username
+            .col-md-10
+                input.form-control(id="username" class="form-control" type="text" name="username" placeholder="Username")
+        .form-group
+            label.col-md-2.control-label(for="password") Password
+            .col-md-10
+                input.form-control(id="password" class="form-control" type="password" name="password" placeholder="Password")
+
+        .pull-right
+            input.btn.btn-primary(type="submit" value="Login")
+            a.btn.btn-danger(href="/") Cancel

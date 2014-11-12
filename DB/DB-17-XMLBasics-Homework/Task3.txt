@@ -1,0 +1,13 @@
+What does the namespaces represents in the XML documents? What are they used for? 
+
+In XML, element names are defined by the developer. This often results in a conflict when trying to mix XML documents from different XML applications.
+Name conflicts in XML can easily be avoided using a name prefix.
+When using prefixes in XML, a so-called namespace for the prefix must be defined.
+
+The namespace is defined by the xmlns attribute in the start tag of an element.
+
+The namespace declaration has the following syntax. xmlns:prefix="URI".
+When a namespace is defined for an element, all child elements with the same prefix are associated with the same namespace.
+
+Namespaces can be declared in the elements where they are used or in the XML root element.
+The purpose is to give the namespace a unique name. However, often companies use the namespace as a pointer to a web page containing namespace information.

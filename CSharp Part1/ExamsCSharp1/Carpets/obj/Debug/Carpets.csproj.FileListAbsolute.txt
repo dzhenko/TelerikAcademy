@@ -1,6 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Carpets\bin\Debug\Carpets.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Carpets\bin\Debug\Carpets.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Carpets\bin\Debug\Carpets.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Carpets\obj\Debug\Carpets.csprojResolveAssemblyReference.cache
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Carpets\obj\Debug\Carpets.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Carpets\obj\Debug\Carpets.pdb

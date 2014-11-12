@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PNGHttpHandler", "PNGHttpHandler\PNGHttpHandler.csproj", "{E78AE4C9-BF1C-4E87-B84A-AB14F13687C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Summator", "Summator\Summator.csproj", "{534DCA76-B78E-491F-906F-9B3C0A44A8FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummatorMVC", "SummatorMVC\SummatorMVC.csproj", "{757C878A-F0A2-412E-9465-7E770BA3E8D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebFormsApp", "SampleWebFormsApp\SampleWebFormsApp.csproj", "{FFB2008C-B1F7-425C-A7EE-376141EE1C2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleMVCApp", "SampleMVCApp\SampleMVCApp.csproj", "{4B5ADEA5-AF76-4041-A3B6-3C58524A4F44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApiApp", "SampleWebApiApp\SampleWebApiApp.csproj", "{41D131C8-E5D2-4720-B901-F2F5D2F919CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleSPAApp", "SampleSPAApp\SampleSPAApp.csproj", "{90987779-2F3B-40EF-B8FA-6256228DC2F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E78AE4C9-BF1C-4E87-B84A-AB14F13687C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E78AE4C9-BF1C-4E87-B84A-AB14F13687C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E78AE4C9-BF1C-4E87-B84A-AB14F13687C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E78AE4C9-BF1C-4E87-B84A-AB14F13687C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{534DCA76-B78E-491F-906F-9B3C0A44A8FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{534DCA76-B78E-491F-906F-9B3C0A44A8FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{534DCA76-B78E-491F-906F-9B3C0A44A8FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{534DCA76-B78E-491F-906F-9B3C0A44A8FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{757C878A-F0A2-412E-9465-7E770BA3E8D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{757C878A-F0A2-412E-9465-7E770BA3E8D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{757C878A-F0A2-412E-9465-7E770BA3E8D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{757C878A-F0A2-412E-9465-7E770BA3E8D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFB2008C-B1F7-425C-A7EE-376141EE1C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB2008C-B1F7-425C-A7EE-376141EE1C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB2008C-B1F7-425C-A7EE-376141EE1C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFB2008C-B1F7-425C-A7EE-376141EE1C2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B5ADEA5-AF76-4041-A3B6-3C58524A4F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B5ADEA5-AF76-4041-A3B6-3C58524A4F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B5ADEA5-AF76-4041-A3B6-3C58524A4F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B5ADEA5-AF76-4041-A3B6-3C58524A4F44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41D131C8-E5D2-4720-B901-F2F5D2F919CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41D131C8-E5D2-4720-B901-F2F5D2F919CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41D131C8-E5D2-4720-B901-F2F5D2F919CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41D131C8-E5D2-4720-B901-F2F5D2F919CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90987779-2F3B-40EF-B8FA-6256228DC2F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90987779-2F3B-40EF-B8FA-6256228DC2F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90987779-2F3B-40EF-B8FA-6256228DC2F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90987779-2F3B-40EF-B8FA-6256228DC2F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

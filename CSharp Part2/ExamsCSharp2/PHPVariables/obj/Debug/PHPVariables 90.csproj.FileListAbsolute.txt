@@ -1,5 +1,0 @@
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\PHPVariables\bin\Debug\PHPVariables.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\PHPVariables\obj\Debug\PHPVariables.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\PHPVariables\obj\Debug\PHPVariables.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\PHPVariables\bin\Debug\PHPVariables.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\PHPVariables\bin\Debug\PHPVariables.pdb

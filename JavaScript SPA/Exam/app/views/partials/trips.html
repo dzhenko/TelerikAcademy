@@ -1,0 +1,54 @@
+<div class="container text-center">
+    <h1>Trips</h1>
+    <div ng-show="isUserAuthenticated">
+        <div class="row">
+            <a href="#/trips/create" class="btn btn-info pull-right">Create Trip</a>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <label for="sortSelect" class="control-label col-md-12">Sort</label>
+                <select id="sortSelect" class="form-control" ng-model="sortValue"
+                        ng-options="sortType.value as sortType.text for sortType in sortTypes"></select>
+            </div>
+            <div class="col-md-3">
+                <label for="orderSelect" class="control-label col-md-12">Order</label>
+                <select id="orderSelect" class="form-control" ng-model="orderValue"
+                        ng-options="orderType.value as orderType.text for orderType in orderTypes"></select>
+            </div>
+            <div class="col-md-3">
+                <label for="fromSelect" class="control-label col-md-12">From</label>
+                <select id="fromSelect" class="form-control" ng-model="fromValue"
+                        ng-options="city as city for city in cities"></select>
+            </div>
+            <div class="col-md-3">
+                <label for="toSelect" class="control-label col-md-12">To</label>
+                <select id="toSelect" class="form-control" ng-model="toValue"
+                        ng-options="city as city for city in cities"></select>
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="row">
+                    <div class=" col-md-offset-1 col-md-7 pull-left text-left">
+                        <div class="row">
+                            <input type="checkbox" id="includeFinishedCb" ng-model="includeFinished"/>
+                            <label for="includeFinishedCb">Include finished</label>
+                        </div>
+                        <div class="row">
+                            <input type="checkbox" id="onlyMineCb" ng-model="onlyMine"/>
+                            <label for="onlyMineCb">Only mine</label>
+                        </div>
+                    </div>
+                    <div class="col-md-4 pull-right">
+                        <button class="btn btn-info" ng-click="filterResults()">Filter</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 pull-right" page-number-select></div>
+        </div>
+        <br/>
+    </div>
+    <div trips-table trips="trips" ng-hide="noResultsFound"></div>
+    <h1 ng-show="noResultsFound">No results!</h1>
+</div>

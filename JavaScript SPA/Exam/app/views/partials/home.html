@@ -1,0 +1,52 @@
+<div class="container text-center">
+    <div class="jumbotron">
+        <h1>Welcome to Trip Exchange</h1>
+        <p>Find your way home!</p>
+    </div>
+
+    <div class="container">
+        <table class="table table-striped table-hover">
+            <thead>
+            <tr>
+                <th class="text-center">Trips</th>
+                <th class="text-center">Finished trips</th>
+                <th class="text-center">Users</th>
+                <th class="text-center">Drivers</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>{{tripsCount}}</td>
+                <td>{{finishedTripsCount}}</td>
+                <td>{{usersCount}}</td>
+                <td>{{driversCount}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Latest trips</h3>
+                </div>
+                <div class="panel-body">
+                    <div trips-table></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Latest drivers</h3>
+                </div>
+                <div class="panel-body">
+                    <div drivers-table></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

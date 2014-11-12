@@ -1,3 +1,0 @@
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Indeces\bin\Debug\Indeces.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Indeces\obj\Debug\Indeces.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Indeces\obj\Debug\Indeces.pdb

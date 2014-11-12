@@ -1,0 +1,18 @@
+Connection string for "Company" database: (location) Company\CompanySampleDataGenerator\Company.SampleDataGenerator\app.config
+<add name="CompanyEntities" connectionString="metadata=res://*/CompanyEntities.csdl|res://*/CompanyEntities.ssdl|res://*/CompanyEntities.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=.;initial catalog=Company;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+
+Connection string for "Cars" database: (location) Cars\Cars\Cars.Client\app.config
+<add name="CarsConnection" connectionString="Data Source=.;Initial Catalog=Cars;Integrated Security=true" providerName="System.Data.SqlClient"/>
+
+Relationships for "Company" database: (first-table : second-table - type of relationship)
+--Departments : Employees - one to many
+--Employees : Employees - one to many
+--Employees : Reports - one to many
+--Employees : Projects - many to many
+
+Relationships for "Cars" database: (first-table : second-table - type of relationship)
+--Manufacturers : Cars - one to many
+--Cities : Dealers - many to many
+--Dealers : Cars - one to many
+
+Query files: (file location in solution) SqlQueries - Company\Queries

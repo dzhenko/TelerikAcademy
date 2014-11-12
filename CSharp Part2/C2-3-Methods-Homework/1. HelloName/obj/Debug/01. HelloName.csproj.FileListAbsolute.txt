@@ -1,9 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-3-Methods-Homework\1. HelloName\bin\Debug\_1.HelloName.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-3-Methods-Homework\1. HelloName\obj\Debug\_1.HelloName.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-3-Methods-Homework\1. HelloName\obj\Debug\_1.HelloName.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\1. HelloName\bin\Debug\_1.HelloName.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\1. HelloName\obj\Debug\_1.HelloName.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\1. HelloName\obj\Debug\_1.HelloName.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-3-Methods-Homework\1. HelloName\bin\Debug\_1.HelloName.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-3-Methods-Homework\1. HelloName\obj\Debug\_1.HelloName.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\C2-3-Methods-Homework\1. HelloName\obj\Debug\_1.HelloName.pdb

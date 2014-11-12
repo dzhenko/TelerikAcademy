@@ -1,0 +1,76 @@
+extends ../shared/layout
+
+block main-content
+    .well: form.form-horizontal(method="post" enctype="multipart/form-data"): fieldset
+        legend Register
+        .form-group
+            label.col-md-4.control-label(for="username") Username
+            .col-md-8
+                input.form-control(id="username" type="text" required="required" name="username" placeholder="Username")
+        .form-group
+            label.col-md-4.control-label(for="password") Password
+            .col-md-8
+                input.form-control(id="password" type="password" required="required" name="password" placeholder="Password")
+        .form-group
+            label.col-md-4.control-label(for="confirm-password") Confirm Password
+            .col-md-8
+                input.form-control(id="confirm-password" required="required" type="password" name="confirmPassword" placeholder="Confirm password")
+
+        .form-group
+            label.col-md-4.control-label(for="first-name") First Name
+            .col-md-8
+                input.form-control(id="first-name" required="required" type="text" name="firstName" placeholder="First name")
+        .form-group
+            label.col-md-4.control-label(for="last-name") Last Name
+            .col-md-8
+                input.form-control(id="last-name" required="required" type="text" name="lastName" placeholder="Last name")
+
+        .form-group
+            label.col-md-4.control-label(for="email") Email
+            .col-md-8
+                input.form-control(id="email" required="required" type="email" name="email" placeholder="Email")
+
+        .form-group
+            label.col-md-4.control-label(for="phone") Phone Number
+            .col-md-8
+                input.form-control(id="phone" type="text" name="phone" placeholder="Phone Number")
+
+        .form-group
+            label.col-md-4.control-label(for="initiatives") Telerik Academy Initiatives (Select one or many)
+            .col-md-8
+                select.form-control(multiple="multiple" required="required" id="initiatives" name="initiatives")
+                    each initiative in initiatives
+                        option(value="#{initiative}")= initiative
+
+        .form-group
+            label.col-md-4.control-label(for="seasons") Telerik Academy Seasons (Select one or many)
+            .col-md-8
+                select.form-control(multiple="multiple" required="required" id="seasons" name="seasons")
+                    each season in seasons
+                        option(value="#{season}")= season
+
+        .form-group
+            label.col-md-4.control-label(for="profilePicture") Profile picture (JPG format)
+            .col-md-8
+                input.form-control(id="profilePicture" type="file" name="profilePicture")
+
+        .form-group
+            label.col-md-4.control-label(for="profileFacebook") Facebook Profile
+            .col-md-8
+                input.form-control(id="profileFacebook" type="text" name="profileFacebook")
+        .form-group
+            label.col-md-4.control-label(for="profileTwitter") Twitter Profile
+            .col-md-8
+                input.form-control(id="profileTwitter" type="text" name="profileTwitter")
+        .form-group
+            label.col-md-4.control-label(for="profileLinkedIn") LinkedIn Profile
+            .col-md-8
+                input.form-control(id="profileLinkedIn" type="text" name="profileLinkedIn")
+        .form-group
+            label.col-md-4.control-label(for="profileGoogle") Google+ Profile
+            .col-md-8
+                input.form-control(id="profileGoogle" type="text" name="profileGoogle")
+
+        .pull-right
+            input.btn.btn-primary(type="submit" value="Register")
+            a.btn.btn-danger(href="/") Cancel

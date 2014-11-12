@@ -1,0 +1,13 @@
+﻿<Window x:Class="Chat.Client.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox Name="Username" HorizontalAlignment="Left" Height="24" Margin="29,20,0,0" TextWrapping="Wrap" Text="Enter your username" VerticalAlignment="Top" Width="208"/>
+        <Button Name="UsernameClick" Content="Start chatting" HorizontalAlignment="Left" Height="24" Margin="280,20,0,0" VerticalAlignment="Top" Width="111" Click="Button_Click"/>
+        <ListBox Name="MessagesList" HorizontalAlignment="Left" Height="186" Margin="29,20,0,0" VerticalAlignment="Top" Width="362"/>
+        <TextBox Name="MessageText" HorizontalAlignment="Left" Height="40" Margin="29,223,0,0" TextWrapping="Wrap" Text="Message to send" VerticalAlignment="Top" Width="290"/>
+        <Button Name="MessageSend" Content="Send" HorizontalAlignment="Left" Height="40" Margin="340,223,0,0" VerticalAlignment="Top" Width="51" Click="MessageSend_Click"/>
+
+    </Grid>
+</Window>

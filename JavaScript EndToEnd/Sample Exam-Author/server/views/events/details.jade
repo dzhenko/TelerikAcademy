@@ -1,0 +1,34 @@
+extends ../shared/layout
+
+block main-content
+    .container
+        h2 Title : #{event.title}
+        hr
+        h4 Description : #{event.description}
+        h4 Type : #{event.category}
+        hr
+        h3 Creator #{event.creatorName}
+        hr
+        h3 Comments :
+            each comment in event.comments
+                p= comment
+        hr
+        if (canJoin)
+            a.btn.btn-success.lead(href="/join-event/#{event._id}") Join Event
+        if (canLeave)
+            a.btn.btn-success.danger(href="/leave-event/#{event._id}") Leave Event
+
+        if (canComment)
+            .form-group
+                label.col-md-4.control-label(for="comment")
+                .col-md-8
+                    textarea.form-control(rows="3" id="comment-text-area")
+
+                .pull-right
+                    input(id="eventIdHolder" type="text" value="#{event._id}")
+                    button.btn.btn-primary(id="leaveCommentBtn") Leave a comment
+
+
+
+block page-scripts
+    script(src="/js/detailsEvent.js")

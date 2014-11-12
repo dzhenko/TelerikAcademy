@@ -1,6 +1,0 @@
-c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-3-ExtensionMethods-Delegates-Lambda-LINQ\03. Students\bin\Debug\_03.Students.exe.config
-c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-3-ExtensionMethods-Delegates-Lambda-LINQ\03. Students\bin\Debug\_03.Students.exe
-c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-3-ExtensionMethods-Delegates-Lambda-LINQ\03. Students\bin\Debug\_03.Students.pdb
-c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-3-ExtensionMethods-Delegates-Lambda-LINQ\03. Students\obj\Debug\03. Students.csprojResolveAssemblyReference.cache
-c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-3-ExtensionMethods-Delegates-Lambda-LINQ\03. Students\obj\Debug\_03.Students.exe
-c:\users\dzhenko\documents\visual studio 2013\Projects\OOP-3-ExtensionMethods-Delegates-Lambda-LINQ\03. Students\obj\Debug\_03.Students.pdb

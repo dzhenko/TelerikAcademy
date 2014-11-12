@@ -1,9 +1,0 @@
-C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\05. ProcessTheUpcaseTag\bin\Debug\_05.ProcessTheUpcaseTag.exe.config
-C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\05. ProcessTheUpcaseTag\bin\Debug\_05.ProcessTheUpcaseTag.exe
-C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\05. ProcessTheUpcaseTag\bin\Debug\_05.ProcessTheUpcaseTag.pdb
-C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\05. ProcessTheUpcaseTag\obj\Debug\05. ProcessTheUpcaseTag.csprojResolveAssemblyReference.cache
-C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\05. ProcessTheUpcaseTag\obj\Debug\_05.ProcessTheUpcaseTag.exe
-C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\05. ProcessTheUpcaseTag\obj\Debug\_05.ProcessTheUpcaseTag.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-8-StringsTextProcessing-Homework\05. ProcessTheUpcaseTag\bin\Debug\_05.ProcessTheUpcaseTag.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-8-StringsTextProcessing-Homework\05. ProcessTheUpcaseTag\obj\Debug\_05.ProcessTheUpcaseTag.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-8-StringsTextProcessing-Homework\05. ProcessTheUpcaseTag\obj\Debug\_05.ProcessTheUpcaseTag.pdb

@@ -1,3 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\8. AllTheNumbersUpToNOnALine\bin\Debug\_8.AllTheNumbersUpToNOnALine.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\8. AllTheNumbersUpToNOnALine\obj\Debug\_8.AllTheNumbersUpToNOnALine.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\8. AllTheNumbersUpToNOnALine\obj\Debug\_8.AllTheNumbersUpToNOnALine.pdb

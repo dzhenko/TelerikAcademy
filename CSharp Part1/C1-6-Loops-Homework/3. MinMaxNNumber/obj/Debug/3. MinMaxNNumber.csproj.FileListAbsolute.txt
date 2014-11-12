@@ -1,5 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\3. MinMaxNNumber\bin\Debug\_3.MinMaxNNumber.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\3. MinMaxNNumber\bin\Debug\_3.MinMaxNNumber.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\3. MinMaxNNumber\bin\Debug\_3.MinMaxNNumber.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\3. MinMaxNNumber\obj\Debug\_3.MinMaxNNumber.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\3. MinMaxNNumber\obj\Debug\_3.MinMaxNNumber.pdb

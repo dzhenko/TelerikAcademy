@@ -1,6 +1,0 @@
-c:\users\penev\documents\visual studio 2012\Projects\BookChapter7\BookChapter7\bin\Debug\BookChapter7.exe.config
-c:\users\penev\documents\visual studio 2012\Projects\BookChapter7\BookChapter7\bin\Debug\BookChapter7.exe
-c:\users\penev\documents\visual studio 2012\Projects\BookChapter7\BookChapter7\bin\Debug\BookChapter7.pdb
-c:\users\penev\documents\visual studio 2012\Projects\BookChapter7\BookChapter7\obj\Debug\1.csprojResolveAssemblyReference.cache
-c:\users\penev\documents\visual studio 2012\Projects\BookChapter7\BookChapter7\obj\Debug\BookChapter7.exe
-c:\users\penev\documents\visual studio 2012\Projects\BookChapter7\BookChapter7\obj\Debug\BookChapter7.pdb

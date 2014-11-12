@@ -1,5 +1,0 @@
-c:\users\penev\documents\visual studio 2012\Projects\RealExamCSharp1\Task5\bin\Debug\Task5.exe.config
-c:\users\penev\documents\visual studio 2012\Projects\RealExamCSharp1\Task5\bin\Debug\Task5.exe
-c:\users\penev\documents\visual studio 2012\Projects\RealExamCSharp1\Task5\bin\Debug\Task5.pdb
-c:\users\penev\documents\visual studio 2012\Projects\RealExamCSharp1\Task5\obj\Debug\Task5.exe
-c:\users\penev\documents\visual studio 2012\Projects\RealExamCSharp1\Task5\obj\Debug\Task5.pdb

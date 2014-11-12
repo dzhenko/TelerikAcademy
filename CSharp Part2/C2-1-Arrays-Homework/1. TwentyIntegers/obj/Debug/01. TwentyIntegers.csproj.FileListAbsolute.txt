@@ -1,9 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\1. TwentyIntegers\bin\Debug\C2-1-Arrays-Homework.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\1. TwentyIntegers\obj\Debug\C2-1-Arrays-Homework.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\1. TwentyIntegers\obj\Debug\C2-1-Arrays-Homework.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\1. TwentyIntegers\bin\Debug\C2-1-Arrays-Homework.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\1. TwentyIntegers\bin\Debug\C2-1-Arrays-Homework.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\1. TwentyIntegers\obj\Debug\01. TwentyIntegers.csprojResolveAssemblyReference.cache
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\1. TwentyIntegers\bin\Debug\C2-1-Arrays-Homework.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\1. TwentyIntegers\obj\Debug\C2-1-Arrays-Homework.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\1. TwentyIntegers\obj\Debug\C2-1-Arrays-Homework.pdb

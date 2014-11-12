@@ -1,0 +1,71 @@
+<div id="create-recipe-view" data-id="create-recipe-view" data-role="view" data-show="app.createRecipe.init"
+    data-title="Add recipe" data-layout="main-layout" data-init="initForm">
+    <div class="col-md-10 col-xs-10 col-lg-10 col-md-offset-1 col-xs-offset-1 col-lg-offset-1 container row">
+        <div class="form-group">
+            <label for="recipe-name" class="col-md-12 col-xs-12 col-lg-12 control-label">Name</label>
+            <div class="col-md-12 col-xs-12 col-lg-12">
+                <input id="recipe-name" type="text" placeholder="something original" data-bind="value: name" required="required" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="recipe-description" class="col-md-12 col-xs-12 col-lg-12 control-label">Description</label>
+            <div class="col-md-12 col-xs-12 col-lg-12">
+                <input id="recipe-description" type="text" placeholder="keep it short" data-bind="value: description"  class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="recipe-products" class="col-md-12 col-xs-12 col-lg-12 control-label">Products</label>
+            <div class="col-md-12 col-xs-12 col-lg-12">
+                <input id="recipe-products" type="text" placeholder="time to shop" data-bind="value: products" class="form-control" />
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label for="recipe-products" class="col-md-12 col-xs-12 col-lg-12 control-label">Directions</label>
+            <div class="col-md-12 col-xs-12 col-lg-12">
+                <input id="recipe-directions" type="text" placeholder="follow carefully" data-bind="value: directions" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="recipe-image" class="col-md-12 col-xs-12 col-lg-12 control-label">Select picture</label>
+            <div class="col-md-12 col-xs-12 col-lg-12">
+                <button data-role="button" data-icon="camera" class="btn btn-info col-md-12 col-xs-12 col-lg-12" data-align="right" data-bind="click: takeImage">Take a picture</button>
+                <span>or</span><br/>
+                <button data-role="button" data-icon="action" class="btn btn-info col-md-12 col-xs-12 col-lg-12" data-align="right" data-bind="click: uploadImageGallery">Choose from gallery</button>
+                <br/>
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label for="recipe-image" class="col-md-12 col-xs-12 col-lg-12 control-label">Choose category</label>
+            <div class="col-md-12 col-xs-12 col-lg-12">
+                <input data-role="dropdownlist"
+                       data-auto-bind="true"
+                       data-value-primitive="true"
+                       data-text-field="Name"
+                       data-value-field="Name"
+                       data-bind="value: category,
+                                  source: allCategories"
+                       class="form-control categorySelect"
+                />
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label class="col-md-12 col-xs-12 col-lg-12 control-label"></label>
+            <label class="col-md-12 col-xs-12 col-lg-12 control-label"></label>
+            <label class="col-md-12 col-xs-12 col-lg-12 control-label"></label>
+            <button data-bind="events: {click : cancel}" class="btn btn-primary col-md-10 col-xs-10 col-lg-10 col-md-offset-1 col-xs-offset-1 col-lg-offset-1">Cancel</button>
+        </div>
+
+        <div class="form-group">
+            <label class="col-md-12 col-xs-12 col-lg-12 control-label"></label>
+            <label class="col-md-12 col-xs-12 col-lg-12 control-label"></label>
+            <label class="col-md-12 col-xs-12 col-lg-12 control-label"></label>
+            <button data-bind="events: {click : createRecipe}" class="btn btn-success col-md-10 col-xs-10 col-lg-10 col-md-offset-1 col-xs-offset-1 col-lg-offset-1">Add</button>
+        </div>
+    </div>
+</div>

@@ -1,3 +1,0 @@
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\TwoIsBetterThanOne\bin\Debug\TwoIsBetterThanOne.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\TwoIsBetterThanOne\obj\Debug\TwoIsBetterThanOne.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\TwoIsBetterThanOne\obj\Debug\TwoIsBetterThanOne.pdb

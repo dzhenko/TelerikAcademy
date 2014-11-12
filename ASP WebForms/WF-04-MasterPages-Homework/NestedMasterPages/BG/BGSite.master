@@ -1,0 +1,14 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="BGSite.master.cs" Inherits="NestedMasterPages.BG.BGSite" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="RootHead" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="RootContent" runat="server">
+    <h2>Добре дошли в сайта ни !</h2>
+    <nav>
+        <a href="Home.aspx">Хоме :)</a>
+        <a href="About.aspx">Подробности</a>
+        <a href="Contacts.aspx">Контакти</a>
+    </nav>
+    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>

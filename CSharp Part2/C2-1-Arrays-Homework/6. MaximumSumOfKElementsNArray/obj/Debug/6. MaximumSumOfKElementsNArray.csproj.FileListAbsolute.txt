@@ -1,6 +1,0 @@
-c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\6. MaximumSumOfKElementsNArray\bin\Debug\_6.MaximumSumOfKElementsNArray.exe.config
-c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\6. MaximumSumOfKElementsNArray\bin\Debug\_6.MaximumSumOfKElementsNArray.exe
-c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\6. MaximumSumOfKElementsNArray\bin\Debug\_6.MaximumSumOfKElementsNArray.pdb
-c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\6. MaximumSumOfKElementsNArray\obj\Debug\_6.MaximumSumOfKElementsNArray.exe
-c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\6. MaximumSumOfKElementsNArray\obj\Debug\_6.MaximumSumOfKElementsNArray.pdb
-c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\6. MaximumSumOfKElementsNArray\obj\Debug\6. MaximumSumOfKElementsNArray.csprojResolveAssemblyReference.cache

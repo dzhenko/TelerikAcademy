@@ -1,0 +1,33 @@
+.container
+    include ../common/resourcesOverview
+
+    .panel.panel-success(ng-show="filteredTasks.length > 0")
+        .panel-heading
+            h3.panel-title Troops in progress
+        .panel-body
+            .row(ng-repeat="task in filteredTasks")
+                .col-md-8
+                    h3.lead {{ upgradesModel.names[task.indexToAddTo].name }}
+                    h5.lead(timer end-time="task.time") Time left  {{ hours }} hours , {{ minutes }} minutes , {{ seconds }} seconds
+                    .progress.progress-striped.active
+                        .progress-bar(style="width: {{ 100 * ((now - task.created)/(task.time - task.created)) }}%")
+                .col-md-3.col-md-offset-1
+                    img.pull-right(src="" ng-src="{{ upgradesModel.names[task.indexToAddTo].image }}" alt="image" height=150 width=150)
+
+    .panel.panel-info.row(ng-repeat="upgrade in upgradesModel.names")
+        .panel-heading
+            h3.panel-title {{ upgrade.name }}
+        .panel-body
+            .col-md-9
+                p.lead Level {{ gameObjects.upgrades[$index] }}
+                p.lead {{ Math.round((upgradesModel.multiplier[gameObjects.upgrades[$index]] -1) * 100) }} %
+                h3 Next Level will give {{ Math.round((upgradesModel.multiplier[gameObjects.upgrades[$index] + 1] -1) * 100) }} %
+                .row
+                    h3.col-md-9 Cost
+                        span.text-primary  {{ upgradesModel.cost.minerals[gameObjects.upgrades[$index] + 1] }} minerals
+                        span.text-success  {{ upgradesModel.cost.gas[gameObjects.upgrades[$index] + 1] }} gas
+                    button.btn.btn-lg.col-md-3(ng-disabled="btnDisabled[$index]" ng-class="btnClass[$index]" ng-click="confirm($index)" data-toggle="modal" data-target="#confirmer") {{ btnText[$index] }}
+            .col-md-2.col-md-offset-1
+                img.pull-right(src="" ng-src="{{ upgrade.image }}" alt="image" height=150 width=150)
+
+    include ../common/confirmer

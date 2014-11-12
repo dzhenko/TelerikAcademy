@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<form method="post">
+    <div>
+        Value 1:
+        <input type="number" value="@ViewBag.val1" />
+        <hr />
+        Value 2:
+        <input type="number" value="@ViewBag.val2" />
+        <hr />
+        <input type="submit" value="Sum"/>
+        Result: <input type="number" value="@ViewBag.result" />
+    </div>
+</form>

@@ -1,6 +1,0 @@
-c:\users\penev\documents\visual studio 2012\Projects\C1-6-Loops-Homework\14. SpiralTime\bin\Debug\_14.SpiralTime.exe.config
-c:\users\penev\documents\visual studio 2012\Projects\C1-6-Loops-Homework\14. SpiralTime\bin\Debug\_14.SpiralTime.exe
-c:\users\penev\documents\visual studio 2012\Projects\C1-6-Loops-Homework\14. SpiralTime\bin\Debug\_14.SpiralTime.pdb
-c:\users\penev\documents\visual studio 2012\Projects\C1-6-Loops-Homework\14. SpiralTime\obj\Debug\_14.SpiralTime.exe
-c:\users\penev\documents\visual studio 2012\Projects\C1-6-Loops-Homework\14. SpiralTime\obj\Debug\_14.SpiralTime.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\14. SpiralTime\obj\Debug\14. SpiralArranger.csprojResolveAssemblyReference.cache

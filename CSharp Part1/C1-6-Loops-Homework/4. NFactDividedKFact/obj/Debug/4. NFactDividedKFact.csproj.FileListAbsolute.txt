@@ -1,9 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\4\bin\Debug\4.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\4\obj\Debug\4.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\4\obj\Debug\4.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\4. NFactDividedKFact\bin\Debug\4.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\4. NFactDividedKFact\obj\Debug\4.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\4. NFactDividedKFact\obj\Debug\4.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\4. NFactDividedKFact\bin\Debug\4.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\4. NFactDividedKFact\bin\Debug\4.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\4. NFactDividedKFact\obj\Debug\4. NFactDividedKFact.csprojResolveAssemblyReference.cache

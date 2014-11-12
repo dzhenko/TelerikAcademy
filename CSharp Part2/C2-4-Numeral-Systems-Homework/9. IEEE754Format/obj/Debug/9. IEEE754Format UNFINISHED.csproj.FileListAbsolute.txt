@@ -1,4 +1,0 @@
-c:\users\penev\documents\visual studio 2012\Projects\C-4-Numeral-Systems-Homework\9. IEEE754Format\bin\Debug\_9.IEEE754Format.exe.config
-c:\users\penev\documents\visual studio 2012\Projects\C-4-Numeral-Systems-Homework\9. IEEE754Format\obj\Debug\_9.IEEE754Format.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-4-Numeral-Systems-Homework\9. IEEE754Format\bin\Debug\_9.IEEE754Format.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-4-Numeral-Systems-Homework\9. IEEE754Format\obj\Debug\_9.IEEE754Format.exe

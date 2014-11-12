@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="StudentsSchema"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="school">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="student" maxOccurs="unbounded">
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="pesho" type="xs:string" use="required">
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="student">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="name" />
+        <xs:element ref="sex" />
+        <xs:element ref="birthday" />
+        <xs:element ref="phone" />
+        <xs:element ref="email" />
+        <xs:element ref="course" />
+        <xs:element ref="specialty" />
+        <xs:element ref="faculty-number" />
+        <xs:element ref="exams" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="exams">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="examName" />
+        <xs:element ref="tutor" />
+        <xs:element ref="score" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="name" type="xs:string" />
+  <xs:element name="sex" type="xs:string" />
+  <xs:element name="birthday" type="xs:date" />
+  <xs:element name="phone" type="xs:string" />
+  <xs:element name="email" type="xs:string" />
+  <xs:element name="course" type="xs:string" />
+  <xs:element name="specialty" type="xs:string" />
+  <xs:element name="faculty-number" type="xs:string" />
+
+  <xs:element name="examName" type="xs:string" />
+  <xs:element name="tutor" type="xs:string" />
+  <xs:element name="score" type="xs:int" />
+
+</xs:schema>

@@ -1,5 +1,0 @@
-c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\3. LexicographicallyComparison\bin\Debug\_3.LexicographicallyComparison.exe.config
-c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\3. LexicographicallyComparison\bin\Debug\_3.LexicographicallyComparison.exe
-c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\3. LexicographicallyComparison\bin\Debug\_3.LexicographicallyComparison.pdb
-c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\3. LexicographicallyComparison\obj\Debug\_3.LexicographicallyComparison.exe
-c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\3. LexicographicallyComparison\obj\Debug\_3.LexicographicallyComparison.pdb

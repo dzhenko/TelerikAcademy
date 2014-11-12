@@ -1,6 +1,0 @@
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\SevenSegmentDisplay\bin\Debug\SevenSegmentDisplay.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\SevenSegmentDisplay\obj\Debug\SevenSegmentDisplay.csprojResolveAssemblyReference.cache
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\SevenSegmentDisplay\bin\Debug\SevenSegmentDisplay.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\SevenSegmentDisplay\bin\Debug\SevenSegmentDisplay.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\SevenSegmentDisplay\obj\Debug\SevenSegmentDisplay.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\SevenSegmentDisplay\obj\Debug\SevenSegmentDisplay.pdb

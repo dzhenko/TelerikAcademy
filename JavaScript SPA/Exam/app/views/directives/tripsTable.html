@@ -1,0 +1,20 @@
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+    <tr>
+        <th class="text-center">Driver</th>
+        <th class="text-center">From</th>
+        <th class="text-center">To</th>
+        <th class="text-center">Departure Time</th>
+        <th class="text-center" ng-show="showIsMineColumn">Is Mine</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="trip in trips | orderBy:orderByValue">
+        <td><a href="#/drivers/{{trip.driverId}}">{{trip.driverName}}</a></td>
+        <td>{{trip.from}}</td>
+        <td>{{trip.to}}</td>
+        <td><a href="#/trips/{{trip.id}}">{{trip.departureDate | date : 'medium'}}</a></td>
+        <td ng-show="showIsMineColumn" ng-bind-html="trip.isMine | isMineFilter"></td>
+    </tr>
+    </tbody>
+</table>

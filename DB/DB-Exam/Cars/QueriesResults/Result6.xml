@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Cars xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Car Manufacturer="zVKNbOL" Model="jmWRnkVnGUugKhgcfDaL" Year="1995" Price="104486.00">
+    <TransmissionType>Automatic</TransmissionType>
+    <Dealer Name="aVhMNylErc">
+      <Cities>
+        <City>vElNRYqn</City>
+      </Cities>
+    </Dealer>
+  </Car>
+</Cars>

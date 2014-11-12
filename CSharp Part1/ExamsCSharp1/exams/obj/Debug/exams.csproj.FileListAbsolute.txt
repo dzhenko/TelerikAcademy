@@ -1,6 +1,0 @@
-c:\users\penev\documents\visual studio 2012\Projects\exams\exams\bin\Debug\exams.exe.config
-c:\users\penev\documents\visual studio 2012\Projects\exams\exams\bin\Debug\exams.exe
-c:\users\penev\documents\visual studio 2012\Projects\exams\exams\bin\Debug\exams.pdb
-c:\users\penev\documents\visual studio 2012\Projects\exams\exams\obj\Debug\exams.csprojResolveAssemblyReference.cache
-c:\users\penev\documents\visual studio 2012\Projects\exams\exams\obj\Debug\exams.exe
-c:\users\penev\documents\visual studio 2012\Projects\exams\exams\obj\Debug\exams.pdb

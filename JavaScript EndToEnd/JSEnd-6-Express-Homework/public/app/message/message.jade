@@ -1,0 +1,42 @@
+.container
+    .well
+        form.form-horizontal(name="messageUsernameForm")
+            fieldset
+                legend.text-primary.col-md-offset-1.col-md-10 Message to Username
+                .form-group
+                    label.col-md-2.control-label(for="targetUsername") Username
+                    .col-md-6
+                        input.form-control(id="targetUsername" type="text", placeholder="username", ng-model="targetUsername")
+                    .col-md-3
+                        .alert.alert-danger(ng-hide="!!targetUsername") Username is required
+                .row
+                    .col-md-8
+                        button.pull-right.btn.btn-lg.btn-success(ng-click="confirmUsername()", ng-disabled="messageUsernameForm.$invalid") Find user
+                    a.btn.btn-lg.btn-danger(href="#/overview") Back
+
+    .well
+        form.form-horizontal(name="messageForm")
+            fieldset
+                legend.text-primary.col-md-offset-1.col-md-10 Message at coordinates
+                .form-group
+                    label.col-md-2.control-label(for="CoordinateX") Coordinate X
+                    .col-md-6
+                        input.form-control(id="CoordinateX" type="number", placeholder="X", ng-model="coords[0]", required)
+                    .col-md-3
+                        .alert.alert-danger(ng-hide="!!coords[0]") Coordinate X is required
+                .form-group
+                    label.col-md-2.control-label(for="CoordinateY") Coordinate Y
+                    .col-md-6
+                        input.form-control(id="CoordinateY" type="number", placeholder="Y", ng-model="coords[1]", required)
+                    .col-md-3
+                        .alert.alert-danger(ng-hide="!!coords[1]") Coordinate Y is required
+                .form-group
+                    label.col-md-2.control-label(for="CoordinateX") Coordinate Z
+                    .col-md-6
+                        input.form-control(id="CoordinateZ" type="number", placeholder="Z", ng-model="coords[2]", required)
+                    .col-md-3
+                        .alert.alert-danger(ng-hide="!!coords[2]") Coordinate Z is required
+                .row
+                    .col-md-8
+                        button.pull-right.btn.btn-lg.btn-success(ng-click="confirm()", ng-disabled="messageForm.$invalid") Find user
+                    a.btn.btn-lg.btn-danger(href="#/overview") Back

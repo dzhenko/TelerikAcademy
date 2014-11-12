@@ -1,5 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Tree\bin\Debug\Tree.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Tree\bin\Debug\Tree.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Tree\bin\Debug\Tree.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Tree\obj\Debug\Tree.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Tree\obj\Debug\Tree.pdb

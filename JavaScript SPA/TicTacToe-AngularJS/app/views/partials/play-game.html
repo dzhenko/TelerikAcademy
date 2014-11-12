@@ -1,0 +1,26 @@
+<div class="container">
+    <button modal-window data-toggle="modal" id="hiddenButton" data-target="#modalWindow" ng-show="false"></button>
+
+    <h1>{{firstPlayer}} X VS O {{secondPlayer}}</h1>
+    <h2>{{state | gameStateFilter}}</h2>
+
+    <div class="well">
+        <table class="tab-pane" id="playGameTable">
+            <tr>
+                <td ng-click="clicked(1,1)">{{board[0]}}</td>
+                <td  ng-click="clicked(1,2)">{{board[1]}}</td>
+                <td  ng-click="clicked(1,3)">{{board[2]}}</td>
+            </tr>
+            <tr>
+                <td  ng-click="clicked(2,1)">{{board[3]}}</td>
+                <td  ng-click="clicked(2,2)">{{board[4]}}</td>
+                <td  ng-click="clicked(2,3)">{{board[5]}}</td>
+            </tr>
+            <tr>
+                <td  ng-click="clicked(3,1)">{{board[6]}}</td>
+                <td  ng-click="clicked(3,2)">{{board[7]}}</td>
+                <td  ng-click="clicked(3,3)">{{board[8]}}</td>
+            </tr>
+        </table>
+    </div>
+</div>

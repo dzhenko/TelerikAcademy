@@ -1,6 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\MathExpression\bin\Debug\MathExpression.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\MathExpression\bin\Debug\MathExpression.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\MathExpression\bin\Debug\MathExpression.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\MathExpression\obj\Debug\MathExpression.csprojResolveAssemblyReference.cache
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\MathExpression\obj\Debug\MathExpression.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\MathExpression\obj\Debug\MathExpression.pdb

@@ -1,5 +1,0 @@
-c:\users\penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\2. GetMax\bin\Debug\_2.GetMax.exe.config
-c:\users\penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\2. GetMax\bin\Debug\_2.GetMax.exe
-c:\users\penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\2. GetMax\bin\Debug\_2.GetMax.pdb
-c:\users\penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\2. GetMax\obj\Debug\_2.GetMax.exe
-c:\users\penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\2. GetMax\obj\Debug\_2.GetMax.pdb

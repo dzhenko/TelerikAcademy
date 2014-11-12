@@ -1,0 +1,11 @@
+extends shared/layout
+block main-content
+    h1.text-center Welcome to Telerik Academy Events System
+
+    h2 Passed Events
+        each event in events
+            p Name : #{event.title} |
+                span Organization :
+                span= event.organization
+                span | Venue :
+                span= event.venue

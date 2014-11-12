@@ -1,9 +1,0 @@
-C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\16. DaysBetweenTwoDates\bin\Debug\_16.DaysBetweenTwoDates.exe.config
-C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\16. DaysBetweenTwoDates\bin\Debug\_16.DaysBetweenTwoDates.exe
-C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\16. DaysBetweenTwoDates\bin\Debug\_16.DaysBetweenTwoDates.pdb
-C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\16. DaysBetweenTwoDates\obj\Debug\16. DaysBetweenTwoDates.csprojResolveAssemblyReference.cache
-C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\16. DaysBetweenTwoDates\obj\Debug\_16.DaysBetweenTwoDates.exe
-C:\Users\Penev\documents\visual studio 2012\Projects\C2-8-StringsTextProcessing-Homework\16. DaysBetweenTwoDates\obj\Debug\_16.DaysBetweenTwoDates.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-8-StringsTextProcessing-Homework\16. DaysBetweenTwoDates\bin\Debug\_16.DaysBetweenTwoDates.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-8-StringsTextProcessing-Homework\16. DaysBetweenTwoDates\obj\Debug\_16.DaysBetweenTwoDates.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-8-StringsTextProcessing-Homework\16. DaysBetweenTwoDates\obj\Debug\_16.DaysBetweenTwoDates.pdb

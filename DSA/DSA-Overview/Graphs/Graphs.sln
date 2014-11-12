@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30626.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dijkstra", "Dijkstra\Dijkstra.csproj", "{B739463B-CB5B-4754-8D69-2FD7179A270F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4175DA15-1CD1-4F6A-899B-CDC24C331D42}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BellmanFord", "BellmanFord\BellmanFord.csproj", "{5A965F4B-54DE-4B68-B490-43FCA1D1CFB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prim", "Prim\Prim.csproj", "{56ABC0EC-4D99-4BD4-8872-0179EEF89A1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HamiltonCycle", "HamiltonCycle\HamiltonCycle.csproj", "{3868FC36-2763-48A5-B624-F8AD9F9201ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OilerCycle", "OilerCycle\OilerCycle.csproj", "{B2185465-14E2-4266-A51E-359C2F1812DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kruskal", "Kruskal\Kruskal.csproj", "{DB493783-4DDD-4145-8CF5-1FAE5EEF98EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B739463B-CB5B-4754-8D69-2FD7179A270F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B739463B-CB5B-4754-8D69-2FD7179A270F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B739463B-CB5B-4754-8D69-2FD7179A270F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B739463B-CB5B-4754-8D69-2FD7179A270F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A965F4B-54DE-4B68-B490-43FCA1D1CFB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A965F4B-54DE-4B68-B490-43FCA1D1CFB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A965F4B-54DE-4B68-B490-43FCA1D1CFB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A965F4B-54DE-4B68-B490-43FCA1D1CFB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56ABC0EC-4D99-4BD4-8872-0179EEF89A1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56ABC0EC-4D99-4BD4-8872-0179EEF89A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56ABC0EC-4D99-4BD4-8872-0179EEF89A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56ABC0EC-4D99-4BD4-8872-0179EEF89A1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3868FC36-2763-48A5-B624-F8AD9F9201ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3868FC36-2763-48A5-B624-F8AD9F9201ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3868FC36-2763-48A5-B624-F8AD9F9201ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3868FC36-2763-48A5-B624-F8AD9F9201ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2185465-14E2-4266-A51E-359C2F1812DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2185465-14E2-4266-A51E-359C2F1812DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2185465-14E2-4266-A51E-359C2F1812DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2185465-14E2-4266-A51E-359C2F1812DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB493783-4DDD-4145-8CF5-1FAE5EEF98EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB493783-4DDD-4145-8CF5-1FAE5EEF98EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB493783-4DDD-4145-8CF5-1FAE5EEF98EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB493783-4DDD-4145-8CF5-1FAE5EEF98EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

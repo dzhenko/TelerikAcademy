@@ -1,0 +1,14 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ENSite.master.cs" Inherits="NestedMasterPages.EN.ENSite" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="RootHead" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="RootContent" runat="server">
+    <h2>Wellcome english man!</h2>
+    <h3>If you see this then you are a good person</h3>
+    <nav>
+        <a href="Home.aspx">Home</a>
+        <a href="About.aspx">About</a>
+        <a href="Contacts.aspx">Contacts</a>
+    </nav>
+    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>

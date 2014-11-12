@@ -1,5 +1,0 @@
-c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\10. BonusScores\bin\Debug\_10.BonusScores.exe.config
-c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\10. BonusScores\bin\Debug\_10.BonusScores.exe
-c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\10. BonusScores\bin\Debug\_10.BonusScores.pdb
-c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\10. BonusScores\obj\Debug\_10.BonusScores.exe
-c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\10. BonusScores\obj\Debug\_10.BonusScores.pdb

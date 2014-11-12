@@ -1,6 +1,0 @@
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\TicTacToe  2011-2012 Test Exam\bin\Debug\TicTacToe  2011-2012 Test Exam.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\TicTacToe  2011-2012 Test Exam\bin\Debug\TicTacToe  2011-2012 Test Exam.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\TicTacToe  2011-2012 Test Exam\bin\Debug\TicTacToe  2011-2012 Test Exam.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\TicTacToe  2011-2012 Test Exam\obj\Debug\TicTacToe  2011-2012 Test Exam.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\TicTacToe  2011-2012 Test Exam\obj\Debug\TicTacToe  2011-2012 Test Exam.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\TicTacToe  2011-2012 Test Exam\obj\Debug\TicTacToe  2011-2012 Test Exam.csprojResolveAssemblyReference.cache

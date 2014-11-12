@@ -1,5 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\NextDay\bin\Debug\NextDay.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\NextDay\bin\Debug\NextDay.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\NextDay\bin\Debug\NextDay.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\NextDay\obj\Debug\NextDay.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\NextDay\obj\Debug\NextDay.pdb

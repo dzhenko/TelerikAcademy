@@ -1,9 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\04. LineByLineComparer\bin\Debug\_04.LineByLineComparer.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\04. LineByLineComparer\bin\Debug\_04.LineByLineComparer.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\04. LineByLineComparer\bin\Debug\_04.LineByLineComparer.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\04. LineByLineComparer\obj\Debug\04. LineByLineComparer.csprojResolveAssemblyReference.cache
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\04. LineByLineComparer\obj\Debug\_04.LineByLineComparer.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\04. LineByLineComparer\obj\Debug\_04.LineByLineComparer.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-7-TextFiles-Homework\04. LineByLineComparer\bin\Debug\_04.LineByLineComparer.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-7-TextFiles-Homework\04. LineByLineComparer\obj\Debug\_04.LineByLineComparer.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-7-TextFiles-Homework\04. LineByLineComparer\obj\Debug\_04.LineByLineComparer.pdb

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{46C39201-0410-4D64-ABDE-6367B1FB9F85}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BattleNetShop.Logic</RootNamespace>
+    <AssemblyName>BattleNetShop.Logic</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.OpenAccess, Version=2014.2.711.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Telerik.DataAccess.Core.2014.2.711.1\lib\net40\Telerik.OpenAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.OpenAccess.35.Extensions, Version=2014.2.711.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Telerik.DataAccess.Core.2014.2.711.1\lib\net40\Telerik.OpenAccess.35.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.OpenAccess.40.Extensions, Version=2014.2.711.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Telerik.DataAccess.Core.2014.2.711.1\lib\net40\Telerik.OpenAccess.40.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.OpenAccess.Runtime, Version=2014.2.711.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Telerik.DataAccess.Core.2014.2.711.1\lib\net40\Telerik.OpenAccess.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClientInformation.cs" />
+    <Compile Include="DataSeeder.cs" />
+    <Compile Include="ExcelReportsLoader.cs" />
+    <Compile Include="ExcelXlsxReportGenerator.cs" />
+    <Compile Include="JsonReportsGenerator.cs" />
+    <Compile Include="MsSqlReportsFetcher.cs" />
+    <Compile Include="MySqlReportsSaver.cs" />
+    <Compile Include="PdfReportsGenerator.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XmlReportsHandler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BattleNetShop.Data.Excel.Xlsx\BattleNetShop.Data.Excel.Xlsx.csproj">
+      <Project>{b4f6260d-0ab0-450d-9462-e510a78b013b}</Project>
+      <Name>BattleNetShop.Data.Excel.Xlsx</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BattleNetShop.Data.Excel.Xls\BattleNetShop.Data.Excel.Xls.csproj">
+      <Project>{368d1a8c-9469-49e2-a20b-b41c00c0a85d}</Project>
+      <Name>BattleNetShop.Data.Excel.Xls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BattleNetShop.Data.JSON\BattleNetShop.Data.Json.csproj">
+      <Project>{193e18de-7f43-4786-977d-2bb26d65a7b0}</Project>
+      <Name>BattleNetShop.Data.Json</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BattleNetShop.Data.MongoDb\BattleNetShop.Data.MongoDb.csproj">
+      <Project>{801fd9f8-9891-443f-8688-d00472d6a65f}</Project>
+      <Name>BattleNetShop.Data.MongoDb</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BattleNetShop.Data.MySql\BattleNetShop.Data.MySql.csproj">
+      <Project>{d6221064-bb1e-42f6-9941-5ed8f551ccbd}</Project>
+      <Name>BattleNetShop.Data.MySql</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BattleNetShop.Data.PDF\BattleNetShop.Data.Pdf.csproj">
+      <Project>{6244a825-a67d-454d-b96e-8f63d804a8eb}</Project>
+      <Name>BattleNetShop.Data.Pdf</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BattleNetShop.Data.SqLiteDb\BattleNetShop.Data.SqLiteDb.csproj">
+      <Project>{4fa0af97-3a91-41ba-a36c-ce9b10266aab}</Project>
+      <Name>BattleNetShop.Data.SqLiteDb</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BattleNetShop.Data.SqlServer\BattleNetShop.Data.SqlServer.csproj">
+      <Project>{6bf7172a-e7db-42c5-8122-6d6b65eaff5a}</Project>
+      <Name>BattleNetShop.Data.SqlServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BattleNetShop.Data.XML\BattleNetShop.Data.Xml.csproj">
+      <Project>{ac1e7f6d-e06e-4cec-8d08-9c4e3c23a70c}</Project>
+      <Name>BattleNetShop.Data.Xml</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BattleNetShop.Model\BattleNetShop.Model.csproj">
+      <Project>{0144de51-520f-4226-8aea-accd5ceef6bf}</Project>
+      <Name>BattleNetShop.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BattleNetShop.ReportsModel\BattleNetShop.ReportsModel.csproj">
+      <Project>{e4279469-a64d-41e6-adbb-0497853cebfa}</Project>
+      <Name>BattleNetShop.ReportsModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

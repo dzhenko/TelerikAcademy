@@ -1,9 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\KaspichanNumbers\bin\Debug\KaspichanNumbers.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\KaspichanNumbers\bin\Debug\KaspichanNumbers.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\KaspichanNumbers\bin\Debug\KaspichanNumbers.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\KaspichanNumbers\obj\Debug\KaspichanNumbers.csprojResolveAssemblyReference.cache
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\KaspichanNumbers\obj\Debug\KaspichanNumbers.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\KaspichanNumbers\obj\Debug\KaspichanNumbers.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\KaspichanNumbers\bin\Debug\KaspichanNumbers.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\KaspichanNumbers\obj\Debug\KaspichanNumbers.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\KaspichanNumbers\obj\Debug\KaspichanNumbers.pdb

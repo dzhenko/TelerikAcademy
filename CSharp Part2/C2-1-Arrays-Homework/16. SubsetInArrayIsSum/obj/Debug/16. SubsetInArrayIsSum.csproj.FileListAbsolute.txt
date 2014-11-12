@@ -1,4 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\16. SubsetInArrayIsSum\bin\Debug\_16.SubsetInArrayIsSum.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\16. SubsetInArrayIsSum\bin\Debug\_16.SubsetInArrayIsSum.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\16. SubsetInArrayIsSum\obj\Debug\_16.SubsetInArrayIsSum.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\16. SubsetInArrayIsSum\obj\Debug\_16.SubsetInArrayIsSum.pdb

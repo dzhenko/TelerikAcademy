@@ -1,0 +1,21 @@
+extends includes/layout
+
+block main-content
+    header.nav.navbar-default.navbar-fixed-top
+        .container
+            .navbar-header
+                button.navbar-toggle(type="button" data-toggle="collapse" data-target="#navbar-main")
+                    span.icon-bar
+                    span.icon-bar
+                    span.icon-bar
+                a.navbar-brand(href="#/") NovCraft
+            .navbar-collapse.collapse#navbar-main
+                div(ng-include="'partials/nav/nav'")
+                div(ng-include="'partials/account/login'")
+
+    section
+        div(ng-view)
+
+    footer
+        p.text-center.text-success
+            | &copy NovCraft MEAN Application 2014 Powered by bootstrap & starcraft.wikia.com

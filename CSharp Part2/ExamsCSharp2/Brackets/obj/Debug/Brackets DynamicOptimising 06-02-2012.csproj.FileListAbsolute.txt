@@ -1,6 +1,0 @@
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Brackets\bin\Debug\Brackets.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Brackets\obj\Debug\Brackets.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Brackets\obj\Debug\Brackets.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\Brackets\bin\Debug\Brackets.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\Brackets\obj\Debug\Brackets.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\Brackets\obj\Debug\Brackets.pdb

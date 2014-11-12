@@ -1,0 +1,42 @@
+<div class="container">
+    <h1>{{driver.name}}</h1>
+    <div class="row">
+        <p class="col-md-2">
+            Upcoming trips: <strong>{{driver.numberOfUpcomingTrips}}</strong>
+        </p>
+        <p class="col-md-2">
+            Total trips: <strong>{{driver.numberOfTotalTrips}}</strong>
+        </p>
+        <p class="col-md-2 col-md-offset-1">
+            <input type="checkbox" id="onlyMineTrips" ng-model="onlyMineTripsValue" ng-change="filterTrips()"/>
+            <label for="onlyMineTrips">Only mine trips</label>
+        </p>
+        <p class="col-md-2">
+            <input type="checkbox" id="onlyDriverTrips" ng-model="onlyDriverTripsValue" ng-change="filterTrips()"/>
+            <label for="onlyDriverTrips">Only driver trips</label>
+        </p>
+        <p class="col-md-3">
+            <select class="pull-right" ng-model="orderByValue" ng-options="orderType.value as orderType.text for orderType in orderTypes"></select>
+            <label class="pull-right">Order By </label>
+            </p>
+    </div>
+    <!--Instead of adding multiple filters in the directive, its more readable to paste the table here-->
+    <table class="table table-bordered table-striped table-hover">
+        <thead>
+        <tr>
+            <th class="text-center">Driver</th>
+            <th class="text-center">From</th>
+            <th class="text-center">To</th>
+            <th class="text-center">Departure Time</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="trip in tripsToShow | orderBy:orderByValue">
+            <td><a href="#/drivers/{{trip.driverId}}">{{trip.driverName}}</a></td>
+            <td>{{trip.from}}</td>
+            <td>{{trip.to}}</td>
+            <td><a href="#/trips/{{trip.id}}">{{trip.departureDate | date : 'medium'}}</a></td>
+        </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,6 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\FighterAttack\bin\Debug\FighterAttack.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\FighterAttack\bin\Debug\FighterAttack.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\FighterAttack\bin\Debug\FighterAttack.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\FighterAttack\obj\Debug\FighterAttack.csprojResolveAssemblyReference.cache
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\FighterAttack\obj\Debug\FighterAttack.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\FighterAttack\obj\Debug\FighterAttack.pdb

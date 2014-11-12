@@ -1,0 +1,13 @@
+{
+  "name": "NodeWebServerHomework",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "mit",
+  "dependencies": {
+    "formidable": "^1.0.15",
+    "node-uuid": "^1.4.1"
+  }
+}

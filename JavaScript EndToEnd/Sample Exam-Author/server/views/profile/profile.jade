@@ -1,0 +1,40 @@
+extends ../shared/layout
+block main-content
+    .well.container
+        h2= currentUser.username
+        img.pull-right(src="#{profilePictureLink}" alt="#{currentUser.username}")
+    .well: form.form-horizontal(method="post" enctype="multipart/form-data"): fieldset
+        legend Update Profile
+        .form-group
+            label.col-md-4.control-label(for="phone") Phone Number
+            .col-md-8
+                input.form-control(id="phone" value="#{currentUser.phone}" type="text" name="phone" placeholder="Phone Number")
+        .form-group
+            label.col-md-4.control-label(for="profilePicture") Profile picture (JPG format)
+            .col-md-8
+                input.form-control(id="profilePicture" type="file" name="profilePicture")
+        .form-group
+            label.col-md-4.control-label(for="profileFacebook") Facebook Profile
+            .col-md-8
+                input.form-control(id="profileFacebook" value="#{currentUser.profileFacebook}" type="text" name="profileFacebook")
+        .form-group
+            label.col-md-4.control-label(for="profileTwitter") Twitter Profile
+            .col-md-8
+                input.form-control(id="profileTwitter" value="#{currentUser.profileTwitter}" type="text" name="profileTwitter")
+        .form-group
+            label.col-md-4.control-label(for="profileLinkedIn") LinkedIn Profile
+            .col-md-8
+                input.form-control(id="profileLinkedIn" value="#{currentUser.profileLinkedIn}" type="text" name="profileLinkedIn")
+        .form-group
+            label.col-md-4.control-label(for="profileGoogle") Google+ Profile
+            .col-md-8
+                input.form-control(id="profileGoogle" class="form-control" value="#{currentUser.profileGoogle}" type="text" name="profileGoogle")
+        .pull-right
+            input.btn.btn-primary(type="submit" value="Update")
+            a.btn.btn-danger(href="/") Cancel
+    .well
+        h3.text-center List Events
+        .btn-group.btn-group-justified
+            a.btn.btn-primary.lead(href='/profile-events-created') Created
+            a.btn.btn-success.lead(href='/profile-events-joined') Joined
+            a.btn.btn-warning.lead(href='/profile-events-past') Past

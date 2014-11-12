@@ -1,0 +1,19 @@
+body > footer {
+    margin-top: 100px;
+}
+
+#create-event-type{
+    display: none;
+}
+
+#create-event-initiatives {
+    display: none;
+}
+
+#create-event-seasons {
+    display: none;
+}
+
+#eventIdHolder {
+    display: none;
+}

@@ -1,5 +1,0 @@
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\06. SumOfIntsInAString\bin\Debug\_06.SumOfIntsInAString.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\06. SumOfIntsInAString\bin\Debug\_06.SumOfIntsInAString.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\06. SumOfIntsInAString\bin\Debug\_06.SumOfIntsInAString.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\06. SumOfIntsInAString\obj\Debug\_06.SumOfIntsInAString.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\06. SumOfIntsInAString\obj\Debug\_06.SumOfIntsInAString.pdb

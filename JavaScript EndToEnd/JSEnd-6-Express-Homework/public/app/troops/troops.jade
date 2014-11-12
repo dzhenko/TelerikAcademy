@@ -1,0 +1,40 @@
+.container
+    include ../common/resourcesOverview
+
+    .panel.panel-success(ng-show="filteredTasks.length > 0")
+        .panel-heading
+            h3.panel-title Troops in progress
+        .panel-body
+            .row(ng-repeat="task in filteredTasks")
+                .col-md-8
+                    h3.lead {{ raceModel.troops[task.indexToAddTo].name }}
+                    h5.lead(timer end-time="task.time") Time left  {{ hours }} hours , {{ minutes }} minutes , {{ seconds }} seconds
+                    .progress.progress-striped.active
+                        .progress-bar(style="width: {{ 100 * ((now - task.created)/(task.time - task.created)) }}%")
+                .col-md-3.col-md-offset-1
+                    img.pull-right(src="" ng-src="{{ raceModel.troops[task.indexToAddTo].image }}" alt="image" height=150 width=150)
+
+    .panel.panel-info.row(ng-repeat="troop in raceModel.troops")
+        .panel-heading
+            h3.panel-title {{ troop.name }}
+        .panel-body
+            .col-md-9
+                p.lead You own {{ gameObjects.troops[$index] }}
+                    span.pull-right
+                        span.text-danger  {{ troopsModel.attack[$index] }}
+                            span.glyphicon.glyphicon-screenshot attack
+                        span.text-warning  {{ troopsModel.defence[$index] }}
+                            span.glyphicon.glyphicon-exclamation-sign defence
+                        span.text-success  {{ troopsModel.health[$index] }}
+                            span.glyphicon.glyphicon-plus-sign health
+                p.lead {{ troop.description }}
+                .row
+                    h3.col-md-9 Cost
+                        span.text-primary  {{ troopsModel.minerals[$index] }} minerals
+                        span.text-success  {{ troopsModel.gas[$index] }} gas
+                        span.text-danger  {{ troopsModel.supply[$index] }} supply
+                    button.btn.btn-lg.col-md-3(ng-disabled="btnDisabled[$index]" ng-class="btnClass[$index]" ng-click="confirm($index)" data-toggle="modal" data-target="#confirmer") {{ btnText[$index] }}
+            .col-md-2.col-md-offset-1
+                img.pull-right(src="" ng-src="{{ troop.image }}" alt="image" height=250 width=250)
+
+    include ../common/confirmer

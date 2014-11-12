@@ -1,2 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\17. unn\bin\Debug\_17.unn.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\17. NArrayKElementsSSum\bin\Debug\_17.unn.exe.config

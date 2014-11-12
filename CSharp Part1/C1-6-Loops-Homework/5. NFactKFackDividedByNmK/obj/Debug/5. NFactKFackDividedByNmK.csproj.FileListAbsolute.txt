@@ -1,5 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\5. NFactKFackDividedByNmK\bin\Debug\_5.NFactKFackDividedByNmK.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\5. NFactKFackDividedByNmK\bin\Debug\_5.NFactKFackDividedByNmK.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\5. NFactKFackDividedByNmK\bin\Debug\_5.NFactKFackDividedByNmK.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\5. NFactKFackDividedByNmK\obj\Debug\_5.NFactKFackDividedByNmK.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\5. NFactKFackDividedByNmK\obj\Debug\_5.NFactKFackDividedByNmK.pdb

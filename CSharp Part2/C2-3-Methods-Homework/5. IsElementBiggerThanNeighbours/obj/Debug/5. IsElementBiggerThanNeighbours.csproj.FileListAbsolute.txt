@@ -1,6 +1,0 @@
-C:\Users\Penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\5. IsElementBiggerThanNeighbours\bin\Debug\_5.IsElementBiggerThanNeighbours.exe.config
-C:\Users\Penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\5. IsElementBiggerThanNeighbours\bin\Debug\_5.IsElementBiggerThanNeighbours.exe
-C:\Users\Penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\5. IsElementBiggerThanNeighbours\bin\Debug\_5.IsElementBiggerThanNeighbours.pdb
-C:\Users\Penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\5. IsElementBiggerThanNeighbours\obj\Debug\5. IsElementBiggerThanNeighbours.csprojResolveAssemblyReference.cache
-C:\Users\Penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\5. IsElementBiggerThanNeighbours\obj\Debug\_5.IsElementBiggerThanNeighbours.exe
-C:\Users\Penev\documents\visual studio 2012\Projects\C2-3-Methods-Homework\5. IsElementBiggerThanNeighbours\obj\Debug\_5.IsElementBiggerThanNeighbours.pdb

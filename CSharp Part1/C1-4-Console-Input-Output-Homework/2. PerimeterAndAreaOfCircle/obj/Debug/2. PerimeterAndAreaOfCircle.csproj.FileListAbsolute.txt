@@ -1,5 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\2. PerimeterAndAreaOfCircle\bin\Debug\_2.PerimeterAndAreaOfCircle.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\2. PerimeterAndAreaOfCircle\bin\Debug\_2.PerimeterAndAreaOfCircle.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\2. PerimeterAndAreaOfCircle\bin\Debug\_2.PerimeterAndAreaOfCircle.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\2. PerimeterAndAreaOfCircle\obj\Debug\_2.PerimeterAndAreaOfCircle.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\2. PerimeterAndAreaOfCircle\obj\Debug\_2.PerimeterAndAreaOfCircle.pdb

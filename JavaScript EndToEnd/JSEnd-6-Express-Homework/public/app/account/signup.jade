@@ -1,0 +1,47 @@
+.container(id="signUpForm")
+    .well
+        form.form-horizontal(name="signUpForm")
+            fieldset
+                legend.text-primary.col-md-offset-1.col-md-10 Create New User
+                .form-group
+                    label.col-md-2.control-label(for="first-name") First Name
+                    .col-md-6
+                        input.form-control(id="first-name" type="text", placeholder="First Name", ng-model="user.firstName", required)
+                    .col-md-3
+                        .alert.alert-danger(ng-hide="!!user.firstName") First name is required
+                .form-group
+                    label.col-md-2.control-label(for="last-name") Last Name
+                    .col-md-6
+                        input.form-control(id="last-name" type="text", placeholder="Last Name", ng-model="user.lastName", required)
+                    .col-md-3
+                        .alert.alert-danger(ng-hide="!!user.lastName") Last name is required
+                .form-group
+                    label.col-md-2.control-label(for="username") Username
+                    .col-md-6
+                        input.form-control(id="username" type="text", placeholder="Username", ng-model="user.username", required)
+                    .col-md-3
+                        .alert.alert-danger(ng-hide="!!user.username") Username name is required
+                .form-group
+                    label.col-md-2.control-label Race
+                    .col-md-6
+                        .class.btn-group.btn-group-justified
+                            .btn.btn-default(ng-click="changeRace('terran')") Terran
+                            .btn.btn-default(ng-click="changeRace('protoss')") Protoss
+                            .btn.btn-default(ng-click="changeRace('zerg')") Zerg
+                    .col-md-3
+                        .alert.alert-danger(ng-hide="!!user.race") Race is required
+                .form-group
+                    label.col-md-2.control-label(for="password") Password
+                    .col-md-6
+                        input.form-control(id="password" type="password", placeholder="Password", ng-model="user.password", required)
+                    .col-md-3
+                        .alert.alert-danger(ng-show="user.password.length < 6") Password is too short
+                .form-group
+                    label.col-md-2.control-label(for="password2") Repeat password
+                    .col-md-6
+                        input.form-control(id="password2" type="password", placeholder="Repeat password", ng-model="secondPassword", required)
+                    .col-md-3
+                       .alert.alert-danger(ng-show="user.password !== secondPassword") Both passwords must match
+                .pull-right.col-md-6
+                    button.btn.btn-primary(ng-click="signup(user)", ng-disabled="signUpForm.$invalid || user.password !== secondPassword || user.password.length < 6") Create
+                    a.btn.btn-danger(href="#/") Cancel

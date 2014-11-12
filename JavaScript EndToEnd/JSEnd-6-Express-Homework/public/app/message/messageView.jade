@@ -1,0 +1,51 @@
+.container
+    .panel.panel-success
+        .panel-body
+            h3 All messages
+            .well.pull-right
+                .form-group
+                    .col-md-12
+                        input.form-control(id="searchTextFilter" placeholder="search" type="text", ng-model="searchMessage" required)
+            table.table.table-hover.table-striped#reportsTable
+                thead
+                    tr.success
+                        th From
+                        th Date
+                        th Read
+                        th Answer
+                        th Scan
+                        th Attack
+                        th Delete
+                tbody
+                    tr(ng-repeat="message in allMessages| filter: searchMessage | orderBy:'-created' track by $index ")
+                        td {{ message.from }}
+                        td {{ message.created | date:'dd-MM HH:mm' }}
+                        td
+                            button.btn.btn-md.btn-success(ng-click="viewMessage($index)" data-toggle="modal" data-target="#messageDetails")
+                                span.glyphicon.glyphicon-eye-open
+                                span Read
+                        td
+                            a.btn.btn-md.btn-primary(href="#/message-create/{{message.fromID}}")
+                                span.glyphicon.glyphicon-pencil.text-success
+                                span Answer
+                        td
+                            a.btn.btn-md.btn-primary(href="#/scan/{{message.fromID}}")
+                                span.glyphicon.glyphicon-search.text-warning
+                                span Scan
+                        td
+                            a.btn.btn-md.btn-primary(href="#/attack/{{message.fromID}}")
+                                span.glyphicon.glyphicon-screenshot.text-danger
+                                span Attack
+                        td
+                            button.btn.btn-md.btn-danger(ng-click="deleteMessage($index)")
+                                span.glyphicon.glyphicon-trash.text-info
+                                span Delete
+    .modal.fade#messageDetails
+        .modal-dialog
+            .modal-content
+                .modal-header
+                    h2.modal-title Message from {{ selectedMessage.from }}
+                .modal-body
+                    p.lead {{ selectedMessage.text }}
+                .modal-footer
+                    button.btn.btn-lg.btn-success(data-dismiss="modal") OK

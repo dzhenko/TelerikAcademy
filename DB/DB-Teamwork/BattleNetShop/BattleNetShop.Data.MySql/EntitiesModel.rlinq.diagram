@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityDiagrams>
+  <entityDiagramsDiagram dslVersion="2.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="BattleNetShopMySqlDbContext" fillColor="62, 62, 65" isDefault="true">
+    <DomainModelMoniker name="/BattleNetShopMySqlDbContext" />
+    <nestedChildShapes>
+      <classShape Id="48e7040c-c823-4fc7-833f-960ae35e0281" absoluteBounds="0.75, 0.75, 1.5, 2.5319775390625">
+        <DomainClassMoniker name="/BattleNetShopMySqlDbContext/Salereport" />
+        <nestedChildShapes>
+          <elementListCompartment Id="c741e07d-ea7f-48e5-be05-c470f1416eb2" absoluteBounds="0.765, 1.2599999999999998, 1.4700000000000002, 1.4031982421875" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="6855289c-4166-45db-80e0-d814bd4e5a77" absoluteBounds="0.765, 2.6731982421875, 1.4700000000000002, 0.2493896484375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="210cf40c-aa5f-44dc-9c53-118f055c71e2" absoluteBounds="0.765, 2.932587890625, 1.4700000000000002, 0.2493896484375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+    </nestedChildShapes>
+  </entityDiagramsDiagram>
+</EntityDiagrams>

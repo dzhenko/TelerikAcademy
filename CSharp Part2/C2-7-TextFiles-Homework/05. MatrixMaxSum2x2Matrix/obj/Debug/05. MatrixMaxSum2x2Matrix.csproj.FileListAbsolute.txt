@@ -1,9 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\05. MatrixMaxSum2x2Matrix\bin\Debug\_05.MatrixMaxSum2x2Matrix.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\05. MatrixMaxSum2x2Matrix\bin\Debug\_05.MatrixMaxSum2x2Matrix.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\05. MatrixMaxSum2x2Matrix\bin\Debug\_05.MatrixMaxSum2x2Matrix.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\05. MatrixMaxSum2x2Matrix\obj\Debug\05. MatrixMaxSum2x2Matrix.csprojResolveAssemblyReference.cache
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\05. MatrixMaxSum2x2Matrix\obj\Debug\_05.MatrixMaxSum2x2Matrix.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\05. MatrixMaxSum2x2Matrix\obj\Debug\_05.MatrixMaxSum2x2Matrix.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-7-TextFiles-Homework\05. MatrixMaxSum2x2Matrix\bin\Debug\_05.MatrixMaxSum2x2Matrix.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-7-TextFiles-Homework\05. MatrixMaxSum2x2Matrix\obj\Debug\_05.MatrixMaxSum2x2Matrix.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-7-TextFiles-Homework\05. MatrixMaxSum2x2Matrix\obj\Debug\_05.MatrixMaxSum2x2Matrix.pdb

@@ -1,0 +1,21 @@
+<div data-role="view" data-layout="main-layout" data-title="Your Recipes"     
+    id="own-recipes-view" data-id="own-recipes-view" data-show="app.ownRecipes.init">
+    
+    <div data-role="listview"
+        data-bind="source : recipes"
+        data-template="own-recipes-template"
+        data-content-height="100%"
+        data-enable-pager="false">
+    </div>
+</div>
+
+<script id="own-recipes-template" type="text/x-kendo-template">
+    <div>
+        <h2 class="title">#: Name #</h2>
+        <div class="image" style="background-image: url(#: Image #); background-size:cover"></div>
+    </div>
+    <div class="btn-group btn-group-justified buttons">
+        <a data-role="button" data-bind="events : {click : onDeleteClick}" data-id="#:Id#" class="btn btn-primary">Delete</a>
+        <a data-role="button" data-bind="events : {click : onViewClick}" data-id="#:Id#" class="btn btn-success">View</a>
+    </div>
+</script>

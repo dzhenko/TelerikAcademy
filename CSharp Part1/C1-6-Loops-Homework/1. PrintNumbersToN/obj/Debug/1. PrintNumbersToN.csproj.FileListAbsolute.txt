@@ -1,5 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\1. PrintNumbersToN\bin\Debug\_1.PrintNumbersToN.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\1. PrintNumbersToN\bin\Debug\_1.PrintNumbersToN.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\1. PrintNumbersToN\bin\Debug\_1.PrintNumbersToN.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\1. PrintNumbersToN\obj\Debug\_1.PrintNumbersToN.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-6-Loops-Homework\1. PrintNumbersToN\obj\Debug\_1.PrintNumbersToN.pdb

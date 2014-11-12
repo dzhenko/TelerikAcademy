@@ -1,5 +1,0 @@
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\CSharp2 RealExam\CSharp2 Real Exam\Task5\obj\Debug\Task5ThirdTry.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\CSharp2 RealExam\CSharp2 Real Exam\Task5\obj\Debug\Task5ThirdTry.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\CSharp2 RealExam\CSharp2 Real Exam\Task5\bin\Debug\Task5ThirdTry.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\CSharp2 RealExam\CSharp2 Real Exam\Task5\bin\Debug\Task5ThirdTry.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\CSharp2 RealExam\CSharp2 Real Exam\Task5\obj\Debug\Task5.csprojResolveAssemblyReference.cache

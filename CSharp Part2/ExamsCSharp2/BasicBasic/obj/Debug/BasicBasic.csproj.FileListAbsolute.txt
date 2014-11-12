@@ -1,9 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\BasicBasic\bin\Debug\BasicBasic.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\BasicBasic\bin\Debug\BasicBasic.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\BasicBasic\bin\Debug\BasicBasic.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\BasicBasic\obj\Debug\BasicBasic.csprojResolveAssemblyReference.cache
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\BasicBasic\obj\Debug\BasicBasic.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\BasicBasic\obj\Debug\BasicBasic.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\BasicBasic\bin\Debug\BasicBasic.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\BasicBasic\obj\Debug\BasicBasic.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\BasicBasic\obj\Debug\BasicBasic.pdb

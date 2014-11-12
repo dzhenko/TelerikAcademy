@@ -1,9 +1,0 @@
-c:\users\penev\documents\visual studio 2012\Projects\Primitive-Data-Types-Variables-Homework\10. MarketingFirm\bin\Debug\_10.MarketingFirm.exe.config
-c:\users\penev\documents\visual studio 2012\Projects\Primitive-Data-Types-Variables-Homework\10. MarketingFirm\bin\Debug\_10.MarketingFirm.exe
-c:\users\penev\documents\visual studio 2012\Projects\Primitive-Data-Types-Variables-Homework\10. MarketingFirm\bin\Debug\_10.MarketingFirm.pdb
-c:\users\penev\documents\visual studio 2012\Projects\Primitive-Data-Types-Variables-Homework\10. MarketingFirm\obj\Debug\10. MarketingFirm.csprojResolveAssemblyReference.cache
-c:\users\penev\documents\visual studio 2012\Projects\Primitive-Data-Types-Variables-Homework\10. MarketingFirm\obj\Debug\_10.MarketingFirm.exe
-c:\users\penev\documents\visual studio 2012\Projects\Primitive-Data-Types-Variables-Homework\10. MarketingFirm\obj\Debug\_10.MarketingFirm.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-2-Primitive-Data-Types-Variables-Homework\10. MarketingFirm\bin\Debug\_10.MarketingFirm.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-2-Primitive-Data-Types-Variables-Homework\10. MarketingFirm\obj\Debug\_10.MarketingFirm.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-2-Primitive-Data-Types-Variables-Homework\10. MarketingFirm\obj\Debug\_10.MarketingFirm.pdb

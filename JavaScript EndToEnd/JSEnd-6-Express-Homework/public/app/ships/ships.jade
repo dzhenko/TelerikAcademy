@@ -1,0 +1,42 @@
+.container
+    include ../common/resourcesOverview
+
+    .panel.panel-success(ng-show="filteredTasks.length > 0")
+        .panel-heading
+            h3.panel-title Ships in progress
+        .panel-body
+            .row(ng-repeat="task in filteredTasks")
+                .col-md-8
+                    h3.lead {{ raceModel.ships[task.indexToAddTo].name }}
+                    h5.lead(timer end-time="task.time") Time left  {{ hours }} hours , {{ minutes }} minutes , {{ seconds }} seconds
+                    .progress.progress-striped.active
+                        .progress-bar(style="width: {{ 100 * ((now - task.created)/(task.time - task.created)) }}%")
+                .col-md-3.col-md-offset-1
+                    img.pull-right(src="" ng-src="{{ raceModel.ships[task.indexToAddTo].image }}" alt="image" height=150 width=150)
+
+    .panel.panel-info.row(ng-repeat="ship in raceModel.ships")
+        .panel-heading
+            h3.panel-title {{ ship.name }}
+        .panel-body
+            .col-md-9
+                p.lead You own {{ gameObjects.ships[$index] }}
+                    span.pull-right
+                        span.text-danger  {{ shipsModel.attack[$index] }}
+                            span.glyphicon.glyphicon-screenshot attack
+                        span.text-warning  {{ shipsModel.defence[$index] }}
+                            span.glyphicon.glyphicon-exclamation-sign defence
+                        span.text-success  {{ shipsModel.health[$index] }}
+                            span.glyphicon.glyphicon-plus-sign health
+                        span.text-info  {{ shipsModel.capacity[$index] }}
+                            span.glyphicon.glyphicon-lock capacity
+                p.lead {{ ship.description }}
+                .row
+                    h3.col-md-9 Cost
+                        span.text-primary  {{ shipsModel.minerals[$index] }} minerals
+                        span.text-success  {{ shipsModel.gas[$index] }} gas
+                        span.text-danger  {{ shipsModel.supply[$index] }} supply
+                    button.btn.btn-lg.col-md-3(ng-disabled="btnDisabled[$index]" ng-class="btnClass[$index]" ng-click="confirm($index)" data-toggle="modal" data-target="#confirmer") {{ btnText[$index] }}
+            .col-md-2.col-md-offset-1
+                img.pull-right(src="" ng-src="{{ ship.image }}" alt="image" height=250 width=250)
+
+    include ../common/confirmer

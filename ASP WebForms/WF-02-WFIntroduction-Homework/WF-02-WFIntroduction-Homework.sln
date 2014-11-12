@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloASP", "HelloASP\HelloASP.csproj", "{74B62462-03DB-4AE9-9D70-1AB53C4BC7A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormsApp", "WebFormsApp\WebFormsApp.csproj", "{861C6767-6D2E-456B-B31B-7FBCE16A154E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PageExecutionEvents", "PageExecutionEvents\PageExecutionEvents.csproj", "{ABE50AB1-3653-4B36-83D5-3344CCCE384D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74B62462-03DB-4AE9-9D70-1AB53C4BC7A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B62462-03DB-4AE9-9D70-1AB53C4BC7A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B62462-03DB-4AE9-9D70-1AB53C4BC7A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B62462-03DB-4AE9-9D70-1AB53C4BC7A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{861C6767-6D2E-456B-B31B-7FBCE16A154E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{861C6767-6D2E-456B-B31B-7FBCE16A154E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{861C6767-6D2E-456B-B31B-7FBCE16A154E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{861C6767-6D2E-456B-B31B-7FBCE16A154E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABE50AB1-3653-4B36-83D5-3344CCCE384D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE50AB1-3653-4B36-83D5-3344CCCE384D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE50AB1-3653-4B36-83D5-3344CCCE384D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE50AB1-3653-4B36-83D5-3344CCCE384D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

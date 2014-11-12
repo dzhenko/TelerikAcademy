@@ -1,0 +1,10 @@
+.modal.fade#confirmer
+    .modal-dialog
+        .modal-content
+            .modal-header
+                h4.modal-title Confurmation required
+            .modal-body
+                p.lead {{ confirmerText }}
+            .modal-footer
+                button.btn.btn-lg.btn-danger(data-dismiss="modal") Cancel
+                button.btn.btn-lg.btn-success(ng-click="confirmerAccept()" data-dismiss="modal") Confirm

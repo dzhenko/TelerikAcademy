@@ -1,1 +1,0 @@
-c:\users\penev\documents\visual studio 2012\Projects\Primitive-Data-Types-Variables-Homework\2. DoubleORFloat\bin\Debug\_2.DoubleORFloat.exe.config

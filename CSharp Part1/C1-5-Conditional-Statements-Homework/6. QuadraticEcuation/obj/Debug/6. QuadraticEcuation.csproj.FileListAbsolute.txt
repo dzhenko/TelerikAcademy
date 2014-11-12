@@ -1,5 +1,0 @@
-c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\6. QuadraticEcuation\bin\Debug\_6.QuadraticEcuation.exe.config
-c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\6. QuadraticEcuation\bin\Debug\_6.QuadraticEcuation.exe
-c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\6. QuadraticEcuation\bin\Debug\_6.QuadraticEcuation.pdb
-c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\6. QuadraticEcuation\obj\Debug\_6.QuadraticEcuation.exe
-c:\users\penev\documents\visual studio 2012\Projects\C1-5-Conditional-Statements-Homework\6. QuadraticEcuation\obj\Debug\_6.QuadraticEcuation.pdb

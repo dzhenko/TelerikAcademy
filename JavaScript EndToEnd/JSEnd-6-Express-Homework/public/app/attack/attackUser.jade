@@ -1,0 +1,45 @@
+.container
+    .jumbotron
+        img.pull-left(src="" ng-src="{{ raceModel.troopsImage }}" alt="image" height=100 width=100)
+        h1.col-md-8 Send attack
+        img.pull-right(src="" ng-src="{{ raceModel.shipsImage }}" alt="image" height=100 width=100)
+        p.row
+            button.btn.btn-md.btn-danger.pull-right.col-md-3(ng-click="confirm()" data-toggle="modal" data-target="#confirmer" ng-disabled="userShips[0] < ships[0] || userShips[1] < ships[1] || userShips[2] < ships[2] || userShips[3] < ships[3] || (ships[0] == 0 && ships[1] == 0 && ships[2] == 0 && ships[3] == 0)") Attack
+            .form-group.pull-left.col-md-9
+                label.col-md-4.lead(for="selectTurns") Attack turns
+                .col-md-4.pull-left
+                    select.form-control(id="selectTurns" ng-model="selectTurns")
+                        option 4
+                        option 5
+                        option 6
+                        option 7
+                        option 8
+                        option 9
+                        option(selected="selected") 10
+                        option 11
+                        option 12
+                        option 13
+                        option 14
+    .panel.panel-danger.text-center
+        .panel-heading
+            h3.panel-title Ships to send
+        .panel-body
+            .row
+                .col-md-3(ng-repeat="ship in userShips track by $index")
+                    .disabled(ng-show="ship > 0")
+                        p.lead You have
+                        p.lead {{ ship }} {{ raceModel.ships[$index].name }}s
+                        p.lead Send
+                        .form-group
+                            input.form-control(type="number", ng-model="ships[$index]")
+                        p.text-danger  {{ shipsModel.attack[$index] }}
+                            span.glyphicon.glyphicon-screenshot attack
+                        p.text-warning  {{ shipsModel.defence[$index] }}
+                            span.glyphicon.glyphicon-exclamation-sign defence
+                        p.text-success  {{ shipsModel.health[$index] }}
+                            span.glyphicon.glyphicon-plus-sign health
+                        p.text-info  {{ shipsModel.capacity[$index] }}
+                            span.glyphicon.glyphicon-lock capacity
+                        img(src="" alt="image" ng-src="{{raceModel.ships[$index].image}}" width=100 height=100)
+
+    include ../common/confirmer

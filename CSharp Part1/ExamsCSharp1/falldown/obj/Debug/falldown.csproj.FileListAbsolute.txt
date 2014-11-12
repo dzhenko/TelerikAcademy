@@ -1,6 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\falldown\bin\Debug\falldown.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\falldown\obj\Debug\falldown.csprojResolveAssemblyReference.cache
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\falldown\bin\Debug\falldown.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\falldown\bin\Debug\falldown.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\falldown\obj\Debug\falldown.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\falldown\obj\Debug\falldown.pdb

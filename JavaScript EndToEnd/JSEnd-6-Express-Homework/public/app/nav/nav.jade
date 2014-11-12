@@ -1,0 +1,49 @@
+.navbar-default(ng-controller="NavCtrl")
+    ul.nav.navbar-nav(ng-show="identity.isAuthenticated()")
+        li
+            a(href="#/overview") Overview
+        li
+            a(href="#/map") Map
+        li.dropdown
+            a.dropdown-toggle(href="" data-toggle="dropdown") Build
+                span.caret
+            ul.dropdown-menu
+                li
+                    a(href="#/buildings") Buildings
+                li.divider
+                li
+                    a(href="#/ships") Ships
+                li.divider
+                li
+                    a(href="#/troops") Troops
+                li.divider
+                li
+                    a(href="#/upgrades") Upgrades
+        li.dropdown
+            a.dropdown-toggle(href="" data-toggle="dropdown") Actions
+                span.caret
+            ul.dropdown-menu
+                li
+                    a(href="#/scan") Scan
+                        span.glyphicon.glyphicon-search
+                li.divider
+                li
+                    a(href="#/attack-simulate") Simulate Attack
+                        span.glyphicon.glyphicon-flag
+                li.divider
+                li
+                    a(href="#/attack") Attack
+                        span.glyphicon.glyphicon-screenshot
+        li
+            a(href="#/reports") Reports
+        li.dropdown
+            a.dropdown-toggle(href="" data-toggle="dropdown") Messages
+                span.caret
+            ul.dropdown-menu
+                li
+                    a(href="#/message-create") Create
+                        span.glyphicon.glyphicon-pencil
+                li.divider
+                li
+                    a(href="#/messages") Read
+                        span.glyphicon.glyphicon-book

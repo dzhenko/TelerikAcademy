@@ -1,3 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-5-Conditional-Statements-Homework\3. TheBiggestOfThree\bin\Debug\_3.TheBiggestOfThree.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-5-Conditional-Statements-Homework\3. TheBiggestOfThree\obj\Debug\_3.TheBiggestOfThree.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-5-Conditional-Statements-Homework\3. TheBiggestOfThree\obj\Debug\_3.TheBiggestOfThree.pdb

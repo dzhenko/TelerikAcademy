@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DomainModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="2.0.0.0" name="BattleNetShopMySqlDbContext" namespace="BattleNetShop.Data.MySql" showPropertiesCompartment="true" xmlns="http://www.telerik.com/ORM">
+  <orm:orm name="BattleNetShopMySqlDbContext" backend="mysql" xmlns:orm="http://tempuri.org/ORM">
+    <orm:namespace name="BattleNetShop.Data.MySql" default="true">
+      <orm:class name="Salereport" uniqueId="8693cb91-03eb-4f3b-93d6-a7ddeda30bdf">
+        <orm:table name="salereports" />
+        <orm:identity>
+          <orm:key-generator name="autoinc">
+            <orm:key-generator-member property-name="Report_id" />
+          </orm:key-generator>
+          <orm:single-field field-name="_report_id" />
+        </orm:identity>
+        <orm:concurrency strategy="changed" />
+        <orm:field name="_report_id" property="Report_id" behavior="readwrite" uniqueId="a624d793-6db8-4d42-8f31-9760f574ca47" type="System.Int32">
+          <orm:column name="report_id" sql-type="integer" nullable="false" length="0" scale="0" primary-key="true" backend-calculated="true" ado-type="Int32" />
+        </orm:field>
+        <orm:field name="_product_id" property="Product_id" behavior="readwrite" uniqueId="ff7848c3-a688-49fe-80b2-b7980bc18a2b" type="System.Int32">
+          <orm:column name="product_id" sql-type="integer" nullable="false" length="0" scale="0" ado-type="Int32" />
+        </orm:field>
+        <orm:field name="_productName" property="ProductName" behavior="readwrite" uniqueId="726a79db-0f3d-4586-8ae8-630a0c3218e0" type="System.String">
+          <orm:column name="productName" sql-type="nvarchar" nullable="false" length="500" scale="0" ado-type="UnicodeStringVariableLength" />
+        </orm:field>
+        <orm:field name="_vendorName" property="VendorName" behavior="readwrite" uniqueId="118be158-c302-40fa-abb2-137794ed5a5d" type="System.String">
+          <orm:column name="vendorName" sql-type="nvarchar" nullable="false" length="500" scale="0" ado-type="UnicodeStringVariableLength" />
+        </orm:field>
+        <orm:field name="_totalQuantitySold" property="TotalQuantitySold" behavior="readwrite" uniqueId="f12efc12-0b9c-4abd-924f-a4d38f2c642a" type="System.Int32">
+          <orm:column name="totalQuantitySold" sql-type="integer" nullable="false" length="0" scale="0" ado-type="Int32" />
+        </orm:field>
+        <orm:field name="_totalIncomes" property="TotalIncomes" behavior="readwrite" uniqueId="1c4150ec-a2d0-4cec-89ca-6b921445193c" type="System.Int32">
+          <orm:column name="totalIncomes" sql-type="integer" nullable="false" length="0" scale="0" ado-type="Int32" />
+        </orm:field>
+        <orm:index name="product_id">
+          <orm:columnMapping>
+            <orm:column name="product_id" sql-type="integer" nullable="false" length="0" scale="0" ado-type="Int32" />
+          </orm:columnMapping>
+        </orm:index>
+      </orm:class>
+    </orm:namespace>
+    <orm:schema schema="">
+      <orm:table name="salereports">
+        <orm:column name="report_id" sql-type="integer" nullable="false" length="0" scale="0" primary-key="true" backend-calculated="true" ado-type="Int32" />
+        <orm:column name="product_id" sql-type="integer" nullable="false" length="0" scale="0" ado-type="Int32" />
+        <orm:column name="productName" sql-type="nvarchar" nullable="false" length="500" scale="0" ado-type="UnicodeStringVariableLength" />
+        <orm:column name="vendorName" sql-type="nvarchar" nullable="false" length="500" scale="0" ado-type="UnicodeStringVariableLength" />
+        <orm:column name="totalQuantitySold" sql-type="integer" nullable="false" length="0" scale="0" ado-type="Int32" />
+        <orm:column name="totalIncomes" sql-type="integer" nullable="false" length="0" scale="0" ado-type="Int32" />
+        <orm:index name="product_id">
+          <orm:columnMapping>
+            <orm:column name="product_id" sql-type="integer" nullable="false" length="0" scale="0" ado-type="Int32" />
+          </orm:columnMapping>
+        </orm:index>
+      </orm:table>
+    </orm:schema>
+    <orm:relational-naming-settings>
+      <orm:source-strategy>Property</orm:source-strategy>
+      <orm:remove-camel-case>False</orm:remove-camel-case>
+    </orm:relational-naming-settings>
+  </orm:orm>
+  <ModelSettings xmlns="">
+    <AppConfigConnectionPropertyName>MySqlConnection</AppConfigConnectionPropertyName>
+    <AppConfigConnectionString>server=localhost;database=battlenetshop;uid=root</AppConfigConnectionString>
+    <NamingSettings>
+      <ClassRules>
+        <CaseMode>PascalCase</CaseMode>
+        <PluralizationMode>Singularize</PluralizationMode>
+      </ClassRules>
+      <FieldRules>
+        <AddPrefix>_</AddPrefix>
+        <CaseMode>CamelCase</CaseMode>
+      </FieldRules>
+      <PropertyRules>
+        <CaseMode>PascalCase</CaseMode>
+      </PropertyRules>
+      <NavigationPropertyRules />
+    </NamingSettings>
+    <CodeGenerationSettings>
+      <MappingDefinitionType>Xml</MappingDefinitionType>
+    </CodeGenerationSettings>
+    <SchemaUpdateSettings>
+      <NamePrefix>qweqwe</NamePrefix>
+      <ExecuteScript>true</ExecuteScript>
+      <DeploymentProject>BattleNetShop.Data.MySql</DeploymentProject>
+      <DeploymentDirectory>Properties\</DeploymentDirectory>
+    </SchemaUpdateSettings>
+    <BackendConfigurationSettings>
+      <BackendConfiguration>
+        <Backend>MySql</Backend>
+        <ProviderName>MySql.Data.MySqlClient</ProviderName>
+      </BackendConfiguration>
+    </BackendConfigurationSettings>
+  </ModelSettings>
+  <Types>
+    <DomainClass Id="8693cb91-03eb-4f3b-93d6-a7ddeda30bdf" name="Salereport" namespace="BattleNetShop.Data.MySql" showPropertiesCompartment="true" identityMechanism="DatabaseServerCalculated" concurrencyMode="Changed" showNavigationCompartment="true" showImplementationCompartment="true" identityMechanismMember="Report_id">
+      <Property Id="a624d793-6db8-4d42-8f31-9760f574ca47" name="Report_id" type="Int32" label="Report_id : Int32" kind="Persistent" identity="true" fieldName="_report_id" />
+      <Property Id="ff7848c3-a688-49fe-80b2-b7980bc18a2b" name="Product_id" type="Int32" label="Product_id : Int32" kind="Persistent" fieldName="_product_id" />
+      <Property Id="726a79db-0f3d-4586-8ae8-630a0c3218e0" name="ProductName" label="ProductName : String" kind="Persistent" fieldName="_productName" />
+      <Property Id="1c4150ec-a2d0-4cec-89ca-6b921445193c" name="TotalIncomes" type="Int32" label="TotalIncomes : Int32" kind="Persistent" fieldName="_totalIncomes" />
+      <Property Id="f12efc12-0b9c-4abd-924f-a4d38f2c642a" name="TotalQuantitySold" type="Int32" label="TotalQuantitySold : Int32" kind="Persistent" fieldName="_totalQuantitySold" />
+      <Property Id="118be158-c302-40fa-abb2-137794ed5a5d" name="VendorName" label="VendorName : String" kind="Persistent" fieldName="_vendorName" />
+    </DomainClass>
+  </Types>
+  <domainContext>
+    <domainModelHasDomainContext Id="597cff5b-a66d-4530-99a7-9f378bad5be6">
+      <domainContainer name="BattleNetShopMySqlDbContext" namespace="BattleNetShop.Data.MySql" showPropertiesCompartment="true">
+        <entitySetProperty name="Salereports" namespace="BattleNetShop.Data.MySql" type="Salereport" label="Salereports : IQueryable&lt;BattleNetShop.Data.MySql.Salereport&gt;" />
+      </domainContainer>
+    </domainModelHasDomainContext>
+  </domainContext>
+</DomainModel>

@@ -1,5 +1,0 @@
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-6-Common-Type-System\01-03. Student\obj\Debug\_01.Student.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-6-Common-Type-System\01-03. Student\obj\Debug\_01.Student.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-6-Common-Type-System\01-03. Student\bin\Debug\_01.Student.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-6-Common-Type-System\01-03. Student\bin\Debug\_01.Student.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-6-Common-Type-System\01-03. Student\obj\Debug\01-03. Student.csprojResolveAssemblyReference.cache

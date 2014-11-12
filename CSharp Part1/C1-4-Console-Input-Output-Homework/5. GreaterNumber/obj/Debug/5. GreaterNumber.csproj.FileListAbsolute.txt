@@ -1,5 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\5. GreaterNumber\bin\Debug\_5.GreaterNumber.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\5. GreaterNumber\bin\Debug\_5.GreaterNumber.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\5. GreaterNumber\bin\Debug\_5.GreaterNumber.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\5. GreaterNumber\obj\Debug\_5.GreaterNumber.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\5. GreaterNumber\obj\Debug\_5.GreaterNumber.pdb

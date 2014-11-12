@@ -1,6 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\10. 1Plus12Minus13Etc\bin\Debug\10. 1Plus12Minus13Etc.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\10. 1Plus12Minus13Etc\bin\Debug\10. 1Plus12Minus13Etc.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\10. 1Plus12Minus13Etc\bin\Debug\10. 1Plus12Minus13Etc.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\10. 1Plus12Minus13Etc\obj\Debug\10. 1Plus12Minus13Etc.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\10. 1Plus12Minus13Etc\obj\Debug\10. 1Plus12Minus13Etc.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\10. 1Plus12Minus13Etc\obj\Debug\10. OnePlus12Minus13Etc.csprojResolveAssemblyReference.cache

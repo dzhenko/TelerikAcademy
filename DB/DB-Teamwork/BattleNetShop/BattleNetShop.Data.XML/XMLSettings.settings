@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BattleNetShop.Data.Xml" GeneratedClassName="XMLSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="InitialXmlFileLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)">..\..\..\..\InitialData\VendorExpensesInitialData.xml</Value>
+    </Setting>
+    <Setting Name="ReportDestinationFolderLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)">..\..\..\..\Reports\XmlReports\</Value>
+    </Setting>
+    <Setting Name="ReportDestionationFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AllLocationsReport.xml</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,15 @@
+<div data-role="view" data-layout="main-layout" data-title="Home" id="home-view" data-id="home-view" data-show="app.home.init">
+    <div class="container" id="newest-recipe" data-id="newest-recipe">
+        <h2>Newest Recipe</h2>
+        <div>
+            <h3 class="title" data-bind="source:recipe.Name"></h3>
+            <div class="image" id="recipe-image-holder" style="background-size:cover"></div>
+        </div>
+        <div class="btn-group btn-group-justified buttons">
+            <a data-role="button" data-bind="events : {click : onViewClick}" data-id="#:Id#" class="btn btn-primary">View</a>
+        </div>
+    </div>
+    <hr/>
+    <h2>Recent events:</h2>
+    <ul data-role="listview" data-click="app.home.onEventClick" data-style="inset" id="all-events-holder"></ul>
+</div>

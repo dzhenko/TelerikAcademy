@@ -1,2 +1,0 @@
-c:\users\penev\documents\visual studio 2012\Projects\Console-Input-Output-Homework\Console-Input-Output-Homework\bin\Debug\Console-Input-Output-Homework.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-4-Console-Input-Output-Homework\Console-Input-Output-Homework\bin\Debug\Console-Input-Output-Homework.exe.config

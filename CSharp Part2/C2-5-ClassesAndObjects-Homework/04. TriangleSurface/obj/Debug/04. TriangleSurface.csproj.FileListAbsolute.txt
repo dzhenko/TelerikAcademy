@@ -1,5 +1,0 @@
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\04. TriangleSurface\bin\Debug\_04.TriangleSurface.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\04. TriangleSurface\bin\Debug\_04.TriangleSurface.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\04. TriangleSurface\bin\Debug\_04.TriangleSurface.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\04. TriangleSurface\obj\Debug\_04.TriangleSurface.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\04. TriangleSurface\obj\Debug\_04.TriangleSurface.pdb

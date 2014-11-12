@@ -1,5 +1,0 @@
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\14. QuickSort\bin\Debug\_14.QuickSort.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\14. QuickSort\bin\Debug\_14.QuickSort.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\14. QuickSort\bin\Debug\_14.QuickSort.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\14. QuickSort\obj\Debug\_14.QuickSort.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\14. QuickSort\obj\Debug\_14.QuickSort.pdb

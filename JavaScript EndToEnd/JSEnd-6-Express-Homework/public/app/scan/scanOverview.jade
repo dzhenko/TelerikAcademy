@@ -1,0 +1,56 @@
+.container
+    .jumbotron.row
+        p.col-md-4 Scan report for {{ enemy.coordinates }}
+        a.btn.btn-md.btn-primary.col-md-2
+            span.glyphicon.glyphicon-pencil(href="#/message-create/{{enemy.owner}}")
+            | Send Message
+        a.btn.btn-md.btn-warning.col-md-2.col-md-offset-1(href="#/attack-simulate")
+            span.glyphicon.glyphicon-flag
+            | Simulate attack
+        a.btn.btn-md.btn-danger.col-md-2.col-md-offset-1(href="#/attack/{{enemy.owner}}")
+            span.glyphicon.glyphicon-screenshot
+            | Send Attack
+    .row
+        .col-md-5
+            .panel.panel-primary
+                .panel-heading
+                    h3.panel-title Minerals
+                .panel-body
+                    p.lead {{ enemy.minerals }}
+        .col-md-5.col-md-offset-2
+            .panel.panel-success
+                .panel-heading
+                    h3.panel-title Gas
+                .panel-body
+                    p.lead {{ enemy.gas }}
+    .panel.panel-danger
+        .panel-heading
+            h3.panel-title Troops
+        .panel-body
+            .row
+                .col-md-3(ng-show="enemy.troops[0] > 0")
+                    p.lead {{ enemy.troops[0] }} {{ raceModel.troops[0].name }}s
+                    img(src="" alt="image" ng-src="{{raceModel.troops[0].image}}" width=100 height=100)
+                .col-md-3(ng-show="enemy.troops[1] > 0")
+                    p.lead {{ enemy.troops[1] }} {{ raceModel.troops[1].name }}s
+                    img(src="" alt="image" ng-src="{{raceModel.troops[1].image}}" width=100 height=100)
+                .col-md-3(ng-show="enemy.troops[2] > 0")
+                    p.lead {{ enemy.troops[2] }} {{ raceModel.troops[2].name }}s
+                    img(src="" alt="image" ng-src="{{raceModel.troops[2].image}}" width=100 height=100)
+    .panel.panel-danger
+        .panel-heading
+            h3.panel-title Ships
+        .panel-body
+            .row
+                .col-md-3(ng-show="enemy.ships[0] > 0")
+                    p.lead {{ enemy.ships[0] }} {{ raceModel.ships[0].name }}s
+                    img(src="" alt="image" ng-src="{{raceModel.ships[0].image}}" width=100 height=100)
+                .col-md-3(ng-show="enemy.ships[1] > 0")
+                    p.lead {{ enemy.ships[1] }} {{ raceModel.ships[1].name }}s
+                    img(src="" alt="image" ng-src="{{raceModel.ships[1].image}}" width=100 height=100)
+                .col-md-3(ng-show="enemy.ships[2] > 0")
+                    p.lead {{ enemy.ships[2] }} {{ raceModel.ships[2].name }}s
+                    img(src="" alt="image" ng-src="{{raceModel.ships[2].image}}" width=100 height=100)
+                .col-md-3(ng-show="enemy.ships[3] > 0")
+                    p.lead {{ enemy.ships[3] }} {{ raceModel.ships[3].name }}s
+                    img(src="" alt="image" ng-src="{{raceModel.ships[3].image}}" width=100 height=100)

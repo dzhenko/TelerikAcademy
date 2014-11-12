@@ -1,2 +1,0 @@
-c:\users\penev\documents\visual studio 2012\Projects\Primitive-Data-Types-Variables-Homework\14. BankAccount\bin\Debug\_14.BankAccount.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-2-Primitive-Data-Types-Variables-Homework\14. BankAccount\bin\Debug\_14.BankAccount.exe.config

@@ -1,9 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\Tubes\bin\Debug\Tubes.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\Tubes\bin\Debug\Tubes.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\Tubes\bin\Debug\Tubes.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\Tubes\obj\Debug\Tubes.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\Tubes\obj\Debug\Tubes.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\Tubes\obj\Debug\Tubes.csprojResolveAssemblyReference.cache
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Tubes\bin\Debug\Tubes.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Tubes\obj\Debug\Tubes.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Tubes\obj\Debug\Tubes.pdb

@@ -1,0 +1,16 @@
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+    <tr>
+        <th class="text-center">Name</th>
+        <th class="text-center">Upcoming Trips</th>
+        <th class="text-center">Total Trips</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="driver in drivers">
+        <td><a href="#/drivers/{{driver.id}}">{{driver.name}}</a></td>
+        <td>{{driver.numberOfTotalTrips}}</td>
+        <td>{{driver.numberOfUpcomingTrips}}</td>
+    </tr>
+    </tbody>
+</table>

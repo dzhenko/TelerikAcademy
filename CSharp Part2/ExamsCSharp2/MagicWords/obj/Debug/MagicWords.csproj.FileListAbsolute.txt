@@ -1,6 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\MagicWords\bin\Debug\MagicWords.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\MagicWords\bin\Debug\MagicWords.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\MagicWords\bin\Debug\MagicWords.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\MagicWords\obj\Debug\MagicWords.csprojResolveAssemblyReference.cache
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\MagicWords\obj\Debug\MagicWords.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp2\MagicWords\obj\Debug\MagicWords.pdb

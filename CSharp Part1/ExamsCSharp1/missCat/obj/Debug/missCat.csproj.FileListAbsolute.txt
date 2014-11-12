@@ -1,5 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\missCat\bin\Debug\missCat.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\missCat\bin\Debug\missCat.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\missCat\bin\Debug\missCat.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\missCat\obj\Debug\missCat.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\missCat\obj\Debug\missCat.pdb

@@ -1,7 +1,0 @@
-c:\users\penev\documents\visual studio 2012\Projects\C2-5-ClassesAndObjects-Homework\01. IsYearALeapOne\bin\Debug\_01.IsYearALeapOne.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\01. IsYearALeapOne\bin\Debug\_01.IsYearALeapOne.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\01. IsYearALeapOne\bin\Debug\_01.IsYearALeapOne.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\01. IsYearALeapOne\bin\Debug\_01.IsYearALeapOne.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\01. IsYearALeapOne\obj\Debug\01. IsYearALeapOne.csprojResolveAssemblyReference.cache
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\01. IsYearALeapOne\obj\Debug\_01.IsYearALeapOne.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-5-ClassesAndObjects-Homework\01. IsYearALeapOne\obj\Debug\_01.IsYearALeapOne.pdb

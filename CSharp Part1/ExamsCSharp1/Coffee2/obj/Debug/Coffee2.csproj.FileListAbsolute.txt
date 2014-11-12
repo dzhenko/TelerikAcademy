@@ -1,6 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Coffee2\bin\Debug\Coffee2.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Coffee2\bin\Debug\Coffee2.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Coffee2\bin\Debug\Coffee2.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Coffee2\obj\Debug\Coffee2.csprojResolveAssemblyReference.cache
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Coffee2\obj\Debug\Coffee2.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\Coffee2\obj\Debug\Coffee2.pdb

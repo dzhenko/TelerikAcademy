@@ -1,0 +1,38 @@
+<div class="navbar navbar-default" ng-controller="MainNavCtrl">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-main">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#/home" class="navbar-brand">Tic Tac Toe</a>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+            <ul class="nav navbar-nav" ng-show="showLogoutMenu">
+                <li>
+                    <a href="#/home">Home</a>
+                </li>
+                <li>
+                    <a href="#/players">Hall of Fame</a>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-left" id="gameSearchIdStyle" ng-show="showLogoutMenu">
+                <input type="text" class="form-control col-lg-8" placeholder="Game Id" ng-model="gameId" />
+                <a class="btn btn-primary" href="#/search-recipes/{{ gameId }}">Play Game</a>
+            </form>
+            <div class="navbar-right">
+                <form class="navbar-form" ng-show="showLoginMenu">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="username" ng-model="username" />
+                        <input type="password" class="form-control" placeholder="password" ng-model="password" />
+                    </div>
+                    <button class="btn btn-primary" id="loginNavBtn" ng-click="login(username, password)">Login</button>
+                </form>
+                <form class="navbar-form" ng-show="showLogoutMenu">
+                    <button class="btn btn-primary" ng-click="logout()">Logout</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+.container
+    .jumbotron
+        img.pull-left(src="" ng-src="{{ raceModel.shipsImage }}" alt="image" height=100 width=100)
+        h1.col-md-6 Map
+        img.pull-right(src="" ng-src="{{ raceModel.troopsImage }}" alt="image" height=100 width=100)
+        span.pull-right.text-danger ... pick someone to kill
+        p
+            .form-group.col-lg-4.pull-right
+            input.form-control(id="searchTextFilter" placeholder="search" type="text", ng-model="search" required)
+    .panel.panel-success
+        .panel-body
+            table.table.table-hover.table-striped
+                thead
+                    tr.success
+                        th Username
+                        th Coordinates
+                        th Message
+                        th Scan
+                        th Attack
+                tbody
+                    tr(ng-repeat="user in allUsers | filter: search")
+                        td {{ user.username }}
+                        td {{ user.coordinates }}
+                        td
+                            a.btn.btn-md.btn-primary(href="#/message-create/{{user._id}}")
+                                span.glyphicon.glyphicon-pencil.text-success
+                                span Message
+                        td
+                            a.btn.btn-md.btn-primary(href="#/scan/{{user._id}}")
+                                span.glyphicon.glyphicon-search.text-warning
+                                span Scan
+                        td
+                            a.btn.btn-md.btn-primary(href="#/attack/{{user._id}}")
+                                span.glyphicon.glyphicon-screenshot.text-danger
+                                span Attack

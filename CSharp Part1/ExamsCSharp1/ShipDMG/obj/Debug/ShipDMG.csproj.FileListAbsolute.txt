@@ -1,6 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\ShipDMG\bin\Debug\ShipDMG.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\ShipDMG\bin\Debug\ShipDMG.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\ShipDMG\bin\Debug\ShipDMG.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\ShipDMG\obj\Debug\ShipDMG.csprojResolveAssemblyReference.cache
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\ShipDMG\obj\Debug\ShipDMG.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\ShipDMG\obj\Debug\ShipDMG.pdb

@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WF_09_SiteMaps_Homework.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <h1>Our company</h1>
+            <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" SkipLinkText=""
+                EnableViewState="False" IncludeStyleBlock="False" Orientation="Vertical"
+                DataSourceID="SiteMapDataSource" StaticDisplayLevels="2">
+            </asp:Menu>
+            <asp:SiteMapPath ID="SiteMapPathBreadcrump" runat="server" />
+            <hr />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+     <asp:SiteMapDataSource ID="SiteMapDataSource" runat="server" />
+</body>
+</html>

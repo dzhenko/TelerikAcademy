@@ -1,0 +1,64 @@
+.container(id="overviewContainer")
+    include ../common/resourcesOverview
+    .alert.alert-danger.minHeight100(ng-repeat="defence in gameObjects.defences")
+        strong.lead Incoming attack from {{ defence.source }}
+        strong.lead(timer end-time="defence.time") in {{ hours }} hours , {{ minutes }} minutes , {{ seconds }} seconds
+        a.btn.btn-md.btn-primary.pull-right(href="#/attack/{{defence.sourceID}}")
+            span.glyphicon.glyphicon-screenshot.text-danger
+            span Attack
+        a.btn.btn-md.btn-primary.pull-right(href="#/scan/{{defence.sourceID}}")
+            span.glyphicon.glyphicon-search.text-warning
+            span Scan
+        a.btn.btn-md.btn-primary.pull-right(href="#/message-create/{{defence.sourceID}}")
+            span.glyphicon.glyphicon-pencil.text-success
+            span Message
+        img.pull-left(src="" ng-src="{{ raceModel.troopsImage }}" alt="image" height=70 width=70)
+        .progress.progress-striped.active
+            .progress-bar(style="width: {{ 100 * ((now - defence.created)/(defence.time - defence.created)) }}%")
+
+    .alert.alert-warning.minHeight100(ng-repeat="attack in gameObjects.attacks")
+        strong.lead You will attack in
+        strong.lead(timer end-time="attack.time")  {{ hours }} hours , {{ minutes }} minutes , {{ seconds }} seconds
+        a.btn.btn-md.btn-primary.pull-right(href="#/attack/{{attack.target}}")
+            span.glyphicon.glyphicon-screenshot.text-danger
+            span Attack
+        a.btn.btn-md.btn-primary.pull-right(href="#/scan/{{attack.target}}")
+            span.glyphicon.glyphicon-search.text-warning
+            span Scan
+        a.btn.btn-md.btn-primary.pull-right(href="#/message-create/{{attack.target}}")
+            span.glyphicon.glyphicon-pencil.text-success
+            span Message
+        button.btn.btn-md.btn-primary.pull-right(ng-click="showAttackInfo($index)" data-toggle="modal" data-target="#additionalInfo")
+            span.glyphicon.glyphicon-book.text-info
+            span Details
+        img.pull-left(src="" ng-src="{{ raceModel.shipsImage }}" alt="image" height=70 width=70)
+        .progress.progress-striped.active
+            .progress-bar(style="width: {{ 100 * ((now - attack.created)/(attack.time - attack.created)) }}%")
+
+    .alert.alert-success.minHeight100(ng-repeat="comeback in gameObjects.comebacks")
+        strong.lead Your ships are returning after
+        strong.lead(timer end-time="comeback.time")  {{ hours }} hours , {{ minutes }} minutes , {{ seconds }} seconds
+        button.btn.btn-md.btn-primary.pull-right(ng-click="showComebackInfo($index)" data-toggle="modal" data-target="#additionalInfo")
+            span.glyphicon.glyphicon-book.text-info
+            span Details
+        img.pull-left(src="" ng-src="{{ raceModel.shipsImage }}" alt="image" height=70 width=70)
+        .progress.progress-striped.active
+            .progress-bar(style="width: {{ 100 * ((now - comeback.created)/(comeback.time - comeback.created))}}%")
+
+    .alert.alert-info.minHeight100(ng-repeat="task in gameObjects.tasks")
+        strong.lead.text-capitalize {{ raceModel[task.type][task.indexToAddTo].name }}
+        span.lead  will complete in
+        strong.lead(timer end-time="task.time")  {{ hours }} hours , {{ minutes }} minutes , {{ seconds }} seconds
+        img.pull-left(src="" ng-src="{{ raceModel[task.type][task.indexToAddTo].image }}" alt="{{ raceModel[task.type][task.indexToAddTo].alt }}" height=70 width=70)
+        .progress.progress-striped.active
+            .progress-bar(style="width: {{ 100 * ((now - task.created)/(task.time - task.created)) }}%")
+
+    .modal.fade#additionalInfo
+        .modal-dialog
+            .modal-content
+                .modal-header
+                    h4.modal-title {{ additionalInfoHeader }}
+                .modal-body
+                    p.lead {{ additionalInfoText }}
+                .modal-footer
+                    button.btn.btn-lg.btn-success(data-dismiss="modal") OK

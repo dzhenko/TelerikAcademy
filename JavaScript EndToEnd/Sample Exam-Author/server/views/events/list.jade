@@ -1,0 +1,15 @@
+extends ../shared/layout
+block main-content
+    h1 Listed events
+
+    table.table.table-striped.table-hover
+        thead
+            tr
+                th Title
+                th Description
+        tbody
+            each event in events
+                tr
+                    td
+                        a(href="/event/#{event._id}")= event.title
+                    td= event.description

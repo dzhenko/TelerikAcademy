@@ -1,6 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\8. SequenceMaxSum\bin\Debug\8.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\8. SequenceMaxSum\obj\Debug\8.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-1-Arrays-Homework\8. SequenceMaxSum\obj\Debug\8.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\8. SequenceMaxSum\bin\Debug\8.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\8. SequenceMaxSum\obj\Debug\8.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-1-Arrays-Homework\8. SequenceMaxSum\obj\Debug\8.pdb

@@ -1,5 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\testing2\bin\Debug\testing2.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\testing2\bin\Debug\testing2.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\testing2\bin\Debug\testing2.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\testing2\obj\Debug\testing2.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\testing2\obj\Debug\testing2.pdb

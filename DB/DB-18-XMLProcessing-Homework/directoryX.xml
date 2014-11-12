@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root-directory path="C:\Windows\Help">
+  <dir name="C:\Windows\Help">
+    <dir name="C:\Windows\Help\Corporate" />
+    <dir name="C:\Windows\Help\en-US">
+      <file name="C:\Windows\Help\en-US\credits.rtf" size="216517" />
+    </dir>
+    <dir name="C:\Windows\Help\Help" />
+    <dir name="C:\Windows\Help\mui">
+      <dir name="C:\Windows\Help\mui\0409">
+        <file name="C:\Windows\Help\mui\0409\cliconf.chm" size="94637" />
+        <file name="C:\Windows\Help\mui\0409\mmc.CHM" size="47431" />
+        <file name="C:\Windows\Help\mui\0409\msdasc.chm" size="76837" />
+        <file name="C:\Windows\Help\mui\0409\msorcl32.chm" size="75209" />
+        <file name="C:\Windows\Help\mui\0409\odbcinst.chm" size="78636" />
+        <file name="C:\Windows\Help\mui\0409\odbcjet.chm" size="87270" />
+        <file name="C:\Windows\Help\mui\0409\sqlsodbc.chm" size="73848" />
+        <file name="C:\Windows\Help\mui\0409\sqlsoldb.chm" size="63938" />
+      </dir>
+    </dir>
+    <dir name="C:\Windows\Help\nvcpl">
+      <file name="C:\Windows\Help\nvcpl\nv3d.chm" size="120783" />
+      <file name="C:\Windows\Help\nvcpl\nv3dara.chm" size="161882" />
+      <file name="C:\Windows\Help\nvcpl\nv3dchs.chm" size="162105" />
+      <file name="C:\Windows\Help\nvcpl\nv3dcht.chm" size="165295" />
+      <file name="C:\Windows\Help\nvcpl\nv3dcsy.chm" size="186164" />
+      <file name="C:\Windows\Help\nvcpl\nv3ddan.chm" size="150634" />
+      <file name="C:\Windows\Help\nvcpl\nv3ddeu.chm" size="177990" />
+      <file name="C:\Windows\Help\nvcpl\nv3dell.chm" size="170922" />
+      <file name="C:\Windows\Help\nvcpl\nv3deng.chm" size="157589" />
+      <file name="C:\Windows\Help\nvcpl\nv3desm.chm" size="152158" />
+      <file name="C:\Windows\Help\nvcpl\nv3desn.chm" size="150481" />
+      <file name="C:\Windows\Help\nvcpl\nv3dfin.chm" size="161658" />
+      <file name="C:\Windows\Help\nvcpl\nv3dfra.chm" size="155931" />
+      <file name="C:\Windows\Help\nvcpl\nv3dheb.chm" size="171624" />
+      <file name="C:\Windows\Help\nvcpl\nv3dhun.chm" size="174022" />
+      <file name="C:\Windows\Help\nvcpl\nv3dita.chm" size="154879" />
+      <file name="C:\Windows\Help\nvcpl\nv3djpn.chm" size="188137" />
+      <file name="C:\Windows\Help\nvcpl\nv3dkor.chm" size="164691" />
+      <file name="C:\Windows\Help\nvcpl\nv3dnld.chm" size="148685" />
+      <file name="C:\Windows\Help\nvcpl\nv3dnor.chm" size="150644" />
+      <file name="C:\Windows\Help\nvcpl\nv3dplk.chm" size="169115" />
+      <file name="C:\Windows\Help\nvcpl\nv3dptb.chm" size="150182" />
+      <file name="C:\Windows\Help\nvcpl\nv3dptg.chm" size="157970" />
+      <file name="C:\Windows\Help\nvcpl\nv3drus.chm" size="162592" />
+      <file name="C:\Windows\Help\nvcpl\nv3dsky.chm" size="189197" />
+      <file name="C:\Windows\Help\nvcpl\nv3dslv.chm" size="169337" />
+      <file name="C:\Windows\Help\nvcpl\nv3dsve.chm" size="170326" />
+      <file name="C:\Windows\Help\nvcpl\nv3dtha.chm" size="190749" />
+      <file name="C:\Windows\Help\nvcpl\nv3dtrk.chm" size="165047" />
+      <file name="C:\Windows\Help\nvcpl\nvcpl.chm" size="136431" />
+      <file name="C:\Windows\Help\nvcpl\nvcplara.chm" size="140416" />
+      <file name="C:\Windows\Help\nvcpl\nvcplchs.chm" size="138841" />
+      <file name="C:\Windows\Help\nvcpl\nvcplcht.chm" size="140637" />
+      <file name="C:\Windows\Help\nvcpl\nvcplcsy.chm" size="141291" />
+      <file name="C:\Windows\Help\nvcpl\nvcpldan.chm" size="137029" />
+      <file name="C:\Windows\Help\nvcpl\nvcpldeu.chm" size="139800" />
+      <file name="C:\Windows\Help\nvcpl\nvcplell.chm" size="143210" />
+      <file name="C:\Windows\Help\nvcpl\nvcpleng.chm" size="136474" />
+      <file name="C:\Windows\Help\nvcpl\nvcplesm.chm" size="138338" />
+      <file name="C:\Windows\Help\nvcpl\nvcplesn.chm" size="136982" />
+      <file name="C:\Windows\Help\nvcpl\nvcplfin.chm" size="140323" />
+      <file name="C:\Windows\Help\nvcpl\nvcplfra.chm" size="137857" />
+      <file name="C:\Windows\Help\nvcpl\nvcplheb.chm" size="144480" />
+      <file name="C:\Windows\Help\nvcpl\nvcplhun.chm" size="142508" />
+      <file name="C:\Windows\Help\nvcpl\nvcplita.chm" size="138286" />
+      <file name="C:\Windows\Help\nvcpl\nvcpljpn.chm" size="148390" />
+      <file name="C:\Windows\Help\nvcpl\nvcplkor.chm" size="141693" />
+      <file name="C:\Windows\Help\nvcpl\nvcplnld.chm" size="136911" />
+      <file name="C:\Windows\Help\nvcpl\nvcplnor.chm" size="138448" />
+      <file name="C:\Windows\Help\nvcpl\nvcplplk.chm" size="141885" />
+      <file name="C:\Windows\Help\nvcpl\nvcplptb.chm" size="136992" />
+      <file name="C:\Windows\Help\nvcpl\nvcplptg.chm" size="138252" />
+      <file name="C:\Windows\Help\nvcpl\nvcplrus.chm" size="141748" />
+      <file name="C:\Windows\Help\nvcpl\nvcplsky.chm" size="144057" />
+      <file name="C:\Windows\Help\nvcpl\nvcplslv.chm" size="142542" />
+      <file name="C:\Windows\Help\nvcpl\nvcplsve.chm" size="138653" />
+      <file name="C:\Windows\Help\nvcpl\nvcpltha.chm" size="145953" />
+      <file name="C:\Windows\Help\nvcpl\nvcpltrk.chm" size="141517" />
+      <file name="C:\Windows\Help\nvcpl\nvdsp.chm" size="204971" />
+      <file name="C:\Windows\Help\nvcpl\nvdspara.chm" size="229385" />
+      <file name="C:\Windows\Help\nvcpl\nvdspchs.chm" size="222101" />
+      <file name="C:\Windows\Help\nvcpl\nvdspcht.chm" size="231371" />
+      <file name="C:\Windows\Help\nvcpl\nvdspcsy.chm" size="230378" />
+      <file name="C:\Windows\Help\nvcpl\nvdspdan.chm" size="210436" />
+      <file name="C:\Windows\Help\nvcpl\nvdspdeu.chm" size="220448" />
+      <file name="C:\Windows\Help\nvcpl\nvdspell.chm" size="241524" />
+      <file name="C:\Windows\Help\nvcpl\nvdspeng.chm" size="209060" />
+      <file name="C:\Windows\Help\nvcpl\nvdspesm.chm" size="213583" />
+      <file name="C:\Windows\Help\nvcpl\nvdspesn.chm" size="210491" />
+      <file name="C:\Windows\Help\nvcpl\nvdspfin.chm" size="224027" />
+      <file name="C:\Windows\Help\nvcpl\nvdspfra.chm" size="211300" />
+      <file name="C:\Windows\Help\nvcpl\nvdspheb.chm" size="236081" />
+      <file name="C:\Windows\Help\nvcpl\nvdsphun.chm" size="235380" />
+      <file name="C:\Windows\Help\nvcpl\nvdspita.chm" size="217740" />
+      <file name="C:\Windows\Help\nvcpl\nvdspjpn.chm" size="262707" />
+      <file name="C:\Windows\Help\nvcpl\nvdspkor.chm" size="240029" />
+      <file name="C:\Windows\Help\nvcpl\nvdspnld.chm" size="208260" />
+      <file name="C:\Windows\Help\nvcpl\nvdspnor.chm" size="203421" />
+      <file name="C:\Windows\Help\nvcpl\nvdspplk.chm" size="232794" />
+      <file name="C:\Windows\Help\nvcpl\nvdspptb.chm" size="208284" />
+      <file name="C:\Windows\Help\nvcpl\nvdspptg.chm" size="214554" />
+      <file name="C:\Windows\Help\nvcpl\nvdsprus.chm" size="226212" />
+      <file name="C:\Windows\Help\nvcpl\nvdspsky.chm" size="236846" />
+      <file name="C:\Windows\Help\nvcpl\nvdspslv.chm" size="227583" />
+      <file name="C:\Windows\Help\nvcpl\nvdspsve.chm" size="213806" />
+      <file name="C:\Windows\Help\nvcpl\nvdsptha.chm" size="257128" />
+      <file name="C:\Windows\Help\nvcpl\nvdsptrk.chm" size="226868" />
+      <file name="C:\Windows\Help\nvcpl\nvmob.chm" size="51921" />
+      <file name="C:\Windows\Help\nvcpl\nvmobara.chm" size="50525" />
+      <file name="C:\Windows\Help\nvcpl\nvmobchs.chm" size="50600" />
+      <file name="C:\Windows\Help\nvcpl\nvmobcht.chm" size="51372" />
+      <file name="C:\Windows\Help\nvcpl\nvmobcsy.chm" size="50556" />
+      <file name="C:\Windows\Help\nvcpl\nvmobdan.chm" size="50003" />
+      <file name="C:\Windows\Help\nvcpl\nvmobdeu.chm" size="50750" />
+      <file name="C:\Windows\Help\nvcpl\nvmobell.chm" size="51665" />
+      <file name="C:\Windows\Help\nvcpl\nvmobeng.chm" size="52094" />
+      <file name="C:\Windows\Help\nvcpl\nvmobesm.chm" size="50200" />
+      <file name="C:\Windows\Help\nvcpl\nvmobesn.chm" size="50176" />
+      <file name="C:\Windows\Help\nvcpl\nvmobfin.chm" size="50753" />
+      <file name="C:\Windows\Help\nvcpl\nvmobfra.chm" size="50648" />
+      <file name="C:\Windows\Help\nvcpl\nvmobheb.chm" size="50991" />
+      <file name="C:\Windows\Help\nvcpl\nvmobhun.chm" size="51055" />
+      <file name="C:\Windows\Help\nvcpl\nvmobita.chm" size="50490" />
+      <file name="C:\Windows\Help\nvcpl\nvmobjpn.chm" size="51838" />
+      <file name="C:\Windows\Help\nvcpl\nvmobkor.chm" size="50686" />
+      <file name="C:\Windows\Help\nvcpl\nvmobnld.chm" size="50748" />
+      <file name="C:\Windows\Help\nvcpl\nvmobnor.chm" size="49804" />
+      <file name="C:\Windows\Help\nvcpl\nvmobplk.chm" size="50825" />
+      <file name="C:\Windows\Help\nvcpl\nvmobptb.chm" size="50376" />
+      <file name="C:\Windows\Help\nvcpl\nvmobptg.chm" size="50348" />
+      <file name="C:\Windows\Help\nvcpl\nvmobrus.chm" size="50585" />
+      <file name="C:\Windows\Help\nvcpl\nvmobsky.chm" size="50627" />
+      <file name="C:\Windows\Help\nvcpl\nvmobslv.chm" size="50823" />
+      <file name="C:\Windows\Help\nvcpl\nvmobsve.chm" size="52845" />
+      <file name="C:\Windows\Help\nvcpl\nvmobtha.chm" size="50831" />
+      <file name="C:\Windows\Help\nvcpl\nvmobtrk.chm" size="50665" />
+      <file name="C:\Windows\Help\nvcpl\nvwks.chm" size="908244" />
+      <file name="C:\Windows\Help\nvcpl\nvwksARA.chm" size="904675" />
+      <file name="C:\Windows\Help\nvcpl\nvwksCHS.chm" size="899613" />
+      <file name="C:\Windows\Help\nvcpl\nvwksCHT.chm" size="902631" />
+      <file name="C:\Windows\Help\nvcpl\nvwksCSY.chm" size="900409" />
+      <file name="C:\Windows\Help\nvcpl\nvwksDAN.chm" size="885097" />
+      <file name="C:\Windows\Help\nvcpl\nvwksDEU.chm" size="895348" />
+      <file name="C:\Windows\Help\nvcpl\nvwksELL.chm" size="907707" />
+      <file name="C:\Windows\Help\nvcpl\nvwksENG.chm" size="906822" />
+      <file name="C:\Windows\Help\nvcpl\nvwksESM.chm" size="888916" />
+      <file name="C:\Windows\Help\nvcpl\nvwksESN.chm" size="886316" />
+      <file name="C:\Windows\Help\nvcpl\nvwksFIN.chm" size="897043" />
+      <file name="C:\Windows\Help\nvcpl\nvwksFRA.chm" size="888865" />
+      <file name="C:\Windows\Help\nvcpl\nvwksHEB.chm" size="909727" />
+      <file name="C:\Windows\Help\nvcpl\nvwksHUN.chm" size="906969" />
+      <file name="C:\Windows\Help\nvcpl\nvwksITA.chm" size="891558" />
+      <file name="C:\Windows\Help\nvcpl\nvwksJPN.chm" size="921695" />
+      <file name="C:\Windows\Help\nvcpl\nvwksKOR.chm" size="903403" />
+      <file name="C:\Windows\Help\nvcpl\nvwksNLD.chm" size="885364" />
+      <file name="C:\Windows\Help\nvcpl\nvwksNOR.chm" size="894631" />
+      <file name="C:\Windows\Help\nvcpl\nvwksPLK.chm" size="905131" />
+      <file name="C:\Windows\Help\nvcpl\nvwksPTB.chm" size="887396" />
+      <file name="C:\Windows\Help\nvcpl\nvwksPTG.chm" size="891188" />
+      <file name="C:\Windows\Help\nvcpl\nvwksRUS.chm" size="903242" />
+      <file name="C:\Windows\Help\nvcpl\nvwksSKY.chm" size="904545" />
+      <file name="C:\Windows\Help\nvcpl\nvwksSLV.chm" size="902426" />
+      <file name="C:\Windows\Help\nvcpl\nvwksSVE.chm" size="888948" />
+      <file name="C:\Windows\Help\nvcpl\nvwksTHA.chm" size="911592" />
+      <file name="C:\Windows\Help\nvcpl\nvwksTRK.chm" size="896427" />
+    </dir>
+    <dir name="C:\Windows\Help\OEM">
+      <dir name="C:\Windows\Help\OEM\ContentStore" />
+      <dir name="C:\Windows\Help\OEM\IndexStore" />
+    </dir>
+    <dir name="C:\Windows\Help\Windows">
+      <dir name="C:\Windows\Help\Windows\ContentStore">
+        <dir name="C:\Windows\Help\Windows\ContentStore\en-US">
+          <file name="C:\Windows\Help\Windows\ContentStore\en-US\art.mshc" size="230849" />
+          <file name="C:\Windows\Help\Windows\ContentStore\en-US\artnoloc.mshc" size="219577" />
+          <file name="C:\Windows\Help\Windows\ContentStore\en-US\clientserver.mshc" size="60300" />
+          <file name="C:\Windows\Help\Windows\ContentStore\en-US\noarm.mshc" size="15070" />
+          <file name="C:\Windows\Help\Windows\ContentStore\en-US\resources.mshc" size="29907" />
+          <file name="C:\Windows\Help\Windows\ContentStore\en-US\windowsclient.mshc" size="39939" />
+        </dir>
+      </dir>
+      <dir name="C:\Windows\Help\Windows\IndexStore">
+        <dir name="C:\Windows\Help\Windows\IndexStore\en-US">
+          <file name="C:\Windows\Help\Windows\IndexStore\en-US\art.mshi" size="1584" />
+          <file name="C:\Windows\Help\Windows\IndexStore\en-US\artnoloc.mshi" size="2409" />
+          <file name="C:\Windows\Help\Windows\IndexStore\en-US\clientserver.mshi" size="41245" />
+          <file name="C:\Windows\Help\Windows\IndexStore\en-US\noarm.mshi" size="10925" />
+          <file name="C:\Windows\Help\Windows\IndexStore\en-US\resources.mshi" size="610" />
+          <file name="C:\Windows\Help\Windows\IndexStore\en-US\windowsclient.mshi" size="19169" />
+        </dir>
+      </dir>
+    </dir>
+  </dir>
+</root-directory>

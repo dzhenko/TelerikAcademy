@@ -1,0 +1,56 @@
+doctype
+html
+    head
+        title EXAM
+        link(rel="stylesheet" href="/lib/jquery-ui-1.11.1/jquery-ui.min.css")
+        link(rel="stylesheet" href="/lib/bootstrap-3.2.0/css/bootstrap.min.css")
+        link(rel="stylesheet" href="/lib/bootstrap-3.2.0/css/bootstrap-theme.min.css")
+        link(rel="stylesheet" href="/css/site.css")
+    body
+        .navbar.navbar-default
+            .container
+                .navbar-header
+                    a.navbar-brand(href="/") Events
+                    button.navbar-toggle(type="button" data-toggle="collapse" data-target="#navbar-main")
+                        span.icon-bar
+                        span.icon-bar
+                        span.icon-bar
+                .navbar-collapse.collapse
+                    ul.nav.navbar-nav
+                        li
+                            a(href="/") Home
+                        if (currentUser)
+                            li.dropdown
+                                a.dropdown-toggle(href="" data-toggle="dropdown") List Events
+                                    span.caret
+                                ul.dropdown-menu
+                                    each category in eventCategories
+                                        li
+                                            a(href="/list-events/#{category}")= category
+                        if (currentUser && currentUser.phone)
+                            li
+                                a(href="/create-event") Create Event
+                    ul.nav.navbar-nav.navbar-right
+                        if (currentUser)
+                            li
+                                a(href="/profile") Profile
+                            li
+                                a(href="/logout") Logout
+                        else
+                            li
+                                a(href="/register") Register
+                            li
+                                a(href="/login") Login
+        .container
+            if (errorMessage)
+                .alert.alert-danger #{errorMessage}
+
+            block main-content
+
+        footer
+            hr
+            p.text-center
+                | &copy; Telerik Academy 2014
+            hr
+
+        include scripts

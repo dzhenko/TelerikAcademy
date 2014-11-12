@@ -1,0 +1,222 @@
+.container
+    .jumbotron.row
+        p.col-md-4 Simulate attack
+        button.btn.btn-md.btn-success.col-md-2.pull-right(ng-click="simulate()" data-toggle="modal" data-target="#simulatedReportDetails") Simulate
+        .form-group.col-md-6.pull-right
+            label.col-md-4.lead(for="selectSimulatedTurns") Attack turns
+            .col-md-5
+                select.form-control(id="selectSimulatedTurns" ng-model="selectSimulatedTurns")
+                    option 4
+                    option 5
+                    option 6
+                    option 7
+                    option 8
+                    option 9
+                    option(selected="selected") 10
+                    option 11
+                    option 12
+                    option 13
+                    option 14
+    .panel.panel-success.text-center
+        .panel-heading
+            h3.panel-title Your ships
+        .panel-body
+            .row
+                .col-md-3(ng-repeat="ship in raceModel.ships track by $index")
+                    .form-group
+                        input.form-control(type="number", ng-model="attackerShips[$index]")
+                    p.text-danger  {{ shipsModel.attack[$index] }}
+                        span.glyphicon.glyphicon-screenshot attack
+                    p.text-warning  {{ shipsModel.defence[$index] }}
+                        span.glyphicon.glyphicon-exclamation-sign defence
+                    p.text-success  {{ shipsModel.health[$index] }}
+                        span.glyphicon.glyphicon-plus-sign health
+                    p.text-info  {{ shipsModel.capacity[$index] }}
+                        span.glyphicon.glyphicon-lock capacity
+                    img(src="" alt="image" ng-src="{{raceModel.ships[$index].image}}" width=100 height=100)
+    .panel.panel-success.text-center
+        .panel-heading
+            h3.panel-title Your upgrades
+        .panel-body
+            .row
+                .col-md-4
+                    .form-group
+                        label.row.control-label(for="attackerUpgrades0") {{ upgradesModel.names[7].name }}
+                        select.form-control(id="attackerUpgrades0" type="number", ng-model="attackerUpgrades[0]" ng-options="upgrade.value as upgrade.text for upgrade in upgradeOptions")
+                .col-md-4
+                    .form-group
+                        label.row.control-label(for="attackerUpgrades1") {{ upgradesModel.names[8].name }}
+                        select.form-control(id="attackerUpgrades1" type="number", ng-model="attackerUpgrades[1]" ng-options="upgrade.value as upgrade.text for upgrade in upgradeOptions")
+                .col-md-4
+                    .form-group
+                        label.row.control-label(for="attackerUpgrades2") {{ upgradesModel.names[9].name }}
+                        select.form-control(id="attackerUpgrades2" type="number", ng-model="attackerUpgrades[2]" ng-options="upgrade.value as upgrade.text for upgrade in upgradeOptions")
+
+    .panel.panel-danger.text-center
+        .panel-heading
+            h3.panel-title Enemy troops
+        .panel-body
+            .row
+                .col-md-3(ng-repeat="troop in raceModel.troops track by $index")
+                    .form-group
+                        input.form-control(type="number", ng-model="defenderTroops[$index]")
+                    p.text-danger  {{ troopsModel.attack[$index] }}
+                        span.glyphicon.glyphicon-screenshot attack
+                    p.text-warning  {{ troopsModel.defence[$index] }}
+                        span.glyphicon.glyphicon-exclamation-sign defence
+                    p.text-success  {{ troopsModel.health[$index] }}
+                        span.glyphicon.glyphicon-plus-sign health
+                    img(src="" alt="image" ng-src="{{raceModel.troops[$index].image}}" width=100 height=100)
+    .panel.panel-danger.text-center
+        .panel-heading
+            h3.panel-title Enemy troops upgrades
+        .panel-body
+            .row
+                .col-md-4
+                    .form-group
+                        label.row.control-label(for="defenderGroundUpgrades0") {{ upgradesModel.names[10].name }}
+                        select.form-control(id="defenderGroundUpgrades0" type="number", ng-model="defenderGroundUpgrades[0]" ng-options="upgrade.value as upgrade.text for upgrade in upgradeOptions")
+                .col-md-4
+                    .form-group
+                        label.row.control-label(for="defenderGroundUpgrades1") {{ upgradesModel.names[11].name }}
+                        select.form-control(id="defenderGroundUpgrades1" type="number", ng-model="defenderGroundUpgrades[1]" ng-options="upgrade.value as upgrade.text for upgrade in upgradeOptions")
+                .col-md-4
+                    .form-group
+                        label.row.control-label(for="defenderGroundUpgrades2") {{ upgradesModel.names[12].name }}
+                        select.form-control(id="defenderGroundUpgrades2" type="number", ng-model="defenderGroundUpgrades[2]" ng-options="upgrade.value as upgrade.text for upgrade in upgradeOptions")
+    .panel.panel-danger.text-center
+        .panel-heading
+            h3.panel-title Enemy ships
+        .panel-body
+            .row
+                .col-md-3(ng-repeat="ship in raceModel.ships track by $index")
+                    .form-group
+                        input.form-control(type="number", ng-model="defenderShips[$index]")
+                    p.text-danger  {{ shipsModel.attack[$index] }}
+                        span.glyphicon.glyphicon-screenshot attack
+                    p.text-warning  {{ shipsModel.defence[$index] }}
+                        span.glyphicon.glyphicon-exclamation-sign defence
+                    p.text-success  {{ shipsModel.health[$index] }}
+                        span.glyphicon.glyphicon-plus-sign health
+                    img(src="" alt="image" ng-src="{{raceModel.ships[$index].image}}" width=100 height=100)
+    .panel.panel-danger.text-center
+        .panel-heading
+            h3.panel-title Enemy ships upgrades
+        .panel-body
+            .row
+                .col-md-4
+                    .form-group
+                        label.row.control-label(for="defenderAirUpgrades0") {{ upgradesModel.names[7].name }}
+                        select.form-control(id="defenderAirUpgrades0" type="number", ng-model="defenderAirUpgrades[0]" ng-options="upgrade.value as upgrade.text for upgrade in upgradeOptions")
+                .col-md-4
+                    .form-group
+                        label.row.control-label(for="defenderAirUpgrades1") {{ upgradesModel.names[8].name }}
+                        select.form-control(id="defenderAirUpgrades1" type="number", ng-model="defenderAirUpgrades[1]" ng-options="upgrade.value as upgrade.text for upgrade in upgradeOptions")
+                .col-md-4
+                    .form-group
+                        label.row.control-label(for="defenderAirUpgrades2") {{ upgradesModel.names[9].name }}
+                        select.form-control(id="defenderAirUpgrades2" type="number", ng-model="defenderAirUpgrades[2]" ng-options="upgrade.value as upgrade.text for upgrade in upgradeOptions")
+
+    .modal.fade#simulatedReportDetails
+        .modal-dialog
+            .modal-content
+                .modal-header
+                    h2.modal-title Simulated attack report
+                .modal-body
+                    p.lead.text-success(ng-show="simulatedReport.win") You win
+                    p.lead.text-danger(ng-show="!simulatedReport.win") You lose
+
+                    .panel.panel-success
+                        .panel-heading
+                            h3.panel-title Units killed
+                        .panel-body
+                            p(ng-show="simulatedReport.defender.troops[0][0] - simulatedReport.defender.troops[simulatedReport.defender.troops.length - 1][0] > 0")
+                                img(src="" ng-src="{{ raceModel.troops[0].image }}" alt="image" height=50 width=50)
+                                span.lead {{ simulatedReport.defender.troops[0][0] - simulatedReport.defender.troops[simulatedReport.defender.troops.length - 1][0]}} {{ raceModel.troops[0].name }}s
+                            p(ng-show="simulatedReport.defender.troops[0][1] - simulatedReport.defender.troops[simulatedReport.defender.troops.length - 1][1] > 0")
+                                img(src="" ng-src="{{ raceModel.troops[1].image }}" alt="image" height=50 width=50)
+                                span.lead {{ simulatedReport.defender.troops[0][1] - simulatedReport.defender.troops[simulatedReport.defender.troops.length - 1][1]}} {{ raceModel.troops[1].name }}s
+                            p(ng-show="simulatedReport.defender.troops[0][2] - simulatedReport.defender.troops[simulatedReport.defender.troops.length - 1][2] > 0")
+                                img(src="" ng-src="{{ raceModel.troops[2].image }}" alt="image" height=50 width=50)
+                                span.lead {{ simulatedReport.defender.troops[0][2] - simulatedReport.defender.troops[simulatedReport.defender.troops.length - 1][2]}} {{ raceModel.troops[2].name }}s
+                            p(ng-show="simulatedReport.defender.ships[0][0] - simulatedReport.defender.ships[simulatedReport.defender.ships.length - 1][0] > 0")
+                                img(src="" ng-src="{{ raceModel.ships[0].image }}" alt="image" height=50 width=50)
+                                span.lead {{ simulatedReport.defender.ships[0][0] - simulatedReport.defender.ships[simulatedReport.defender.ships.length - 1][0]}} {{ raceModel.ships[0].name }}s
+                            p(ng-show="simulatedReport.defender.ships[0][1] - simulatedReport.defender.ships[simulatedReport.defender.ships.length - 1][1] > 0")
+                                img(src="" ng-src="{{ raceModel.ships[1].image }}" alt="image" height=50 width=50)
+                                span.lead {{ simulatedReport.defender.ships[0][1] - simulatedReport.defender.ships[simulatedReport.defender.ships.length - 1][1]}} {{ raceModel.ships[1].name }}s
+                            p(ng-show="simulatedReport.defender.ships[0][2] - simulatedReport.defender.ships[simulatedReport.defender.ships.length - 1][2] > 0")
+                                img(src="" ng-src="{{ raceModel.ships[2].image }}" alt="image" height=50 width=50)
+                                span.lead {{ simulatedReport.defender.ships[0][2] - simulatedReport.defender.ships[simulatedReport.defender.ships.length - 1][2]}} {{ raceModel.ships[2].name }}s
+                            p(ng-show="simulatedReport.defender.ships[0][3] - simulatedReport.defender.ships[simulatedReport.defender.ships.length - 1][3] > 0")
+                                img(src="" ng-src="{{ raceModel.ships[3].image }}" alt="image" height=50 width=50)
+                                span.lead {{ simulatedReport.defender.ships[0][3] - simulatedReport.defender.ships[simulatedReport.defender.ships.length - 1][3]}} {{ raceModel.ships[3].name }}s
+
+                    .panel.panel-danger
+                        .panel-heading
+                            h3.panel-title Lost units
+                        .panel-body
+                            p(ng-show="simulatedReport.attacker.ships[0][0] - simulatedReport.attacker.ships[simulatedReport.attacker.ships.length - 1][0] > 0")
+                                img(src="" ng-src="{{ raceModel.ships[0].image }}" alt="image" height=50 width=50)
+                                span.lead {{ simulatedReport.attacker.ships[0][0] - simulatedReport.attacker.ships[simulatedReport.attacker.ships.length - 1][0]}} {{ raceModel.ships[0].name }}s
+                            p(ng-show="simulatedReport.attacker.ships[0][1] - simulatedReport.attacker.ships[simulatedReport.attacker.ships.length - 1][1] > 0")
+                                img(src="" ng-src="{{ raceModel.ships[1].image }}" alt="image" height=50 width=50)
+                                span.lead {{ simulatedReport.attacker.ships[0][1] - simulatedReport.attacker.ships[simulatedReport.attacker.ships.length - 1][1]}} {{ raceModel.ships[1].name }}s
+                            p(ng-show="simulatedReport.attacker.ships[0][2] - simulatedReport.attacker.ships[simulatedReport.attacker.ships.length - 1][2] > 0")
+                                img(src="" ng-src="{{ raceModel.ships[2].image }}" alt="image" height=50 width=50)
+                                span.lead {{ simulatedReport.attacker.ships[0][2] - simulatedReport.attacker.ships[simulatedReport.attacker.ships.length - 1][2]}} {{ raceModel.ships[2].name }}s
+                            p(ng-show="simulatedReport.attacker.ships[0][3] - simulatedReport.attacker.ships[simulatedReport.attacker.ships.length - 1][3] > 0")
+                                img(src="" ng-src="{{ raceModel.ships[3].image }}" alt="image" height=50 width=50)
+                                span.lead {{ simulatedReport.attacker.ships[0][3] - simulatedReport.attacker.ships[simulatedReport.attacker.ships.length - 1][3]}} {{ raceModel.ships[3].name }}s
+
+                    .panel.panel-info(ng-repeat="sth in simulatedReport.attacker.damage track by $index ")
+                        .panel-heading
+                            h3.panel-title Round {{ $index + 1 }}
+                        .panel-body
+                            .row
+                                .col-md-6.pull-left
+                                    p.text-success Attacker Damage : {{ Math.round(simulatedReport.attacker.damage[$index]) }}
+                                    .row
+                                        .col-md-6.pull-left(ng-show="simulatedReport.attacker.ships[$index][0] > 0")
+                                            img(src="" ng-src="{{ raceModel.ships[0].image }}" alt="image" height=50 width=50)
+                                            p {{ simulatedReport.attacker.ships[$index][0] }} {{ raceModel.ships[0].name }}s
+                                        .col-md-6.pull-right(ng-show="simulatedReport.attacker.ships[$index][1] > 0")
+                                            img(src="" ng-src="{{ raceModel.ships[1].image }}" alt="image" height=50 width=50)
+                                            p {{ simulatedReport.attacker.ships[$index][1] }} {{ raceModel.ships[1].name }}s
+                                    .row
+                                        .col-md-6.pull-left(ng-show="simulatedReport.attacker.ships[$index][2] > 0")
+                                            img(src="" ng-src="{{ raceModel.ships[2].image }}" alt="image" height=50 width=50)
+                                            p {{ simulatedReport.attacker.ships[$index][2] }} {{ raceModel.ships[2].name }}s
+                                        .col-md-6.pull-right(ng-show="simulatedReport.attacker.ships[$index][3] > 0")
+                                            img(src="" ng-src="{{ raceModel.ships[3].image }}" alt="image" height=50 width=50)
+                                            p {{ simulatedReport.attacker.ships[$index][3] }} {{ raceModel.ships[3].name }}s
+                                .col-md-6.pull-right
+                                    p.text-danger Defender Damage : {{ Math.round(simulatedReport.defender.damage[$index]) }}
+                                    .row
+                                        .col-md-6.pull-left(ng-show="simulatedReport.defender.troops[$index][0] > 0")
+                                            img(src="" ng-src="{{ raceModel.troops[0].image }}" alt="image" height=50 width=50)
+                                            p {{ simulatedReport.defender.troops[$index][0] }} {{ raceModel.troops[0].name }}s
+                                        .col-md-6.pull-right(ng-show="simulatedReport.defender.troops[$index][1] > 0")
+                                            img(src="" ng-src="{{ raceModel.troops[1].image }}" alt="image" height=50 width=50)
+                                            p {{ simulatedReport.defender.troops[$index][1] }} {{ raceModel.troops[1].name }}s
+                                    .row
+                                        .col-md-6.pull-left(ng-show="simulatedReport.defender.troops[$index][2] > 0")
+                                            img(src="" ng-src="{{ raceModel.troops[2].image }}" alt="image" height=50 width=50)
+                                            p {{ simulatedReport.defender.troops[$index][2] }} {{ raceModel.troops[2].name }}s
+                                    .row
+                                        .col-md-6.pull-left(ng-show="simulatedReport.defender.ships[$index][0] > 0")
+                                            img(src="" ng-src="{{ raceModel.ships[0].image }}" alt="image" height=50 width=50)
+                                            p {{ simulatedReport.defender.ships[$index][0] }} {{ raceModel.ships[0].name }}s
+                                        .col-md-6.pull-right(ng-show="simulatedReport.defender.ships[$index][1] > 0")
+                                            img(src="" ng-src="{{ raceModel.ships[1].image }}" alt="image" height=50 width=50)
+                                            p {{ simulatedReport.defender.ships[$index][1] }} {{ raceModel.ships[1].name }}s
+                                    .row
+                                        .col-md-6.pull-left(ng-show="simulatedReport.defender.ships[$index][2] > 0")
+                                            img(src="" ng-src="{{ raceModel.ships[2].image }}" alt="image" height=50 width=50)
+                                            p {{ simulatedReport.defender.ships[$index][2] }} {{ raceModel.ships[2].name }}s
+                                        .col-md-6.pull-right(ng-show="simulatedReport.defender.ships[$index][3] > 0")
+                                            img(src="" ng-src="{{ raceModel.ships[3].image }}" alt="image" height=50 width=50)
+                                            p {{ simulatedReport.defender.ships[$index][3] }} {{ raceModel.ships[3].name }}s
+
+                .modal-footer
+                    button.btn.btn-lg.btn-success(data-dismiss="modal") OK

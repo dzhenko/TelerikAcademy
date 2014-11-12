@@ -1,0 +1,12 @@
+.modal.fade#sendMessage
+    .modal-dialog
+        .modal-content
+            .modal-header
+                h4.modal-title Write message
+            .modal-body
+               .form-group
+                    textarea.form-control(rows="5" ng-model="textToSend")
+            .modal-footer
+                button.btn.btn-lg.btn-success(data-dismiss="modal" ng-click="sendMessage()") Send
+                button.btn.btn-lg.btn-danger(data-dismiss="modal") Cancel
+button#showMessageInputBtn(ng-hide="true" data-toggle="modal" data-target="#sendMessage")

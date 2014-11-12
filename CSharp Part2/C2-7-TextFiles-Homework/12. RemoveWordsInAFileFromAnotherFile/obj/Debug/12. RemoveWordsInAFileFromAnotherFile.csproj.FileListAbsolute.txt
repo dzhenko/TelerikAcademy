@@ -1,9 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\12. RemoveWordsInAFileFromAnotherFile\bin\Debug\_12.RemoveWordsInAFileFromAnotherFile.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\12. RemoveWordsInAFileFromAnotherFile\bin\Debug\_12.RemoveWordsInAFileFromAnotherFile.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\12. RemoveWordsInAFileFromAnotherFile\bin\Debug\_12.RemoveWordsInAFileFromAnotherFile.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\12. RemoveWordsInAFileFromAnotherFile\obj\Debug\12. RemoveWordsInAFileFromAnotherFile.csprojResolveAssemblyReference.cache
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\12. RemoveWordsInAFileFromAnotherFile\obj\Debug\_12.RemoveWordsInAFileFromAnotherFile.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C2-7-TextFiles-Homework\12. RemoveWordsInAFileFromAnotherFile\obj\Debug\_12.RemoveWordsInAFileFromAnotherFile.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-7-TextFiles-Homework\12. RemoveWordsInAFileFromAnotherFile\bin\Debug\_12.RemoveWordsInAFileFromAnotherFile.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-7-TextFiles-Homework\12. RemoveWordsInAFileFromAnotherFile\obj\Debug\_12.RemoveWordsInAFileFromAnotherFile.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-7-TextFiles-Homework\12. RemoveWordsInAFileFromAnotherFile\obj\Debug\_12.RemoveWordsInAFileFromAnotherFile.pdb

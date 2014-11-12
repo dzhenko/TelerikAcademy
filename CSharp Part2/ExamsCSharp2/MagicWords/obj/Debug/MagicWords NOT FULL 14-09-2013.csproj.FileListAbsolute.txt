@@ -1,6 +1,0 @@
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\MagicWords\bin\Debug\MagicWords.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\MagicWords\obj\Debug\MagicWords.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\MagicWords\obj\Debug\MagicWords.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\MagicWords\bin\Debug\MagicWords.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\MagicWords\bin\Debug\MagicWords.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\MagicWords\obj\Debug\MagicWords NOT FULL 14-09-2013.csprojResolveAssemblyReference.cache

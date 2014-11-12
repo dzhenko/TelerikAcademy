@@ -1,0 +1,15 @@
+.container
+    .well
+        form.form-horizontal
+            fieldset
+                .row
+                    legend.text-primary.col-md-offset-1.col-md-10 Profile overview
+                .form-group
+                    label.col-md-2.control-label Username
+                    .col-md-6.lead {{ user.username }}
+                .form-group
+                    label.col-md-2.control-label First Name
+                    .col-md-6.lead {{ user.firstName }}
+                .form-group
+                    label.col-md-2.control-label Last Name
+                    .col-md-6.lead {{ user.lastName }}

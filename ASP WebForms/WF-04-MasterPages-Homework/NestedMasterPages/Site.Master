@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="NestedMasterPages.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="RootHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <h1>Companistix Company - the Company of the Companies!</h1>
+    <hr />
+    <aside>
+        <a href="/BG/Home.aspx">BG</a>
+        <a href="/EN/Home.aspx">EN</a>
+    </aside>
+     <hr />
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="RootContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <footer>
+        All rights for sale ! (Discounts available too!)
+    </footer>
+</body>
+</html>

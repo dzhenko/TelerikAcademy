@@ -1,0 +1,46 @@
+.image-container{
+    min-height: 200px;
+    width:100%;
+}
+
+.single-recipe-container > div{
+    border-width: 2px;
+}
+
+.single-recipe-container > div > div:last-of-type{
+    margin:0;
+}
+
+.single-recipe-container:hover{
+    text-decoration: none;
+}
+
+.single-recipe-container:hover > div{
+    border-color: #48ca3b;
+}
+
+.single-recipe-container:hover > div > div{
+    background-color: #48ca3b;
+}
+
+.home-main-view {
+    min-height: 600px;
+}
+
+.category-image-container {
+    width:100%;
+    min-height: 210px;
+}
+
+.specialDivider {
+    margin-bottom: 10px;
+}
+
+.myTimeInput {
+    top:0;
+    right:15px;
+}
+
+.myCarrier {
+    position: relative;
+}

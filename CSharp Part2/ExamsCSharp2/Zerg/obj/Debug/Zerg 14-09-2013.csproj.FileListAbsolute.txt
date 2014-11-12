@@ -1,6 +1,0 @@
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Zerg\bin\Debug\BookChapter7.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Zerg\obj\Debug\BookChapter7.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\ExamsCSharp2\Zerg\obj\Debug\BookChapter7.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\Zerg\bin\Debug\BookChapter7.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\Zerg\obj\Debug\BookChapter7.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\Zerg\obj\Debug\BookChapter7.pdb

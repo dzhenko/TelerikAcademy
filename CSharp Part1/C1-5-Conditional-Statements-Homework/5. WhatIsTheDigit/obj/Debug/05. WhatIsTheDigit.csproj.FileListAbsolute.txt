@@ -1,3 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-5-Conditional-Statements-Homework\5. WhatIsTheDigit\bin\Debug\_5.WhatIsTheDigit.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-5-Conditional-Statements-Homework\5. WhatIsTheDigit\obj\Debug\_5.WhatIsTheDigit.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-5-Conditional-Statements-Homework\5. WhatIsTheDigit\obj\Debug\_5.WhatIsTheDigit.pdb

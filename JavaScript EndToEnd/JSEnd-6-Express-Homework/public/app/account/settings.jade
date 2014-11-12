@@ -1,0 +1,54 @@
+.container
+    .well
+        form.form-horizontal(name="profileForm")
+            fieldset
+                .row
+                    legend.text-primary.col-md-offset-1.col-md-10 Change game settings
+                .form-group
+                    label.col-md-2.control-label(for="refresh") Refresh interval
+                    .col-md-6
+                        input.form-control(id="refresh" type="number", ng-model="refreshRate" required)
+                .form-group
+                    .col-md-6.col-md-offset-2
+                        p.lead Game refresh rate determines how often your computer checks for new events. Best gameplay is at 1 second, but around 15 is also ok. Default is 2.
+                .pull-right.col-md-6
+                    button.btn.btn-primary(ng-click="updateRefreshRate(refreshRate)", ng-disabled="profileForm.$invalid || refreshRate < 1") Save
+                    a.btn.btn-danger(href="#/overview") Cancel
+    .well
+        form.form-horizontal(name="profileForm")
+            fieldset
+                .row
+                    legend.text-primary.col-md-offset-1.col-md-10 Change account settings
+                .form-group
+                    label.col-md-2.control-label(for="first-name") Username
+                    .col-md-6
+                        input.form-control(id="first-name" type="text", value="{{user.username}}" disabled="")
+                .form-group
+                    label.col-md-2.control-label(for="first-name") First Name
+                    .col-md-6
+                        input.form-control(id="first-name" type="text", placeholder="First Name", ng-model="user.firstName", required)
+                    .col-md-4
+                        .alert.alert-danger(ng-hide="!!user.firstName") First name is required
+                .form-group
+                    label.col-md-2.control-label(for="last-name") Last Name
+                    .col-md-6
+                        input.form-control(id="last-name" type="text", placeholder="Last Name", ng-model="user.lastName", required)
+                    .col-md-4
+                        .alert.alert-danger(ng-hide="!!user.lastName") Last name is required
+                .form-group(ng-show="hidePasswordInputs")
+                    button.btn.btn-primary.btn-sm.col-md-offset-1(ng-click="showPassword()") Edit password
+                .form-group(ng-hide="hidePasswordInputs")
+                    label.col-md-2.control-label(for="password") Enter new password
+                    .col-md-6
+                        input.form-control(id="password" type="password", placeholder="Password", ng-model="user.password")
+                    .col-md-4
+                        .alert.alert-danger(ng-show="user.password.length < 6") Password must be at least 6 symbols
+                .form-group(ng-hide="hidePasswordInputs")
+                    label.col-md-2.control-label(for="password2") Repeat new password
+                    .col-md-6
+                        input.form-control(id="password2" type="password", placeholder="Repeat password", ng-model="secondPassword")
+                    .col-md-4
+                        .alert.alert-danger(ng-show="user.password !== secondPassword") Both passwords must match
+                .pull-right.col-md-6
+                    button.btn.btn-primary(ng-click="update(user)", ng-disabled="profileForm.$invalid || (!hidePasswordInputs && (user.password !== secondPassword || user.password.length < 6))") Save
+                    a.btn.btn-danger(href="#/overview") Cancel

@@ -1,0 +1,58 @@
+<div data-role="view" data-layout="main-layout" data-title="Details"     
+     id="single-recipe-view" data-show="app.singleRecipe.init" data-model="app.singleRecipe.model" data-id="single-recipe-view">
+    <div class="container" id="single-recipe" data-id="single-recipe">
+        <div>
+            <h2 class="title" data-bind="source: Name"></h2>
+            <div class="image" id="single-recipe-image-holder" data-id="single-recipe-image-holder" style="background-size:cover"></div>
+        </div>
+        <br/>
+        <div class="row">
+            <h3 class="col-md-6 col-xs-6 col-lg-6 pull-left">Category: </h3>
+            <p class="col-md-6 col-xs-6 col-lg-6 pull-left" data-bind="source: Category"></p>
+        </div>
+        <br/>
+        <div class="row">
+            <h3 class="col-md-6 col-xs-6 col-lg-6 pull-left">Description: </h3>
+            <p class="col-md-6 col-xs-6 col-lg-6 pull-left" data-bind="source: Description"></p>
+        </div>
+        <br/>
+        
+        <h3>Products:</h3>
+        <ul data-role="listview" data-bind="source: Products" data-template="product-template">
+          </ul>
+        
+        <h3>Preparation steps:</h3>
+        <ul data-role="listview" data-bind="source: PreparationSteps" data-template="direction-template">
+          </ul>
+        
+         <div class="row">
+            <h3 class="col-md-6 col-xs-6 col-lg-6 pull-left">Owner: </h3>
+            <p class="col-md-6 col-xs-6 col-lg-6 pull-left" data-bind="source: Owner"></p>
+        </div>
+        
+        <br/>
+        <div class="btn-group btn-group-justified buttons">
+            <a data-role="button" data-bind="events : {click : onLikeClick}" class="btn btn-info">
+                <span data-bind="text:likeText"></span>
+            </a>
+        </div>
+        <div>
+            <h3 class="text-center">
+                Write a comment
+            </h3>
+            <textarea id="commentText" data-bind="value:commentText" class="form-control" rows="2"></textarea>
+            <br/>
+            <div class="btn-group btn-group-justified buttons">
+                <a data-role="button" data-bind="events : {click : onCommentClick}" class="btn btn-success">Comment</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/x-kendo-template" id="product-template">
+    <span data-bind="text:this"></span>
+</script>
+
+<script type="text/x-kendo-template" id="direction-template">
+    #:StepNumber#. #:Text# for #:Minutes# minutes.
+</script>

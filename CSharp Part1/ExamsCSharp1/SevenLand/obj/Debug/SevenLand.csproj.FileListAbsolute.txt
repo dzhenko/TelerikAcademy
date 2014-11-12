@@ -1,5 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\SevenLand\bin\Debug\SevenLand.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\SevenLand\bin\Debug\SevenLand.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\SevenLand\bin\Debug\SevenLand.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\SevenLand\obj\Debug\SevenLand.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\SevenLand\obj\Debug\SevenLand.pdb

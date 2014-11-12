@@ -1,9 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\6. PointInACircle\bin\Debug\_6.PointInACircle.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\6. PointInACircle\bin\Debug\_6.PointInACircle.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\6. PointInACircle\bin\Debug\_6.PointInACircle.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\6. PointInACircle\obj\Debug\6. PointInACircle.csprojResolveAssemblyReference.cache
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\6. PointInACircle\obj\Debug\_6.PointInACircle.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\OperatorsHomework\6. PointInACircle\obj\Debug\_6.PointInACircle.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-3-Operators-Expressions-Homework\6. PointInACircle\bin\Debug\_6.PointInACircle.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-3-Operators-Expressions-Homework\6. PointInACircle\obj\Debug\_6.PointInACircle.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-3-Operators-Expressions-Homework\6. PointInACircle\obj\Debug\_6.PointInACircle.pdb

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="StudentsStyle.xslt"?>
+<students name="Students" xmlns:students="urn:http://www.magic-university.com/students/2014:StudentsNamespace"> <!--Default namespace for xml-->
+  <student>
+    <name>Gosho</name>
+    <sex>Male</sex>
+    <birthday>21.04.1994</birthday>
+    <phone>0888888888</phone>
+    <email>Gosho@mail.com</email>
+    <course>Rocket science for dummies</course>
+    <speciality>Engineering</speciality>
+    <faculty-number>123827442</faculty-number>
+    <exams>
+      <exam>
+        <examName>Maths</examName>
+        <tutor>Bai Ivan</tutor>
+        <score>5.50</score>
+      </exam>
+      <exam>
+        <examName>Biology</examName>
+        <tutor>Bai Gosho</tutor>
+        <score>3.50</score>
+      </exam>
+      <exam>
+        <examName>English</examName>
+        <tutor>Penka</tutor>
+        <score>2.50</score>
+      </exam>
+    </exams>
+  </student>
+  <student>
+    <name>Pesho</name>
+    <sex>Male</sex>
+    <birthday>22.04.1994</birthday>
+    <phone>0888888188</phone>
+    <email>Pesho@mail.com</email>
+    <course>Rocket science for dummies</course>
+    <speciality>Engineering</speciality>
+    <faculty-number>123847442</faculty-number>
+    <exams>
+      <exam>
+        <examName>Maths</examName>
+        <tutor>Bai Ivan</tutor>
+        <score>3.50</score>
+      </exam>
+      <exam>
+        <examName>Biology</examName>
+        <tutor>Bai Gosho</tutor>
+        <score>3.50</score>
+      </exam>
+      <exam>
+        <examName>English</examName>
+        <tutor>Penka</tutor>
+        <score>3.50</score>
+      </exam>
+    </exams>
+  </student>
+  <student>
+    <name>Mimi</name>
+    <sex>Female</sex>
+    <birthday>23.04.1994</birthday>
+    <phone>0888888388</phone>
+    <email>Mimi@mail.com</email>
+    <course>Chemistry for dummies</course>
+    <speciality>Engineering</speciality>
+    <faculty-number>123821442</faculty-number>
+    <exams>
+      <exam>
+        <examName>Maths</examName>
+        <tutor>Bai Ivan</tutor>
+        <score>6.00</score>
+      </exam>
+      <exam>
+        <examName>Biology</examName>
+        <tutor>Bai Gosho</tutor>
+        <score>5.50</score>
+      </exam>
+      <exam>
+        <examName>English</examName>
+        <tutor>Penka</tutor>
+        <score>5.50</score>
+      </exam>
+    </exams>
+  </student>
+</students>

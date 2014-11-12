@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BattleNetShop.Data.Excel.Xls" GeneratedClassName="ExcelSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ExcelConnectionStringFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Provider=Microsoft.ACE.OLEDB.12.0;Data Source={0};Extended Properties='Excel 12.0 xml;HDR=Yes';</Value>
+    </Setting>
+    <Setting Name="InitialProductsFileLocation" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">..\..\..\..\InitialData\InitialData.xlsx</Value>
+    </Setting>
+    <Setting Name="SalesReportsFoldersLocation" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">..\..\..\..\InitialData\SalesReports\</Value>
+    </Setting>
+    <Setting Name="ZipFileResultLocation" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">..\..\..\..\DataSources\salesReports.zip</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

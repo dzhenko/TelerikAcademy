@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Master Chef</title>
+        <meta charset="utf-8" />
+        
+        <link href="kendo/styles/kendo.mobile.common.css" rel="stylesheet" />
+        <link href="kendo/styles/kendo.mobile.flat.css" rel="stylesheet" />
+        <link href="kendo/styles/kendo.dataviz.mobile.css" rel="stylesheet" />
+        <link href="kendo/styles/kendo.mobile.all.min.css" rel="stylesheet" />
+
+        <link href="styles/main.css" rel="stylesheet" />
+        <link href="styles/app.css" rel="stylesheet" />
+
+        <link href="styles/bootstrap/bootstrap.min.css" rel="stylesheet" />
+        <link href="styles/bootstrap/bootstrap-theme.min.css" rel="stylesheet" />
+        
+        <link href="styles/toastr/toastr.min.css" rel="stylesheet" />
+
+        <script src="scripts/google.maps.api.js"></script>
+        <script src="scripts/everlive/everlive.all.min.js"></script>
+        <script src="scripts/everlive/reqwest.min.js"></script>
+        <script src="scripts/everlive/rsvp.min.js"></script>
+        <script src="scripts/everlive/underscore.min.js"></script>
+        <script src="scripts/everlive/everlive.min.js"></script>
+
+        <script src="scripts/everliveService.js"></script>
+        <script src="scripts/notifications.js"></script>
+        <script src="scripts/connection.js"></script>
+        <script src="scripts/utility.js"></script>
+        <script src="scripts/constants.js"></script>
+        <script src="scripts/shakeNotifier.js"></script>
+        
+        <script src="cordova.js"></script>
+        <script src="kendo/js/jquery.min.js"></script>
+        <script src="kendo/js/kendo.mobile.min.js"></script>
+        <script src="kendo/js/kendo.all.min.js"></script>
+        <script src="scripts/pubnub.min.js"></script>
+
+        <script src="styles/bootstrap/bootstrap.min.js"></script>
+        <script src="styles/toastr/toastr.min.js"></script>
+
+        <script src="app.js"></script>
+        <script src="scripts/auth.js"></script>
+        <script src="scripts/validator.js"></script>
+        <script src="scripts/requester.js"></script>
+
+        <script src="views/profile/profile.js"></script>
+        <script src="views/login/login.js"></script>
+        <script src="views/register/register.js"></script>
+        <script src="views/home/home.js"></script>
+        <script src="views/create-recipe/createRecipe.js"></script>
+        <script src="views/all-recipes/allRecipes.js"></script>
+        <script src="views/single-recipe/singleRecipe.js"></script>
+        <script src="views/own-recipes/ownRecipes.js"></script>
+        <script src="views/profile/profile.js"></script>
+       
+    </head>
+    <body>
+        <div data-role="layout" data-id="main-layout" id="main-layout">
+            <div data-role="header">
+                <div data-role="navbar">
+                    <h1 data-role="view-title"></h1>
+                </div>
+            </div>
+
+            <!-- application views will be rendered here -->
+
+            <div data-role="footer">
+                <div data-role="tabstrip" id="loggedOutFooter">
+                    <a href="views/register/register.html" data-icon="contacts">Register</a>
+                    <a href="views/home/home.html" data-icon="home">Home</a>
+                    <a href="views/login/login.html" data-icon="contacts">Login</a>
+                </div>
+
+                <div data-role="tabstrip" id="loggedInFooter">
+                    <a href="views/create-recipe/create-recipe.html" data-icon="add">Add</a>
+                    <a href="views/all-recipes/all-recipes.html" data-icon="mostviewed">All</a>
+                    <a href="views/home/home.html" data-icon="home">Home</a>
+                    <a href="views/own-recipes/own-recipes.html" data-icon="favorites">Own</a>
+                    <a href="views/profile/profile.html" data-icon="settings">Profile</a>
+                </div>
+            </div>
+        </div>      
+    </body>
+</html>

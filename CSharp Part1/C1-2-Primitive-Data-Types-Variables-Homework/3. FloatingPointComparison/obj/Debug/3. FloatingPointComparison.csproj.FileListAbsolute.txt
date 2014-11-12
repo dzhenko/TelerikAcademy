@@ -1,5 +1,0 @@
-c:\users\penev\documents\visual studio 2012\Projects\Primitive-Data-Types-Variables-Homework\3. FloatingPointComparison\bin\Debug\_3.FloatingPointComparison.exe.config
-c:\users\penev\documents\visual studio 2012\Projects\Primitive-Data-Types-Variables-Homework\3. FloatingPointComparison\bin\Debug\_3.FloatingPointComparison.exe
-c:\users\penev\documents\visual studio 2012\Projects\Primitive-Data-Types-Variables-Homework\3. FloatingPointComparison\bin\Debug\_3.FloatingPointComparison.pdb
-c:\users\penev\documents\visual studio 2012\Projects\Primitive-Data-Types-Variables-Homework\3. FloatingPointComparison\obj\Debug\_3.FloatingPointComparison.exe
-c:\users\penev\documents\visual studio 2012\Projects\Primitive-Data-Types-Variables-Homework\3. FloatingPointComparison\obj\Debug\_3.FloatingPointComparison.pdb

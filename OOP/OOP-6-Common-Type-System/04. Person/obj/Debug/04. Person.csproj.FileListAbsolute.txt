@@ -1,4 +1,0 @@
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-6-Common-Type-System\04. Person\bin\Debug\_04.Person.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-6-Common-Type-System\04. Person\bin\Debug\_04.Person.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-6-Common-Type-System\04. Person\obj\Debug\_04.Person.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\OOP\OOP-6-Common-Type-System\04. Person\obj\Debug\_04.Person.pdb

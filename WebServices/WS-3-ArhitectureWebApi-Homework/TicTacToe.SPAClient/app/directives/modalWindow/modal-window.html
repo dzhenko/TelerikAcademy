@@ -1,0 +1,16 @@
+<div class="modal fade" id="modalWindow">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">{{modalWindow.title}}</h2>
+            </div>
+            <div class="modal-body">
+                <p class="lead">{{modalWindow.text}}</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-lg btn-danger" ng-show="modalWindow.btnShow" data-dismiss="modal">Cancel</button>
+                <button class="btn-lg btn-success" ng-click="modalWindow.btnClick()" data-dismiss="modal">{{modalWindow.btnText}}</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TownsContentProvider</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_content_provider">ContentProvider</string>
+    <string name="title_activity_data_access_object">DataAccessObject</string>
+
+</resources>

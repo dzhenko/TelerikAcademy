@@ -1,5 +1,0 @@
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\3D MaxWalk - Sample Exam 2011-201\bin\Debug\3D MaxWalk - Sample Exam 2011-201.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\3D MaxWalk - Sample Exam 2011-201\bin\Debug\3D MaxWalk - Sample Exam 2011-201.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\3D MaxWalk - Sample Exam 2011-201\obj\Debug\3D MaxWalk - Sample Exam 2011-201.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\3D MaxWalk - Sample Exam 2011-201\obj\Debug\3D MaxWalk - Sample Exam 2011-201.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\TelerikAcademy\CSharp Part2\ExamsCSharp2\3D MaxWalk - Sample Exam 2011-201\obj\Debug\3D MaxWalk - Sample Exam 2011-201.csprojResolveAssemblyReference.cache

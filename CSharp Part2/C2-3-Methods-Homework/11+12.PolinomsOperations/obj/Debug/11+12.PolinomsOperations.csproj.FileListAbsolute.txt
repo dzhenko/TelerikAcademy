@@ -1,6 +1,0 @@
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\11+12.PolinomsOperations\bin\Debug\11+12.PolinomsOperations.exe.config
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\11+12.PolinomsOperations\bin\Debug\11+12.PolinomsOperations.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\11+12.PolinomsOperations\bin\Debug\11+12.PolinomsOperations.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\11+12.PolinomsOperations\obj\Debug\11+12.PolinomsOperations.exe
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\11+12.PolinomsOperations\obj\Debug\11+12.PolinomsOperations.pdb
-C:\Users\dzhenko\Documents\Visual Studio 2013\Projects\C2-3-Methods-Homework\11+12.PolinomsOperations\obj\Debug\11+12.PolinomsOperations.csprojResolveAssemblyReference.cache

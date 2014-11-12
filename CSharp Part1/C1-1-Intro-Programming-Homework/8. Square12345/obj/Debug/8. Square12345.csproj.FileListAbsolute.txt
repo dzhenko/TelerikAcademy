@@ -1,5 +1,0 @@
-c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\8. Square12345\bin\Debug\_8.Square12345.exe.config
-c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\8. Square12345\bin\Debug\_8.Square12345.exe
-c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\8. Square12345\bin\Debug\_8.Square12345.pdb
-c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\8. Square12345\obj\Debug\_8.Square12345.exe
-c:\users\penev\documents\visual studio 2012\Projects\Intro-Programming-Homework\8. Square12345\obj\Debug\_8.Square12345.pdb

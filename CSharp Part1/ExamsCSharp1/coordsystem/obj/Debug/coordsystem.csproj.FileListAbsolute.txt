@@ -1,6 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\coordsystem\bin\Debug\coordsystem.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\coordsystem\obj\Debug\coordsystem.csprojResolveAssemblyReference.cache
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\coordsystem\bin\Debug\coordsystem.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\coordsystem\bin\Debug\coordsystem.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\coordsystem\obj\Debug\coordsystem.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\coordsystem\obj\Debug\coordsystem.pdb

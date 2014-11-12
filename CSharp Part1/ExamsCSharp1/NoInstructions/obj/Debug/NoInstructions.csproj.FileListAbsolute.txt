@@ -1,6 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\NoInstructions\bin\Debug\NoInstructions.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\NoInstructions\bin\Debug\NoInstructions.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\NoInstructions\bin\Debug\NoInstructions.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\NoInstructions\obj\Debug\NoInstructions.csprojResolveAssemblyReference.cache
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\NoInstructions\obj\Debug\NoInstructions.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\NoInstructions\obj\Debug\NoInstructions.pdb

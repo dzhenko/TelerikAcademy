@@ -1,0 +1,78 @@
+<div class="container">
+    <div class="jumbotron">
+        <h1>{{welcome}}</h1>
+        <p>{{message}}</p>
+        <div class="divider"></div>
+    </div>
+    <div>
+        <!--Since only one form is shown ocl-md = 8 (old was col-md-5 pull left-->
+        <form name="signUpForm" class="form-horizontal pull-right col-md-8 well " id="registerForm">
+            <fieldset class="text-left">
+                <legend class="text-primary col-md-offset-1 col-md-10">Sign up for free!</legend>
+
+                <div class="form-group">
+                    <label for="register-email" class="col-md-4 control-label">Email</label>
+
+                    <div class="col-md-8">
+                        <input id="register-email" type="email" placeholder="Email" ng-model="regUsername" required="required" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="register-password" class="col-md-4 control-label">Password</label>
+
+                    <div class="col-md-8">
+                        <input id="register-password" type="password" placeholder="Password" ng-model="regPassword" required="required" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="register-password-confirm" class="col-md-4 control-label">Confirm Password</label>
+
+                    <div class="col-md-8">
+                        <input id="register-password-confirm" type="password" placeholder="Confirm Password" ng-model="regConfirmPassword" required="required" class="form-control" />
+                    </div>
+                </div>
+
+                <div>
+                    <button ng-click="register(regUsername, regPassword)" ng-disabled="registerForm.$invalid || regPassword !== regConfirmPassword"
+                            class="btn btn-primary pull-right col-md-8" data-toggle="modal" data-target="#modalWindow">Register</button>
+                </div>
+            </fieldset>
+        </form>
+        <div modal-window></div>
+
+        <!--<form name="loginForm" class="form-horizontal col-md-5 pull-right well" id="loginForm">-->
+            <!--<fieldset>-->
+                <!--<legend class="text-primary col-md-offset-1 col-md-10">Already have a username?</legend>-->
+
+                <!--<div class="form-group">-->
+                    <!--<label for="login-email" class="col-md-4 control-label">Email</label>-->
+
+                    <!--<div class="col-md-8">-->
+                        <!--<input id="login-email" type="email" placeholder="Email" ng-model="username" required="required" class="form-control" />-->
+                    <!--</div>-->
+                <!--</div>-->
+
+                <!--<div class="form-group">-->
+                    <!--<label for="login-password" class="col-md-4 control-label">Password</label>-->
+
+                    <!--<div class="col-md-8">-->
+                        <!--<input id="login-password" type="password" placeholder="Password" ng-model="password" required="required" class="form-control" />-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="form-group">-->
+                    <!--<label for="login-remember" class="col-md-4 control-label">Remember me</label>-->
+
+                    <!--<div class="col-md-2">-->
+                        <!--<input id="login-remember" type="checkbox" ng-model="remember" class="form-control" />-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div>-->
+                    <!--<button ng-click="login(username, password)" ng-disabled="loginForm.$invalid"-->
+                            <!--class="btn btn-primary pull-right col-md-8">Login</button>-->
+                <!--</div>-->
+            <!--</fieldset>-->
+        <!--</form>-->
+    </div>
+</div>

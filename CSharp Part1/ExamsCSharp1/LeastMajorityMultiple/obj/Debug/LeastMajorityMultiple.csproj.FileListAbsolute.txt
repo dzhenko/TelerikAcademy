@@ -1,5 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\LeastMajorityMultiple\bin\Debug\LeastMajorityMultiple.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\LeastMajorityMultiple\bin\Debug\LeastMajorityMultiple.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\LeastMajorityMultiple\bin\Debug\LeastMajorityMultiple.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\LeastMajorityMultiple\obj\Debug\LeastMajorityMultiple.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\LeastMajorityMultiple\obj\Debug\LeastMajorityMultiple.pdb

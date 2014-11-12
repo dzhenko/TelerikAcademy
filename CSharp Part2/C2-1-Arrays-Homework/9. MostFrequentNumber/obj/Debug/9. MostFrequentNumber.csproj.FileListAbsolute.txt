@@ -1,5 +1,0 @@
-c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\9. MostFrequentNumber\bin\Debug\_9.MostFrequentNumber.exe.config
-c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\9. MostFrequentNumber\bin\Debug\_9.MostFrequentNumber.exe
-c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\9. MostFrequentNumber\bin\Debug\_9.MostFrequentNumber.pdb
-c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\9. MostFrequentNumber\obj\Debug\_9.MostFrequentNumber.exe
-c:\users\penev\documents\visual studio 2012\Projects\C2-1-Arrays-Homework\9. MostFrequentNumber\obj\Debug\_9.MostFrequentNumber.pdb

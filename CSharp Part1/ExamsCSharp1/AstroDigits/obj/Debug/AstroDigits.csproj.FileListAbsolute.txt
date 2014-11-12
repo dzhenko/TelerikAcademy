@@ -1,5 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\AstroDigits\bin\Debug\AstroDigits.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\AstroDigits\bin\Debug\AstroDigits.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\AstroDigits\bin\Debug\AstroDigits.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\AstroDigits\obj\Debug\AstroDigits.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\ExamsCSharp1\AstroDigits\obj\Debug\AstroDigits.pdb

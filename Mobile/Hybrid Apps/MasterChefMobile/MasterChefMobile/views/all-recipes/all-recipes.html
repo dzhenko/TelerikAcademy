@@ -1,0 +1,48 @@
+<div data-role="view" data-layout="main-layout" data-title="All Recipes"     
+    id="all-recipes-view" data-id="all-recipes-view" data-show="app.allRecipes.init">
+    
+    <div class="form-group">
+      <div class="input-group">
+        <span class="input-group-btn" data>
+            <button class="btn btn-primary" data-bind="events: {click : onSearchTypeClick}">Name</button>
+        </span>
+        <input type="text" class="form-control" data-bind="value:searchText">
+        <span class="input-group-btn">
+          <button class="btn btn-primary" data-bind="events: {click : onSearchClick}">Search</button>
+        </span>
+      </div>
+    </div>
+    
+    <div id="all-recipes-list-div" data-id="all-recipes-list-div"
+        data-role="listview"
+        data-bind="source : recipes"
+        data-template="all-recipes-template"
+        data-content-height="100%"
+        data-enable-pager="false">
+    </div>
+    
+    <div id="search-recipes-results" data-id="search-recipes-results"></div>
+    
+    <div data-role="modalview" id="modalview-comment" class="container">
+        <div class="form-group col-md-12 col-xs-12 col-lg-12">
+            <h3 for="commentText" class="text-center control-label">Write a comment</h3>
+            <textarea id="commentText" data-bind="value:commentText" class="form-control" rows="2"></textarea>
+        </div>
+        <div class="btn-group btn-group-justified buttons">
+            <a data-role="button" data-click="app.allRecipes.model.closeModal" type="button" id="do-cancel-btn" class="btn btn-primary">Cancel</a>
+            <a data-role="button" data-click="app.allRecipes.model.comment" type="button" id="do-comment-btn" class="btn btn-success">Comment</a>
+        </div>
+    </div>
+</div>
+
+<script id="all-recipes-template" type="text/x-kendo-template">
+    <div>
+        <h2 class="title">#: Name #</h2>
+        <div class="image" style="background-image: url(#: Image #); background-size:cover"></div>
+    </div>
+    <div class="btn-group btn-group-justified buttons">
+        <a data-role="button" data-bind="events : {click : onLikeClick}" data-id="#:Id#" class="btn btn-info">#:LikedByUser===true ? 'Unlike' : 'Like'#</a>
+        <a data-role="button" data-bind="events : {click : onViewClick}" data-id="#:Id#" class="btn btn-primary">View</a>
+        <a data-role="button" data-rel="modalview" href="\#modalview-comment" id="commentButton" data-bind="events : {click : onCommentClick}" data-id="#:Id#" class="btn btn-success">Comment</a>
+    </div>
+</script>

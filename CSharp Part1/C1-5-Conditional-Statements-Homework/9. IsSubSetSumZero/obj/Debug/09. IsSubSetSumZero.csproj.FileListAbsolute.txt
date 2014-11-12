@@ -1,5 +1,0 @@
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-5-Conditional-Statements-Homework\9. IsSubSetSumZero\bin\Debug\_9.IsSubSetSumZero.exe.config
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-5-Conditional-Statements-Homework\9. IsSubSetSumZero\obj\Debug\_9.IsSubSetSumZero.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-5-Conditional-Statements-Homework\9. IsSubSetSumZero\obj\Debug\_9.IsSubSetSumZero.pdb
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-5-Conditional-Statements-Homework\9. IsSubSetSumZero\bin\Debug\_9.IsSubSetSumZero.exe
-C:\Users\Penev\Documents\Visual Studio 2012\Projects\C1-5-Conditional-Statements-Homework\9. IsSubSetSumZero\bin\Debug\_9.IsSubSetSumZero.pdb
